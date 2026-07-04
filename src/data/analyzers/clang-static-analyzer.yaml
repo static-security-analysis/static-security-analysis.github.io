@@ -1,0 +1,29 @@
+id: clang-static-analyzer
+name: Clang Static Analyzer
+description: Open-source static analysis tool using symbolic/concolic execution for C, C++, Objective-C.
+languages:
+- C
+- C++
+- Objective-C
+license: Open Source
+website: http://clang-analyzer.llvm.org/
+features:
+- Symbolic/Concolic Execution
+- Type / Type-state Analysis
+integration: []
+licenseDetail: BSD
+weaknesses:
+- category: Code Quality
+  examples: []
+techniques:
+- Symbolic/Concolic Execution
+- Type / Type-state Analysis
+soundness: Unsound
+empiricalValidation: true
+yearIntroduced: 2007
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: LLVM group

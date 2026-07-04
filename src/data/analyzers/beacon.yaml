@@ -1,0 +1,39 @@
+id: beacon
+name: Beacon
+description: broken-access-control (BAC) detection in DBMSs via system-catalog analysis
+languages:
+- C
+license: Open Source
+website: https://doi.org/10.1145/3798232
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Security Features
+  examples: []
+academicReferences:
+- title: 'Beacon: Detecting Broken Access Control Vulnerabilities in DBMSs via System Catalog Consistency
+    Validation'
+  authors:
+  - Zongrui Peng
+  - Jingzhou Fu
+  - Zhiyong Wu
+  - Jie Liang
+  - Xiangdong Huang
+  - Dalong Shi
+  - Yu Jiang
+  year: 2026
+  type: Academic Paper
+  publication: PACMPL
+  doi: 10.1145/3798232
+  link: https://doi.org/10.1145/3798232
+techniques:
+- Data-flow Analysis
+empiricalValidation: false
+yearIntroduced: 2026
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Tsinghua University

@@ -1,0 +1,41 @@
+id: yang2026liva
+title: 'LIVA: A Multi-Agent LLM-Assisted System for IoT Vulnerability Analysis'
+authors:
+- Zhe Yang
+- Hao Peng
+- Yanling Jiang
+- Jianwei Liu
+- Hongbin Luo
+- Mingsheng Tang
+- Jiahe Li
+- Kun Zhang
+year: 2026
+type: tool
+venue: IEEE Transactions on Dependable and Secure Computing
+venueAcronym: TDSC
+doi: 10.1109/TDSC.2026.3665343
+link: https://doi.org/10.1109/TDSC.2026.3665343
+url: https://github.com/LuciAkirami/liva
+presentsToolId: liva
+toolName: LIVA
+abstract: IoT devices have become deeply integrated into our daily lives, making comprehensive security
+  research on critical infrastructure devices increasingly important. Static analysis techniques, particularly
+  those leveraging taint propagation, have demonstrated promise in identifying security vulnerabilities
+  within these devices, effectively detecting critical vulnerabilities. However, current solutions often
+  struggle with limitations in both detection efficiency and accuracy. To address these challenges, this
+  paper introduces Liva, a novel static taint analysis tool designed for detecting web vulnerabilities
+  in IoT devices. Liva employs a large language model (LLM) multi-agent approach for static binary taint
+  analysis, primarily leveraging fine-tuned open-source models and commercial LLMs to improve source/sink
+  identification and taint data analysis—areas where traditional methods often fall short—thereby enhancing
+  overall analysis efficiency. LIVA’s core analysis engine leverages a Qwen3-32B open-source model that
+  has been fine-tuned using a dataset of 3,000 real-world device samples. This fine-tuned model achieves
+  a 3 percentage point improvement in accuracy for identifying taint data propagation relationships compared
+  to commercial LLMs, while also increasing average analysis efficiency by 5.5%. A comprehensive evaluation
+  of Liva, conducted on a dataset of 64 devices from 11 vendors, revealed that it detected 309 and 349
+  more known vulnerabilities than the state-of-the-art solutions SaTC and Karonte, respectively, while
+  simultaneously reducing false positive rates by 59.4% and 67.6%. Liva achieves a recall of 98.1% and
+  a precision of 74.6%, with a <inline-formula><tex-math notation="LaTeX">$6.7\times$</tex-math><alternatives><mml:math><mml:mrow><mml:mn>6</mml:mn><mml:mo>.</mml:mo><mml:mn>7</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math><inline-graphic
+  xlink:href="peng-ieq1-3665343.gif"/></alternatives></inline-formula> reduction in analysis time compared
+  to the best-performing baseline. Furthermore, in the realm of zero-day vulnerability detection, Liva
+  discovered 64 previously unknown vulnerabilities, 39 of which have since been assigned official CVE/CNVD
+  identifiers.

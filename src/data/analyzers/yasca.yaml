@@ -1,0 +1,39 @@
+id: yasca
+name: Yasca
+description: Open-source static analysis tool using pattern matching for Java, C, C++.
+languages:
+- Multiple
+license: Open Source
+website: https://owasp.org/www-pdf-archive/NYPHP-Yasca.pdf
+features:
+- Pattern Matching
+integration: []
+languagesDetail:
+- Java
+- C
+- C++
+- C#
+- PHP
+- COBOL
+- ASP.NET
+- JavaScript
+- Visual Basic
+- Perl
+licenseDetail: BSD; GPL; LGPL
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2012
+githubStars: 167
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web

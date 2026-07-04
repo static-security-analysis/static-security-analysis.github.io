@@ -1,0 +1,38 @@
+id: dai2026malivd
+title: 'MaliVD: Source Code Vulnerability Localization via Attention-Based Multi-Modal Learning'
+authors:
+- Enze Dai
+- Shuo Wang
+- Xi Xiao
+- Qing Li
+- Sheng Wen
+- Tianqing Zhu
+year: 2026
+type: tool
+venue: IEEE Transactions on Information Forensics and Security
+venueAcronym: TIFS
+doi: 10.1109/TIFS.2026.3681191
+link: https://doi.org/10.1109/TIFS.2026.3681191
+url: https://github.com/ws0407/MaliVD
+presentsToolId: malivd
+toolName: MaliVD
+abstract: Source code vulnerabilities represent a critical threat to software security, potentially leading
+  to severe consequences such as data breaches and system failures. Traditional static analysis tools,
+  while widely used, suffer from high false positive rates and struggle to adapt to the increasing complexity
+  of modern software. Deep learning-based approaches hold promise for automated vulnerability detection,
+  but they face challenges including limited dataset quality, inadequate feature extraction, and lack
+  of precise vulnerability localization capabilities. To address these limitations, we propose <monospace>MaliVD</monospace>,
+  a novel vulnerability detection method in source code that leverages a multi-modal attention mechanism.
+  <monospace>MaliVD</monospace> not only identifies vulnerability types but also pinpoints the specific
+  lines of code where vulnerabilities are triggered. The model extracts sequential, tree-based, and graph-based
+  features from source code and employs specialized neural networks to learn these diverse representations.
+  By strategically focusing on Points of Interest within the code, <monospace>MaliVD</monospace> effectively
+  prioritizes potentially vulnerable code regions, enhancing both detection accuracy and localization
+  precision. Experimental results show that when compared with eight advanced vulnerability detection
+  models across three large datasets, <monospace>MaliVD</monospace> demonstrates superior vulnerability
+  detection and localization capabilities, maintaining high <inline-formula> <tex-math notation="LaTeX">$F_{1}$
+  </tex-math></inline-formula> scores and localization precision. Particularly on the ReliVul dataset,
+  the <inline-formula> <tex-math notation="LaTeX">$F_{1}$ </tex-math></inline-formula> score is improved
+  by 21.82%, and the Top-5 localization accuracy is 18% higher than other methods, with lower false positives
+  across six mainstream vulnerability types, validating <monospace>MaliVD</monospace>’s practical application
+  value in real-world environments.

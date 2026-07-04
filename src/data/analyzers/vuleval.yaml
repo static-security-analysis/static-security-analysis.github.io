@@ -1,0 +1,38 @@
+id: vuleval
+name: VulEval
+description: 'FLAG: repository-level EVALUATION/benchmark + inter-procedural detection method; benchmark
+  component borderline (TSE re-admit)'
+languages:
+- C
+license: Open Source
+website: https://github.com/Xin-Cheng-Wen/VulEval
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/Xin-Cheng-Wen/VulEval
+academicReferences:
+- title: 'VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection'
+  authors:
+  - Xinjie Wen
+  - Xinchen Wang
+  - Yujia Chen
+  - Ruida Hu
+  - David Lo
+  - Cuiyun Gao
+  year: 2024
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  doi: 10.48550/arXiv.2404.15596
+  link: https://doi.org/10.48550/arXiv.2404.15596
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 6
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Harbin Institute of Technology

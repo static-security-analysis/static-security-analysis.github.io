@@ -1,0 +1,19 @@
+id: kirchner2015framac
+title: 'Frama-C: A software analysis perspective'
+authors:
+- Florent Kirchner
+- Nikolai Kosmatov
+- Virgile Prevosto
+- Julien Signoles
+- Boris Yakobowski
+year: 2015
+type: tool
+venue: Formal Aspects of Computing
+doi: 10.1007/s00165-014-0326-7
+link: https://doi.org/10.1007/s00165-014-0326-7
+presentsToolId: frama-c
+toolName: Frama-C
+toolsMentioned:
+- frama-c
+mentionsToolIds:
+- frama-c

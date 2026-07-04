@@ -1,0 +1,12 @@
+id: zitser2004testing
+title: Testing static analysis tools using exploitable buffer overflows from open source code
+authors:
+- Misha Zitser
+- Richard Lippmann
+- Tim Leek
+year: 2004
+type: empirical
+venue: ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE)
+venueAcronym: FSE
+doi: 10.1145/1029894.1029911
+link: https://doi.org/10.1145/1029894.1029911

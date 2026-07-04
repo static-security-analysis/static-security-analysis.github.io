@@ -1,0 +1,25 @@
+id: jlint
+name: Jlint
+description: Open-source static analysis tool using data-flow analysis for Java.
+languages:
+- Java
+license: Open Source
+website: https://sourceforge.net/projects/jlint/
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: GPLv2
+weaknesses:
+- category: Time and State
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2002
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- General-purpose

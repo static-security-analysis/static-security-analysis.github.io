@@ -1,0 +1,12 @@
+id: pozza2006comparing
+title: Comparing Lexical Analysis Tools for Buffer Overflow Detection in Network Software
+authors:
+- Davide Pozza
+- Riccardo Sisto
+- Luca Durante
+- Adriano Valenzano
+year: 2006
+type: empirical
+venue: International Conference on Communication Systems Software & Middleware (COMSWA)
+doi: 10.1109/COMSWA.2006.1665217
+link: https://doi.org/10.1109/COMSWA.2006.1665217

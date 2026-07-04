@@ -1,0 +1,28 @@
+id: rips
+name: RIPS
+description: Open-source static analysis tool using pattern matching for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://github.com/robocoder/rips-scanner
+features:
+- Pattern Matching
+- Taint Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2010
+githubStars: 213
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Acquired by RIPSTECH

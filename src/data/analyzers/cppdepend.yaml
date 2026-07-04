@@ -1,0 +1,27 @@
+id: cppdepend
+name: CppDepend
+description: Commercial static analysis tool for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: https://www.cppdepend.com/
+features:
+- Unknown
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2009
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: CoderGears

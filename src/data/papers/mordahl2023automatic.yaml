@@ -1,0 +1,26 @@
+id: mordahl2023automatic
+title: Automatic Testing and Benchmarking for Configurable Static Analysis Tools
+authors:
+- Austin Mordahl
+year: 2023
+type: empirical
+venue: International Symposium on Software Testing and Analysis
+venueAcronym: ISSTA
+doi: 10.1145/3597926.3605232
+link: https://doi.org/10.1145/3597926.3605232
+url: https://doi.org/10.1145/3597926.3605232
+comparesToolIds:
+- flowdroid
+tldr: The findings of this study motivate the development of ECSTATIC, a framework for testing and debugging
+  that goes beyond taint analysis to test any configurable static analysis tool, and the automatic creation
+  of real-world benchmarks for static analysis with associated ground truths and analysis features.
+abstract: Static analysis is an important tool for detecting bugs in real-world software. The advent of
+  numerous analysis algorithms with their own tradeoffs has led to the proliferation of configurable static
+  analysis tools, but their complex, undertested configuration spaces are obstacles to their widespread
+  adoption. To improve the reliability of these tools, my research focuses on developing new approaches
+  to automatically test and debug them. First, I describe an empirical study that helps to understand
+  the performance and behavior of configurable taint analysis tools for Android. The findings of this
+  study motivate the development of ECSTATIC, a framework for testing and debugging that goes beyond taint
+  analysis to test any configurable static analysis tool. The next steps for this research involve the
+  automatic creation of real-world benchmarks for static analysis with associated ground truths and analysis
+  features.

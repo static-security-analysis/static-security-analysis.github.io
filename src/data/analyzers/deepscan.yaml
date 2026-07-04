@@ -1,0 +1,24 @@
+id: deepscan
+name: DeepScan
+description: Commercial static analysis tool using data-flow analysis for JavaScript.
+languages:
+- JavaScript
+license: Freemium
+website: https://deepscan.io/
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: DeepScan

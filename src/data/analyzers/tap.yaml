@@ -1,0 +1,40 @@
+id: tap
+name: TAP
+description: Academic static analysis tool using pattern matching for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://github.com/das-lab/TAP
+features:
+- Pattern Matching
+- Deep Learning (non-LLM)
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'TAP: A static analysis model for PHP vulnerabilithttps://github.com/eclipse-cognicrypt/CogniCryptCies
+    based on token and deep learning technology'
+  authors:
+  - Yong Fang
+  - Shengjun Han
+  - Cheng Huang
+  - Runpu Wu
+  year: 2019
+  type: Academic Paper
+  publication: PloS one
+  doi: 10.1371/journal.pone.0225196
+  link: https://doi.org/10.1371/journal.pone.0225196
+techniques:
+- Pattern Matching
+- Deep Learning (non-LLM)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+githubStars: 11
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: College of Cybersecurity, Sichuan University

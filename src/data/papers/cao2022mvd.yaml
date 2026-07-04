@@ -1,0 +1,39 @@
+id: cao2022mvd
+title: 'MVD: Memory-Related Vulnerability Detection Based on Flow-Sensitive Graph Neural Networks'
+authors:
+- Sicong Cao
+- Xiaobing Sun
+- Lili Bo
+- Rongxin Wu
+- Bin Li
+- Chuanqi Tao
+year: 2022
+type: tool
+venue: International Conference on Software Engineering
+venueAcronym: ICSE
+doi: 10.1145/3510003.3510219
+link: https://doi.org/10.1145/3510003.3510219
+url: https://doi.org/10.1145/3510003.3510219
+presentsToolId: mvd
+toolName: MVD
+comparesToolIds:
+- devign
+- flawfinder
+- infer
+- pca
+- rats
+- saber-svf
+- sysevr
+- vuldeepecker
+abstract: Memory-related vulnerabilities constitute severe threats to the security of modern software.
+  Despite the success of deep learning-based approaches to generic vulnerability detection, they are still
+  limited by the underutilization of flow information when applied for detecting memory-related vulnerabilities,
+  leading to high false positives. In this paper, we propose MVD, a statement-level Memory-related Vulnerability
+  Detection approach based on flow-sensitive graph neural networks (FS-GNN). FS-GNN is employed to jointly
+  embed both unstructured information (i.e., source code) and structured information (i.e., control- and
+  data-flow) to capture implicit memory-related vulnerability patterns. We evaluate MVD on the dataset
+  which contains 4,353 real-world memory-related vulnerabilities, and compare our approach with three
+  state-of-the-art deep learning-based approaches as well as five popular static analysis-based memory
+  detectors. The experiment results show that MVD achieves better detection accuracy, outperforming both
+  state-of-the-art DL-based and static analysis-based approaches. Furthermore, MVD makes a great trade-off
+  between accuracy and efficiency.

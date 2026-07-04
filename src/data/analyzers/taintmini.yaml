@@ -1,0 +1,40 @@
+id: taintmini
+name: Taintmini
+description: sensitive-data flow in WeChat mini-programs (JS-based); privacy leak
+languages:
+- JavaScript
+license: Open Source
+website: https://doi.org/10.1109/ICSE48619.2023.00086
+features:
+- Taint Analysis
+integration: []
+licenseDetail: AGPL-3.0
+github: https://github.com/OSUSecLab/TaintMini
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'Taintmini: Detecting Flow of Sensitive Data in Mini-Programs with Static Taint Analysis'
+  authors:
+  - Chao Wang
+  - Ronny Ko
+  - Yue Zhang
+  - Yuqing Yang
+  - Zhiqiang Lin
+  year: 2023
+  type: Academic Paper
+  publication: International Conference on Software Engineering
+  doi: 10.1109/ICSE48619.2023.00086
+  link: https://doi.org/10.1109/ICSE48619.2023.00086
+techniques:
+- Taint Analysis
+maintenance: Dormant
+empiricalValidation: false
+yearIntroduced: 2023
+githubStars: 81
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Ohio State University

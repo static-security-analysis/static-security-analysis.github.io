@@ -1,0 +1,26 @@
+id: owasp-dependecy-check
+name: OWASP Dependency Check
+description: Open-source static analysis tool using software composition analysis for Java.
+languages:
+- Java
+license: Open Source
+website: https://owasp.org/www-project-dependency-check/
+features:
+- Software Composition Analysis
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+githubStars: 2600
+toolType: oss
+input:
+- Manifest
+ecosystem:
+- General-purpose
+institute: OWASP

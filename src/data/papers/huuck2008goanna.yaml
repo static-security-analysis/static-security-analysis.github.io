@@ -1,0 +1,15 @@
+id: huuck2008goanna
+title: 'Goanna: Syntactic software model checking'
+authors:
+- Ralf Huuck
+- Ansgar Fehnker
+- Sean Seefried
+- Jorg Brauer
+year: 2008
+type: tool
+venue: International Symposium on Automated Technology for Verification and Analysis (ATVA)
+doi: 10.1007/978-3-540-88387-6_17
+link: https://doi.org/10.1007/978-3-540-88387-6_17
+toolName: Goanna
+toolsMentioned:
+- goanna

@@ -1,0 +1,17 @@
+id: wu2016relda2
+title: 'Relda2: An Effective Static Analysis Tool for Resource Leak Detection in Android Apps'
+authors:
+- Tianyong Wu
+- Jierui Liu
+- Xi Deng
+- Jun Yan
+- Jian Zhang
+year: 2016
+type: tool
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1145/2970276.2970278
+link: https://doi.org/10.1145/2970276.2970278
+toolName: Relda2
+toolsMentioned:
+- relda

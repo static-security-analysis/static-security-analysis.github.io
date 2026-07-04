@@ -1,0 +1,40 @@
+id: babel
+name: BABEL
+description: NN vuln detection robust to parse errors (PDG-based) [class-agnostic ML detector]
+languages:
+- C
+- C++
+- Java
+- PHP
+- Swift
+license: Open Source
+website: https://doi.org/10.1109/ICSME58944.2024.00060
+features:
+- Deep Learning (non-LLM)
+- Graph-based (CPG/PDG)
+integration: []
+academicReferences:
+- title: 'BABEL: A Novel Software Vulnerability Detection Framework for Breaking Language Barriers'
+  authors:
+  - Xia Li
+  - Yuhang Lin
+  - Yongqiang Zheng
+  - Junyi He
+  - Rihu Liao
+  - Junlang Wang
+  year: 2024
+  type: Academic Paper
+  publication: ICSME
+  doi: 10.1109/ICSME58944.2024.00060
+  link: https://doi.org/10.1109/ICSME58944.2024.00060
+techniques:
+- Deep Learning (non-LLM)
+- Graph-based (CPG/PDG)
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Guangdong University of Foreign Studies

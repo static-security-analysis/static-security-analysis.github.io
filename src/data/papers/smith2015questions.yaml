@@ -1,0 +1,15 @@
+id: smith2015questions
+title: Questions developers ask while diagnosing potential security vulnerabilities with static analysis
+authors:
+- Justin Smith
+- Brittany Johnson
+- Emerson Murphy-Hill
+- Bill Chu
+- Heather Richter Lipford
+year: 2015
+type: empirical
+venue: Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on
+  the Foundations of Software Engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.1145/2786805.2786812
+link: https://doi.org/10.1145/2786805.2786812

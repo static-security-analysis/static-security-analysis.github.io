@@ -1,0 +1,36 @@
+id: leopard
+name: Leopard
+description: metric+pattern binning to flag potentially-vulnerable functions
+languages:
+- PHP
+license: Open Source
+website: https://doi.org/10.1109/ICSE.2019.00024
+features:
+- Pattern Matching
+integration: []
+academicReferences:
+- title: 'Leopard: identifying vulnerable code for vulnerability assessment through program metrics'
+  authors:
+  - Xiaoning Du
+  - Bihuan Chen
+  - Yuekang Li
+  - Jianmin Guo
+  - Yaqin Zhou
+  - Yang Liu
+  - Yu Jiang
+  year: 2019
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1109/ICSE.2019.00024
+  link: https://doi.org/10.1109/ICSE.2019.00024
+techniques:
+- Pattern Matching
+empiricalValidation: true
+yearIntroduced: 2019
+githubStars: 11
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Nanyang Technological University

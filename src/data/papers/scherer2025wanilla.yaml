@@ -1,0 +1,30 @@
+id: scherer2025wanilla
+title: 'Wanilla: Sound Noninterference Analysis for WebAssembly'
+authors:
+- Markus Scherer
+- Jeppe Fredsgaard Blaabjerg
+- Alexander Sjösten
+- Matteo Maffei
+year: 2025
+type: method
+venue: ACM SIGSAC Conference on Computer and Communications Security
+venueAcronym: CCS
+doi: 10.1145/3719027.3765156
+link: https://doi.org/10.1145/3719027.3765156
+url: https://doi.org/10.1145/3719027.3765156
+presentsToolId: wanilla
+toolName: Wanilla
+comparesToolIds:
+- wappler
+abstract: WebAssembly (Wasm) is rapidly gaining popularity as a distribution format for software components
+  embedded in various security-critical domains. Unfortunately, despite its prudent design, WebAssembly's
+  primary use case as a compilation target for memory-unsafe languages leaves some possibilities for memory
+  corruption. Independently of that, Wasm is an inherently interesting target for information flow analysis
+  due to its interfacing role. Both the information flows between a Wasm module and its embedding context,
+  as well as the memory integrity within a module, can be described by the hyperproperty noninterference.
+  So far, no sound, fully static noninterference analysis for Wasm has been presented, but sound reachability
+  analyses were. This work presents a novel and general approach to lift reachability analyses to noninterference
+  by tracking taints on values and using value-sensitive, relational reasoning to remove them when appropriate.
+  We implement this approach in Wanilla, the first automatic, sound, and fully static noninterference
+  analysis for WebAssembly, and demonstrate its performance and precision by verifying memory integrity
+  and other noninterference properties with several synthetic and real-world benchmarks.

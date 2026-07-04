@@ -1,0 +1,46 @@
+id: cxsast
+name: CxSAST
+description: Commercial static analysis tool for Java, JavaScript, PHP.
+languages:
+- Multiple
+license: Freemium
+website: https://www.checkmarx.com/products/static-application-security-testing
+features:
+- Unknown
+integration: []
+languagesDetail:
+- Java
+- JavaScript
+- PHP
+- C#
+- Visual Basic
+- C
+- C++
+- Apex
+- Ruby
+- Perl
+- Objective-C
+- Python
+- Groovy
+- HTML
+- Swift
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2006
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Checkmarx

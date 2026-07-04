@@ -1,0 +1,32 @@
+id: brito2022wasmati
+title: 'Wasmati: An Efficient Static Vulnerability Scanner for WebAssembly'
+authors:
+- Tiago Brito
+- Pedro Lopes
+- Nuno Santos
+- J. Santos
+year: 2022
+type: tool
+venue: Computers & security
+venueAcronym: COSE
+doi: 10.1016/j.cose.2022.102745
+link: https://doi.org/10.1016/j.cose.2022.102745
+url: https://github.com/darkmacheken/wasmati
+presentsToolId: wasmati
+toolName: Wasmati
+abstract: WebAssembly is a new binary instruction format that allows targeted compiled code written in
+  high-level languages to be executed with near-native speed by the browser's JavaScript engine. However,
+  given that WebAssembly binaries can be compiled from unsafe languages like C/C++, classical code vulnerabilities
+  such as buffer overflows or format strings can be transferred over from the original programs down to
+  the cross-compiled binaries. As a result, this possibility of incorporating vulnerabilities in WebAssembly
+  modules has widened the attack surface of modern web applications. This paper presents Wasmati, a static
+  analysis tool for finding security vulnerabilities in WebAssembly binaries. It is based on the generation
+  of a code property graph (CPG), a program representation previously adopted for detecting vulnerabilities
+  in various languages but hitherto unapplied to WebAssembly. We formalize the definition of CPG for WebAssembly,
+  introduce techniques to generate CPG for complex WebAssembly, and present four different query specification
+  languages for finding vulnerabilities by traversing a program's CPG. We implemented ten queries capturing
+  different vulnerability types and extensively tested Wasmati on four heterogeneous datasets. We show
+  that Wasmati can scale the generation of CPGs for large real-world applications and can efficiently
+  find vulnerabilities for all our query types. We have also tested our tool on WebAssembly binaries collected
+  in the wild and identified several potential vulnerabilities, some of which we have manually confirmed
+  to exist unless the enclosing application properly sanitizes the interaction with such affected binaries.

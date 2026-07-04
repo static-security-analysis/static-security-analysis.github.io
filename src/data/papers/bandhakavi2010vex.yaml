@@ -1,0 +1,16 @@
+id: bandhakavi2010vex
+title: 'VEX: Vetting Browser Extensions for Security Vulnerabilities'
+authors:
+- Sruthi Bandhakavi
+- Samuel T. King
+- P. Madhusudan
+- Marianne Winslett
+year: 2010
+type: method
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+link: https://www.usenix.org/legacy/events/sec10/tech/full_papers/Bandhakavi.pdf
+url: https://www.usenix.org/legacy/events/sec10/tech/full_papers/Bandhakavi.pdf
+toolName: VEX
+toolsMentioned:
+- vex

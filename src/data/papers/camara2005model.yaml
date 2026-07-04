@@ -1,0 +1,15 @@
+id: camara2005model
+title: 'Model Checking Software with Well-defined APIs: The Socket Case'
+authors:
+- P. de la Camara
+- M. M. Gallardo
+- P. Merino
+- D. Sanan
+year: 2005
+type: method
+venue: International Workshop on Formal Methods for Industrial Critical Systems (FMICS)
+doi: 10.1145/1081180.1081184
+link: https://doi.org/10.1145/1081180.1081184
+toolName: SocketMC
+toolsMentioned:
+- socketmc

@@ -1,0 +1,18 @@
+id: fan2019smoke
+title: 'SMOKE: Scalable Path-Sensitive Memory Leak Detection for Millions of Lines of Code'
+authors:
+- Gang Fan
+- Rongxin Wu
+- Qingkai Shi
+- Xiao Xiao
+- Jinguo Zhou
+- Charles Zhang
+year: 2019
+type: method
+venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1109/ICSE.2019.00025
+link: https://doi.org/10.1109/ICSE.2019.00025
+toolName: SMOKE
+toolsMentioned:
+- smoke

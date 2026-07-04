@@ -1,0 +1,40 @@
+id: charoenwet2024an
+title: An Empirical Study of Static Analysis Tools for Secure Code Review
+authors:
+- Wachiraphan Charoenwet
+- Patanamon Thongtanunam
+- Van-Thuan Pham
+- Christoph Treude
+year: 2024
+type: empirical
+venue: ACM SIGSOFT International Symposium on Software Testing and Analysis
+venueAcronym: ISSTA
+doi: 10.1145/3650212.3680313
+link: https://doi.org/10.1145/3650212.3680313
+url: https://doi.org/10.1145/3650212.3680313
+arxivId: '2407.12241'
+comparesToolIds:
+- codeql-semmle
+- cppcheck
+- flawfinder
+- infer
+tldr: A study of C/C++ SASTs using a dataset of actual code changes that contributed to exploitable vulnerabilities
+  to highlight the benefits and the remaining gaps of SAST-supported secure code reviews and challenges
+  that should be addressed in future work.
+abstract: Early identification of security issues in software development is vital to minimize their unanticipated
+  impacts. Code review is a widely used manual analysis method that aims to uncover security issues along
+  with other coding issues in software projects. While some studies suggest that automated static application
+  security testing tools (SASTs) could enhance security issue identification, there is limited understanding
+  of SAST’s practical effectiveness in supporting secure code review. Moreover, most SAST studies rely
+  on synthetic or fully vulnerable versions of the subject program, which may not accurately represent
+  real-world code changes in the code review process. To address this gap, we study C/C++ SASTs using
+  a dataset of actual code changes that contributed to exploitable vulnerabilities. Beyond SAST’s effectiveness,
+  we quantify potential benefits when changed functions are prioritized by SAST warnings. Our dataset
+  comprises 319 real-world vulnerabilities from 815 vulnerability-contributing commits (VCCs) in 92 C
+  and C++ projects. The result reveals that a single SAST can produce warnings in vulnerable functions
+  of 52% of VCCs. Prioritizing changed functions with SAST warnings can improve accuracy (i.e., 12% of
+  precision and 5.6% of recall) and reduce Initial False Alarm (lines of code in non-vulnerable functions
+  inspected until the first vulnerable function) by 13%. Nevertheless, at least 76% of the warnings in
+  vulnerable functions are irrelevant to the VCCs, and 22% of VCCs remain undetected due to limitations
+  of SAST rules. Our findings highlight the benefits and the remaining gaps of SAST-supported secure code
+  reviews and challenges that should be addressed in future work.

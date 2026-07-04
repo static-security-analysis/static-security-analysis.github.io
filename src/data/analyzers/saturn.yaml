@@ -1,0 +1,55 @@
+id: saturn
+name: Saturn
+description: Academic static analysis tool using control-flow analysis for C.
+languages:
+- C
+license: Open Source
+website: http://saturn.stanford.edu/index.html
+features:
+- Control-flow Analysis
+- Pointer / Alias Analysis
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: How is Aliasing Used in Systems Software?
+  authors:
+  - Brian Hackett
+  - Alex Aiken
+  year: 2006
+  type: Academic Paper
+  publication: Proceedings of the 14th ACM SIGSOFT International Symposium on Foundations of Software
+    Engineering
+  doi: 10.1145/1181775.1181785
+  link: https://doi.org/10.1145/1181775.1181785
+- title: 'Saturn: A Scalable Framework for Error Detection Using Boolean Satisfiability'
+  authors:
+  - Yichen Xie
+  - Alex Aiken
+  year: 2007
+  type: Academic Paper
+  publication: ACM Trans. Program. Lang. Syst.
+  doi: 10.1145/1232420.1232423
+  link: https://doi.org/10.1145/1232420.1232423
+- title: 'Saturn: A SAT-Based Tool for Bug Detection'
+  authors:
+  - Yichen Xie
+  - Alex Aiken
+  year: 2005
+  type: Academic Paper
+  publication: Computer Aided Verification
+  link: http://saturn.stanford.edu/index.html
+techniques:
+- Control-flow Analysis
+- Pointer / Alias Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2005
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Stanford University

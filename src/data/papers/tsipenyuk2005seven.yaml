@@ -1,0 +1,16 @@
+id: tsipenyuk2005seven
+title: 'Seven Pernicious Kingdoms: A Taxonomy of Software Security Errors'
+authors:
+- Katrina Tsipenyuk
+- Brian Chess
+- Gary McGraw
+year: 2005
+type: tool
+venue: IEEE Security & Privacy
+venueAcronym: S&P
+doi: 10.1109/MSP.2005.159
+link: https://doi.org/10.1109/MSP.2005.159
+presentsToolId: fortify-sca
+toolName: Fortify SCA
+toolsMentioned:
+- fortify_sast

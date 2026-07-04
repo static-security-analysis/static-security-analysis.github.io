@@ -1,0 +1,14 @@
+id: phpsat2008
+title: 'PHP-SAT: Static Analysis Tool for PHP'
+authors:
+- Eric Bezault
+- Wim Vanderbauwhede
+year: 2008
+type: tool
+venue: PHP-SAT technical report
+doi: unknown
+link: https://doi.org/unknown
+url: https://www.program-transformation.org/PHP/PhpSat
+toolName: PHP-SAT
+toolsMentioned:
+- php_sat

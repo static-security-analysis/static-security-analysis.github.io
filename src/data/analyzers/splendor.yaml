@@ -1,0 +1,42 @@
+id: splendor
+name: Splendor
+description: static stored-XSS detection through DB layer
+languages:
+- PHP
+license: Open Source
+website: https://doi.org/10.1145/3597926.3598116
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Splendor: Static Detection of Stored XSS in Modern Web Applications'
+  authors:
+  - He Su
+  - Feng Li
+  - Lili Xu
+  - Wenbo Hu
+  - Yujie Sun
+  - Qing Sun
+  - Huina Chao
+  - Wei Huo
+  year: 2023
+  type: Academic Paper
+  publication: ISSTA
+  doi: 10.1145/3597926.3598116
+  link: https://doi.org/10.1145/3597926.3598116
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 22
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Chinese Academy of Sciences

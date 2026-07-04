@@ -1,0 +1,30 @@
+id: ahmadpanah2024codex
+title: 'CodeX: Contextual Flow Tracking for Browser Extensions'
+authors:
+- Mohammad M. Ahmadpanah
+- Matías F. Gobbi
+- Daniel Hedin
+- Johannes Kinder
+- A. Sabelfeld
+year: 2024
+type: method
+venue: Conference on Data and Application Security and Privacy
+venueAcronym: S&P
+doi: 10.1145/3714393.3726495
+link: https://doi.org/10.1145/3714393.3726495
+url: https://doi.org/10.1145/3714393.3726495
+presentsToolId: codex
+toolName: CodeX
+comparesToolIds:
+- coco
+- codeql-semmle
+- doublex
+abstract: Browser extensions put millions of users at risk when misusing their elevated privileges. Despite
+  the current practices of semi-automated code vetting, privacy-violating extensions still thrive in the
+  official stores. We propose an approach for tracking contextual flows from browser-specific sensitive
+  sources like cookies, browsing history, bookmarks, and search terms to suspicious network sinks through
+  network requests. We demonstrate the effectiveness of the approach by a prototype called CodeX that
+  leverages the power of CodeQL while breaking away from the conservativeness of bug-finding flavors of
+  the traditional CodeQL taint analysis. Applying CodeX to the extensions published on the Chrome Web
+  Store between March 2021 and March 2024 identified 1,588 extensions with risky flows. Manual verification
+  of 339 of those extensions resulted in flagging 212 as privacy-violating, impacting up to 3.6M users.

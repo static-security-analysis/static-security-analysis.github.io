@@ -1,0 +1,25 @@
+id: cat-net
+name: CAT.NET
+description: Open-source static analysis tool using data-flow analysis for C#.
+languages:
+- C#
+license: Open Source
+website: https://www.microsoft.com/en-us/download/details.aspx?id=19968
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2009
+toolType: oss
+input:
+- Binary Code
+ecosystem:
+- General-purpose
+institute: Microsoft

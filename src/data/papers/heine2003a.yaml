@@ -1,0 +1,13 @@
+id: heine2003a
+title: A practical flow-sensitive and context-sensitive C and C++ memory leak detector
+authors:
+- David L. Heine
+- Monica S. Lam
+year: 2003
+type: method
+venue: ACM SIGPLAN Conference on Programing Language Design and Implementation (PLDI)
+doi: 10.1145/781131.781150
+link: https://doi.org/10.1145/781131.781150
+toolName: Clouseau
+toolsMentioned:
+- clouseau

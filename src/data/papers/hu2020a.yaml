@@ -1,0 +1,11 @@
+id: hu2020a
+title: A Survey on SQL Injection Attacks, Detection and Prevention
+authors:
+- Jianwei Hu
+- Wei Zhao
+- Yanpeng Cui
+year: 2020
+type: survey
+venue: International Conference on Machine Learning and Computing (ICMLC)
+doi: 10.1145/3383972.3384028
+link: https://doi.org/10.1145/3383972.3384028

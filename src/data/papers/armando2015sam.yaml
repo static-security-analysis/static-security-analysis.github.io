@@ -1,0 +1,19 @@
+id: armando2015sam
+title: 'SAM: The static analysis module of the MAVERIC mobile app security verification platform'
+authors:
+- Alessandro Armando
+- Gianluca Bocci
+- Giantonio Chiarelli
+- Gabriele Costa
+- Gabriele De Maglie
+- Rocco Mammoliti
+- Alessio Merlo
+year: 2015
+type: method
+venue: International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+venueAcronym: TACAS
+doi: 10.1007/978-3-662-46681-0_19
+link: https://doi.org/10.1007/978-3-662-46681-0_19
+toolName: SAM (MAVERIC)
+toolsMentioned:
+- sam

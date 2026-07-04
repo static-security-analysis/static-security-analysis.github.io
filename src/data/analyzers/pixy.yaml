@@ -1,0 +1,37 @@
+id: pixy
+name: Pixy
+description: Academic static analysis tool using taint analysis for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://github.com/oliverklee/pixy
+features:
+- Taint Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Pixy: a static analysis tool for detecting Web application vulnerabilities'
+  authors:
+  - Nenad {Jovanovic}
+  - Christopher {Kruegel}
+  - Engin {Kirda
+  year: 2006
+  type: Academic Paper
+  publication: 2006 IEEE Symposium on Security and Privacy (S P'06)
+  doi: 10.1109/SP.2006.29
+  link: https://doi.org/10.1109/SP.2006.29
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2006
+githubStars: 109
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Technical University of Vienna

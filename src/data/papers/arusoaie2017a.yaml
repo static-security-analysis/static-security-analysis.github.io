@@ -1,0 +1,31 @@
+id: arusoaie2017a
+title: A Comparison of Open-Source Static Analysis Tools for Vulnerability Detection in C/C++ Code
+authors:
+- Andrei Arusoaie
+- Stefan Ciobâca
+- Vlad Craciun
+- Dragos Gavrilut
+- Dorel Lucanu
+year: 2017
+type: empirical
+venue: International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)
+doi: 10.1109/SYNASC.2017.00035
+link: https://doi.org/10.1109/SYNASC.2017.00035
+toolsMentioned:
+- frama-c
+- clang-alpha
+- oclint
+- system
+- cppcheck
+- clang-core
+- infer
+- uno
+- flawfinder
+- sparse
+- flint
+mentionsToolIds:
+- frama-c
+- cppcheck
+- infer
+- uno
+- flawfinder

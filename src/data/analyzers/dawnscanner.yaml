@@ -1,0 +1,29 @@
+id: dawnscanner
+name: dawnscanner
+description: Open-source static analysis tool using pattern matching for Ruby.
+languages:
+- Ruby
+license: Open Source
+website: https://github.com/thesp0nge/dawnscanner
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 636
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: '-'

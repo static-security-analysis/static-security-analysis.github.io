@@ -1,0 +1,12 @@
+id: pistoia2007a
+title: A survey of static analysis methods for identifying security vulnerabilities in software systems
+authors:
+- Marco Pistoia
+- S. Chandra
+- Stephen Fink
+- Eran Yahav
+year: 2007
+type: survey
+venue: IBM Systems Journal
+doi: 10.1147/sj.462.0265
+link: https://doi.org/10.1147/sj.462.0265

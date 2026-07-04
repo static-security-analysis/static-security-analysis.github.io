@@ -1,0 +1,17 @@
+id: mine2015towards
+title: Towards an Industrial Use of Sound Static Analysis for the Verification of Concurrent Embedded
+  Avionics Software
+authors:
+- Antoine Mine
+- David Delmas
+year: 2015
+type: tool
+venue: International Conference on Embedded Software (EMSOFT)
+doi: 10.1109/EMSOFT.2015.7318261
+link: https://doi.org/10.1109/EMSOFT.2015.7318261
+presentsToolId: astree
+toolName: Astree
+toolsMentioned:
+- astree
+mentionsToolIds:
+- astree

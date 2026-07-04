@@ -1,0 +1,35 @@
+id: dirty_waters
+name: Dirty-Waters
+description: detects software supply-chain smells in dependencies
+languages:
+- Multiple
+license: Open Source
+website: https://doi.org/10.1145/3696630.3728578
+features:
+- Software Composition Analysis
+integration: []
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'Dirty-Waters: Detecting Software Supply Chain Smells'
+  authors:
+  - Raphina Liu
+  - Sofia Bobadilla
+  - Benoit Baudry
+  - Martin Monperrus
+  year: 2025
+  type: Academic Paper
+  publication: FSE
+  doi: 10.1145/3696630.3728578
+  link: https://doi.org/10.1145/3696630.3728578
+techniques:
+- Software Composition Analysis
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: oss
+input:
+- Config/IaC
+ecosystem:
+- General-purpose
+institute: KTH Royal Institute of Technology

@@ -1,0 +1,15 @@
+id: beyer2007the
+title: 'The software model checker Blast: Applications to software engineering'
+authors:
+- Dirk Beyer
+- Thomas A. Henzinger
+- Ranjit Jhala
+- Rupak Majumdar
+year: 2007
+type: tool
+venue: International Journal on Software Tools for Technology Transfer
+doi: 10.1007/s10009-007-0044-z
+link: https://doi.org/10.1007/s10009-007-0044-z
+toolName: BLAST
+toolsMentioned:
+- blast

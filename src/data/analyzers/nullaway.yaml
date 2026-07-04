@@ -1,0 +1,40 @@
+id: nullaway
+name: NullAway
+description: Open-source static analysis tool using type / type-state analysis for Java.
+languages:
+- Java
+license: Open Source
+website: https://github.com/uber/NullAway
+features:
+- Type / Type-state Analysis
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'NullAway: Practical Type-Based Null Safety for Java'
+  authors:
+  - Subarno Banerjee
+  - Lazaro Clapp
+  - Manu Sridharan
+  year: 2019
+  type: Academic Paper
+  publication: Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference
+    and Symposium on the Foundations of Software Engineering
+  doi: 10.1145/3338906.3338919
+  link: https://doi.org/10.1145/3338906.3338919
+techniques:
+- Type / Type-state Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+githubStars: 2800
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Michigan and Uber

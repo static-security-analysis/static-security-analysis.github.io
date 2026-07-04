@@ -1,0 +1,15 @@
+id: ouyang2010uaf
+title: UAF bug checking model based on dataflow analysis
+authors:
+- Yongji Ouyang
+- Qingxian Wang
+- Qiang Wei
+- Jie Liu
+year: 2010
+type: method
+venue: IEEE International Conference on Information Theory and Information Security (ICITIS)
+doi: 10.1109/ICITIS.2010.5689541
+link: https://doi.org/10.1109/ICITIS.2010.5689541
+toolName: UAF
+toolsMentioned:
+- uaf

@@ -1,0 +1,42 @@
+id: symgx
+name: SymGX
+description: symbolic exec for cross-boundary pointer/memory-corruption vulns in SGX
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3576915.3623213
+features:
+- Symbolic/Concolic Execution
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'SymGX: Detecting Cross-boundary Pointer Vulnerabilities of SGX Applications via Static Symbolic
+    Execution'
+  authors:
+  - Yuanpeng Wang
+  - Ziqi Zhang
+  - Ningyu He
+  - Zhineng Zhong
+  - Shengjian Guo
+  - Qinkun Bao
+  - Ding Li
+  - Yao Guo
+  - Xiangqun Chen
+  year: 2023
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3576915.3623213
+  link: https://doi.org/10.1145/3576915.3623213
+techniques:
+- Symbolic/Concolic Execution
+empiricalValidation: true
+yearIntroduced: 2023
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Peking University

@@ -1,0 +1,67 @@
+id: appscreener
+name: appScreener
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Freemium
+website: https://solarappscreener.com/
+features:
+- Unknown
+- Hybrid (static+dynamic)
+integration: []
+languagesDetail:
+- ABAP
+- Apex
+- ASP.NET
+- COBOL
+- C#
+- C
+- C++
+- Objective-C
+- Pascal/Delphi
+- Go
+- Groovy
+- HTML
+- Java
+- JavaScript
+- Kotlin
+- Perl
+- PHP
+- SQL
+- Python
+- Ruby
+- Rust
+- Scala
+- Solidity
+- Swift
+- TypeScript
+- Visual Basic
+- Vyper
+- Bytecode
+- Binary
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'White paper: Solar appScreener 3.7'
+  authors:
+  - Solar appScreener
+  year: 2015
+  type: Academic Paper
+  link: https://solarappscreener.com/
+techniques:
+- Unknown
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+toolType: commercial
+input:
+- Source Code
+- Binary Code
+ecosystem:
+- Smart Contract
+- Web
+institute: Solar appScreener

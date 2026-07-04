@@ -1,0 +1,15 @@
+id: li2010practical
+title: Practical and effective symbolic analysis for buffer overflow detection
+authors:
+- Lian Li
+- Cristina Cifuentes
+- Nathan Keynes
+year: 2010
+type: method
+venue: ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE)
+venueAcronym: FSE
+doi: 10.1145/1882291.1882338
+link: https://doi.org/10.1145/1882291.1882338
+toolName: Parfait
+toolsMentioned:
+- parfait

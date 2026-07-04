@@ -1,0 +1,15 @@
+id: ye2014uafchecker
+title: 'UAFChecker: Scalable Static Detection of Use-After-Free Vulnerabilities'
+authors:
+- Jiayi Ye
+- Chao Zhang
+- Xinhui Han
+year: 2014
+type: method
+venue: Conference on Computer and Communications Security (CCS)
+venueAcronym: CCS
+doi: 10.1145/2660267.2662394
+link: https://doi.org/10.1145/2660267.2662394
+toolName: UAFChecker
+toolsMentioned:
+- uafchecker

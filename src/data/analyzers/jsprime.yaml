@@ -1,0 +1,26 @@
+id: jsprime
+name: JSPrime
+description: Open-source static analysis tool using pattern matching for JavaScript.
+languages:
+- JavaScript
+license: Open Source
+website: https://github.com/dpnishant/jsprime
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2013
+githubStars: 550
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web

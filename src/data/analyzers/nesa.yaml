@@ -1,0 +1,45 @@
+id: nesa
+name: NESA
+description: neuro-symbolic (LLM+symbolic) compilation-free static analysis for bug/vuln detection (PACMPL
+  re-admit)
+languages:
+- Java
+license: Open Source
+website: https://github.com/aksamlan/Nesa
+features:
+- LLM-based
+- Symbolic/Concolic Execution
+integration: []
+github: https://github.com/aksamlan/Nesa
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'NESA: Relational Neuro-Symbolic Static Program Analysis'
+  authors:
+  - Chengpeng Wang
+  - Yifei Gao
+  - Wuqi Zhang
+  - Xuwei Liu
+  - Jinyao Guo
+  - Mingwei Zheng
+  - Qingkai Shi
+  - Xiangyu Zhang
+  year: 2024
+  type: Academic Paper
+  publication: Proc. ACM Program. Lang.
+  doi: 10.1145/3808161
+  link: https://doi.org/10.1145/3808161
+techniques:
+- LLM-based
+- Symbolic/Concolic Execution
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 22
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Purdue University

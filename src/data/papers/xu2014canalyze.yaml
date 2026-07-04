@@ -1,0 +1,16 @@
+id: xu2014canalyze
+title: 'Canalyze: A Static Bug-finding Tool for C Programs'
+authors:
+- Zhenbo Xu
+- Jian Zhang
+- Zhongxing Xu
+- Jiteng Wang
+year: 2014
+type: method
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/2610384.2628050
+link: https://doi.org/10.1145/2610384.2628050
+toolName: Canalyze
+toolsMentioned:
+- canalyze

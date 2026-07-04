@@ -1,0 +1,34 @@
+id: black-duck
+name: Black Duck
+description: Commercial static analysis tool using software composition analysis for Java, JavaScript,
+  Python.
+languages:
+- Multiple
+license: Commercial
+website: https://www.blackduck.com/
+features:
+- Software Composition Analysis
+integration: []
+languagesDetail:
+- Java
+- JavaScript
+- Python
+- Go
+- Ruby
+- PHP
+- C
+- C++
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2002
+toolType: commercial
+input:
+- Manifest
+ecosystem:
+- Web
+institute: Black Duck Software

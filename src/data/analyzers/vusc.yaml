@@ -1,0 +1,33 @@
+id: vusc
+name: VUSC
+description: extensible Java static-analysis research PLATFORM/framework (see framework category Q)
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1109/ASE63991.2025.00354
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'VUSC: An Extensible Research Platform for Java-Based Static Analysis'
+  authors:
+  - Marc Miltenberger
+  - Steven Arzt
+  year: 2025
+  type: Academic Paper
+  publication: ASE
+  doi: 10.1109/ASE63991.2025.00354
+  link: https://doi.org/10.1109/ASE63991.2025.00354
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Fraunhofer Institute for Secure Information Technology

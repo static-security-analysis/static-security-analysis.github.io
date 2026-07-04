@@ -1,0 +1,37 @@
+id: xiao2021viva
+title: 'VIVA: Binary Level Vulnerability Identification via Partial Signature'
+authors:
+- Yang Xiao
+- Zhengzi Xu
+- Weiwei Zhang
+- Chendong Yu
+- Longquan Liu
+- Wei Zou
+- Zimu Yuan
+- Yang Liu
+- Aihua Piao
+- Wei Huo
+year: 2021
+type: method
+venue: IEEE International Conference on Software Analysis, Evolution and Reengineering
+venueAcronym: SANER
+doi: 10.1109/SANER50967.2021.00028
+link: https://doi.org/10.1109/SANER50967.2021.00028
+url: https://doi.org/10.1109/SANER50967.2021.00028
+presentsToolId: viva
+toolName: VIVA
+abstract: Binary level code clone detection techniques have been used to identify 1-day vulnerabilities
+  in software. It collects functions with known vulnerabilities and searches for similar functions in
+  the target system. However, existing approaches are limited to detect the same vulnerabilities in different
+  binaries. They can hardly find new recurring vulnerabilities, which share similar logic. Moreover, they
+  only focus on improving the accuracy of binary function matching algorithms while overlooking the presence
+  of security patches, which results in high false-positive rates and requires significant effort to verify
+  the results.To this end, we propose VIVA, a binary level vulnerability and patch semantic summarization
+  and matching tool for accurate recurring vulnerability detection. It uses novel binary program slicing
+  techniques with the aid of pseudo-code trace refinement to generate partial vulnerability and patch
+  signatures, which capture the semantics. It matches the signatures with pre-filtering to efficiently
+  detect 1-day and recurring vulnerabilities. The experimental results show that VIVA outperforms other
+  source code and binary matching tools with a precision of 100% for 1-day vulnerabilities and 87.6% for
+  recurring vulnerabilities and good performance (28.58s per signature search in 4M functions). It detects
+  92 new vulnerabilities in different series and different versions of real-world projects, with 11 exist
+  without fixing in the latest version.

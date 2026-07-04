@@ -1,0 +1,44 @@
+id: flowdroid
+name: Flowdroid
+description: Academic static analysis tool using taint analysis for Java.
+languages:
+- Java
+license: Open Source
+website: https://blogs.uni-paderborn.de/sse/tools/flowdroid/
+features:
+- Taint Analysis
+integration: []
+licenseDetail: LGPLv2
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis
+    for Android Apps'
+  authors:
+  - Steven Arzt
+  - Siegfried Rasthofer
+  - Christian Fritz
+  - Eric Bodden
+  - Alexandre Bartel
+  - Jacques Klein
+  - Yves Le Traon
+  - Damien Octeau
+  - Patrick McDaniel
+  year: 2014
+  type: Academic Paper
+  publication: SIGPLAN Not.
+  doi: 10.1145/2666356.2594299
+  link: https://doi.org/10.1145/2666356.2594299
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2013
+githubStars: 400
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Paderborn University, TU Darmstadt

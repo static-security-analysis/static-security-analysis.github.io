@@ -1,0 +1,42 @@
+id: sausage
+name: SAUSAGE
+description: static analysis of Unix-domain-socket IPC usage (access control)
+languages:
+- C
+- Java
+license: Open Source
+website: https://github.com/rudychung/SauSaGe
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: MIT
+github: https://github.com/rudychung/SauSaGe
+weaknesses:
+- category: Security Features
+  examples: []
+academicReferences:
+- title: 'SAUSAGE: Security Analysis of Unix domain Socket usAGE in Android'
+  authors:
+  - Mounir Elgharabawy
+  - Blas Kojusner
+  - Mohammad Mannan
+  - Kevin R. B. Butler
+  - Byron Williams
+  - A. Youssef
+  year: 2022
+  type: Academic Paper
+  publication: European Symposium on Security and Privacy
+  doi: 10.1109/EuroSP53844.2022.00042
+  link: https://doi.org/10.1109/EuroSP53844.2022.00042
+techniques:
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: false
+yearIntroduced: 2022
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Concordia University

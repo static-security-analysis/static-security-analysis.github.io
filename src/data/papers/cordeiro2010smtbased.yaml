@@ -1,0 +1,16 @@
+id: cordeiro2010smtbased
+title: SMT-based Bounded Model Checking for Multi-threaded Software in Embedded Systems
+authors:
+- Lucas Cordeiro
+year: 2010
+type: tool
+venue: ACM/IEEE International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1145/1810295.1810396
+link: https://doi.org/10.1145/1810295.1810396
+presentsToolId: esbmc
+toolName: ESBMC
+toolsMentioned:
+- esbmc
+mentionsToolIds:
+- esbmc

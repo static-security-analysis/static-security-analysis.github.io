@@ -1,0 +1,48 @@
+id: static-reviewer
+name: Static Reviewer
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Freemium
+website: https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer+-+Code+Inspection
+features:
+- Taint Analysis
+- Deep Learning (non-LLM)
+- Hybrid (static+dynamic)
+integration: []
+languagesDetail:
+- Java
+- C
+- C++
+- C#
+- Python
+- Scala
+- PHP
+- JavaScript
+- TypeScript
+- Ruby
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Time and State
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Taint Analysis
+- Deep Learning (non-LLM)
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2014
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web

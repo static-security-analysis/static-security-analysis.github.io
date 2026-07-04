@@ -1,0 +1,31 @@
+id: helixqac
+name: HelixQAC
+description: Commercial static analysis tool using data-flow analysis for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: https://www.perforce.com/products/helix-qac
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 1986
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Perforce Software, Inc.

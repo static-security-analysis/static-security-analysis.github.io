@@ -1,0 +1,19 @@
+id: he2015vetting
+title: Vetting SSL Usage in Applications with SSLINT
+authors:
+- Boyuan He
+- Vaibhav Rastogi
+- Yinzhi Cao
+- Yan Chen
+- V.N. Venkatakrishnan
+- Runqing Yang
+- Zhenrui Zhang
+year: 2015
+type: method
+venue: IEEE Symposium on Security and Privacy (S&P)
+venueAcronym: S&P
+doi: 10.1109/SP.2015.38
+link: https://doi.org/10.1109/SP.2015.38
+toolName: SSLINT
+toolsMentioned:
+- sslint

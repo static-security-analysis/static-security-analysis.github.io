@@ -1,0 +1,29 @@
+id: codenarc
+name: codenarc
+description: Open-source static analysis tool using pattern matching for Groovy.
+languages:
+- Groovy
+license: Open Source
+website: https://codenarc.org/
+features:
+- Pattern Matching
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Security Features
+  examples: []
+- category: Time and State
+  examples: []
+- category: Error Handling
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2009
+githubStars: 242
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose

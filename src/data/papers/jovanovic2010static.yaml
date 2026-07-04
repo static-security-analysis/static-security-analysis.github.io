@@ -1,0 +1,17 @@
+id: jovanovic2010static
+title: Static analysis for detecting taint-style vulnerabilities in web applications
+authors:
+- Nenad Jovanovic
+- Christopher Kruegel
+- Engin Kirda
+year: 2010
+type: tool
+venue: Journal of Computer Security
+doi: 10.5555/1841962.1841968
+link: https://doi.org/10.5555/1841962.1841968
+presentsToolId: pixy
+toolName: Pixy
+toolsMentioned:
+- pixy
+mentionsToolIds:
+- pixy

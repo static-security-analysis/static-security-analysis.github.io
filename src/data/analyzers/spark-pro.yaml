@@ -1,0 +1,31 @@
+id: spark-pro
+name: SPARK Pro
+description: Commercial static analysis tool using data-flow analysis for Ada.
+languages:
+- Ada
+license: Commercial
+website: https://github.com/AdaCore/spark2014
+features:
+- Data-flow Analysis
+- Deductive Verification
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Data-flow Analysis
+- Deductive Verification
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2009
+githubStars: 123
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Altran & AdaCore

@@ -1,0 +1,60 @@
+id: infer
+name: Infer
+description: Commercial static analysis tool using deductive verification for Java, C, C++.
+languages:
+- Java
+- C
+- C++
+- Objective-C
+license: Commercial
+website: https://fbinfer.com/
+features:
+- Deductive Verification
+- Symbolic/Concolic Execution
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+- category: Time and State
+  examples: []
+academicReferences:
+- title: 'Infer: An Automatic Program Verifier for Memory Safety of C Programs'
+  authors:
+  - Cristiano Calcagno
+  - Dino Distefano
+  year: 2011
+  type: Academic Paper
+  publication: NASA Formal Methods
+  link: https://fbinfer.com/
+- title: Separation Logic
+  authors:
+  - Peter O'Hearn
+  year: 2019
+  type: Academic Paper
+  publication: Commun. ACM
+  doi: 10.1145/3211968
+  link: https://doi.org/10.1145/3211968
+- title: Compositional Shape Analysis by Means of Bi-Abduction
+  authors:
+  - Cristiano Calcagno
+  - Dino Distefano
+  - Peter W. O'Hearn
+  - Hongseok Yang
+  year: 2011
+  type: Academic Paper
+  publication: J. ACM
+  doi: 10.1145/2049697.2049700
+  link: https://doi.org/10.1145/2049697.2049700
+techniques:
+- Deductive Verification
+- Symbolic/Concolic Execution
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2011
+githubStars: 11600
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Monoidics Ltd, UK (Acquired by Facebook)

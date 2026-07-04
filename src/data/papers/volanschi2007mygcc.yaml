@@ -1,0 +1,13 @@
+id: volanschi2007mygcc
+title: 'MyGCC: A Development Environment for Static Source Code Analysis'
+authors:
+- Nicolas Volanschi
+year: 2007
+type: tool
+venue: INRIA Technical Report
+doi: unknown
+link: https://doi.org/unknown
+url: http://mygcc.free.fr/
+toolName: mygcc
+toolsMentioned:
+- mygcc

@@ -1,0 +1,29 @@
+id: brakeman-pro
+name: Brakeman Pro
+description: Commercial static analysis tool using data-flow analysis for Ruby.
+languages:
+- Ruby
+license: Commercial
+website: https://brakemanscanner.org/
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: true
+yearIntroduced: 2020
+githubStars: 5900
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Brakeman, Inc (Acquired by Synopsys)

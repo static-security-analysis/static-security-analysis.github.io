@@ -1,0 +1,16 @@
+id: sadowski2015tricorder
+title: 'Tricorder: Building a Program Analysis Ecosystem'
+authors:
+- Caitlin Sadowski
+- Jeffrey van Gogh
+- Ciera Jaspan
+- Emma Soderberg
+- Collin Winter
+year: 2015
+type: motivation
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1109/ICSE.2015.76
+link: https://doi.org/10.1109/ICSE.2015.76
+toolsMentioned:
+- tricorder

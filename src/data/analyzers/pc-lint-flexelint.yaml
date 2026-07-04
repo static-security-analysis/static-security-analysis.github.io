@@ -1,0 +1,27 @@
+id: pc-lint-flexelint
+name: PC-lint/FlexeLint
+description: Commercial static analysis tool for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: https://gimpel.com/
+features:
+- Unknown
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 1985
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Gimpel Software, USA

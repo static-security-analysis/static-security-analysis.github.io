@@ -1,0 +1,20 @@
+id: spoto2019static
+title: Static identification of injection attacks in Java
+authors:
+- Fausto Spoto
+- Elisa Burato
+- Michael D. Ernst
+- Pietro Ferrara
+- Alberto Lovato
+- Damiano Macedonio
+- Ciprian Spiridon
+year: 2019
+type: tool
+venue: ACM Transactions on Programming Languages and Systems
+doi: 10.1145/3332371
+link: https://doi.org/10.1145/3332371
+toolName: Julia (JuliaSoft)
+toolsMentioned:
+- juliasoft
+mentionsToolIds:
+- juliasoft

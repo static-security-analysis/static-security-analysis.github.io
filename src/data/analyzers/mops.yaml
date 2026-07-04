@@ -1,0 +1,57 @@
+id: mops
+name: MOPS
+description: Academic static analysis tool using model checking for C.
+languages:
+- C
+license: Open Source
+website: https://people.eecs.berkeley.edu/~daw/mops/
+features:
+- Model Checking
+integration: []
+licenseDetail: BSD
+weaknesses:
+- category: Time and State
+  examples: []
+academicReferences:
+- title: 'MOPS: an infrastructure for examining security properties of software'
+  authors:
+  - Hao Chen
+  - David Wagner
+  year: 2002
+  type: Academic Paper
+  publication: Proceedings of the 9th ACM conference on Computer and communications security
+  link: https://people.eecs.berkeley.edu/~daw/mops/
+- title: Model checking one million lines of C code
+  authors:
+  - Hao Chen
+  - Drew Dean
+  - David Wagner
+  year: 2004
+  type: Academic Paper
+  publication: In Proceedings of the 11th Annual Network and Distributed System Security Symposium (NDSS
+  link: https://people.eecs.berkeley.edu/~daw/mops/
+- title: Model checking an entire Linux distribution for security violations
+  authors:
+  - B. {Schwarz}
+  - '{Hao Chen}'
+  - D. {Wagner}
+  - G. {Morrison}
+  - J. {West}
+  - J. {Lin}
+  - '{Wei Tu'
+  year: 2005
+  type: Academic Paper
+  publication: 21st Annual Computer Security Applications Conference (ACSAC'05)
+  doi: 10.1109/CSAC.2005.39
+  link: https://doi.org/10.1109/CSAC.2005.39
+techniques:
+- Model Checking
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2002
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: UC Berkeley

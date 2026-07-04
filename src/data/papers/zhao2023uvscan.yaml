@@ -1,0 +1,37 @@
+id: zhao2023uvscan
+title: 'UVSCAN: Detecting Third-Party Component Usage Violations in IoT Firmware'
+authors:
+- Binbin Zhao
+- S. Ji
+- Xuhong Zhang
+- Yuan Tian
+- Qinying Wang
+- Yuwen Pu
+- Chenyang Lyu
+- R. Beyah
+year: 2023
+type: tool
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+doi: 10.48550/arXiv.2306.11206
+link: https://doi.org/10.48550/arXiv.2306.11206
+url: https://github.com/adobe/UVSCAN
+presentsToolId: uvscan
+toolName: UVSCAN
+abstract: 'Nowadays, IoT devices integrate a wealth of third-party components (TPCs) in firmware to shorten
+  the development cycle. TPCs usually have strict usage specifications, e.g., checking the return value
+  of the function. Violating the usage specifications of TPCs can cause serious consequences, e.g., NULL
+  pointer dereference. Therefore, this massive amount of TPC integrations, if not properly implemented,
+  will lead to pervasive vulnerabilities in IoT devices. Detecting vulnerabilities automatically in TPC
+  integration is challenging from several perspectives: (1) There is a gap between the high-level specifications
+  from TPC documents, and the low-level implementations in the IoT firmware. (2) IoT firmware is mostly
+  the closed-source binary, which loses a lot of information when compiling from the source code and has
+  diverse architectures. To address these challenges, we design and implement UVScan, an automated and
+  scalable system to detect TPC usage violations in IoT firmware. In UVScan, we first propose a novel
+  natural language processing (NLP)-based rule extraction framework, which extracts API specifications
+  from inconsistently formatted TPC documents. We then design a rule-driven NLP-guided binary analysis
+  engine, which maps the logical information from the high-level TPC document to the low-level binary,
+  and detects TPC usage violations in IoT firmware across different architectures. We evaluate UVScan
+  from four perspectives on four popular TPCs and six ground-truth datasets. The results show that UVScan
+  achieves more than 70% precision and recall, and has a significant performance improvement compared
+  with even the source-level API misuse detectors.'

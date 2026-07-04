@@ -1,0 +1,30 @@
+id: lekssays2025llmxcpg
+title: 'LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language
+  Models'
+authors:
+- Ahmed Lekssays
+- Hamza Mouhcine
+- Khang Tran
+- Ting Yu
+- Issa Khalil
+year: 2025
+type: tool
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+link: https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays
+url: https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays
+presentsToolId: llmxcpg
+toolName: LLMxCPG
+comparesToolIds:
+- regvd
+abstract: 'Software vulnerabilities present a persistent security challenge, with over 25,000 new vulnerabilities
+  reported in the Common Vulnerabilities and Exposures (CVE) database in 2024 alone. While deep learning
+  approaches show promise for vulnerability detection, recent comprehensive evaluations reveal critical
+  limitations: accuracy drops by up to 45% on rigorously verified datasets, and performance degrades significantly
+  under simple code modifications. This paper presents LLMxCPG, a novel framework integrating Code Property
+  Graphs (CPG) with Large Language Models (LLM) for robust vulnerability detection. Our CPG-based slice
+  construction technique reduces code size by 67.84-90.93% while preserving vulnerability-relevant context.
+  Empirical evaluation demonstrates LLMxCPG''s effectiveness across both traditional and verified datasets,
+  achieving 15-40% improvements in F1-score over state-of-the-art baselines. Unlike existing approaches,
+  LLMxCPG maintains consistent performance across function-level and multi-function codebases while exhibiting
+  robust detection efficacy under various syntactic modifications.'

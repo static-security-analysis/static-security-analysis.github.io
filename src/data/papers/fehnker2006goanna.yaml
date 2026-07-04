@@ -1,0 +1,16 @@
+id: fehnker2006goanna
+title: 'Goanna: A Static Model Checker'
+authors:
+- Ansgar Fehnker
+- Ralf Huuck
+- Patrick Jayet
+- Michel Lussenburg
+- Felix Rauch
+year: 2006
+type: tool
+venue: International Workshop on Parallel and Distributed Methods in Verification (PDMC)
+doi: 10.1007/978-3-540-70952-7_20
+link: https://doi.org/10.1007/978-3-540-70952-7_20
+toolName: Goanna
+toolsMentioned:
+- goanna

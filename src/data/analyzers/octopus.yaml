@@ -1,0 +1,40 @@
+id: octopus
+name: Octopus
+description: value-flow analysis SCALABILITY framework (enables memory-corruption/taint detection) — framework,
+  see end category Q
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3632743
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'Octopus: Scaling Value-Flow Analysis via Parallel Collection of Realizable Path Conditions'
+  authors:
+  - Wensheng Tang
+  - Dejun Dong
+  - Shijie Li
+  - Chengpeng Wang
+  - Peisen Yao
+  - Jinguo Zhou
+  - Charles Zhang
+  year: 2024
+  type: Academic Paper
+  publication: TSE
+  doi: 10.1145/3632743
+  link: https://doi.org/10.1145/3632743
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Hong Kong University of Science and Technology

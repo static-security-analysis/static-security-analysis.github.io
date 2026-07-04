@@ -1,0 +1,18 @@
+id: jovanovic2006pixy
+title: 'Pixy: a static analysis tool for detecting Web application vulnerabilities'
+authors:
+- Nenad Jovanovic
+- Christopher Kruegel
+- Engin Kirda
+year: 2006
+type: tool
+venue: IEEE Symposium on Security and Privacy (S&P)
+venueAcronym: S&P
+doi: 10.1109/SP.2006.29
+link: https://doi.org/10.1109/SP.2006.29
+presentsToolId: pixy
+toolName: Pixy
+toolsMentioned:
+- pixy
+mentionsToolIds:
+- pixy

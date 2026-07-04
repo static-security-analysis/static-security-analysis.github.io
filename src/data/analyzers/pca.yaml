@@ -1,0 +1,38 @@
+id: pca
+name: PCA
+description: interprocedural points-to + data-flow for memory-leak detection
+languages:
+- C
+license: Open Source
+website: https://doi.org/10.1145/3368089.3417923
+features:
+- Data-flow Analysis
+- Pointer / Alias Analysis
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'PCA: memory leak detection using partial call-path analysis'
+  authors:
+  - Wen Li
+  - Haipeng Cai
+  - Yulei Sui
+  - David O. Manz
+  year: 2020
+  type: Academic Paper
+  publication: FSE
+  doi: 10.1145/3368089.3417923
+  link: https://doi.org/10.1145/3368089.3417923
+techniques:
+- Data-flow Analysis
+- Pointer / Alias Analysis
+empiricalValidation: true
+yearIntroduced: 2020
+githubStars: 348
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Washington State University

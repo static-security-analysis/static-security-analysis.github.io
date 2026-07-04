@@ -4,15 +4,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12 px-4" id="about">
+    <footer className="bg-slate-950 text-white py-12 px-4">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-security-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">SA</span>
-              </div>
-              <span className="text-xl font-bold">SecurityAnalyzers</span>
+            <div className="mb-4">
+              <Link to="/" className="text-xl font-semibold tracking-tight text-white hover:opacity-80 transition-opacity">
+                AppSecHub
+              </Link>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Your comprehensive resource for finding and comparing the best static analysis tools for security. We help developers build more secure applications by connecting them with the right tools.
@@ -40,7 +39,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Submit a Tool</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
@@ -48,9 +47,9 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center md:text-left">
-          <p className="text-gray-500">
-            &copy; {new Date().getFullYear()} SecurityAnalyzers. All rights reserved.
+        <div className="border-t border-slate-800 mt-12 pt-8 text-center md:text-left">
+          <p className="text-slate-500">
+            &copy; {new Date().getFullYear()} AppSecHub. All rights reserved.
           </p>
         </div>
       </div>

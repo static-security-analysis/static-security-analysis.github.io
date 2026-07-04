@@ -1,0 +1,40 @@
+id: binaryai
+name: BinaryAI
+description: binary-to-source SCA (TPL identification)
+languages:
+- Binary
+license: Open Source
+website: https://doi.org/10.1145/3597503.3639100
+features:
+- Software Composition Analysis
+- Deep Learning (non-LLM)
+integration: []
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'BinaryAI: Binary Software Composition Analysis via Intelligent Binary Source Code Matching'
+  authors:
+  - Lingixao Jiang
+  - Junwen An
+  - Huihui Huang
+  - Qiyi Tang
+  - Sen Nie
+  - Shi Wu
+  - Yuqun Zhang
+  year: 2024
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1145/3597503.3639100
+  link: https://doi.org/10.1145/3597503.3639100
+techniques:
+- Software Composition Analysis
+- Deep Learning (non-LLM)
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: oss
+input:
+- Binary
+ecosystem:
+- General-purpose
+institute: Southern University of Science and Technology / Tencent

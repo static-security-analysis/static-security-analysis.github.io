@@ -1,0 +1,37 @@
+id: dependabot
+name: dependabot
+description: Open-source static analysis tool using software composition analysis for Ruby, JavaScript,
+  Python.
+languages:
+- Multiple
+license: Open Source
+website: https://dependabot.com/
+features:
+- Software Composition Analysis
+integration: []
+languagesDetail:
+- Ruby
+- JavaScript
+- Python
+- PHP
+- Elixir
+- Rust
+- Java
+- C#
+- Go
+- Infrastructure as Code
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+githubStars: 1600
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: GitHub

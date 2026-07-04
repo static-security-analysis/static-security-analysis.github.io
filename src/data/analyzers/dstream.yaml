@@ -1,0 +1,38 @@
+id: dstream
+name: DStream
+description: scalable streaming IFDS dataflow FRAMEWORK (no specific vuln class)
+languages:
+- Java
+license: Open Source
+website: https://github.com/tongSurachai/dstream
+features:
+- Data-flow Analysis
+integration: []
+github: https://github.com/tongSurachai/dstream
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'DStream: A Streaming-Based Highly Parallel IFDS Framework'
+  authors:
+  - Xizao Wang
+  - Zhiqiang Zuo
+  - Lei Bu
+  - Jianhua Zhao
+  year: 2023
+  type: Academic Paper
+  publication: International Conference on Software Engineering
+  doi: 10.1109/ICSE48619.2023.00208
+  link: https://doi.org/10.1109/ICSE48619.2023.00208
+techniques:
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Nanjing University

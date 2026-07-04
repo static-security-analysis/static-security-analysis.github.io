@@ -1,0 +1,26 @@
+id: safesql
+name: safesql
+description: Open-source static analysis tool using pattern matching for Go.
+languages:
+- Go
+license: Open Source
+website: https://github.com/stripe/safesql
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: true
+yearIntroduced: 2019
+githubStars: 508
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Stripe

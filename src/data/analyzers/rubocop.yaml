@@ -1,0 +1,25 @@
+id: rubocop
+name: RuboCop
+description: Open-source static analysis tool using pattern matching for Ruby.
+languages:
+- Ruby
+license: Open Source
+website: https://github.com/rubocop-hq/rubocop
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+githubStars: 11100
+toolType: oss
+input:
+- Ruby
+ecosystem:
+- General-purpose

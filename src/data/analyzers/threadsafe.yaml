@@ -1,0 +1,33 @@
+id: threadsafe
+name: ThreadSafe
+description: Commercial static analysis tool using data-flow analysis for Java.
+languages:
+- Java
+license: Freemium
+website: http://www.contemplateltd.com/threadsafe
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Time and State
+  examples: []
+academicReferences:
+- title: 'ThreadSafe: static analysis for Java concurrency'
+  authors:
+  - Robert Atkey
+  - Donald Sannella
+  year: 2015
+  type: Academic Paper
+  publication: Electronic Communications of the EASST
+  link: http://www.contemplateltd.com/threadsafe
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2009
+toolType: commercial
+input:
+- Bytecode
+ecosystem:
+- General-purpose
+institute: Contemplate Ltd

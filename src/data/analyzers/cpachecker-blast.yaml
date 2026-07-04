@@ -1,0 +1,45 @@
+id: cpachecker-blast
+name: CPAchecker/BLAST
+description: Academic static analysis tool using model checking for C.
+languages:
+- C
+license: Open Source
+website: https://cpachecker.sosy-lab.org/publications.php
+features:
+- Model Checking
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Time and State
+  examples: []
+academicReferences:
+- title: Race Checking by Context Inference
+  authors:
+  - Thomas A. Henzinger
+  - Ranjit Jhala
+  - Rupak Majumdar
+  year: 2004
+  type: Academic Paper
+  publication: Proceedings of the ACM SIGPLAN 2004 Conference on Programming Language Design and Implementation
+  doi: 10.1145/996841.996844
+  link: https://doi.org/10.1145/996841.996844
+- title: 'CPAchecker: A Tool for Configurable Software Verification'
+  authors:
+  - Dirk Beyer
+  - M. Erkan Keremoglu
+  year: 2011
+  type: Academic Paper
+  publication: Computer Aided Verification
+  link: https://cpachecker.sosy-lab.org/publications.php
+techniques:
+- Model Checking
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2002
+githubStars: 129
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: UC Berkeley, EPFL (Swiss), LMU (Munich)

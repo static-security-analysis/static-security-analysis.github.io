@@ -1,0 +1,16 @@
+id: tripp2013andromeda
+title: 'Andromeda: Accurate and scalable security analysis of web applications'
+authors:
+- Omer Tripp
+- Marco Pistoia
+- Patrick Cousot
+- Radhia Cousot
+- Salvatore Guarnieri
+year: 2013
+type: method
+venue: International conference on Fundamental Approaches to Software Engineering
+doi: 10.1007/978-3-642-37057-1_15
+link: https://doi.org/10.1007/978-3-642-37057-1_15
+toolName: Andromeda
+toolsMentioned:
+- andromeda

@@ -1,0 +1,45 @@
+id: venkatakeerthy2023vexir2vec
+title: 'VexIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity'
+authors:
+- S. VenkataKeerthy
+- S. Banerjee
+- Sayan Dey
+- Yashas Andaluri
+- Raghul P. S.
+- S. Kalyanasundaram
+- F. Q. Quintão Pereira
+- Ramakrishna Upadrasta
+year: 2023
+type: tool
+venue: ACM Transactions on Software Engineering and Methodology
+venueAcronym: TSE
+doi: 10.1145/3721481
+link: https://doi.org/10.1145/3721481
+url: https://github.com/IITH-Compilers/VexIR2Vec
+presentsToolId: vexir2vec
+toolName: VexIR2Vec
+comparesToolIds:
+- safe
+abstract: 'Binary similarity involves determining whether two binary programs exhibit similar functionality
+  with applications in vulnerability detection, malware analysis, and copyright detection. However, variations
+  in compiler settings, target architectures, and deliberate code obfuscations significantly complicate
+  the similarity measurement by effectively altering the syntax, semantics, and structure of the underlying
+  binary. To address these challenges, we propose VexIR2Vec, a robust, architecture-neutral approach based
+  on VEX-IR to solve binary similarity tasks. VexIR2Vec consists of three key components: a peephole extractor,
+  a normalization engine (VexINE), and an embedding model (VexNet). The process to build program embeddings
+  starts with the extraction of sequences of basic blocks, or peepholes, from control-flow graphs via
+  random walks, capturing structural information. These generated peepholes are then normalized using
+  VexINE, which applies compiler-inspired transformations to reduce architectural and compiler-induced
+  variations. Embeddings of peepholes are generated using representation learning techniques, avoiding
+  Out-of-Vocabulary (OOV) issues. These embeddings are then fine-tuned with VexNet, a feed-forward Siamese
+  network that maps functions into a high-dimensional space for diffing and searching tasks in an application-independent
+  manner. We evaluate VexIR2Vec against five baselines—BinDiff, DeepBinDiff, SAFE, BinFinder, and histograms
+  of opcodes—on a dataset comprising 2.7M functions and 15.5K binaries from 7 projects compiled across
+  12 compilers targeting x86 and ARM architectures. The experiments span four adversarial settings—cross-optimization,
+  cross-compilation, cross-architecture, and obfuscations—that are typically exploited by malware and
+  vulnerabilities. In diffing experiments, VexIR2Vec outperforms the nearest baseline in these four scenarios
+  by \(40\%\) , \(18\%\) , \(21\%\) , and \(60\%\) , respectively. In the searching experiment, VexIR2Vec
+  achieves a mean average precision of 0.76, the nearest baseline, by \(46\%\) . Our framework is highly
+  scalable and is built as a lightweight, multi-threaded, parallel library using only open source tools.
+  VexIR2Vec is \(\approx 3.1\) – \(3.5\times\) faster than the closest baselines and orders-of-magnitude
+  faster than other tools.'

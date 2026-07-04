@@ -1,0 +1,35 @@
+id: visualcodegrepper-vcg
+name: VisualCodeGrepper (VCG)
+description: Open-source static analysis tool using pattern matching for C, C++, Visual Basic.
+languages:
+- C
+- C++
+- Visual Basic
+- PHP
+- Java
+- SQL
+license: Open Source
+website: https://github.com/nccgroup/VCG
+features:
+- Pattern Matching
+integration: []
+licenseDetail: GPL
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Encapsulation
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+githubStars: 361
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: NCC Group Plc

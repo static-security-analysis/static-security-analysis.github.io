@@ -1,0 +1,31 @@
+id: exakat
+name: EXAKAT
+description: Commercial static analysis tool using data-flow analysis for PHP.
+languages:
+- PHP
+license: Freemium
+website: https://www.exakat.io/en/
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Encapsulation
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 335
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Exakat SAS

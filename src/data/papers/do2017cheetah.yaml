@@ -1,0 +1,18 @@
+id: do2017cheetah
+title: 'Cheetah: Just-in-time taint analysis for android apps'
+authors:
+- Lisa Nguyen Quang Do
+- Karim Ali
+- Benjamin Livshits
+- Eric Bodden
+- Justin Smith
+- Emerson Murphy-Hill
+year: 2017
+type: method
+venue: IEEE/ACM International Conference on Software Engineering Companion (ICSE-C)
+venueAcronym: ICSE
+doi: 10.1109/ICSE-C.2017.20
+link: https://doi.org/10.1109/ICSE-C.2017.20
+toolName: Cheetah
+toolsMentioned:
+- cheetah

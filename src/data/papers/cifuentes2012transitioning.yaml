@@ -1,0 +1,17 @@
+id: cifuentes2012transitioning
+title: Transitioning Parfait into a Development Tool
+authors:
+- Cristina Cifuentes
+- Nathan Keynes
+- Lian Li
+- Nathan Hawes
+- Manuel Valdiviezo
+year: 2012
+type: method
+venue: IEEE Security & Privacy
+venueAcronym: S&P
+doi: 10.1109/MSP.2012.30
+link: https://doi.org/10.1109/MSP.2012.30
+toolName: Parfait
+toolsMentioned:
+- parfait

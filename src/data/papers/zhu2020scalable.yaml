@@ -1,0 +1,14 @@
+id: zhu2020scalable
+title: Scalable static detection of use-after-free vulnerabilities in binary code
+authors:
+- Kailong Zhu
+- Yuliang Lu
+- Hui Huang
+year: 2020
+type: method
+venue: IEEE Access
+doi: 10.1109/ACCESS.2020.2990197
+link: https://doi.org/10.1109/ACCESS.2020.2990197
+toolName: UAFDetector
+toolsMentioned:
+- uafdetector

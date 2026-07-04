@@ -1,0 +1,46 @@
+id: yasa
+name: YASA
+description: multi-language taint on unified AST; industrial (Ant Group)
+languages:
+- Multiple
+license: Open Source
+website: https://github.com/antgroup/YASA-Engine
+features:
+- Taint Analysis
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/antgroup/YASA-Engine
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'YASA: Scalable Multi-Language Taint Analysis on the Unified AST at Ant Group'
+  authors:
+  - Yayi Wang
+  - Shenao Wang
+  - Jian Zhao
+  - Shaosen Shi
+  - Ting Li
+  - Yan Cheng
+  - Lizhong Bian
+  - Kan Yu
+  - Yanjie Zhao
+  - Haoyu Wang
+  year: 2026
+  type: Academic Paper
+  publication: ACM Joint European Software Engineering Conference and Symposium on the Foundations of
+    Software Engineering
+  doi: 10.1145/3803437.3805225
+  link: https://doi.org/10.1145/3803437.3805225
+techniques:
+- Taint Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 292
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Ant Group

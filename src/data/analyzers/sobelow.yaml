@@ -1,0 +1,29 @@
+id: sobelow
+name: Sobelow
+description: Open-source static analysis tool using pattern matching for Elixir.
+languages:
+- Elixir
+license: Open Source
+website: https://github.com/nccgroup/sobelow
+features:
+- Pattern Matching
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+githubStars: 1000
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose

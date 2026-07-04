@@ -1,0 +1,18 @@
+id: cordeiro2009smtbased
+title: SMT-Based Bounded Model Checking for Embedded ANSI-C Software
+authors:
+- Lucas Cordeiro
+- Bernd Fischer
+- Joao Marques-Silva
+year: 2009
+type: tool
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1109/ASE.2009.63
+link: https://doi.org/10.1109/ASE.2009.63
+presentsToolId: esbmc
+toolName: ESBMC
+toolsMentioned:
+- esbmc
+mentionsToolIds:
+- esbmc

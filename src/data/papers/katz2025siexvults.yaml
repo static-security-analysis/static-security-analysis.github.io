@@ -1,0 +1,35 @@
+id: katz2025siexvults
+title: 'SIExVulTS: Sensitive Information Exposure Vulnerability Detection System Using Transformer Models
+  and Static Analysis'
+authors:
+- Kyler Katz
+- Sara Moshtari
+- Ibrahim Mujhid
+- M. Mirakhorli
+- Derek Garcia
+year: 2025
+type: method
+venue: International Symposium on Empirical Software Engineering and Measurement
+venueAcronym: ESEM
+doi: 10.1109/ESEM64174.2025.00012
+link: https://doi.org/10.1109/ESEM64174.2025.00012
+url: https://doi.org/10.1109/ESEM64174.2025.00012
+presentsToolId: siexvults
+toolName: SIExVulTS
+abstract: 'Background: Sensitive Information Exposure (SIEx) vulnerabilities (CWE-200) remain a persistent
+  and underaddressed threat across software systems, often leading to serious security breaches. Existing
+  detection tools rarely target the diverse subcategories of CWE-200 or provide context-aware analysis
+  of code-level data flows. Aims: This paper aims to present SIExVulTS, a novel vulnerability detection
+  system that integrates transformer-based models with static analysis to identify and verify sensitive
+  information exposure in Java applications. Method: SIExVulTS employs a three-stage architecture: (1)
+  an Attack Surface Detection Engine that uses sentence embeddings to identify sensitive variables, strings,
+  comments, and sinks; (2) an Exposure Analysis Engine that instantiates CodeQL queries aligned with the
+  CWE-200 hierarchy; and (3) a Flow Verification Engine that leverages GraphCodeBERT to semantically validate
+  source-to-sink flows. We evaluate SIExVulTS using three curated datasets, including real-world CVEs,
+  a benchmark set of synthetic CWE-200 examples, and labeled flows from 31 open-source projects. Results:
+  The Attack Surface Detection Engine achieved an average $\mathbf{F 1}$ score greater than $\mathbf{9
+  3 \%}$, the Exposure Analysis Engine achieved an F 1 score of 85.71 %, and the Flow Verification Engine
+  increased precision from 22.61 % to 87.23 %. Moreover, SIExVulTS successfully uncovered six previously
+  unknown CVEs in major Apache projects. Conclusions: The results demonstrate that SIExVulTS is effective
+  and practical for improving software security against sensitive data exposure, addressing limitations
+  of existing tools in detecting and verifying CWE-200 vulnerabilities.'

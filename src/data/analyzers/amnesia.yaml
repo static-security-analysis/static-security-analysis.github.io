@@ -1,0 +1,45 @@
+id: amnesia
+name: AMNESIA
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Java
+license: Open Source
+website: https://viterbi-web.usc.edu/~halfond/amnesia.html
+features:
+- Data-flow Analysis
+- Hybrid (static+dynamic)
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'AMNESIA: Analysis and Monitoring for NEutralizing SQL-Injection Attacks'
+  authors:
+  - William G. J. Halfond
+  - Alessandro Orso
+  year: 2005
+  type: Academic Paper
+  publication: Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering
+  doi: 10.1145/1101908.1101935
+  link: https://doi.org/10.1145/1101908.1101935
+- title: Preventing SQL Injection Attacks Using AMNESIA
+  authors:
+  - William G. J. Halfond
+  - Alessandro Orso
+  year: 2006
+  type: Academic Paper
+  publication: Proceedings of the 28th International Conference on Software Engineering
+  doi: 10.1145/1134285.1134416
+  link: https://doi.org/10.1145/1134285.1134416
+techniques:
+- Data-flow Analysis
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: true
+yearIntroduced: 2005
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Southern California

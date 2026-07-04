@@ -1,0 +1,40 @@
+id: iafdroid
+name: IAFDroid
+description: ICC collusion-attack detection (privacy breach via inter-app comm)
+languages:
+- Bytecode
+license: Open Source
+website: https://github.com/xdsce/IAFDroid
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+licenseDetail: GPL-3.0
+github: https://github.com/xdsce/IAFDroid
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'IAFDroid: Demystifying Collusion Attacks in Android Ecosystem via Precise Inter-App Analysis'
+  authors:
+  - Bin Wang
+  - Chao Yang
+  - Jianfeng Ma
+  year: 2023
+  type: Academic Paper
+  publication: IEEE Transactions on Information Forensics and Security
+  doi: 10.1109/TIFS.2023.3267666
+  link: https://doi.org/10.1109/TIFS.2023.3267666
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 0
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: Xidian University

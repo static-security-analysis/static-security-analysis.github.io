@@ -1,0 +1,15 @@
+id: singleton2019firebugs
+title: 'FireBugs: finding and repairing bugs with security patterns'
+authors:
+- Larry Singleton
+- Rui Zhao
+- Myoungkyu Song
+- Harvey Siy
+year: 2019
+type: method
+venue: International Conference on Mobile Software Engineering and Systems (MOBILESoft)
+doi: 10.1109/MOBILESoft.2019.00014
+link: https://doi.org/10.1109/MOBILESoft.2019.00014
+toolName: FireBugs
+toolsMentioned:
+- firebugs

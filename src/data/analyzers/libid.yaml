@@ -1,0 +1,38 @@
+id: libid
+name: LibID
+description: obfuscation-resilient third-party library (TPL) detection
+languages:
+- Bytecode
+license: Open Source
+website: https://github.com/ucam-cl-dtg/LibID
+features:
+- Software Composition Analysis
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/ucam-cl-dtg/LibID
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'LibID: reliable identification of obfuscated third-party Android libraries'
+  authors:
+  - Jiexin Zhang
+  - A. Beresford
+  - Stephan A. Kollmann
+  year: 2019
+  type: Academic Paper
+  publication: International Symposium on Software Testing and Analysis
+  doi: 10.1145/3293882.3330563
+  link: https://doi.org/10.1145/3293882.3330563
+techniques:
+- Software Composition Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2019
+githubStars: 29
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: University of Cambridge

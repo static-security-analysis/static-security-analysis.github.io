@@ -1,0 +1,45 @@
+id: fortify-sca
+name: Fortify SCA
+description: Commercial static analysis tool using taint analysis for C, C++, C#.
+languages:
+- Multiple
+license: Freemium
+website: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+features:
+- Taint Analysis
+integration: []
+languagesDetail:
+- C
+- C++
+- C#
+- Swift
+- COBOL
+- Java
+- JavaScript
+- PHP
+- SQL
+- Python
+- XML
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'Assessing Application Vulnerabilities: A 360 degree Approach'
+  authors:
+  - Unknown
+  year: 2006
+  type: Academic Paper
+  link: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2006
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Micro Focus

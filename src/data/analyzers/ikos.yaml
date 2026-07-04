@@ -1,0 +1,39 @@
+id: ikos
+name: IKOS
+description: Open-source static analysis tool using abstract interpretation for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/nasa-sw-vnv/ikos
+features:
+- Abstract Interpretation
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'IKOS: A Framework for Static Analysis Based on Abstract Interpretation'
+  authors:
+  - Guillaume Brat
+  - Jorge A. Navas
+  - Nija Shi
+  - Arnaud Venet
+  year: 2014
+  type: Academic Paper
+  publication: Software Engineering and Formal Methods
+  link: https://github.com/nasa-sw-vnv/ikos
+techniques:
+- Abstract Interpretation
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2012
+githubStars: 1300
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: NASA Ames Research Center

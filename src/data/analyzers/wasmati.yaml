@@ -1,0 +1,39 @@
+id: wasmati
+name: Wasmati
+description: CPG-based static scanner for WebAssembly (buffer overflow/format string)
+languages:
+- Bytecode
+license: Open Source
+website: https://github.com/darkmacheken/wasmati
+features:
+- Graph-based (CPG/PDG)
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/darkmacheken/wasmati
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Wasmati: An Efficient Static Vulnerability Scanner for WebAssembly'
+  authors:
+  - Tiago Brito
+  - Pedro Lopes
+  - Nuno Santos
+  - J. Santos
+  year: 2022
+  type: Academic Paper
+  publication: Computers \& security
+  doi: 10.1016/j.cose.2022.102745
+  link: https://doi.org/10.1016/j.cose.2022.102745
+techniques:
+- Graph-based (CPG/PDG)
+maintenance: Dormant
+empiricalValidation: false
+yearIntroduced: 2022
+githubStars: 31
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Web
+institute: University of Lisbon / INESC-ID

@@ -1,0 +1,39 @@
+id: debreach
+name: Debreach
+description: static analysis + transformation to MITIGATE compression side-channel (mitigation, not pure
+  detection)
+languages:
+- PHP
+license: Open Source
+website: https://github.com/pauls658/debreach
+features:
+- Data-flow Analysis
+integration: []
+github: https://github.com/pauls658/debreach
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'Debreach: Mitigating Compression Side Channels via Static Analysis and Transformation'
+  authors:
+  - Brandon Paulsen
+  - Chungha Sung
+  - Peter A. H. Peterson
+  - Chao Wang
+  year: 2019
+  type: Academic Paper
+  publication: International Conference on Automated Software Engineering
+  doi: 10.1109/ASE.2019.00088
+  link: https://doi.org/10.1109/ASE.2019.00088
+techniques:
+- Data-flow Analysis
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2019
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: University of Southern California

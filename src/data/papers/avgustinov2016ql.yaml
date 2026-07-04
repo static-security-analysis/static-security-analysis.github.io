@@ -1,0 +1,16 @@
+id: avgustinov2016ql
+title: 'QL: Object-oriented Queries on Relational Data'
+authors:
+- Pavel Avgustinov
+- Oege de Moor
+- Michael Peyton Jones
+- Max Schäfer
+year: 2016
+type: tool
+venue: European Conference on Object-Oriented Programming (ECOOP)
+venueAcronym: ECOOP
+doi: 10.4230/LIPIcs.ECOOP.2016.2
+link: https://doi.org/10.4230/LIPIcs.ECOOP.2016.2
+toolName: CodeQL (QL)
+toolsMentioned:
+- codeql

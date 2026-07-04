@@ -1,0 +1,47 @@
+id: saber-svf
+name: SABER/SVF
+description: Academic static analysis tool using data-flow analysis for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://svf-tools.github.io/SVF/
+features:
+- Data-flow Analysis
+- Pointer / Alias Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: Detecting memory leaks statically with full-sparse value-flow analysis
+  authors:
+  - Yulei Sui
+  - Ding Ye
+  - Jingling Xue
+  year: 2014
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  link: http://svf-tools.github.io/SVF/
+- title: 'SVF: interprocedural static value-flow analysis in LLVM'
+  authors:
+  - Yulei Sui
+  - Jingling Xue
+  year: 2016
+  type: Academic Paper
+  publication: Proceedings of the 25th international conference on compiler construction
+  link: http://svf-tools.github.io/SVF/
+techniques:
+- Data-flow Analysis
+- Pointer / Alias Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 492
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Technology Sydney

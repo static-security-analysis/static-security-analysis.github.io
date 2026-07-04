@@ -1,0 +1,45 @@
+id: vuldeepecker
+name: VulDeePecker
+description: Academic static analysis tool using pattern matching for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/SySeVR/SySeVR
+features:
+- Pattern Matching
+- Deep Learning (non-LLM)
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'VulDeePecker: {A} Deep Learning-Based System for Vulnerability Detection'
+  authors:
+  - Zhen Li
+  - Deqing Zou
+  - Shouhuai Xu
+  - Xinyu Ou
+  - Hai Jin
+  - Sujuan Wang
+  - Zhijun Deng
+  - Yuyi Zhong
+  year: 2018
+  type: Academic Paper
+  publication: CoRR
+  link: https://github.com/SySeVR/SySeVR
+techniques:
+- Pattern Matching
+- Deep Learning (non-LLM)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+githubStars: 58
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University in Wuhan \& University of Texas

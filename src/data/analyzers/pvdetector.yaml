@@ -1,0 +1,42 @@
+id: pvdetector
+name: PVDetector
+description: pretrained DL vuln detection [class-agnostic ML detector]
+languages:
+- C
+- C++
+- Java
+- JavaScript
+- PHP
+- Python
+license: Open Source
+website: https://github.com/jaylanli/PVDetector
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/jaylanli/PVDetector
+academicReferences:
+- title: 'PVDetector: Pretrained Vulnerability Detection on Vulnerability-enriched Code Semantic Graph'
+  authors:
+  - Jiayuan Li
+  - Lei Cui
+  - Jie Zhang
+  - Lun Li
+  - Rongrong Xi
+  - Hongsong Zhu
+  year: 2025
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3768582
+  link: https://doi.org/10.1145/3768582
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 8
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Institute of Information Engineering

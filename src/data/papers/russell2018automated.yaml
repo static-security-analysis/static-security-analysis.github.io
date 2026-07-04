@@ -1,0 +1,16 @@
+id: russell2018automated
+title: Automated Vulnerability Detection in Source Code Using Deep Representation Learning
+authors:
+- Rebecca Russell
+- Louis Kim
+- Lei Hamilton
+- Tomo Lazovich
+- Jacob Harer
+- Onur Ozdemir
+- Paul Ellingwood
+- Marc McConley
+year: 2018
+type: method
+venue: IEEE International Conference on Machine Learning and Applications (ICMLA)
+doi: 10.1109/ICMLA.2018.00120
+link: https://doi.org/10.1109/ICMLA.2018.00120

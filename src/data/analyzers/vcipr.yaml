@@ -1,0 +1,32 @@
+id: vcipr
+name: VCIPR
+description: token-based clone detection of unpatched vulnerable code
+languages:
+- Java
+- JavaScript
+license: Open Source
+website: https://doi.org/10.1109/ICST.2019.00049
+features:
+- Pattern Matching
+integration: []
+academicReferences:
+- title: 'VCIPR: Vulnerable Code is Identifiable When a Patch is Released (Hacker''s Perspective)'
+  authors:
+  - Junaid Akram
+  - Liang Qi
+  - Ping Luo
+  year: 2019
+  type: Academic Paper
+  publication: ICST
+  doi: 10.1109/ICST.2019.00049
+  link: https://doi.org/10.1109/ICST.2019.00049
+techniques:
+- Pattern Matching
+empiricalValidation: true
+yearIntroduced: 2019
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Tsinghua University

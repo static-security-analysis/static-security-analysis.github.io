@@ -1,0 +1,25 @@
+id: retire-js
+name: retire.js
+description: Open-source static analysis tool using software composition analysis for JavaScript.
+languages:
+- JavaScript
+license: Open Source
+website: http://retirejs.github.io/retire.js/
+features:
+- Software Composition Analysis
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 2600
+toolType: oss
+input:
+- Manifest
+ecosystem:
+- Web

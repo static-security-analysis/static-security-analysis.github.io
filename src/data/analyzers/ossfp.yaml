@@ -1,0 +1,41 @@
+id: ossfp
+name: OSSFP
+description: fingerprint-based C/C++ third-party library detection (SCA)
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1109/ICSE48619.2023.00034
+features:
+- Software Composition Analysis
+integration: []
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'OSSFP: Precise and Scalable C/C++ Third-Party Library Detection using Fingerprinting Functions'
+  authors:
+  - Jiahui Wu
+  - Zhengzi Xu
+  - Wei Tang
+  - Lyuye Zhang
+  - Yueming Wu
+  - Chengyue Liu
+  - Kairan Sun
+  - Lida Zhao
+  - Yang Liu
+  year: 2023
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1109/ICSE48619.2023.00034
+  link: https://doi.org/10.1109/ICSE48619.2023.00034
+techniques:
+- Software Composition Analysis
+empiricalValidation: true
+yearIntroduced: 2023
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Nanyang Technological University

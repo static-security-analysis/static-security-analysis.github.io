@@ -1,0 +1,39 @@
+id: li2024babel
+title: 'BABEL: A Novel Software Vulnerability Detection Framework for Breaking Language Barriers'
+authors:
+- Xia Li
+- Yuhang Lin
+- Yongqiang Zheng
+- Junyi He
+- Rihu Liao
+- Junlang Wang
+year: 2024
+type: tool
+venue: IEEE International Conference on Software Maintenance and Evolution
+venueAcronym: ICSME
+doi: 10.1109/ICSME58944.2024.00060
+link: https://doi.org/10.1109/ICSME58944.2024.00060
+url: https://doi.org/10.1109/ICSME58944.2024.00060
+presentsToolId: babel
+toolName: BABEL
+comparesToolIds:
+- devign
+- linevd
+- linevul
+- regvd
+- reveal
+- vuldeepecker
+abstract: Software vulnerability detection aims to identify latent weaknesses in source code to protect
+  software systems from attacks. Most of the current neural network-based approaches rely on preprocessing
+  source codes using code parsers to obtain program dependency graphs for downstream vulnerability detection
+  tasks. However, as source codes may contain incorrect format and special functions, this paradigm may
+  cause parsing errors due to their failure to satisfy the parser's presets or requirements. In addition,
+  modern software development often involves the integration of multiple programming languages, presenting
+  challenges for conventional code parsers that are designed for specific programming languages. To address
+  these issues, we present a novel detection framework that can identify software vulnerabilities in a
+  programming language-agnostic manner without relying on code parsers. We conduct extensive experiments
+  on the CodeXGlue,Reveal, and FUNDED public datasets and evaluate them against leading vulnerability
+  detection benchmarks. Experimental results show that BABEL sets new performance standards, demonstrating
+  superior accuracy and F1 scores across various tasks, including those in language-independent settings,
+  demonstrating the applicability of BABEL in real-world application scenarios. Our code is available
+  at https://github.com/gdufsnlp/BABEL

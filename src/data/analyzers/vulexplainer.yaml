@@ -1,0 +1,39 @@
+id: vulexplainer
+name: VulExplainer
+description: transformer distillation to explain vuln TYPE (CWE-ID) of predictions [class-agnostic ML
+  detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/awsm-research/VulExplainer
+features:
+- Deep Learning (non-LLM)
+integration: []
+licenseDetail: MIT
+github: https://github.com/awsm-research/VulExplainer
+academicReferences:
+- title: 'VulExplainer: A Transformer-Based Hierarchical Distillation for Explaining Vulnerability Types'
+  authors:
+  - Michael Fu
+  - Van-Anh Nguyen
+  - C. Tantithamthavorn
+  - Trung-Nghia Le
+  - Dinh Q. Phung
+  year: 2023
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  doi: 10.1109/TSE.2023.3305244
+  link: https://doi.org/10.1109/TSE.2023.3305244
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 19
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Monash University

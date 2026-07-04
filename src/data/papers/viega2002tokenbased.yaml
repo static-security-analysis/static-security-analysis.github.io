@@ -1,0 +1,18 @@
+id: viega2002tokenbased
+title: Token-based scanning of source code for security problems
+authors:
+- John Viega
+- J.T. Bloch
+- Tadayoshi Kohno
+- Gary McGraw
+year: 2002
+type: method
+venue: ACM Transactions on Information and System Security
+doi: 10.1145/545186.545188
+link: https://doi.org/10.1145/545186.545188
+presentsToolId: its4
+toolName: ITS4
+toolsMentioned:
+- its4
+mentionsToolIds:
+- its4

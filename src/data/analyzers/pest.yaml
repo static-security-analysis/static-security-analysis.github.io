@@ -1,0 +1,27 @@
+id: pest
+name: PEST
+description: Open-source static analysis tool using pattern matching for Erlang.
+languages:
+- Erlang
+license: Open Source
+website: https://github.com/okeuday/pest
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 74
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose

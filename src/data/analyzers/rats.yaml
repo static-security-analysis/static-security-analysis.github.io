@@ -1,0 +1,32 @@
+id: rats
+name: RATS
+description: Open-source static analysis tool using pattern matching for C, C++, Perl.
+languages:
+- C
+- C++
+- Perl
+- PHP
+- Python
+license: Open Source
+website: https://security.web.cern.ch/recommendations/en/codetools/rats.shtml
+features:
+- Pattern Matching
+integration: []
+licenseDetail: GPL
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2001
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: CERN

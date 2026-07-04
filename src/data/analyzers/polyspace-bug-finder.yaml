@@ -1,0 +1,33 @@
+id: polyspace-bug-finder
+name: Polyspace Bug Finder
+description: Commercial static analysis tool using pattern matching for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: https://www.mathworks.com/products/polyspace-bug-finder.html
+features:
+- Pattern Matching
+- Control-flow Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Pattern Matching
+- Control-flow Analysis
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2003
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: MathWorks

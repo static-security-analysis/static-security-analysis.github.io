@@ -1,0 +1,19 @@
+id: eberhardt2019unsupervised
+title: Unsupervised Learning of API Aliasing Specifications
+authors:
+- Jan Eberhardt
+- Samuel Steffen
+- Veselin Raychev
+- Martin Vechev
+year: 2019
+type: tool
+venue: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)
+venueAcronym: PLDI
+doi: 10.1145/3314221.3314640
+link: https://doi.org/10.1145/3314221.3314640
+presentsToolId: deepcode
+toolName: DeepCode
+toolsMentioned:
+- deepcode
+mentionsToolIds:
+- deepcode

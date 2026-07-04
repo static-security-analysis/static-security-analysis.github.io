@@ -1,0 +1,39 @@
+id: malivd
+name: MaliVD
+description: attention-based DL source-code vuln localization (NOT malware despite name) [class-agnostic
+  ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/ws0407/MaliVD
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/ws0407/MaliVD
+academicReferences:
+- title: 'MaliVD: Source Code Vulnerability Localization via Attention-Based Multi-Modal Learning'
+  authors:
+  - Enze Dai
+  - Shuo Wang
+  - Xi Xiao
+  - Qing Li
+  - Sheng Wen
+  - Tianqing Zhu
+  year: 2026
+  type: Academic Paper
+  publication: IEEE Transactions on Information Forensics and Security
+  doi: 10.1109/TIFS.2026.3681191
+  link: https://doi.org/10.1109/TIFS.2026.3681191
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Tsinghua University

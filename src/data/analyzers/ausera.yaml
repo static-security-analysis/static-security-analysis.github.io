@@ -1,0 +1,42 @@
+id: ausera
+name: AUSERA
+description: data-flow Android vuln detection (improves over pattern tools); broad vuln set
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1145/3551349.3559524
+features:
+- Data-flow Analysis
+- Taint Analysis
+integration: []
+weaknesses:
+- category: Security Features
+  examples: []
+- category: Encapsulation
+  examples: []
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'AUSERA: Automated Security Vulnerability Detection for Android Apps'
+  authors:
+  - Sen Chen
+  - Yuxin Zhang
+  - Lingling Fan
+  - Jiaming Li
+  - Yang Liu
+  year: 2022
+  type: Academic Paper
+  publication: ASE
+  doi: 10.1145/3551349.3559524
+  link: https://doi.org/10.1145/3551349.3559524
+techniques:
+- Data-flow Analysis
+- Taint Analysis
+empiricalValidation: true
+yearIntroduced: 2022
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Tianjin University

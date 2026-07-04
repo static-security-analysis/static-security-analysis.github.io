@@ -1,0 +1,42 @@
+id: effitaint
+name: EffiTaint
+description: precise/efficient static taint (improves FlowDroid/Tai-e); sensitive data tracking
+languages:
+- Java
+license: Open Source
+website: https://github.com/tehdlee/Effitaint
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+licenseDetail: LGPL-3.0
+github: https://github.com/tehdlee/Effitaint
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'EffiTaint: Boosting Sensitive Data Tracking with Accurate Taint Behavior Modeling and Efficient
+    Access Path Optimization'
+  authors:
+  - Haochen Li
+  - Haipeng Qu
+  - Gaozhou Wang
+  - Xiangjian Ge
+  year: 2024
+  type: Academic Paper
+  publication: International Conference on Trust, Security and Privacy in Computing and Communications
+  doi: 10.1109/TrustCom63139.2024.00194
+  link: https://doi.org/10.1109/TrustCom63139.2024.00194
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 1
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Ocean University of China

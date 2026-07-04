@@ -1,0 +1,38 @@
+id: stase
+name: STASE
+description: static-analysis-guided symbolic execution for UEFI firmware vulns
+languages:
+- C
+license: Open Source
+website: https://doi.org/10.1145/3691620.3695543
+features:
+- Symbolic/Concolic Execution
+integration: []
+github: https://github.com/shafiuzzaman-md/stase
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'STASE: Static Analysis Guided Symbolic Execution for UEFI Vulnerability Signature Generation'
+  authors:
+  - Md Shafiuzzaman
+  - Achintya Desai
+  - Laboni Sarker
+  - Tevfik Bultan
+  year: 2024
+  type: Academic Paper
+  publication: IEEE/ACM International Conference on Automated Software Engineering
+  doi: 10.1145/3691620.3695543
+  link: https://doi.org/10.1145/3691620.3695543
+techniques:
+- Symbolic/Concolic Execution
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 3
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Binary/Embedded
+institute: UC Santa Barbara

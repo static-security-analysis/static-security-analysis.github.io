@@ -1,0 +1,25 @@
+id: opa
+name: Opa
+description: Open-source static analysis tool using type / type-state analysis.
+languages:
+- Multiple
+license: Open Source
+website: http://opalang.org/
+features:
+- Type / Type-state Analysis
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Type / Type-state Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2011
+githubStars: 1200
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose

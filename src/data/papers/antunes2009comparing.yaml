@@ -1,0 +1,11 @@
+id: antunes2009comparing
+title: Comparing the Effectiveness of Penetration Testing and Static Code Analysis on the Detection of
+  SQL Injection Vulnerabilities in Web Services
+authors:
+- Nuno Antunes
+- Marco Vieira
+year: 2009
+type: empirical
+venue: IEEE Pacific Rim International Symposium on Dependable Computing
+doi: 10.1109/PRDC.2009.54
+link: https://doi.org/10.1109/PRDC.2009.54

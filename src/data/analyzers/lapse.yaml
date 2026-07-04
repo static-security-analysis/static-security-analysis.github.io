@@ -1,0 +1,36 @@
+id: lapse
+name: LAPSE+
+description: Open-source static analysis tool using taint analysis for Java.
+languages:
+- Java
+license: Open Source
+website: https://wiki.owasp.org/index.php/OWASP_LAPSE_Project
+features:
+- Taint Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'LAPSE+ Static Analysis Security Software: Vulnerabilities Detection in Java EE Applications'
+  authors:
+  - Pablo Mart{\'i}n P{\'e}rez
+  - Joanna Filipiak
+  - Jos{\'e} Mar{\'i}a Sierra
+  year: 2011
+  type: Academic Paper
+  publication: Future Information Technology
+  link: https://wiki.owasp.org/index.php/OWASP_LAPSE_Project
+techniques:
+- Taint Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2011
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: OWASP

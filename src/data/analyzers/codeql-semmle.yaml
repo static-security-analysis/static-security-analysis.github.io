@@ -1,0 +1,51 @@
+id: codeql-semmle
+name: CodeQL/Semmle
+description: Open-source static analysis tool using pattern matching for C, C++, C#.
+languages:
+- Multiple
+license: Open Source
+website: https://securitylab.github.com/tools/codeql
+features:
+- Pattern Matching
+- Control-flow Analysis
+- Data-flow Analysis
+- Taint Analysis
+- Abstract Interpretation
+integration: []
+languagesDetail:
+- C
+- C++
+- C#
+- Go
+- Java
+- JavaScript
+- Python
+- TypeScript
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+- Control-flow Analysis
+- Data-flow Analysis
+- Taint Analysis
+- Abstract Interpretation
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2006
+githubStars: 1700
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Semmle (Acquired by GitHub in 2019)

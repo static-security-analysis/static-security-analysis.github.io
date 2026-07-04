@@ -1,0 +1,14 @@
+id: zampetti2017how
+title: How Open Source Projects Use Static Code Analysis Tools in Continuous Integration Pipelines
+authors:
+- Fiorella Zampetti
+- Simone Scalabrino
+- Rocco Oliveto
+- Gerardo Canfora
+- Massimiliano Di Penta
+year: 2017
+type: empirical
+venue: International Conference on Mining Software Repositories (MSR)
+venueAcronym: MSR
+doi: 10.1109/MSR.2017.2
+link: https://doi.org/10.1109/MSR.2017.2

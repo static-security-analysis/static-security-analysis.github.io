@@ -1,0 +1,38 @@
+id: vuddy
+name: VUDDY
+description: 'Added in cross-link phase: influential baseline missing from catalog'
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1109/SP.2017.62
+features:
+- Pattern Matching
+- Other
+integration: []
+github: https://github.com/iotcube/hmark
+academicReferences:
+- title: 'VUDDY: A Scalable Approach for Vulnerable Code Clone Discovery'
+  authors:
+  - Seulbae Kim
+  - Seunghoon Woo
+  - Heejo Lee
+  - Hakjoo Oh
+  year: 2017
+  type: Academic Paper
+  publication: IEEE Symposium on Security and Privacy
+  doi: 10.1109/SP.2017.62
+  link: https://doi.org/10.1109/SP.2017.62
+techniques:
+- Pattern Matching
+- Other
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2017
+githubStars: 22
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Korea University

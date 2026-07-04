@@ -1,0 +1,14 @@
+id: smith2019how
+title: How Developers Diagnose Potential Security Vulnerabilities with a Static Analysis Tool
+authors:
+- Justin Smith
+- Brittany Johnson
+- Emerson Murphy-Hill
+- Bill Chu
+- Heather Richter Lipford
+year: 2019
+type: empirical
+venue: IEEE Transactions on Software Engineering
+venueAcronym: TSE
+doi: 10.1109/TSE.2018.2810116
+link: https://doi.org/10.1109/TSE.2018.2810116

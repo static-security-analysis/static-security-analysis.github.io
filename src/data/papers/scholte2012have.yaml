@@ -1,0 +1,11 @@
+id: scholte2012have
+title: Have things changed now? An empirical study on input validation vulnerabilities in web applications
+authors:
+- Theodoor Scholte
+- Davide Balzarotti
+- Engin Kirda
+year: 2012
+type: empirical
+venue: Computers and Security
+doi: 10.1016/j.cose.2011.12.013
+link: https://doi.org/10.1016/j.cose.2011.12.013

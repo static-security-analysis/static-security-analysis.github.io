@@ -1,0 +1,19 @@
+id: wagner2000a
+title: A first step towards automated detection of buffer overrun vulnerabilities
+authors:
+- David Wagner
+- Jeffrey S. Foster
+- Eric A. Brewer
+- Alexander Aiken
+year: 2000
+type: method
+venue: Network and Distributed System Security Symposium (NDSS)
+venueAcronym: NDSS
+link: https://www.ndss-symposium.org/wp-content/uploads/2017/09/A-First-Step-Towards-Automated-Detection-of-Buffer-Overrun-Vulnerabilities-Paper-David-Wagner.pdf
+url: https://www.ndss-symposium.org/wp-content/uploads/2017/09/A-First-Step-Towards-Automated-Detection-of-Buffer-Overrun-Vulnerabilities-Paper-David-Wagner.pdf
+presentsToolId: boon
+toolName: BOON
+toolsMentioned:
+- boon
+mentionsToolIds:
+- boon

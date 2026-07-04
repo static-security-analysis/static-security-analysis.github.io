@@ -1,0 +1,17 @@
+id: oh2014selective
+title: Selective Context-Sensitivity Guided by Impact Pre-Analysis
+authors:
+- Hakjoo Oh
+- Wonchan Lee
+- Kihong Heo
+- Hongseok Yang
+- Kwangkeun Yi
+year: 2014
+type: tool
+venue: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)
+venueAcronym: PLDI
+doi: 10.1145/2594291.2594318
+link: https://doi.org/10.1145/2594291.2594318
+toolName: Sparrow
+toolsMentioned:
+- sparrow

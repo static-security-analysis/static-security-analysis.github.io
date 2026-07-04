@@ -1,0 +1,40 @@
+id: aloraini2019an
+title: An empirical study of security warnings from static application security testing tools
+authors:
+- Bushra Aloraini
+- M. Nagappan
+- D. Germán
+- Shinpei Hayashi
+- Yoshiki Higo
+year: 2019
+type: empirical
+venue: Journal of Systems and Software
+venueAcronym: JSS
+doi: 10.1016/j.jss.2019.110427
+link: https://doi.org/10.1016/j.jss.2019.110427
+url: https://doi.org/10.1016/j.jss.2019.110427
+comparesToolIds:
+- c-c-test
+- clang-static-analyzer
+- cppcheck
+- flawfinder
+- pvs-studio
+- rats
+tldr: The results demonstrate the potential of using SAST tools as an assessment tool to measure the quality
+  of a product and the possible risks without manually reviewing the warnings, and shows that pattern-matching
+  static analysis technique is a very powerful method when combined with other advanced analysis methods.
+abstract: Abstract The Open Web Application Security Project (OWASP) defines Static Application Security
+  Testing (SAST) tools as those that can help find security vulnerabilities in the source code or compiled
+  code of software. Such tools detect and classify the vulnerability warnings into one of many types (e.g.,
+  input validation and representation). It is well known that these tools produce high numbers of false
+  positive warnings. However, what is not known is if specific types of warnings have a higher predisposition
+  to be false positives or not. Therefore, our goal is to investigate the different types of SAST-produced
+  warnings and their evolution over time to determine if one type of warning is more likely to have false
+  positives than others. To achieve our goal, we carry out a large empirical study where we examine 116
+  large and popular C++ projects using six different state-of-the-art open source and commercial SAST
+  tools that detect security vulnerabilities. In order to track a piece of code that has been tagged with
+  a warning, we use a new state of the art framework called c r e g i t + that traces source code lines
+  across different commits. The results demonstrate the potential of using SAST tools as an assessment
+  tool to measure the quality of a product and the possible risks without manually reviewing the warnings.
+  In addition, this work shows that pattern-matching static analysis technique is a very powerful method
+  when combined with other advanced analysis methods.

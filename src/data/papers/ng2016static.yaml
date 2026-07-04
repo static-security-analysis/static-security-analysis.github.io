@@ -1,0 +1,17 @@
+id: ng2016static
+title: Static deadlock detection for concurrent go by global session graph synthesis
+authors:
+- Nicholas Ng
+- Nobuko Yoshida
+year: 2016
+type: tool
+venue: International Conference on Compiler Construction (CC)
+venueAcronym: CC
+doi: 10.1145/2892208.2892232
+link: https://doi.org/10.1145/2892208.2892232
+presentsToolId: dingo-hunter
+toolName: dingo-hunter
+toolsMentioned:
+- dingo-hunter
+mentionsToolIds:
+- dingo-hunter

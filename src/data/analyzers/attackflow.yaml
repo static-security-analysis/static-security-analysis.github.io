@@ -1,0 +1,41 @@
+id: attackflow
+name: AttackFlow
+description: Commercial static analysis tool using taint analysis for C#, Java, JavaScript.
+languages:
+- C#
+- Java
+- JavaScript
+- TypeScript
+- HTML
+license: Commercial
+website: https://www.attackflow.com/
+features:
+- Taint Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: How Does AttackFlow Work?
+  authors:
+  - AttackFlow
+  year: 2016
+  type: Academic Paper
+  link: https://www.attackflow.com/
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2016
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: AttackFlow

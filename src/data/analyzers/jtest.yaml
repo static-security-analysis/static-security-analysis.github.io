@@ -1,0 +1,37 @@
+id: jtest
+name: Jtest
+description: Commercial static analysis tool using pattern matching for Java.
+languages:
+- Java
+license: Freemium
+website: https://www.parasoft.com/products/parasoft-jtest/
+features:
+- Pattern Matching
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+academicReferences:
+- title: Overcoming the Challenges of Safety and Security in the Renovo Automotive Data Platform
+  authors:
+  - Parasoft
+  year: 1997
+  type: Academic Paper
+  link: https://www.parasoft.com/products/parasoft-jtest/
+techniques:
+- Pattern Matching
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 1997
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Parasoft

@@ -1,0 +1,16 @@
+id: ceesay2006using
+title: Using type qualifiers to analyze untrusted integers and detecting security flaws in C programs
+authors:
+- Ebrima N. Ceesay
+- Jingmin Zhou
+- Michael Gertz
+- Karl Levitt
+- Matt Bishop
+year: 2006
+type: tool
+venue: International Conference on Detection of Intrusons and Malware & Vulnerability Assessment
+doi: 10.1007/11790754_1
+link: https://doi.org/10.1007/11790754_1
+toolName: CQual
+toolsMentioned:
+- cqual

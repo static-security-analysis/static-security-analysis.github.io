@@ -1,0 +1,45 @@
+id: karonte
+name: Karonte
+description: static multi-binary taint in firmware
+languages:
+- Binary
+license: Open Source
+website: https://github.com/ucsb-seclab/karonte
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+licenseDetail: BSD-2-Clause
+github: https://github.com/ucsb-seclab/karonte
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Karonte: Detecting Insecure Multi-binary Interactions in Embedded Firmware'
+  authors:
+  - Nilo Redini
+  - A. Machiry
+  - Ruoyu Wang
+  - Chad Spensky
+  - Andrea Continella
+  - Yan Shoshitaishvili
+  - C. Kruegel
+  - Giovanni Vigna
+  year: 2020
+  type: Academic Paper
+  publication: IEEE Symposium on Security and Privacy
+  doi: 10.1109/SP40000.2020.00036
+  link: https://doi.org/10.1109/SP40000.2020.00036
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2020
+githubStars: 428
+toolType: oss
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+institute: UC Santa Barbara

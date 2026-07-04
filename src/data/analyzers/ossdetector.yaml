@@ -1,0 +1,45 @@
+id: ossdetector
+name: OSSDetector
+description: C/C++ third-party library detection (SCA, modified/nested TPLs)
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/zengjia1/OSSDetector
+features:
+- Software Composition Analysis
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/zengjia1/OSSDetector
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'OSSDetector: Towards a More Accurate Approach for C/C++ Third-Party Library Detection'
+  authors:
+  - Xiang Hai
+  - Jia Zeng
+  - Zhiyuan Fu
+  - Siyu Chen
+  - Yansong Shi
+  - Hongyu Sun
+  - Jice Wang
+  - Fannv He
+  - Yuqing Zhang
+  year: 2025
+  type: Academic Paper
+  publication: International Conference on Trust, Security and Privacy in Computing and Communications
+  doi: 10.1109/Trustcom66490.2025.00285
+  link: https://doi.org/10.1109/Trustcom66490.2025.00285
+techniques:
+- Software Composition Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 1
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Hainan University

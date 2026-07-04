@@ -1,0 +1,39 @@
+id: vuldeelocator
+name: VulDeeLocator
+description: DL fine-grained vuln detector+locator; language not named (C/C++) [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/zhaoxuanChen/vuldeelocator
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/zhaoxuanChen/vuldeelocator
+academicReferences:
+- title: 'VulDeeLocator: A Deep Learning-Based Fine-Grained Vulnerability Detector'
+  authors:
+  - Zhuguo Li
+  - Deqing Zou
+  - Shouhuai Xu
+  - Zhaoxuan Chen
+  - Yawei Zhu
+  - Hai Jin
+  year: 2020
+  type: Academic Paper
+  publication: IEEE Transactions on Dependable and Secure Computing
+  doi: 10.1109/TDSC.2021.3076142
+  link: https://doi.org/10.1109/TDSC.2021.3076142
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2020
+githubStars: 1
+toolType: oss
+input:
+- Source Code
+- IR
+ecosystem:
+- General-purpose
+institute: Huazhong University of Science and Technology

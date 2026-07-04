@@ -1,0 +1,35 @@
+id: linevul
+name: LineVul
+description: transformer (CodeBERT) line-level vuln prediction [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/awsm-research/LineVul
+features:
+- Deep Learning (non-LLM)
+integration: []
+licenseDetail: MIT
+github: https://github.com/awsm-research/LineVul
+academicReferences:
+- title: 'LineVul: A Transformer-based Line-Level Vulnerability Prediction'
+  authors:
+  - Michael Fu
+  - C. Tantithamthavorn
+  year: 2022
+  type: Academic Paper
+  publication: IEEE Working Conference on Mining Software Repositories
+  doi: 10.1145/3524842.3528452
+  link: https://doi.org/10.1145/3524842.3528452
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2022
+githubStars: 172
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Monash University

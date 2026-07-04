@@ -1,0 +1,14 @@
+id: meo2016formal
+title: Formal analysis of vulnerabilities of web applications based on SQL injection
+authors:
+- Federico De Meo
+- Marco RocchettoMarco Rocchetto
+- Luca Vigano
+year: 2016
+type: method
+venue: Security and Trust Management
+doi: 10.1007/978-3-319-46598-2_13
+link: https://doi.org/10.1007/978-3-319-46598-2_13
+toolName: SQLfast
+toolsMentioned:
+- sqlfast

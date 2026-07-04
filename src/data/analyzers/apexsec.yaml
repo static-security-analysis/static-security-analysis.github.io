@@ -1,0 +1,26 @@
+id: apexsec
+name: ApexSec
+description: Commercial static analysis tool for SQL.
+languages:
+- SQL
+license: Freemium
+website: https://apexsec.recx.co.uk/
+features:
+- Unknown
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2010
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Recx

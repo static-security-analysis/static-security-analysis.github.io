@@ -1,0 +1,17 @@
+id: halfond2005amnesia
+title: 'AMNESIA: Analysis and monitoring for NEutralizing SQL-injection attacks'
+authors:
+- William G. J. Halfond
+- Alessandro Orso
+year: 2005
+type: method
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1145/1101908.1101935
+link: https://doi.org/10.1145/1101908.1101935
+presentsToolId: amnesia
+toolName: AMNESIA
+toolsMentioned:
+- amnesia
+mentionsToolIds:
+- amnesia

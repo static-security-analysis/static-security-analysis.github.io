@@ -1,0 +1,40 @@
+id: devign
+name: Devign
+description: GNN over composite AST/CFG/DFG; language not named [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/epicosy/devign
+features:
+- Graph Neural Network
+- Graph-based (CPG/PDG)
+integration: []
+licenseDetail: MIT
+github: https://github.com/epicosy/devign
+academicReferences:
+- title: 'Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via
+    Graph Neural Networks'
+  authors:
+  - Yaqin Zhou
+  - Shangqing Liu
+  - J. Siow
+  - Xiaoning Du
+  - Yang Liu
+  year: 2019
+  type: Academic Paper
+  publication: Neural Information Processing Systems
+  link: https://github.com/epicosy/devign
+techniques:
+- Graph Neural Network
+- Graph-based (CPG/PDG)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2019
+githubStars: 263
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Nanyang Technological University

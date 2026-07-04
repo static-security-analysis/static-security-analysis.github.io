@@ -1,0 +1,10 @@
+id: liu2015case
+title: 'Case study: Static security analysis of the android goldfish kernel'
+authors:
+- Tao Liu
+- Ralf Huuck
+year: 2015
+type: empirical
+venue: International Symposium on Formal Methods
+doi: 10.1007/978-3-319-19249-9_39
+link: https://doi.org/10.1007/978-3-319-19249-9_39

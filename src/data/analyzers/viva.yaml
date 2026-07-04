@@ -1,0 +1,39 @@
+id: viva
+name: VIVA
+description: binary partial-signature clone detection (1-day vulns)
+languages:
+- Binary
+license: Open Source
+website: https://doi.org/10.1109/SANER50967.2021.00028
+features:
+- Other
+integration: []
+academicReferences:
+- title: 'VIVA: Binary Level Vulnerability Identification via Partial Signature'
+  authors:
+  - Yang Xiao
+  - Zhengzi Xu
+  - Weiwei Zhang
+  - Chendong Yu
+  - Longquan Liu
+  - Wei Zou
+  - Zimu Yuan
+  - Yang Liu
+  - Aihua Piao
+  - Wei Huo
+  year: 2021
+  type: Academic Paper
+  publication: SANER
+  doi: 10.1109/SANER50967.2021.00028
+  link: https://doi.org/10.1109/SANER50967.2021.00028
+techniques:
+- Other
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 35
+toolType: academic
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: Chinese Academy of Sciences

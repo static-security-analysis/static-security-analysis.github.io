@@ -1,0 +1,17 @@
+id: zou2019uvuldeepecker
+title: 'uVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection'
+authors:
+- Deqing Zou
+- Sujuan Wang
+- Shouhuai Xu
+- Zhen Li
+- Hai Jin
+year: 2019
+type: tool
+venue: IEEE Transactions on Dependable and Secure Computing
+venueAcronym: TDSC
+doi: 10.1109/TDSC.2019.2942930
+link: https://doi.org/10.1109/TDSC.2019.2942930
+toolName: uVulDeePecker
+toolsMentioned:
+- uvuldeepecker

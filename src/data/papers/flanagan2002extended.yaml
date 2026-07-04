@@ -1,0 +1,18 @@
+id: flanagan2002extended
+title: Extended Static Checking for Java
+authors:
+- Cormac Flanagan
+- K. Rustan M. Leino
+- Mark Lillibridge
+- Greg Nelson
+- James B. Saxe
+- Raymie Stata
+year: 2002
+type: tool
+venue: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)
+venueAcronym: PLDI
+doi: 10.1145/512529.512558
+link: https://doi.org/10.1145/512529.512558
+toolName: ESC/Java
+toolsMentioned:
+- esc

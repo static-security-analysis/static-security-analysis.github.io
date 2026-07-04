@@ -1,0 +1,39 @@
+id: iifa
+name: IIFA
+description: inter-app ICC/IAC information-flow leak detection (Android)
+languages:
+- Java
+license: Open Source
+website: https://github.com/szabta89/IIFA
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/szabta89/IIFA
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'IIFA: Modular Inter-app Intent Information Flow Analysis of Android Applications'
+  authors:
+  - A. Tiwari
+  - S. Groß
+  - Christian Hammer
+  year: 2018
+  type: Academic Paper
+  publication: Security and Privacy in Communication Networks
+  doi: 10.1007/978-3-030-37231-6_19
+  link: https://doi.org/10.1007/978-3-030-37231-6_19
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2018
+githubStars: 1
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: University of Potsdam

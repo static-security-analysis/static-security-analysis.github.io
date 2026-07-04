@@ -1,0 +1,34 @@
+id: mend
+name: Mend
+description: Commercial static analysis tool using software composition analysis for JavaScript, Java,
+  Python.
+languages:
+- Multiple
+license: Commercial
+website: https://www.mend.io/
+features:
+- Software Composition Analysis
+integration: []
+languagesDetail:
+- JavaScript
+- Java
+- Python
+- Go
+- Ruby
+- PHP
+- C#
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2011
+toolType: commercial
+input:
+- Manifest
+- Source
+ecosystem:
+- Web
+institute: Mend.io (formerly WhiteSource)

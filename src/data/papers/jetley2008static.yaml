@@ -1,0 +1,17 @@
+id: jetley2008static
+title: Static Analysis of Medical Device Software Using CodeSonar
+authors:
+- Raoul Praful Jetley
+- Paul L. Jones
+- Paul Anderson
+year: 2008
+type: tool
+venue: Workshop on Static Analysis (SAW)
+doi: 10.1145/1394504.1394507
+link: https://doi.org/10.1145/1394504.1394507
+presentsToolId: codesonar
+toolName: CodeSonar
+toolsMentioned:
+- codesonar
+mentionsToolIds:
+- codesonar

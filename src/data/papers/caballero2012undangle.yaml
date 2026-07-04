@@ -1,0 +1,16 @@
+id: caballero2012undangle
+title: 'Undangle: Early detection of dangling pointers in use-after-free and double-free vulnerabilities'
+authors:
+- Juan Caballero
+- Gustavo Grieco
+- Mark Marron
+- Antonio Nappa
+year: 2012
+type: method
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/2338965.2336769
+link: https://doi.org/10.1145/2338965.2336769
+toolName: Undangle
+toolsMentioned:
+- undangle

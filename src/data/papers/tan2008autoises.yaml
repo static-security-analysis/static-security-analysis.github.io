@@ -1,0 +1,17 @@
+id: tan2008autoises
+title: 'AutoISES: Automatically Inferring Security Specification and Detecting Violations'
+authors:
+- Lin Tan
+- Xiaolan Zhang
+- Xiao Ma
+- Weiwei Xiong
+- Yuanyuan Zhou
+year: 2008
+type: method
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+link: https://www.usenix.org/legacy/event/sec08/tech/full_papers/tan_l/tan_l.pdf
+url: https://www.usenix.org/legacy/event/sec08/tech/full_papers/tan_l/tan_l.pdf
+toolName: AutoISES
+toolsMentioned:
+- autoises

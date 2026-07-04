@@ -1,0 +1,27 @@
+id: liu2025dirtywaters
+title: 'Dirty-Waters: Detecting Software Supply Chain Smells'
+authors:
+- Raphina Liu
+- Sofia Bobadilla
+- Benoit Baudry
+- Martin Monperrus
+year: 2025
+type: tool
+venue: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software
+  Engineering
+venueAcronym: FSE
+doi: 10.1145/3696630.3728578
+link: https://doi.org/10.1145/3696630.3728578
+url: https://doi.org/10.1145/3696630.3728578
+presentsToolId: dirty_waters
+toolName: Dirty-Waters
+abstract: 'Using open-source dependencies is essential in modern software development. However, this practice
+  implies significant trust in third-party code, while there is little support for developers to assess
+  this trust. As a consequence, attacks, called software supply chain attacks, have been increasingly
+  occurring through third-party dependencies. In this paper, we target the problem of projects that use
+  dependencies, where developers are unaware of the potential risks posed by their software supply chain.
+  We define the novel concept of software supply chain smell and present Dirty-Waters, a novel tool for
+  detecting software supply chain smells. We evaluate Dirty-Waters on three JavaScript projects and demonstrate
+  the prevalence of all proposed software supply chain smells. Dirty-Waters reveals potential risks for
+  previously invisible problems and provides clear indicators for developers to act on the security of
+  their supply chain. A video demonstrating Dirty-Waters is available at: http://l.4open.science/dirty-waters-demo.'

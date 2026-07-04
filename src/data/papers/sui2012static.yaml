@@ -1,0 +1,15 @@
+id: sui2012static
+title: Static Memory Leak Detection Using Full-sparse Value-flow Analysis
+authors:
+- Yulei Sui
+- Ding Ye
+- Jingling Xue
+year: 2012
+type: tool
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/2338965.2336784
+link: https://doi.org/10.1145/2338965.2336784
+toolName: SABER
+toolsMentioned:
+- saber

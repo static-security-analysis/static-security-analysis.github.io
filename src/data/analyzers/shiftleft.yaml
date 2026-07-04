@@ -1,0 +1,46 @@
+id: shiftleft
+name: ShiftLeft
+description: Open-source static analysis tool using taint analysis for C#, Go, Java.
+languages:
+- C#
+- Go
+- Java
+- JavaScript
+- Python
+- Scala
+license: Open Source
+website: https://www.shiftleft.io/
+features:
+- Taint Analysis
+integration: []
+licenseDetail: Free Account; Premium Paid
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+academicReferences:
+- title: Modeling and Discovering Vulnerabilities with Code Property Graphs
+  authors:
+  - Fabian Yamaguchi
+  - Nico Golde
+  - Daniel Arp
+  - Konrad Rieck
+  year: 2014
+  type: Academic Paper
+  publication: Proceedings of the 2014 IEEE Symposium on Security and Privacy
+  doi: 10.1109/SP.2014.44
+  link: https://doi.org/10.1109/SP.2014.44
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Shiftleft.io

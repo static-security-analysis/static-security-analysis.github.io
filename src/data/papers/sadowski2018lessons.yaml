@@ -1,0 +1,14 @@
+id: sadowski2018lessons
+title: Lessons from building static analysis tools at Google
+authors:
+- Caitlin Sadowski
+- Edward Aftandilian
+- Alex Eagle
+- Liam Miller-Cushon
+- Ciera Jaspan
+year: 2018
+type: motivation
+venue: Communications of the ACM
+venueAcronym: CACM
+doi: 10.1145/3188720
+link: https://doi.org/10.1145/3188720

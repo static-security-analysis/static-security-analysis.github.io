@@ -1,0 +1,38 @@
+id: livable
+name: LIVABLE
+description: GNN long-tailed vuln detection + type classification [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/Xin-Cheng-Wen/LIVABLE
+features:
+- Graph Neural Network
+integration: []
+github: https://github.com/Xin-Cheng-Wen/LIVABLE
+academicReferences:
+- title: 'LIVABLE: Exploring Long-Tailed Classification of Software Vulnerability Types'
+  authors:
+  - Xinjie Wen
+  - Cuiyun Gao
+  - Feng Luo
+  - Hao Wang
+  - Ge Li
+  - Qing Liao
+  year: 2023
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  doi: 10.1109/TSE.2024.3382361
+  link: https://doi.org/10.1109/TSE.2024.3382361
+techniques:
+- Graph Neural Network
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 13
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Harbin Institute of Technology

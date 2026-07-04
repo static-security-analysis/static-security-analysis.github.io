@@ -1,0 +1,27 @@
+id: orizon
+name: Orizon
+description: Open-source static analysis tool using pattern matching for Java.
+languages:
+- Java
+license: Open Source
+website: http://orizon.sourceforge.net/
+features:
+- Pattern Matching
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: API Abuse
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2006
+githubStars: 128
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: OWASP

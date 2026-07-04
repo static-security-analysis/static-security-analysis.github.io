@@ -1,0 +1,33 @@
+id: mauthe2021a
+title: A Large-Scale Empirical Study of Android App Decompilation
+authors:
+- Noah Mauthe
+- Ulf Kargén
+- N. Shahmehri
+year: 2021
+type: empirical
+venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+venueAcronym: SANER
+doi: 10.1109/SANER50967.2021.00044
+link: https://doi.org/10.1109/SANER50967.2021.00044
+url: https://doi.org/10.1109/SANER50967.2021.00044
+abstract: Decompilers are indispensable tools in Android malware analysis and app security auditing. Numerous
+  academic works also employ an Android decompiler as the first step in a program analysis pipeline. In
+  such settings, decompilation is frequently regarded as a "solved" problem, in that it is simply expected
+  that source code can be accurately recovered from an app. While a large proportion of methods in an
+  app can typically be decompiled successfully, it is common that at least some methods fail to decompile.
+  In order to better understand the practical applicability of techniques in which decompilation is used
+  as part of an automated analysis, it is important to know the actual expected failure rate of Android
+  decompilation. To this end, we have performed what is, to the best of our knowledge, the first large-scale
+  study of Android decompilation failure rates. We have used three sets of apps, consisting of, respectively,
+  3,018 open-source apps, 13,601 apps from a recent crawl of Google Play, and a collection of 24,553 malware
+  samples. In addition to the state-of-the-art Dalvik bytecode decompiler jadx, we used three popular
+  Java decompilers. While jadx achieves an impressively low failure rate of only 0.02% failed methods
+  per app on average, we found that it manages to recover source code for all methods in only 21% of the
+  Google Play apps.We have also sought to better understand the degree to which in-the-wild obfuscation
+  techniques can prevent decompilation. Our empirical evaluation, complemented with an indepth manual
+  analysis of a number of apps, indicate that code obfuscation is quite rarely encountered, even in malicious
+  apps. Moreover, decompilation failures mostly appear to be caused by technical limitations in decompilers,
+  rather than by deliberate attempts to thwart source-code recovery by obfuscation. This is an encouraging
+  finding, as it indicates that near-perfect Android decompilation is, at least in theory, achievable,
+  with implementation-level improvements to decompilation tools.

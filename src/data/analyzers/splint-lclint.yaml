@@ -1,0 +1,41 @@
+id: splint-lclint
+name: Splint/LCLint
+description: Academic static analysis tool using data-flow analysis for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://splint.org/pubs.html
+features:
+- Data-flow Analysis
+- Type / Type-state Analysis
+integration: []
+licenseDetail: GPLv2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: Improving security using extensible lightweight static analysis
+  authors:
+  - David Evans
+  - David Larochelle
+  year: 2002
+  type: Academic Paper
+  publication: IEEE software
+  link: http://splint.org/pubs.html
+techniques:
+- Data-flow Analysis
+- Type / Type-state Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2002
+githubStars: 163
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Virginia

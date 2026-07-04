@@ -1,0 +1,12 @@
+id: holzmann2017cobra
+title: 'Cobra: A Light-Weight Tool for Static and Dynamic Program Analysis'
+authors:
+- Gerard J. Holzmann
+year: 2017
+type: tool
+venue: Innovations in Systems and Software Engineering
+doi: 10.1007/s11334-017-0286-1
+link: https://doi.org/10.1007/s11334-017-0286-1
+toolName: Cobra
+toolsMentioned:
+- cobra

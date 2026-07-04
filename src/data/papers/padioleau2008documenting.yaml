@@ -1,0 +1,15 @@
+id: padioleau2008documenting
+title: Documenting and Automating Collateral Evolutions in Linux Device Drivers
+authors:
+- Yoann Padioleau
+- Julia Lawall
+- René Rydhof Hansen
+- Gilles Muller
+year: 2008
+type: tool
+venue: EuroSys
+doi: 10.1145/1352592.1352618
+link: https://doi.org/10.1145/1352592.1352618
+toolName: Coccinelle
+toolsMentioned:
+- coccinelle

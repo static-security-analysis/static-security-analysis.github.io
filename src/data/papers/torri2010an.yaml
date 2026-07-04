@@ -1,0 +1,14 @@
+id: torri2010an
+title: An evaluation of free/open source static analysis tools applied to embedded software
+authors:
+- Lucas Torri
+- Guilherme Fachini
+- Leonardo Steinfeld
+- Vesmar Camara
+- Luigi Carro
+- Erika F. Cota
+year: 2010
+type: empirical
+venue: Latin-American Test Workshop (LATW)
+doi: 10.1109/LATW.2010.5550368
+link: https://doi.org/10.1109/LATW.2010.5550368

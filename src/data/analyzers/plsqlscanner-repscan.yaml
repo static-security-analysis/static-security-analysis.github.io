@@ -1,0 +1,28 @@
+id: plsqlscanner-repscan
+name: PLSQLScanner/Repscan
+description: Open-source static analysis tool for SQL.
+languages:
+- SQL
+license: Open Source
+website: http://www.red-database-security.com/software/repscan.html
+features:
+- Unknown
+integration: []
+licenseDetail: Paid; Trial Avail.
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2008
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Red Database Security

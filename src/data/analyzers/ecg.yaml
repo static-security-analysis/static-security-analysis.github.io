@@ -1,0 +1,28 @@
+id: ecg
+name: ECG
+description: Commercial static analysis tool.
+languages:
+- Multiple
+license: Freemium
+website: https://ecg.voidsec.com/
+features:
+- Unknown
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: VoidSec

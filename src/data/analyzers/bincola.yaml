@@ -1,0 +1,34 @@
+id: bincola
+name: BinCola
+description: contrastive-learning binary code similarity (vuln detection is one application)
+languages:
+- Binary
+license: Open Source
+website: https://doi.org/10.1109/TSE.2024.3411072
+features:
+- Deep Learning (non-LLM)
+integration: []
+academicReferences:
+- title: 'BinCola: Diversity-Sensitive Contrastive Learning for Binary Code Similarity Detection'
+  authors:
+  - Shuai Jiang
+  - Cai Fu
+  - Shuai He
+  - Jianqiang Lv
+  - Lansheng Han
+  - Hong Hu
+  year: 2024
+  type: Academic Paper
+  publication: TSE
+  doi: 10.1109/TSE.2024.3411072
+  link: https://doi.org/10.1109/TSE.2024.3411072
+techniques:
+- Deep Learning (non-LLM)
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: Huazhong University of Science and Technology

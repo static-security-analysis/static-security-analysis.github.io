@@ -1,0 +1,13 @@
+id: steinhauser2016jspchecker
+title: 'JSPChecker: Static detection of context-sensitive cross-site scripting flaws in legacy web applications'
+authors:
+- Antonin Steinhauser
+- François Gauthier
+year: 2016
+type: method
+venue: ACM Workshop on Programming Languages and Analysis for Security (PLAS)
+doi: 10.1145/2993600.2993606
+link: https://doi.org/10.1145/2993600.2993606
+toolName: JSPChecker
+toolsMentioned:
+- jspchecker

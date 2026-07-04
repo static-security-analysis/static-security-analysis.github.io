@@ -1,0 +1,47 @@
+id: dingo-hunter
+name: dingo-hunter
+description: Open-source static analysis tool using deductive verification for Go.
+languages:
+- Go
+license: Open Source
+website: https://github.com/nickng/dingo-hunter
+features:
+- Deductive Verification
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Time and State
+  examples: []
+academicReferences:
+- title: 'Fencing off go: Liveness and safety for channel-based programming'
+  authors:
+  - Julien Lange
+  - Nicholas Ng
+  - Bernardo Toninho
+  - Nobuko Yoshida
+  year: 2017
+  type: Academic Paper
+  publication: ACM SIGPLAN Notices
+  link: https://github.com/nickng/dingo-hunter
+- title: Static Deadlock Detection for Concurrent Go by Global Session Graph Synthesis
+  authors:
+  - Nicholas Ng
+  - Nobuko Yoshida
+  year: 2016
+  type: Academic Paper
+  publication: Proceedings of the 25th International Conference on Compiler Construction
+  doi: 10.1145/2892208.2892232
+  link: https://doi.org/10.1145/2892208.2892232
+techniques:
+- Deductive Verification
+soundness: Sound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 265
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Imperial College London

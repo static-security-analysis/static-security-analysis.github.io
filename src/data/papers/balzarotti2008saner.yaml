@@ -1,0 +1,19 @@
+id: balzarotti2008saner
+title: 'Saner: Composing Static and Dynamic Analysis to Validate Sanitization in Web Applications'
+authors:
+- David Balzarotti
+- Marco Cova
+- Vika Felmetsger
+- Nenad Jovanovic
+- Engin Kirda
+- Christopher Kruegel
+- Giobanni Vigna
+year: 2008
+type: method
+venue: IEEE Symposium on Security and Privacy (S&P)
+venueAcronym: S&P
+doi: 10.1109/SP.2008.22
+link: https://doi.org/10.1109/SP.2008.22
+toolName: Saner
+toolsMentioned:
+- saner

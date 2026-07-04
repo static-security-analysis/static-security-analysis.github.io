@@ -1,0 +1,14 @@
+id: deutsch2003static
+title: Static Verification of Dynamic Properties (Polyspace Verifier)
+authors:
+- Alain Deutsch
+year: 2003
+type: tool
+venue: SIGAda / PolySpace Whitepaper
+doi: unknown
+link: https://doi.org/unknown
+url: http://www.sigada.org/conf/sigada2003/SIGAda2003-CDROM/SIGAda2003-Logos/PolySpace/Marketing/White_Papers/Static_Verification_of_Dynamic_Properties.pdf
+presentsToolId: polyspace-code-prover
+toolName: Polyspace Code Prover
+toolsMentioned:
+- polyspace_code_prover

@@ -1,0 +1,39 @@
+id: sysevr
+name: SySeVR
+description: DL with syntax+semantics (slicing) features; language not named
+languages:
+- C
+license: Open Source
+website: https://github.com/zhaoxuanChen/Sysevr
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/zhaoxuanChen/Sysevr
+academicReferences:
+- title: 'SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities'
+  authors:
+  - Z. Li
+  - Deqing Zou
+  - Shouhuai Xu
+  - Hai Jin
+  - Yawei Zhu
+  - Zhaoxuan Chen
+  - Sujuan Wang
+  - Jialai Wang
+  year: 2018
+  type: Academic Paper
+  publication: IEEE Transactions on Dependable and Secure Computing
+  doi: 10.1109/TDSC.2021.3051525
+  link: https://doi.org/10.1109/TDSC.2021.3051525
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2018
+githubStars: 2
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Huazhong University of Science and Technology

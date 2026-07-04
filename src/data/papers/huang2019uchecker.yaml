@@ -1,0 +1,16 @@
+id: huang2019uchecker
+title: 'UChecker: Automatically Detecting PHP-Based Unrestricted File Upload Vulnerabilities'
+authors:
+- Jin Huang
+- Yu Li
+- Junjie Zhang
+- Rui Dai
+year: 2019
+type: method
+venue: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+venueAcronym: DSN
+doi: 10.1109/DSN.2019.00064
+link: https://doi.org/10.1109/DSN.2019.00064
+toolName: UChecker
+toolsMentioned:
+- uchecker

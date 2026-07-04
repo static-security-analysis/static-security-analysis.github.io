@@ -1,0 +1,15 @@
+id: cousot2007varieties
+title: 'Varieties of Static Analyzers: A Comparison with ASTREE'
+authors:
+- Patrick Cousot
+- Radhia Cousot
+- Jerome Feret
+- Antoine Mine
+- Laurent Mauborgne
+- David Monniaux
+- Xavier Rival
+year: 2007
+type: empirical
+venue: Joint IEEE/IFIP Symposium on Theoretical Aspects of Software Engineering (TASE)
+doi: 10.1109/TASE.2007.55
+link: https://doi.org/10.1109/TASE.2007.55

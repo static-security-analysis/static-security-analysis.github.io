@@ -1,0 +1,41 @@
+id: sys
+name: Sys
+description: Academic static analysis tool using data-flow analysis for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/PLSysSec/sys
+features:
+- Data-flow Analysis
+- Symbolic/Concolic Execution
+integration: []
+licenseDetail: GPLv2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'Sys: {A} Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code'
+  authors:
+  - Fraser Brown
+  - Deian Stefan
+  - Dawson R. Engler
+  year: 2020
+  type: Academic Paper
+  publication: 29th {USENIX} Security Symposium, {USENIX} Security 2020, August 12-14, 2020
+  link: https://github.com/PLSysSec/sys
+techniques:
+- Data-flow Analysis
+- Symbolic/Concolic Execution
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2020
+githubStars: 131
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- General-purpose
+institute: Stanford University; UC San Diego

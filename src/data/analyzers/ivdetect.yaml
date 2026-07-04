@@ -1,0 +1,37 @@
+id: ivdetect
+name: IVDetect
+description: 'Added in cross-link phase: influential baseline missing from catalog'
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3468264.3468597
+features:
+- Graph Neural Network
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/vulnerabilitydetection/VulnerabilityDetectionResearch
+academicReferences:
+- title: Vulnerability Detection with Fine-grained Interpretations
+  authors:
+  - Yi Li
+  - Shaohua Wang
+  - Tien N. Nguyen
+  year: 2021
+  type: Academic Paper
+  publication: ESEC/FSE
+  doi: 10.1145/3468264.3468597
+  link: https://doi.org/10.1145/3468264.3468597
+techniques:
+- Graph Neural Network
+- Deep Learning (non-LLM)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 97
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: New Jersey Institute of Technology

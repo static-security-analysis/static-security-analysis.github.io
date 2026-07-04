@@ -1,0 +1,34 @@
+id: mirchecker
+name: MirChecker
+description: abstract interpretation on Rust MIR (runtime panics/memory)
+languages:
+- Rust
+license: Open Source
+website: https://doi.org/10.1145/3460120.3484541
+features:
+- Abstract Interpretation
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'MirChecker: Detecting Bugs in Rust Programs via Static Analysis'
+  authors:
+  - Zhuohua Li
+  - John C.S. Lui
+  year: 2021
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3460120.3484541
+  link: https://doi.org/10.1145/3460120.3484541
+techniques:
+- Abstract Interpretation
+empiricalValidation: true
+yearIntroduced: 2021
+toolType: academic
+input:
+- IR
+- Source Code
+ecosystem:
+- General-purpose
+institute: Chinese University of Hong Kong

@@ -1,0 +1,43 @@
+id: achyb
+name: ACHyb
+description: static-primary hybrid; kernel access-control vulns
+languages:
+- C
+license: Open Source
+website: https://github.com/githubhuyang/achyb
+features:
+- Hybrid (static+dynamic)
+- Data-flow Analysis
+integration: []
+licenseDetail: MIT
+github: https://github.com/githubhuyang/achyb
+weaknesses:
+- category: Security Features
+  examples: []
+academicReferences:
+- title: 'ACHyb: a hybrid analysis approach to detect kernel access control vulnerabilities'
+  authors:
+  - Yang Hu
+  - Wenxi Wang
+  - Casen Hunger
+  - Riley Wood
+  - S. Khurshid
+  - Mohit Tiwari
+  year: 2021
+  type: Academic Paper
+  publication: ESEC/SIGSOFT FSE
+  doi: 10.1145/3468264.3468627
+  link: https://doi.org/10.1145/3468264.3468627
+techniques:
+- Hybrid (static+dynamic)
+- Data-flow Analysis
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 8
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- OS/Kernel
+institute: UT Austin

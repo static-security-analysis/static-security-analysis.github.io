@@ -1,0 +1,25 @@
+id: arzt2014flowdroid
+title: 'FlowDroid: Precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for
+  android apps'
+authors:
+- Steven Arzt
+- Siegfried Rasthofer
+- Christian Fritz
+- Eric Bodden
+- Alexandre Bartel
+- Jacques Klein
+- Yves Le Traon
+- Damien Octeau
+- Patrick McDaniel
+year: 2014
+type: tool
+venue: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)
+venueAcronym: PLDI
+doi: 10.1145/2666356.2594299
+link: https://doi.org/10.1145/2666356.2594299
+presentsToolId: flowdroid
+toolName: FlowDroid
+toolsMentioned:
+- flowdroid
+mentionsToolIds:
+- flowdroid

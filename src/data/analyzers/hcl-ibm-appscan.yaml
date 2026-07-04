@@ -1,0 +1,35 @@
+id: hcl-ibm-appscan
+name: HCL/IBM AppScan
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Freemium
+website: https://www.hcltechsw.com/wps/portal/products/appscan/home
+features:
+- Abstract Interpretation
+- Hybrid (static+dynamic)
+integration: []
+languagesDetail:
+- C
+- C++
+- Java
+- C#
+- Perl
+- JavaScript
+- PHP
+- Python
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Abstract Interpretation
+- Hybrid (static+dynamic)
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 1998
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: HCL Technologies Ltd (Acquired from IBM in 2019)

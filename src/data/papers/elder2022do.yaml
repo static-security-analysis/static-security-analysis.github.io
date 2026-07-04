@@ -1,0 +1,35 @@
+id: elder2022do
+title: Do I really need all this work to find vulnerabilities?
+authors:
+- Sarah Elder
+- Nusrat Zahan
+- Rui Shu
+- Monica Metro
+- Val Kozarev
+- T. Menzies
+- Laurie A. Williams
+year: 2022
+type: empirical
+venue: Empirical Software Engineering
+venueAcronym: EMSE
+doi: 10.1007/s10664-022-10179-6
+link: https://doi.org/10.1007/s10664-022-10179-6
+url: https://doi.org/10.1007/s10664-022-10179-6
+arxivId: '2208.01595'
+tldr: The goal of this research is to assist managers and other decision-makers in making informed choices
+  about the use of software vulnerability detection techniques through an empirical study of the efficiency
+  and effectiveness of four techniques on a Java-based web application.
+abstract: Applying vulnerability detection techniques is one of many tasks using the limited resources
+  of a software project. The goal of this research is to assist managers and other decision-makers in
+  making informed choices about the use of software vulnerability detection techniques through an empirical
+  study of the efficiency and effectiveness of four techniques on a Java-based web application. We apply
+  four different categories of vulnerability detection techniques – systematic manual penetration testing
+  (SMPT), exploratory manual penetration testing (EMPT), dynamic application security testing (DAST),
+  and static application security testing (SAST) – to an open-source medical records system. We found
+  the most vulnerabilities using SAST. However, EMPT found more severe vulnerabilities. With each technique,
+  we found unique vulnerabilities not found using the other techniques. The efficiency of manual techniques
+  (EMPT, SMPT) was comparable to or better than the efficiency of automated techniques (DAST, SAST) in
+  terms of Vulnerabilities per Hour (VpH). The vulnerability detection technique practitioners should
+  select may vary based on the goals and available resources of the project. If the goal of an organization
+  is to find “all” vulnerabilities in a project, they need to use as many techniques as their resources
+  allow.

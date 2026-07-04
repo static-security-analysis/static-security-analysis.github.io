@@ -1,0 +1,34 @@
+id: nguyen2024safe
+title: 'SAFE: A Novel Approach For Software Vulnerability Detection from Enhancing The Capability of Large
+  Language Models'
+authors:
+- Van Nguyen
+- Surya Nepal
+- Xingliang Yuan
+- Tingmin Wu
+- Carsten Rudolph
+year: 2024
+type: method
+venue: ACM Asia Conference on Computer and Communications Security
+venueAcronym: CCS
+doi: 10.1145/3708821.3736208
+link: https://doi.org/10.1145/3708821.3736208
+url: https://doi.org/10.1145/3708821.3736208
+presentsToolId: safe
+toolName: SAFE
+comparesToolIds:
+- devign
+- regvd
+abstract: Software vulnerabilities (SVs) have emerged as a prevalent and crucial concern for safety-critical
+  systems. This has spurred significant advancements in utilizing AI-based methods, including machine
+  learning and deep learning, for software vulnerability detection (SVD). While AI-based methods have
+  shown promising performance in SVD, their effectiveness on real-world, complex, and diverse source code
+  datasets remains limited in practice. To tackle this challenge, in this paper, we propose a novel framework
+  that enhances the capability of large language models to learn and utilize semantic and syntactic relationships
+  from source code data for SVD. As a result, our proposed SAFE approach can enable the acquisition of
+  fundamental knowledge from source code data while adeptly utilizing crucial relationships, i.e., semantic
+  and syntactic associations, to improve the effectiveness of solving the SVD problem. The rigorous and
+  extensive experimental results on three real-world challenging datasets (i.e., Devign, ReVeal, and D2A)
+  demonstrate the superiority of our approach over eight effective and state-of-the-art baselines. In
+  summary, on average, our SAFE approach achieves higher performances from 4.79% to 11.57% for F1-measure
+  and from 16.93% to 26.24% for Recall compared to the baseline methods across all the datasets used.

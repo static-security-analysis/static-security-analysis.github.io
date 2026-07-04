@@ -1,0 +1,16 @@
+id: xie2007saturn
+title: 'Saturn: A scalable framework for error detection using Boolean satisfiability'
+authors:
+- Yichen Xie
+- Alex Aiken
+year: 2007
+type: method
+venue: ACM Transactions on Programming Lnaguages and Systems
+doi: 10.1145/1232420.1232423
+link: https://doi.org/10.1145/1232420.1232423
+presentsToolId: saturn
+toolName: Saturn
+toolsMentioned:
+- saturn
+mentionsToolIds:
+- saturn

@@ -1,0 +1,39 @@
+id: codepeer
+name: CodePeer
+description: Commercial static analysis tool using abstract interpretation for Ada.
+languages:
+- Ada
+license: Freemium
+website: https://www.adacore.com/codepeer
+features:
+- Abstract Interpretation
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: CodePeer – Beyond Bug-finding with Static Analysis
+  authors:
+  - Unknown
+  year: 2013
+  type: Academic Paper
+  publication: Static Analysis of Software
+  doi: 10.1002/9781118602867.ch5
+  link: https://doi.org/10.1002/9781118602867.ch5
+techniques:
+- Abstract Interpretation
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2011
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: AdaCore

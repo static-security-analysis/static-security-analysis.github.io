@@ -1,0 +1,37 @@
+id: aikido-security
+name: Aikido Security
+description: Commercial static analysis tool using pattern matching for JavaScript, TypeScript, Python.
+languages:
+- Multiple
+license: Freemium
+website: https://www.aikido.dev/
+features:
+- Pattern Matching
+integration: []
+languagesDetail:
+- JavaScript
+- TypeScript
+- Python
+- PHP
+- Java
+- Go
+- C#
+- Ruby
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2023
+toolType: commercial
+input:
+- Source
+- Manifest
+ecosystem:
+- Web
+- Cloud
+institute: Aikido Security

@@ -1,0 +1,33 @@
+id: snyk
+name: snyk
+description: Commercial static analysis tool using software composition analysis for JavaScript, Ruby,
+  Java.
+languages:
+- Multiple
+license: Freemium
+website: https://snyk.io/
+features:
+- Software Composition Analysis
+integration: []
+languagesDetail:
+- JavaScript
+- Ruby
+- Java
+- Python
+- Scala
+- Go
+- PHP
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+toolType: commercial
+input:
+- Manifest
+ecosystem:
+- Web
+institute: Snyk Limited

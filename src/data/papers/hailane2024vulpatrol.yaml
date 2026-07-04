@@ -1,0 +1,39 @@
+id: hailane2024vulpatrol
+title: 'VulPatrol: Interprocedural Vulnerability Detection and Localization through Semantic Graph Learning'
+authors:
+- Asmaa Hailane
+- Paria Shirani
+- Guy-Vincent Jourdan
+year: 2024
+type: tool
+venue: Conference on Data and Application Security and Privacy
+venueAcronym: S&P
+doi: 10.1145/3714393.3726509
+link: https://doi.org/10.1145/3714393.3726509
+url: https://github.com/OCyberLab/VulPatrol
+presentsToolId: vulpatrol
+toolName: VulPatrol
+comparesToolIds:
+- devign
+- ivdetect
+- linevul
+- reveal
+abstract: 'The growing complexity of software systems and the management of large, rapidly evolving codebases
+  necessitate the analysis of immense volumes of lines per day due to code modifications and refactoring.
+  Despite the use of static and dynamic analysis, test coverage, and rigorous code reviews, traditional
+  methods often fail to accurately detect all security vulnerabilities, resulting in significant risks
+  in production software. Recently, deep learning models have shown promising possibilities for improving
+  vulnerability detection. Yet, there remains a clear gap between the abilities of current deep learning
+  approaches and the level of performance required for precise source code vulnerability detection. To
+  bridge this gap, it is crucial to develop enhancements in two fundamental areas: a code representation
+  that accurately captures the semantics of programs and a model architecture with adequate expressiveness
+  to analyze this representation effectively. We introduce VulPatrol, a semantic-aware, deep neural network-based
+  system that constructs LLVM-IR interprocedural code property graphs from C/C++ source code. VulPatrol
+  employs message-passing neural networks to capture complex dependencies and dynamic interactions within
+  the code. As a result, it enhances the model''s ability to classify potential vulnerabilities. Furthermore,
+  we generate the first Vulnerability database based on compilable C/C++ open-source software to LLVM-IR,
+  along with an obfuscated version. Our extensive evaluation on different benchmark datasets, including
+  real-world programs, shows that VulPatrol outperforms the state-of-the-art baselines, improving the
+  F1 measure by up to 12% for identifying vulnerable functions. Additionally, we evaluate VulPatrol on
+  obfuscated code, which yields superior results regarding string variation and dissimilarity of the original
+  codebase.'

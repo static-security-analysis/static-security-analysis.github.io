@@ -1,0 +1,13 @@
+id: obdrzalek2008stanse
+title: 'Stanse: A Static Analyzer for Checking C Programs (Linux kernel)'
+authors:
+- Jan Obdržálek
+- Marek Trtík
+year: 2008
+type: tool
+venue: International SPIN Workshop on Model Checking of Software
+doi: 10.1007/978-3-540-79124-9_30
+link: https://doi.org/10.1007/978-3-540-79124-9_30
+toolName: Stanse
+toolsMentioned:
+- stanse

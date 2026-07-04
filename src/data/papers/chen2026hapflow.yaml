@@ -1,0 +1,32 @@
+id: chen2026hapflow
+title: 'HapFlow: The Taint Analysis Framework for OpenHarmony Apps'
+authors:
+- Haonan Chen
+- M. Zhou
+- Yanjie Zhao
+- Li Li
+year: 2026
+type: tool
+venue: ACM Transactions on Software Engineering and Methodology
+venueAcronym: TSE
+doi: 10.1145/3793863
+link: https://doi.org/10.1145/3793863
+url: https://github.com/KamikazEr101/hapflow
+presentsToolId: hapflow
+toolName: HapFlow
+abstract: 'With the rapid growth of OpenHarmony, a new distributed operating system (OS), security and
+  privacy issues have become major concerns. While taint analysis has proven effective in Android, OpenHarmony
+  still lacks a comparable framework. Additionally, OpenHarmony''s programming language, ArkTS, has several
+  unique features compared to other languages like TypeScript and Java, including complex lifecycles,
+  closure mechanisms, and a distinct API ecosystem. Directly adapting existing taint analysis tools for
+  Android cannot achieve effectiveness in OpenHarmony applications. To address this challenge, we propose
+  HapFlow, a novel taint analysis framework tailored specifically for the OpenHarmony platform and ArkTS
+  programs. This work presents: (1) an LLM-assisted method for identifying and categorizing source APIs
+  for OpenHarmony, (2) a lifecycle and callback functions modeling approach that supports declarative
+  UI in ArkTS, and (3) an IFDS-based taint propagation extension that accurately handles closure-induced
+  cross-function data flows in OpenHarmony applications. Therefore, HapFlow enables precise inter-procedural
+  data-flow analysis for OpenHarmony applications. We validate HapFlow''s effectiveness on the HapBench
+  benchmark, achieving 96.15% precision and 94.34% recall. Furthermore, HapFlow identifies 73 sensitive
+  data leak flows across over 3,000 open-source projects with 8 false positives, completing over 98% of
+  analyses within 10 seconds. These results demonstrate HapFlow''s practicability and scalability for
+  taint analysis in OpenHarmony applications.'

@@ -1,0 +1,40 @@
+id: hapflow
+name: HapFlow
+description: taint analysis framework for OpenHarmony apps (ArkTS)
+languages:
+- TypeScript
+license: Open Source
+website: https://github.com/KamikazEr101/hapflow
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/KamikazEr101/hapflow
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'HapFlow: The Taint Analysis Framework for OpenHarmony Apps'
+  authors:
+  - Haonan Chen
+  - M. Zhou
+  - Yanjie Zhao
+  - Li Li
+  year: 2026
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3793863
+  link: https://doi.org/10.1145/3793863
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Beihang University

@@ -1,0 +1,18 @@
+id: talukder2019droidpatrol
+title: 'DroidPatrol: A Static Analysis Plugin For Secure Mobile Software Development'
+authors:
+- Md Arabin Islam Talukder
+- Hossain Shahriar
+- Kai Qian
+- Mohammad Rahman
+- Sheikh Ahamed
+- Fan Wu
+- Emmanuel Agu
+year: 2019
+type: method
+venue: Annual Computer Software and Applications Conference (COMPSAC)
+doi: 10.1109/COMPSAC.2019.00087
+link: https://doi.org/10.1109/COMPSAC.2019.00087
+toolName: DroidPatrol
+toolsMentioned:
+- droidpatrol

@@ -1,0 +1,14 @@
+id: henzinger2004race
+title: Race Checking by Context Inference
+authors:
+- Thomas A. Henzinger
+- Ranjit Jhala
+- Rupak Majumdar
+year: 2004
+type: tool
+venue: ACM SIGPLAN Notices
+doi: 10.1145/996893.996844
+link: https://doi.org/10.1145/996893.996844
+toolName: BLAST
+toolsMentioned:
+- blast

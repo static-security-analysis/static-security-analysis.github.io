@@ -1,0 +1,32 @@
+id: tscancode
+name: TscanCode
+description: Open-source static analysis tool using data-flow analysis for C, C++, C#.
+languages:
+- C
+- C++
+- C#
+- Lua
+license: Open Source
+website: https://github.com/Tencent/TscanCode
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2017
+githubStars: 1100
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Tencent

@@ -1,0 +1,36 @@
+id: plocator
+name: PLocator
+description: fine-grained binary patch-PRESENCE test (detects if target still vulnerable) — IN like PatchDiscovery
+languages:
+- Binary
+license: Open Source
+website: https://doi.org/10.1145/3770079
+features:
+- Other
+integration: []
+academicReferences:
+- title: 'PLocator: Fine-Grained Patch Presence Test in Binaries via Patch Code Localization'
+  authors:
+  - Chaopeng Dong
+  - Jingdong Guo
+  - Shouguo Yang
+  - Yang Xiao
+  - Yi Li
+  - Hong Li
+  - Zhi Li
+  - Limin Sun
+  year: 2025
+  type: Academic Paper
+  publication: TSE
+  doi: 10.1145/3770079
+  link: https://doi.org/10.1145/3770079
+techniques:
+- Other
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: academic
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: Institute of Information Engineering

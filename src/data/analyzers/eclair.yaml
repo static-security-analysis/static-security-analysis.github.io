@@ -1,0 +1,31 @@
+id: eclair
+name: ECLAIR
+description: Commercial static analysis tool using abstract interpretation for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: http://bugseng.com/products/eclair
+features:
+- Abstract Interpretation
+- Model Checking
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Abstract Interpretation
+- Model Checking
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2010
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: BUGSENG srl

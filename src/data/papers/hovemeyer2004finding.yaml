@@ -1,0 +1,13 @@
+id: hovemeyer2004finding
+title: Finding bugs is easy
+authors:
+- David Hovemeyer
+- William Pugh
+year: 2004
+type: tool
+venue: ACM SIGPLAN Notices
+doi: 10.1145/1052883.1052895
+link: https://doi.org/10.1145/1052883.1052895
+toolName: FindBugs
+toolsMentioned:
+- findbugs

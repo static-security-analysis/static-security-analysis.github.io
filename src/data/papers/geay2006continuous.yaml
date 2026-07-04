@@ -1,0 +1,16 @@
+id: geay2006continuous
+title: Continuous code-quality assurance with SAFE
+authors:
+- Emmanuel Geay
+- Eran Yahav
+- Stephen Fink
+year: 2006
+type: method
+venue: ACM SIGPLAN Symposium on Partial Evaluation and Semantics-Based Program Manipulation (PEPM)
+doi: 10.1145/1111542.1111567
+link: https://doi.org/10.1145/1111542.1111567
+toolName: SAFE
+toolsMentioned:
+- safe
+mentionsToolIds:
+- safe

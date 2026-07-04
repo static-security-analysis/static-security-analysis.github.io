@@ -1,0 +1,16 @@
+id: tyagi2018evaluation
+title: Evaluation of Static Web Vulnerability Analysis Tools
+authors:
+- Shobha Tyagi
+- Krishan Kumar
+year: 2018
+type: empirical
+venue: International Conference on Parallel, Distributed and Grid Computing (PDGC)
+doi: 10.1109/PDGC.2018.8745996
+link: https://doi.org/10.1109/PDGC.2018.8745996
+toolsMentioned:
+- wap
+- rips
+mentionsToolIds:
+- wap
+- rips

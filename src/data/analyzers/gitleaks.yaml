@@ -1,0 +1,25 @@
+id: gitleaks
+name: Gitleaks
+description: Open-source static analysis tool using pattern matching.
+languages:
+- Multiple
+license: Open Source
+website: https://github.com/zricethezav/gitleaks
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2018
+githubStars: 6600
+toolType: oss
+input:
+- Manifest
+ecosystem:
+- General-purpose

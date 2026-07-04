@@ -1,0 +1,38 @@
+id: appchecker
+name: AppChecker
+description: Commercial static analysis tool using data-flow analysis for C, C++, C#.
+languages:
+- C
+- C++
+- C#
+- PHP
+- Java
+license: Commercial
+website: https://npo-echelon.ru/en/solutions/appchecker.php
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Time and State
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2007
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Echelon

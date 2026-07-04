@@ -1,0 +1,47 @@
+id: boon
+name: BOON
+description: Academic static analysis tool using abstract interpretation for C.
+languages:
+- C
+license: Open Source
+website: http://people.eecs.berkeley.edu/~daw/boon/
+features:
+- Abstract Interpretation
+integration: []
+licenseDetail: BSD
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: A first step towards automated detection of buffer overrun vulnerabilities.
+  authors:
+  - David A Wagner
+  - Jeffrey S Foster
+  - Eric A Brewer
+  - Alexander Aiken
+  year: 2000
+  type: Academic Paper
+  publication: Network and Distributed System Security Symposium (NDSS)
+  link: http://people.eecs.berkeley.edu/~daw/boon/
+- title: Testing Static Analysis Tools Using Exploitable Buffer Overflows from Open Source Code
+  authors:
+  - Misha Zitser
+  - Richard Lippmann
+  - Tim Leek
+  year: 2004
+  type: Academic Paper
+  publication: SIGSOFT Softw. Eng. Notes
+  doi: 10.1145/1041685.1029911
+  link: https://doi.org/10.1145/1041685.1029911
+techniques:
+- Abstract Interpretation
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2000
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Califorina,Berkeley

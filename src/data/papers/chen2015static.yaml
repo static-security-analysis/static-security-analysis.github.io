@@ -1,0 +1,18 @@
+id: chen2015static
+title: Static detection of packet injection vulnerabilities - A case for identifying attacker-controlled
+  implicit information leaks
+authors:
+- Qi Alfred Chen
+- Zhiyun Qian
+- Yunhan Jack Jia
+- Yuru Shao
+- Zhuoqing Morley Mao
+year: 2015
+type: method
+venue: ACM Conference on Computer and Communications Security (CCS)
+venueAcronym: CCS
+doi: 10.1145/2810103.2813643
+link: https://doi.org/10.1145/2810103.2813643
+toolName: PacketGuardian
+toolsMentioned:
+- packetguardian

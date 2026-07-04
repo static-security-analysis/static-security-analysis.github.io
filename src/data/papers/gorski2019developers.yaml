@@ -1,0 +1,17 @@
+id: gorski2019developers
+title: 'Developers deserve security warnings, too: On the effect of integrated security advice on cryptographic
+  API misuse'
+authors:
+- Peter Leo Gorski
+- Luigi Lo Iacono
+- Dominik Wermke
+- Christian Stransky
+- Sebastian Moller
+- Yasemin Acar
+- Sascha Fahl
+year: 2019
+type: motivation
+venue: Symposium on Usable Privacy and Security (SOUPS)
+doi: 10.5555/3291228.3291250
+link: https://doi.org/10.5555/3291228.3291250
+url: https://www.usenix.org/system/files/conference/soups2018/soups2018-gorski.pdf

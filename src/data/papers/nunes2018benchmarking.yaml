@@ -1,0 +1,25 @@
+id: nunes2018benchmarking
+title: Benchmarking Static Analysis Tools for Web Security
+authors:
+- Paulo Nunes
+- Iberia Medeiros
+- Jose C. Fonseca
+- Nuno Neves
+- Miguel Correia
+- Marco Vieira
+year: 2018
+type: empirical
+venue: IEEE Transactions on Reliability
+doi: 10.1109/TR.2018.2839339
+link: https://doi.org/10.1109/TR.2018.2839339
+toolsMentioned:
+- wap
+- phpsafe
+- weverca
+- rips
+- pixy
+mentionsToolIds:
+- wap
+- phpsafe
+- rips
+- pixy

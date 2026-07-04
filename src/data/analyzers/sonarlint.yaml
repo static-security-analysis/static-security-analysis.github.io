@@ -1,0 +1,36 @@
+id: sonarlint
+name: SonarLint
+description: Open-source static analysis tool using pattern matching for C#, JavaScript, C.
+languages:
+- C#
+- JavaScript
+- C
+- C++
+license: Open Source
+website: https://www.sonarlint.org/visualstudio
+features:
+- Pattern Matching
+- Data-flow Analysis
+integration: []
+licenseDetail: LGPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Time and State
+  examples: []
+techniques:
+- Pattern Matching
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 233
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web

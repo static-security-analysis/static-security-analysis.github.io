@@ -1,0 +1,39 @@
+id: atvhunter
+name: ATVHUNTER
+description: TPL version detection (Android SCA)
+languages:
+- Bytecode
+license: Open Source
+website: https://doi.org/10.1109/ICSE43902.2021.00150
+features:
+- Software Composition Analysis
+integration: []
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'ATVHUNTER: Reliable Version Detection of Third-Party Libraries for Vulnerability Identification
+    in Android Applications'
+  authors:
+  - Xian Zhan
+  - Lingling Fan
+  - Sen Chen
+  - Feng Wu
+  - Tianming Liu
+  - Xiapu Luo
+  - Yang Liu
+  year: 2021
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1109/ICSE43902.2021.00150
+  link: https://doi.org/10.1109/ICSE43902.2021.00150
+techniques:
+- Software Composition Analysis
+empiricalValidation: true
+yearIntroduced: 2021
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: Hong Kong Polytechnic University

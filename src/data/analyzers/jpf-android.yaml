@@ -1,0 +1,35 @@
+id: jpf-android
+name: jpf-android
+description: Academic static analysis tool using symbolic/concolic execution for Java.
+languages:
+- Java
+license: Open Source
+website: https://heila.bitbucket.io/jpf-android/
+features:
+- Symbolic/Concolic Execution
+integration: []
+weaknesses:
+- category: Time and State
+  examples: []
+academicReferences:
+- title: Verifying Android Applications Using Java PathFinder
+  authors:
+  - Heila van der Merwe
+  - Brink van der Merwe
+  - Willem Visser
+  year: 2012
+  type: Academic Paper
+  publication: SIGSOFT Softw. Eng. Notes
+  doi: 10.1145/2382756.2382797
+  link: https://doi.org/10.1145/2382756.2382797
+techniques:
+- Symbolic/Concolic Execution
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: University of Stellenbosch

@@ -1,0 +1,13 @@
+id: braga2019understanding
+title: Understanding How to Use Static Analysis Tools for Detecting Cryptography Misuse in Software
+authors:
+- Alexandre Braga
+- Ricardo Dahab
+- Nuno Antunes
+- Nuno Laranjeiro
+- Marco Vieira
+year: 2019
+type: empirical
+venue: IEEE Transactions on Reliability
+doi: 10.1109/TR.2019.2937214
+link: https://doi.org/10.1109/TR.2019.2937214

@@ -1,0 +1,15 @@
+id: raychev2017deepcode
+title: A Deep Learning-Based Vulnerability Detector (precursor to DeepCode / Snyk Code)
+authors:
+- Veselin Raychev
+- Martin Vechev
+- Eran Yahav (DeepCode foundation team)
+year: 2017
+type: tool
+venue: Independent technical report
+doi: unknown
+link: https://doi.org/unknown
+url: https://snyk.io/product/snyk-code/
+toolName: Snyk Code
+toolsMentioned:
+- snyk_code

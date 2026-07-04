@@ -1,0 +1,40 @@
+id: ding2022velvet
+title: 'VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements'
+authors:
+- Yangruibo Ding
+- Sahil Suneja
+- Yunhui Zheng
+- Jim Laredo
+- Alessandro Morari
+- Gail E. Kaiser
+- Baishakhi Ray
+year: 2022
+type: tool
+venue: IEEE International Conference on Software Analysis, Evolution and Reengineering
+venueAcronym: SANER
+doi: 10.1109/SANER53432.2022.00114
+link: https://doi.org/10.1109/SANER53432.2022.00114
+url: https://doi.org/10.1109/SANER53432.2022.00114
+presentsToolId: velvet
+toolName: VELVET
+comparesToolIds:
+- flawfinder
+- infer
+- rats
+abstract: Automatically locating vulnerable statements in source code is crucial to assure software security
+  and alleviate developers' debugging efforts. This becomes even more important in today's software ecosystem,
+  where vulnerable code can flow easily and unwittingly within and across software repositories like GitHub.
+  Across such millions of lines of code, traditional static and dynamic approaches struggle to scale.
+  Although existing machine-learning-based approaches look promising in such a setting, most work detects
+  vulnerable code at a higher granularity – at the method or file level. Thus, developers still need to
+  inspect a significant amount of code to locate the vulnerable statement(s) that need to be fixed. This
+  paper presents Velvet, a novel ensemble learning approach to locate vulnerable statements. Our model
+  combines graph-based and sequence-based neural networks to successfully capture the local and global
+  context of a program graph and effectively understand code semantics and vulnerable patterns. To study
+  Velvet's effectiveness, we use an off-the-shelf synthetic dataset and a recently published real-world
+  dataset. In the static analysis setting, where vulnerable functions are not detected in advance, Velvet
+  achieves 4.5× better performance than the baseline static analyzers on the real-world data. For the
+  isolated vulnerability localization task, where we assume the vulnerability of a function is known while
+  the specific vulnerable statement is unknown, we compare Velvet with several neural networks that also
+  attend to local and global context of code. Velvet achieves 99.6% and 43.6% top-1 accuracy over synthetic
+  data and real-world data, respectively, outperforming the baseline deep learning models by 5.3-29.0%.

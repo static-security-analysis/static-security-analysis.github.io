@@ -1,0 +1,17 @@
+id: halfond2006preventing
+title: Preventing SQL injection attacks using AMNESIA
+authors:
+- William G. J. Halfond
+- Alessandro Orso
+year: 2006
+type: method
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1145/1134285.1134416
+link: https://doi.org/10.1145/1134285.1134416
+presentsToolId: amnesia
+toolName: AMNESIA
+toolsMentioned:
+- amnesia
+mentionsToolIds:
+- amnesia

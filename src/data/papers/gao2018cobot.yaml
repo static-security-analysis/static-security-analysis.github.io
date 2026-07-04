@@ -1,0 +1,21 @@
+id: gao2018cobot
+title: 'CoBOT: Static C/C++ Bug Detection in the Presence of Incomplete Code'
+authors:
+- Qing Gao
+- Sen Ma
+- Sihao Shao
+- Yulei Sui
+- Guoliang Zhao
+- Luyao Ma
+- Xiao Ma
+- Fuyao Duan
+- Xiao Deng
+- Shikun Zhang
+- Xianglong Chen
+year: 2018
+type: method
+venue: International Conference on Program Comprehension (ICPC)
+venueAcronym: ICPC
+toolName: CoBOT
+toolsMentioned:
+- cobot

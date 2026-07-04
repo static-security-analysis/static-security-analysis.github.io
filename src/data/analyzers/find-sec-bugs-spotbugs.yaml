@@ -1,0 +1,67 @@
+id: find-sec-bugs-spotbugs
+name: Find-Sec-Bugs/SpotBugs
+description: Open-source static analysis tool using taint analysis for Java, Scala, Groovy.
+languages:
+- Java
+- Scala
+- Groovy
+license: Open Source
+website: https://find-sec-bugs.github.io/
+features:
+- Taint Analysis
+integration: []
+licenseDetail: LGPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: Using static analysis to find bugs
+  authors:
+  - Nathaniel Ayewah
+  - William Pugh
+  - David Hovemeyer
+  - J David Morgenthaler
+  - John Penix
+  year: 2008
+  type: Academic Paper
+  publication: IEEE software
+  link: https://find-sec-bugs.github.io/
+- title: Finding Bugs is Easy
+  authors:
+  - David Hovemeyer
+  - William Pugh
+  year: 2004
+  type: Academic Paper
+  publication: SIGPLAN Not.
+  doi: 10.1145/1052883.1052895
+  link: https://doi.org/10.1145/1052883.1052895
+- title: Finding More Null Pointer Bugs, but Not Too Many
+  authors:
+  - David Hovemeyer
+  - William Pugh
+  year: 2007
+  type: Academic Paper
+  publication: Proceedings of the 7th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools
+    and Engineering
+  doi: 10.1145/1251535.1251537
+  link: https://doi.org/10.1145/1251535.1251537
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+githubStars: 1500
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Dept. of Computer Science, University of Maryland

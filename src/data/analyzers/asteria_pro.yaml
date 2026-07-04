@@ -1,0 +1,40 @@
+id: asteria_pro
+name: Asteria-Pro
+description: DL binary code similarity for firmware vuln detection
+languages:
+- Binary
+license: Open Source
+website: https://github.com/Asteria-BCSD/Asteria-Pro
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/Asteria-BCSD/Asteria-Pro
+academicReferences:
+- title: 'Asteria-Pro: Enhancing Deep Learning-based Binary Code Similarity Detection by Incorporating
+    Domain Knowledge'
+  authors:
+  - Shouguo Yang
+  - Chaopeng Dong
+  - Yang Xiao
+  - Yiran Cheng
+  - Zhiqiang Shi
+  - Zhi Li
+  - Limin Sun
+  year: 2023
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3604611
+  link: https://doi.org/10.1145/3604611
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 31
+toolType: oss
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+- Binary/Embedded
+institute: Institute of Information Engineering

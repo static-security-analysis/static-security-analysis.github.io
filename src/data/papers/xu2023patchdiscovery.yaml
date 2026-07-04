@@ -1,0 +1,43 @@
+id: xu2023patchdiscovery
+title: 'PatchDiscovery: Patch Presence Test for Identifying Binary Vulnerabilities Based on Key Basic
+  Blocks'
+authors:
+- Xi Xu
+- Qinghua Zheng
+- Zheng Yan
+- Ming Fan
+- Ang Jia
+- Zhaohui Zhou
+- Haijun Wang
+- Ting Liu
+year: 2023
+type: tool
+venue: IEEE Transactions on Software Engineering
+venueAcronym: TSE
+doi: 10.1109/TSE.2023.3332732
+link: https://doi.org/10.1109/TSE.2023.3332732
+url: https://github.com/PatchDiscovery/PatchDiscovery
+presentsToolId: patchdiscovery
+toolName: PatchDiscovery
+abstract: Software vulnerabilities are easily propagated through code reuses, which pose dire threats
+  to software system security. Automatic patch presence test offers an effective way to detect whether
+  vulnerabilities have been patched, which is significant for large-scale software system maintenance.
+  However, most existing approaches cannot handle binary codes. They suffer from low accuracy and poor
+  efficiency. None of them are resilient to version gap, function size, and patch size. To tackle the
+  above problems, we propose <italic>PatchDiscovery</italic>, a patch presence test approach to identify
+  binary vulnerabilities by extracting key basic blocks of patch and vulnerability as their signatures
+  for patch discovery. We propose an efficient and accurate basic block matching method over the normalized
+  and simplified control flow graphs (CFGs) of a vulnerable function (VF) and its patched function (PF)
+  to precisely locate a vulnerability and a patch. Then, we conduct fine-grained patch-level analysis
+  on the patch and the vulnerability to gain their key basic blocks as the signatures of PF and VF for
+  patch presence test. Concretely, the key basic blocks of PF and VF are separately searched in a target
+  function (TF) to identify whether the TF is more similar to PF or VF, i.e., patched or not. Extensive
+  experiments based on two real-world binary datasets that contain 524 common vulnerabilities and exposures
+  (CVEs) with 11607 target functions reveal that <italic>PatchDiscovery</italic> is very effective and
+  efficient. It achieves <inline-formula><tex-math notation="LaTeX">$92.2\%$</tex-math><alternatives><mml:math
+  display="inline"><mml:mn>92.2</mml:mn><mml:mi mathvariant="normal">%</mml:mi></mml:math><inline-graphic
+  xlink:href="yan-ieq1-3332732.gif"/></alternatives></inline-formula> F-measure and takes only 0.091s
+  on average to test a target function. It is also resilient to version gap, patch size, and function
+  size to a good extent. Moreover, it is outperforming the state-of-the-art works and has a much faster
+  testing speed for large-scale patch detection. Moreover, <italic>PatchDiscovery</italic> achieves good
+  performance in firmware vulnerability discovery scenario.

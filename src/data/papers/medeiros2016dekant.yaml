@@ -1,0 +1,15 @@
+id: medeiros2016dekant
+title: 'DEKANT: A static analysis tool that learns to detect web application vulnerabilities'
+authors:
+- Ibéria Medeiros
+- Nuno Neves
+- Miguel Correia
+year: 2016
+type: method
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/2931037.2931041
+link: https://doi.org/10.1145/2931037.2931041
+toolName: DEKANT
+toolsMentioned:
+- dekant

@@ -1,0 +1,37 @@
+id: octopustaint
+name: OctopusTaint
+description: data-flow/taint detection for IoT/IIoT web interfaces
+languages:
+- Binary
+license: Open Source
+website: https://doi.org/10.1145/3658644.3690307
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'OctopusTaint: Advanced Data Flow Analysis for Detecting Taint-Based Vulnerabilities in IoT/IIoT
+    Firmware'
+  authors:
+  - Abdullah Qasem
+  - Mourad Debbabi
+  - Andrei Soeanu
+  year: 2024
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3658644.3690307
+  link: https://doi.org/10.1145/3658644.3690307
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+institute: Concordia University

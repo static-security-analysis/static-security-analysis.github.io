@@ -1,0 +1,41 @@
+id: shen2023finding
+title: 'Finding 709 Defects in 258 Projects: An Experience Report on Applying CodeQL to Open-Source Embedded
+  Software (Experience Paper)'
+authors:
+- Mingjie Shen
+- A. Pillai
+- Brian A. Yuan
+- James C. Davis
+- A. Machiry
+year: 2023
+type: empirical
+venue: Proc. ACM Softw. Eng.
+venueAcronym: PACMSE
+doi: 10.1145/3728923
+link: https://doi.org/10.1145/3728923
+url: https://doi.org/10.1145/3728923
+arxivId: '2310.00205'
+tldr: EMBOSS engineers are urged to adopt the current generation of SAST tools, which offer low false
+  positive rates and are effective at finding security-relevant defects.
+abstract: Embedded software is deployed in billions of devices worldwide, including in safety-sensitive
+  systems like medical devices and autonomous vehicles. Defects in embedded software can have severe consequences.
+  Many embedded software products incorporate Open-Source Embedded Software (EMBOSS), so it is important
+  for EMBOSS engineers to use appropriate mechanisms to avoid defects. One of the common security practices
+  is to use Static Application Security Testing (SAST) tools, which help identify commonly occurring vulnerabilities.
+  Existing research related to SAST tools focuses mainly on regular (or non-embedded) software. There
+  is a lack of knowledge about the use of SAST tools in embedded software. Furthermore, embedded software
+  greatly differs from regular software in terms of semantics, software organization, coding practices,
+  and build setup. All of these factors influence SAST tools and could potentially affect their usage.
+  In this experience paper, we report on a large-scale empirical study of SAST in EMBOSS repositories.
+  We collected a corpus of 258 of the most popular EMBOSS projects, and then measured their use of SAST
+  tools via program analysis and a survey (N=25) of their developers. Advanced SAST tools are rarely used
+  -- only 3% of projects go beyond trivial compiler analyses. Developers cited the perception of ineffectiveness
+  and false positives as reasons for limited adoption. Motivated by this deficit, we applied the state-of-the-art
+  (SOTA) CodeQL SAST tool and measured its ease of use and actual effectiveness. Across the 258 projects,
+  CodeQL reported 709 true defects with a false positive rate of 34%. There were 535 (75%) likely security
+  vulnerabilities, including in major projects maintained by Microsoft, Amazon, and the Apache Foundation.
+  EMBOSS engineers have confirmed 376 (53%) of these defects, mainly by accepting our pull requests. Two
+  CVEs were issued. Based on these results, we proposed pull requests to include our workflows as part
+  of EMBOSS Continuous Integration (CI) pipelines, 37 (71% of active repositories) of these are already
+  merged. In summary, we urge EMBOSS engineers to adopt the current generation of SAST tools, which offer
+  low false positive rates and are effective at finding security-relevant defects.

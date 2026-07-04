@@ -1,0 +1,37 @@
+id: llbmc
+name: LLBMC
+description: Academic static analysis tool using model checking for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://llbmc.org/index.html
+features:
+- Model Checking
+integration: []
+licenseDetail: Non-\faCopyright
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: The bounded model checker LLBMC
+  authors:
+  - S. {Falke}
+  - F. {Merz}
+  - C. {Sinz
+  year: 2013
+  type: Academic Paper
+  publication: 2013 28th IEEE/ACM International Conference on Automated Software Engineering (ASE)
+  doi: 10.1109/ASE.2013.6693138
+  link: https://doi.org/10.1109/ASE.2013.6693138
+techniques:
+- Model Checking
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2010
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Karlsruhe Intitute of technology

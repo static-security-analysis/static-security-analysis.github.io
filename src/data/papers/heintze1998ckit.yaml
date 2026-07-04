@@ -1,0 +1,14 @@
+id: heintze1998ckit
+title: 'ckit: A Front End for C in Standard ML of New Jersey'
+authors:
+- Nevin Heintze
+- Dino Oliva
+year: 1998
+type: tool
+venue: Bell Labs technical report
+doi: unknown
+link: https://doi.org/unknown
+url: https://www.smlnj.org/doc/ckit/
+toolName: ckit
+toolsMentioned:
+- c_kit

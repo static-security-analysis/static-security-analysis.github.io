@@ -1,0 +1,16 @@
+id: brat2000java
+title: Java PathFinder — Second Generation of a Java Model Checker
+authors:
+- Guillaume Brat
+- Klaus Havelund
+- SeungJoon Park
+- Willem Visser
+year: 2000
+type: tool
+venue: Workshop on Advances in Verification (PADO)
+doi: unknown
+link: https://doi.org/unknown
+url: https://ntrs.nasa.gov/citations/20000091586
+toolName: JPF
+toolsMentioned:
+- jpf

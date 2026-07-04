@@ -1,0 +1,34 @@
+id: shi2024dacpvd
+title: 'DA-CPVD: Vulnerability Detection Method based on Dual Attention Composite Pooling'
+authors:
+- Mengxuan Shi
+- Jinfu Chen
+- Saihua Cai
+- Ziyan Liu
+- Jiapeng Zhou
+year: 2024
+type: method
+venue: International Conference on Trust, Security and Privacy in Computing and Communications
+venueAcronym: S&P
+doi: 10.1109/TrustCom63139.2024.00265
+link: https://doi.org/10.1109/TrustCom63139.2024.00265
+url: https://doi.org/10.1109/TrustCom63139.2024.00265
+presentsToolId: da_cpvd
+toolName: DA-CPVD
+comparesToolIds:
+- devign
+- reveal
+abstract: Source code vulnerability detection is of great significance in securing software as well as
+  addressing novel threats, and neural network-based methods have made significant progress in the field
+  of vulnerability detection. However, the widely used neural network-based vulnerability detection methods
+  suffer from the loss of complex structural and semantic information in the source code. To solve this
+  problem, this paper proposes a dual-attention composite pooling-based vulnerability detection method
+  called DA-CPVD for source code, it enhances the feature representation through fully considering the
+  overall contextual information and complex dependencies of source code. The key of DA-CPVD is the use
+  of a dual-attention composite pooling approach to emphasizes the key features more flexibly, thereby
+  forming a comprehensive pooled feature representation. In specific, DA-CPVD utilizes a self-attention
+  mechanism to adaptively assign the weights to features, as well as uses a composite pooling based on
+  attention mechanism aggregation to dynamically adjust the weights of pooling results. The DA-CPVD method
+  is evaluated on three publicly available and widely used datasets, and the experimental result shows
+  that DA-CPVD improves Accuracy, Precision and F1-measure by an average of 11.52%, 28.7%, and 10.45%,
+  and reduces False Positive Rate by an average of 19.15% compared to other existing methods.

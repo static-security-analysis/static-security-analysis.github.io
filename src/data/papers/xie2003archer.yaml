@@ -1,0 +1,13 @@
+id: xie2003archer
+title: 'ARCHER: An Automated Tool for Detecting Buffer Access Errors'
+authors:
+- Y Xie
+- A Chou
+year: 2003
+type: method
+venue: Hardware
+link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.8725&rep=rep1&type=pdf#page=61
+url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.8725&rep=rep1&type=pdf#page=61
+toolName: ARCHER
+toolsMentioned:
+- archer

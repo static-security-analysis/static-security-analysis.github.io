@@ -1,0 +1,30 @@
+id: bandit
+name: bandit
+description: Open-source static analysis tool using pattern matching for Python.
+languages:
+- Python
+license: Open Source
+website: https://bandit.readthedocs.io/en/latest/
+features:
+- Pattern Matching
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 2800
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Beyond Security

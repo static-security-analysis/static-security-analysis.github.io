@@ -1,0 +1,29 @@
+id: php-inspections
+name: Php Inspections
+description: Open-source static analysis tool for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-
+features:
+- Unknown
+integration: []
+licenseDetail: LGPL
+weaknesses:
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 1200
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web

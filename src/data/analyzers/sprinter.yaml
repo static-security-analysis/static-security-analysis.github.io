@@ -1,0 +1,38 @@
+id: sprinter
+name: SPrinter
+description: Academic static analysis tool using pattern matching for C++.
+languages:
+- C++
+license: Open Source
+website: https://github.com/Snape3058/SPrinter
+features:
+- Pattern Matching
+integration: []
+weaknesses:
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'SPrinter: A Static Checker for Finding Smart Pointer Errors in C++ Programs'
+  authors:
+  - X. {Ma}
+  - J. {Yan}
+  - Y. {Li}
+  - J. {Yan}
+  - J. {Zhang
+  year: 2019
+  type: Academic Paper
+  publication: 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)
+  doi: 10.1109/ASE.2019.00117
+  link: https://doi.org/10.1109/ASE.2019.00117
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+githubStars: 2
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Chinese Academy of Sciences
