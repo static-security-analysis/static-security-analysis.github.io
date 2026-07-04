@@ -1,0 +1,39 @@
+id: coco
+name: CoCo
+description: static (abstract interpretation) browser-extension privilege-escalation detection, handles
+  dynamic JS
+languages:
+- JavaScript
+license: Open Source
+website: https://doi.org/10.1145/3576915.3616584
+features:
+- Abstract Interpretation
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Security Features
+  examples: []
+academicReferences:
+- title: 'CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract
+    Interpretation'
+  authors:
+  - Jianjia Yu
+  - Song Li
+  - Junmin Zhu
+  - Yinzhi Cao
+  year: 2023
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3576915.3616584
+  link: https://doi.org/10.1145/3576915.3616584
+techniques:
+- Abstract Interpretation
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2023
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Johns Hopkins University

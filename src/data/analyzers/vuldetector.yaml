@@ -1,0 +1,38 @@
+id: vuldetector
+name: VulDetector
+description: weighted feature-graph comparison (code similarity)
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/leontsui1987/VulDetector
+features:
+- Graph-based (CPG/PDG)
+integration: []
+licenseDetail: GPL-3.0
+github: https://github.com/leontsui1987/VulDetector
+academicReferences:
+- title: 'VulDetector: Detecting Vulnerabilities Using Weighted Feature Graph Comparison'
+  authors:
+  - Lei Cui
+  - Zhiyu Hao
+  - Yang Jiao
+  - Haiqiang Fei
+  - Xiao-chun Yun
+  year: 2021
+  type: Academic Paper
+  publication: IEEE Transactions on Information Forensics and Security
+  doi: 10.1109/TIFS.2020.3047756
+  link: https://doi.org/10.1109/TIFS.2020.3047756
+techniques:
+- Graph-based (CPG/PDG)
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 30
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Institute of Information Engineering

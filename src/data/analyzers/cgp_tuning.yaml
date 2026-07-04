@@ -1,0 +1,38 @@
+id: cgp_tuning
+name: CGP-Tuning
+description: structure-aware soft-prompt LLM vuln detection (graph-enhanced) [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/ruijunfeng/CGP-tuning
+features:
+- LLM-based
+- Graph-based (CPG/PDG)
+integration: []
+github: https://github.com/ruijunfeng/CGP-tuning
+academicReferences:
+- title: 'CGP-Tuning: Structure-Aware Soft Prompt Tuning for Code Vulnerability Detection'
+  authors:
+  - Ruijun Feng
+  - Hammond Pearce
+  - Pietro Liguori
+  - Yulei Sui
+  year: 2025
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  doi: 10.1109/TSE.2025.3591934
+  link: https://doi.org/10.1109/TSE.2025.3591934
+techniques:
+- LLM-based
+- Graph-based (CPG/PDG)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 5
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: UNSW Sydney

@@ -1,0 +1,30 @@
+id: mambretti2021ghostbuster
+title: 'GhostBuster: understanding and overcoming the pitfalls of transient execution vulnerability checkers'
+authors:
+- Andrea Mambretti
+- Pasquale Convertini
+- Alessandro Sorniotti
+- Alexandra Sandulescu
+- Engin Kirda
+- Anil Kurmus
+year: 2021
+type: empirical
+venue: IEEE International Conference on Software Analysis, Evolution and Reengineering
+venueAcronym: SANER
+doi: 10.1109/SANER50967.2021.00036
+link: https://doi.org/10.1109/SANER50967.2021.00036
+url: https://doi.org/10.1109/SANER50967.2021.00036
+toolName: GhostBuster
+comparesToolIds:
+- spectector
+abstract: Transient execution vulnerabilities require system administrators to evaluate whether their
+  systems are vulnerable and whether available mitigations are enabled. They are aided in this task by
+  multiple community-developed tools, transient execution vulnerability checkers. Yet, no analysis of
+  these tools exists, in particular with respect to their shortcomings and whether they might mislead
+  administrators into a false sense of security. In this paper, we provide the first comprehensive analysis
+  of these tools and underpinning methodologies. We run the tools on a large set of combinations of Intel/AMD
+  architectures and Linux kernel versions and report on their efficacy and shortcomings. We also run these
+  tools on 17 of the most prominent cloud providers, report the collected results and present the current
+  status on the preparedness of the IT hosting industry against this class of attacks. Finally, we present
+  a new tool called GhostBuster, that combines methodologies and results gathered by existing tools to
+  provide a more accurate view a system’s stance against transient execution attacks for a given use case.

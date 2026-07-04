@@ -1,0 +1,35 @@
+id: vulpatrol
+name: VulPatrol
+description: DL interprocedural vuln detection + localization [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/OCyberLab/VulPatrol
+features:
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/OCyberLab/VulPatrol
+academicReferences:
+- title: 'VulPatrol: Interprocedural Vulnerability Detection and Localization through Semantic Graph Learning'
+  authors:
+  - Asmaa Hailane
+  - Paria Shirani
+  - Guy-Vincent Jourdan
+  year: 2024
+  type: Academic Paper
+  publication: Conference on Data and Application Security and Privacy
+  doi: 10.1145/3714393.3726509
+  link: https://doi.org/10.1145/3714393.3726509
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 1
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Ottawa

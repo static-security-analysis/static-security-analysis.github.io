@@ -1,0 +1,60 @@
+id: deepcode
+name: DeepCode
+description: Commercial static analysis tool using pattern matching for Java, C, C++.
+languages:
+- Multiple
+license: Freemium
+website: https://www.deepcode.ai/
+features:
+- Pattern Matching
+- Deep Learning (non-LLM)
+integration: []
+languagesDetail:
+- Java
+- C
+- C++
+- JavaScript
+- Python
+- TypeScript
+- C#
+- PHP
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: Learning a Static Analyzer from Data
+  authors:
+  - Pavol Bielik
+  - Veselin Raychev
+  - Martin Vechev
+  year: 2017
+  type: Academic Paper
+  publication: Computer Aided Verification
+  link: https://www.deepcode.ai/
+- title: Unsupervised Learning of API Aliasing Specifications
+  authors:
+  - Jan Eberhardt
+  - Samuel Steffen
+  - Veselin Raychev
+  - Martin Vechev
+  year: 2019
+  type: Academic Paper
+  publication: Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation
+  doi: 10.1145/3314221.3314640
+  link: https://doi.org/10.1145/3314221.3314640
+techniques:
+- Pattern Matching
+- Deep Learning (non-LLM)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2018
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: DeepCode (Acquired by Snyk in 2020)

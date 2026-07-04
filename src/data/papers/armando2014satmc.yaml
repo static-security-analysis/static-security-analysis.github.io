@@ -1,0 +1,15 @@
+id: armando2014satmc
+title: 'SATMC: A SAT-based model checker for security-critical systems'
+authors:
+- Alessandro Armando
+- Roberto Carbone
+- Luca Compagna
+year: 2014
+type: method
+venue: International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+venueAcronym: TACAS
+doi: 10.1007/978-3-642-54862-8_3
+link: https://doi.org/10.1007/978-3-642-54862-8_3
+toolName: SATMC
+toolsMentioned:
+- satmc

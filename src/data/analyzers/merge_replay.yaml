@@ -1,0 +1,36 @@
+id: merge_replay
+name: Merge-Replay
+description: IFDS taint efficiency improvement (alias consolidation)
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1109/ASE56229.2023.00027
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Merge-Replay: Efficient IFDS-Based Taint Analysis by Consolidating Equivalent Value Flows'
+  authors:
+  - Yujiang Gui
+  - Dongjie He
+  - Jingling Xue
+  year: 2023
+  type: Academic Paper
+  publication: ASE
+  doi: 10.1109/ASE56229.2023.00027
+  link: https://doi.org/10.1109/ASE56229.2023.00027
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2023
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: UNSW Sydney

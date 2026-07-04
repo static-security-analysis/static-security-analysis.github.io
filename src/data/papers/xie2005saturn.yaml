@@ -1,0 +1,17 @@
+id: xie2005saturn
+title: 'Saturn: A SAT-Based Tool for Bug Detection'
+authors:
+- Yichen Xie
+- Alex Aiken
+year: 2005
+type: tool
+venue: International Conference on Computer Aided Verification (CAV)
+venueAcronym: CAV
+link: https://theory.stanford.edu/~aiken/publications/papers/cav05.pdf
+url: https://theory.stanford.edu/~aiken/publications/papers/cav05.pdf
+presentsToolId: saturn
+toolName: Saturn
+toolsMentioned:
+- saturn
+mentionsToolIds:
+- saturn

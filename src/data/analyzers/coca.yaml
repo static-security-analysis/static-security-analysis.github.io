@@ -1,0 +1,37 @@
+id: coca
+name: Coca
+description: explainable GNN vuln detection [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3597503.3639168
+features:
+- Graph Neural Network
+integration: []
+academicReferences:
+- title: 'Coca: Improving and Explaining Graph Neural Network-Based Vulnerability Detection Systems'
+  authors:
+  - Sicong Cao
+  - Xiaobing Sun
+  - Xiaoxue Wu
+  - David Lo
+  - Lili Bo
+  - Bin Li
+  - Wei Liu
+  year: 2024
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1145/3597503.3639168
+  link: https://doi.org/10.1145/3597503.3639168
+techniques:
+- Graph Neural Network
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 38
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Yangzhou University

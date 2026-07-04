@@ -1,0 +1,43 @@
+id: vul_rag
+name: Vul-RAG
+description: RAG-enhanced LLM vuln detection (vuln knowledge) [class-agnostic ML detector]
+languages:
+- C
+license: Open Source
+website: https://github.com/IamRouth/vul-rag
+features:
+- LLM-based
+integration: []
+github: https://github.com/IamRouth/vul-rag
+academicReferences:
+- title: 'Vul-RAG: Enhancing LLM-based Vulnerability Detection via Knowledge-level RAG'
+  authors:
+  - Xueying Du
+  - G. Zheng
+  - Kaixin Wang
+  - Yi Zou
+  - Yujia Wang
+  - Wentai Deng
+  - Jiayi Feng
+  - Mingwei Liu
+  - Bihuan Chen
+  - Xin Peng
+  - Tao Ma
+  - Yiling Lou
+  year: 2024
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3797277
+  link: https://doi.org/10.1145/3797277
+techniques:
+- LLM-based
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Fudan University

@@ -1,0 +1,12 @@
+id: delaitre2015evaluating
+title: Evaluating Bug Finders--Test and Measurement of Static Code Analyzers
+authors:
+- Aurelien Delaitre
+- Bertrand Stivalet
+- Elizabeth Fong
+- Vadim Okun
+year: 2015
+type: empirical
+venue: International Workshop on Complex faUlts and Failures in LargE Software Systems (COUFLESS)
+doi: 10.5555/2819419.2819423
+link: https://doi.org/10.5555/2819419.2819423

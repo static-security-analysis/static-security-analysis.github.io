@@ -1,0 +1,14 @@
+id: beyer2011cpachecker
+title: 'CPAchecker: A Tool for Configurable Software Verification'
+authors:
+- Dirk Beyer
+- M. Erkan Keremoglu
+year: 2011
+type: tool
+venue: International Conference on Computer Aided Verification (CAV)
+venueAcronym: CAV
+doi: 10.1007/978-3-642-22110-1_16
+link: https://doi.org/10.1007/978-3-642-22110-1_16
+toolName: CPAchecker
+toolsMentioned:
+- cpachecker

@@ -1,0 +1,14 @@
+id: tomassi2018bugs
+title: 'Bugs in the Wild: Examining the Effectiveness of Static Analyzers at Finding Real-world Bugs'
+authors:
+- David A. Tomassi
+year: 2018
+type: empirical
+venue: ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations
+  of Software Engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.1145/3236024.3275439
+link: https://doi.org/10.1145/3236024.3275439
+toolsMentioned:
+- errorprone
+- spotbugs

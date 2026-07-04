@@ -1,0 +1,18 @@
+id: bielik2017learning
+title: Learning a Static Analyzer from Data
+authors:
+- Pavol Bielik
+- Veselin Raychev
+- Martin Vechev
+year: 2017
+type: tool
+venue: International Conference on Computer Aided Verification (CAV)
+venueAcronym: CAV
+doi: 10.1007/978-3-319-63387-9_12
+link: https://doi.org/10.1007/978-3-319-63387-9_12
+presentsToolId: deepcode
+toolName: DeepCode
+toolsMentioned:
+- deepcode
+mentionsToolIds:
+- deepcode

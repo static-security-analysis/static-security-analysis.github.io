@@ -1,0 +1,13 @@
+id: johnson2013why
+title: Why Don't Software Developers Use Static Analysis Tools to Find Bugs?
+authors:
+- Brittany Johnson
+- Yoonki Song
+- Emerson Murphy-Hill
+- Robert Bowdidge
+year: 2013
+type: empirical
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1109/ICSE.2013.6606613
+link: https://doi.org/10.1109/ICSE.2013.6606613

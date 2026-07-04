@@ -1,0 +1,51 @@
+id: thunderscan
+name: thunderscan
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Freemium
+website: https://www.defensecode.com/thunderscan-sast/
+features:
+- Unknown
+- Hybrid (static+dynamic)
+integration: []
+languagesDetail:
+- C#
+- Java
+- PHP
+- ASP.NET
+- Visual Basic
+- Python
+- Ruby
+- JavaScript
+- Objective-C
+- SQL
+- C
+- C++
+- TypeScript
+- Groovy
+- COBOL
+- Go
+- ABAP
+- HTML
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Defense Code

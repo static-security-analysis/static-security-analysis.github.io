@@ -1,0 +1,25 @@
+id: safety
+name: Safety
+description: Open-source static analysis tool using software composition analysis for Python.
+languages:
+- Python
+license: Open Source
+website: https://github.com/pyupio/safety
+features:
+- Software Composition Analysis
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Software Composition Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 903
+toolType: oss
+input:
+- Manifest
+ecosystem:
+- General-purpose

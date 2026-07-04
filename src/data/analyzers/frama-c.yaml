@@ -1,0 +1,42 @@
+id: frama-c
+name: Frama-C
+description: Academic static analysis tool using abstract interpretation for C.
+languages:
+- C
+license: Open Source
+website: https://frama-c.com/
+features:
+- Abstract Interpretation
+- Deductive Verification
+integration: []
+licenseDetail: LGPLv2
+weaknesses:
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'Frama-C: A software analysis perspective'
+  authors:
+  - Florent Kirchner
+  - Nikolai Kosmatov
+  - Virgile Prevosto
+  - Julien Signoles
+  - Boris Yakobowski
+  year: 2015
+  type: Academic Paper
+  publication: Formal Aspects of Computing
+  doi: 10.1007/s00165-014-0326-7
+  link: https://doi.org/10.1007/s00165-014-0326-7
+techniques:
+- Abstract Interpretation
+- Deductive Verification
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2007
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: CEA List, INRIA Saclay

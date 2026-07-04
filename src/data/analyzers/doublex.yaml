@@ -1,0 +1,41 @@
+id: doublex
+name: DoubleX
+description: static vulnerable data-flow in browser extensions
+languages:
+- JavaScript
+license: Open Source
+website: https://github.com/Aurore54F/DoubleX
+features:
+- Data-flow Analysis
+- Taint Analysis
+integration: []
+licenseDetail: AGPL-3.0
+github: https://github.com/Aurore54F/DoubleX
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'DoubleX: Statically Detecting Vulnerable Data Flows in Browser Extensions at Scale'
+  authors:
+  - Aurore Fass
+  - Doliére Francis Somé
+  - M. Backes
+  - Ben Stock
+  year: 2021
+  type: Academic Paper
+  publication: Conference on Computer and Communications Security
+  doi: 10.1145/3460120.3484745
+  link: https://doi.org/10.1145/3460120.3484745
+techniques:
+- Data-flow Analysis
+- Taint Analysis
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 83
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Helmholtz Center for Information Security

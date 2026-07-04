@@ -1,0 +1,42 @@
+id: mtdscout
+name: MtdScout
+description: identifies insecure methods (API misuse) in Android, combines taint + TPL
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1109/EuroSP60621.2024.00045
+features:
+- Taint Analysis
+- Software Composition Analysis
+integration: []
+weaknesses:
+- category: API Abuse
+  examples: []
+academicReferences:
+- title: 'MtdScout: Complementing the Identification of Insecure Methods in Android Apps via Source-to-Bytecode
+    Signature Generation and Tree-based Layered Search'
+  authors:
+  - Zicheng Zhang
+  - Haoyu Ma
+  - Daoyuan Wu
+  - Debin Gao
+  - Xiao Yi
+  - Yufan Chen
+  - Yan Wu
+  - Lingxiao Jiang
+  year: 2024
+  type: Academic Paper
+  publication: S&P
+  doi: 10.1109/EuroSP60621.2024.00045
+  link: https://doi.org/10.1109/EuroSP60621.2024.00045
+techniques:
+- Taint Analysis
+- Software Composition Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: Singapore Management University

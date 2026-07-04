@@ -1,0 +1,19 @@
+id: banerjee2019nullaway
+title: 'NullAway: Practical type-based null safety for Java'
+authors:
+- Subarno Banerjee
+- Lazaro Clapp
+- Manu Sridharan
+year: 2019
+type: tool
+venue: ACM Joint Meeting European Software Engineering Conference and Symposium on the Foundations of
+  Software Engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.5281/zenodo.3267950
+link: https://doi.org/10.5281/zenodo.3267950
+presentsToolId: nullaway
+toolName: NullAway
+toolsMentioned:
+- nullaway
+mentionsToolIds:
+- nullaway

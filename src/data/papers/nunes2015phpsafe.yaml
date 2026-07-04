@@ -1,0 +1,18 @@
+id: nunes2015phpsafe
+title: 'phpSAFE: A Security Analysis Tool for OOP Web Application Plugins'
+authors:
+- Paulo Jorge Costa Nunes
+- José Fonseca
+- Marco Vieira
+year: 2015
+type: tool
+venue: Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+venueAcronym: DSN
+doi: 10.1109/DSN.2015.16
+link: https://doi.org/10.1109/DSN.2015.16
+presentsToolId: phpsafe
+toolName: phpSAFE
+toolsMentioned:
+- phpsafe
+mentionsToolIds:
+- phpsafe

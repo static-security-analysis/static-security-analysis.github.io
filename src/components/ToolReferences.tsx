@@ -1,4 +1,3 @@
-
 import { AcademicReference, ReferenceType } from "@/lib/constants";
 import { BookOpen, Book, FileText, Newspaper } from "lucide-react";
 
@@ -15,11 +14,13 @@ const ToolReferences = ({ references }: ToolReferencesProps) => {
         return <FileText size={16} className="text-purple-600" />;
       case "Blog Post":
         return <Newspaper size={16} className="text-green-600" />;
+      case "Tool Documentation":
+        return <BookOpen size={16} className="text-gray-600" />;
       default:
         return <BookOpen size={16} className="text-gray-600" />;
     }
   };
-  
+
   const getTypeLabel = (type: ReferenceType) => {
     switch (type) {
       case "Academic Paper":
@@ -28,6 +29,8 @@ const ToolReferences = ({ references }: ToolReferencesProps) => {
         return "White Papers";
       case "Blog Post":
         return "Blog Posts";
+      case "Tool Documentation":
+        return "Tool Documentation";
       default:
         return "Other References";
     }
@@ -48,39 +51,39 @@ const ToolReferences = ({ references }: ToolReferencesProps) => {
   
   return (
     <section>
-      <h2 className="text-xl font-semibold mb-4">References</h2>
+      <h2 className="text-xl font-semibold mb-4 text-gray-900">References</h2>
       <div className="space-y-6">
         {referenceTypes.map((type) => (
-          <div key={type} className="bg-gray-50 p-4 rounded-lg">
-            <div className="flex items-center gap-2 border-b pb-2 mb-4">
+          <div key={type} className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
+            <div className="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
               {getReferenceIcon(type)}
-              <h3 className="font-medium">{getTypeLabel(type)}</h3>
+              <h3 className="font-semibold text-gray-800">{getTypeLabel(type)}</h3>
             </div>
             
-            <div className="space-y-4">
+            <div className="space-y-5">
               {referenceGroups[type]?.map((reference, index) => (
-                <div key={index} className="border-l-2 border-gray-300 pl-4 py-2">
+                <div key={index} className="pl-2">
                   <a 
                     href={reference.link} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="font-medium text-blue-600 hover:underline block"
+                    className="font-medium text-blue-600 hover:text-blue-800 hover:underline block mb-1"
                   >
                     {reference.title}
                   </a>
-                  <p className="text-gray-700 mt-1">
+                  <p className="text-sm text-gray-700">
                     {reference.authors.join(", ")} ({reference.year})
                   </p>
                   {reference.publication && (
-                    <p className="text-gray-600 italic">{reference.publication}</p>
+                    <p className="text-sm text-gray-500 italic mt-0.5">{reference.publication}</p>
                   )}
                   {reference.doi && (
-                    <p className="text-gray-600 mt-1">
+                    <p className="text-xs text-gray-400 mt-1">
                       DOI: <a 
                         href={`https://doi.org/${reference.doi}`}
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline"
+                        className="hover:underline"
                       >
                         {reference.doi}
                       </a>

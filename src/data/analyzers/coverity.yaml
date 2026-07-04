@@ -1,0 +1,59 @@
+id: coverity
+name: Coverity
+description: Commercial static analysis tool using data-flow analysis for Java, C, C++.
+languages:
+- Multiple
+license: Freemium
+website: https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+features:
+- Data-flow Analysis
+integration: []
+languagesDetail:
+- Java
+- C
+- C++
+- C#
+- Objective-C
+- Ruby
+- Python
+- PHP
+- Fortran
+- Swift
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World'
+  authors:
+  - Al Bessey
+  - Ken Block
+  - Ben Chelf
+  - Andy Chou
+  - Bryan Fulton
+  - Seth Hallem
+  - Charles Henri-Gros
+  - Asya Kamsky
+  - Scott McPeak
+  - Dawson Engler
+  year: 2010
+  type: Academic Paper
+  publication: Commun. ACM
+  doi: 10.1145/1646353.1646374
+  link: https://doi.org/10.1145/1646353.1646374
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2002
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Synopsys

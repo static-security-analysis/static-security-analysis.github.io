@@ -1,0 +1,16 @@
+id: atkey2015threadsafe
+title: 'ThreadSafe: static analysis for Java concurrency'
+authors:
+- Robert Atkey
+- Donald Sannella
+year: 2015
+type: tool
+venue: Electronic Communications Journal
+doi: 10.14279/tuj.eceasst.72.1025
+link: https://doi.org/10.14279/tuj.eceasst.72.1025
+presentsToolId: threadsafe
+toolName: ThreadSafe
+toolsMentioned:
+- threadsafe
+mentionsToolIds:
+- threadsafe

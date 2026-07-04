@@ -1,0 +1,30 @@
+id: tslint-microsoft-contrib
+name: tslint-microsoft-contrib
+description: Open-source static analysis tool using pattern matching for TypeScript.
+languages:
+- TypeScript
+license: Open Source
+website: https://github.com/microsoft/tslint-microsoft-contrib
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 703
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Microsoft

@@ -1,0 +1,29 @@
+id: zhang2018scinfer
+title: 'SCInfer: Refinement-Based Verification of Software Countermeasures Against Side-Channel Attacks'
+authors:
+- Jun Zhang
+- Pengfei Gao
+- Fu Song
+- Chao Wang
+year: 2018
+type: method
+venue: International Conference on Computer Aided Verification
+venueAcronym: CAV
+doi: 10.1007/978-3-319-96142-2_12
+link: https://doi.org/10.1007/978-3-319-96142-2_12
+url: https://doi.org/10.1007/978-3-319-96142-2_12
+presentsToolId: scinfer
+toolName: SCInfer
+abstract: Power side-channel attacks, capable of deducing secret using statistical analysis techniques,
+  have become a serious threat to devices in cyber-physical systems and the Internet of things. Random
+  masking is a widely used countermeasure for removing the statistical dependence between secret data
+  and side-channel leaks. Although there are techniques for verifying whether software code has been perfectly
+  masked, they are limited in accuracy and scalability. To bridge this gap, we propose a refinement-based
+  method for verifying masking countermeasures. Our method is more accurate than prior syntactic type
+  inference based approaches and more scalable than prior model-counting based approaches using SAT or
+  SMT solvers. Indeed, it can be viewed as a gradual refinement of a set of semantic type inference rules
+  for reasoning about distribution types. These rules are kept abstract initially to allow fast deduction,
+  and then made concrete when the abstract version is not able to resolve the verification problem. We
+  have implemented our method in a tool and evaluated it on cryptographic benchmarks including AES and
+  MAC-Keccak. The results show that our method significantly outperforms state-of-the-art techniques in
+  terms of both accuracy and scalability.

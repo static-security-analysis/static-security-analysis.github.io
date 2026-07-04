@@ -1,0 +1,37 @@
+id: osmy
+name: Osmy
+description: SBOM-based vulnerability assessment of dependencies
+languages:
+- Multiple
+license: Open Source
+website: https://doi.org/10.1109/SANER60148.2024.00052
+features:
+- Software Composition Analysis
+integration: []
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'Osmy: A Tool for Periodic Software Vulnerability Assessment and File Integrity Verification
+    using SPDX Documents'
+  authors:
+  - Rio Kishimoto
+  - Tetsuya Kanda
+  - Yuki Manabe
+  - Katsuro Inoue
+  - Yoshiki Higo
+  year: 2024
+  type: Academic Paper
+  publication: SANER
+  doi: 10.1109/SANER60148.2024.00052
+  link: https://doi.org/10.1109/SANER60148.2024.00052
+techniques:
+- Software Composition Analysis
+empiricalValidation: false
+yearIntroduced: 2024
+toolType: oss
+input:
+- Config/IaC
+ecosystem:
+- General-purpose
+institute: Osaka University

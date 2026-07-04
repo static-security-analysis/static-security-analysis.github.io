@@ -1,0 +1,16 @@
+id: xie2003archer-2
+title: 'ARCHER: Using Symbolic, Path-sensitive Analysis to Detect Memory Access Errors'
+authors:
+- Yichen Xie
+- Andy Chou
+- Dawson Engler
+year: 2003
+type: method
+venue: Joint European Software Engineering Conference and SIGSOFT Symposium on the Foundations of Software
+  Engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.1145/949952.940115
+link: https://doi.org/10.1145/949952.940115
+toolName: ARCHER
+toolsMentioned:
+- archer

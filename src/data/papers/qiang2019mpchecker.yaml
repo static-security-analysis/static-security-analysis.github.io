@@ -1,0 +1,15 @@
+id: qiang2019mpchecker
+title: 'Mpchecker: Use-After-Free Vulnerabilities Protection Based on Multi-Level Pointers'
+authors:
+- Weizhong Qiang
+- Weifeng Li
+- Hai Jin
+- Jayachander Surbiryala
+year: 2019
+type: method
+venue: IEEE Access
+doi: 10.1109/ACCESS.2019.2908022
+link: https://doi.org/10.1109/ACCESS.2019.2908022
+toolName: Mpchecker
+toolsMentioned:
+- mpchecker

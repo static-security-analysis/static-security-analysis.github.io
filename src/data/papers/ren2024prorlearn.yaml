@@ -1,0 +1,41 @@
+id: ren2024prorlearn
+title: 'ProRLearn: boosting prompt tuning-based vulnerability detection by reinforcement learning'
+authors:
+- Zilong Ren
+- Xiaolin Ju
+- Xiang Chen
+- Hao Shen
+year: 2024
+type: method
+venue: International Conference on Automated Software Engineering
+venueAcronym: ASE
+doi: 10.1007/s10515-024-00438-9
+link: https://doi.org/10.1007/s10515-024-00438-9
+url: https://doi.org/10.1007/s10515-024-00438-9
+presentsToolId: prorlearn
+toolName: ProRLearn
+comparesToolIds:
+- devign
+- ivdetect
+- reveal
+- sysevr
+- vuldeepecker
+abstract: 'Software vulnerability detection is a critical step in ensuring system security and data protection.
+  Recent research has demonstrated the effectiveness of deep learning in automated vulnerability detection.
+  However, it is difficult for deep learning models to understand the semantics and domain-specific knowledge
+  of source code. In this study, we introduce a new vulnerability detection framework, ProRLearn, which
+  leverages two main techniques: prompt tuning and reinforcement learning. Since existing fine-tuning
+  of pre-trained language models (PLMs) struggles to leverage domain knowledge fully, we introduce a new
+  automatic prompt-tuning technique. Precisely, prompt tuning mimics the pre-training process of PLMs
+  by rephrasing task input and adding prompts, using the PLM’s output as the prediction output. The introduction
+  of the reinforcement learning reward mechanism aims to guide the behavior of vulnerability detection
+  through a reward and punishment model, enabling it to learn effective strategies for obtaining maximum
+  long-term rewards in specific environments. The introduction of reinforcement learning aims to encourage
+  the model to learn how to maximize rewards or minimize penalties, thus enhancing performance. Experiments
+  on three datasets (FFMPeg+Qemu, Reveal, and Big-Vul) indicate that ProRLearn achieves performance improvement
+  of 3.27–70.96% over state-of-the-art baselines in terms of F1 score. The combination of prompt tuning
+  and reinforcement learning can offer a potential opportunity to improve performance in vulnerability
+  detection. This means that it can effectively improve the performance in responding to constantly changing
+  network environments and new threats. This interdisciplinary approach contributes to a better understanding
+  of the interplay between natural language processing and reinforcement learning, opening up new opportunities
+  and challenges for future research and applications.'

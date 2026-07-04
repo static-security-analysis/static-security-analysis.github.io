@@ -1,0 +1,14 @@
+id: xu2015melton
+title: 'Melton: a practical and precise memory leak detection tool for C programs'
+authors:
+- Zhenbo Xu
+- Jian Zhang
+- Zhongxing Xu
+year: 2015
+type: method
+venue: Frontiers of Computer Science
+doi: 10.1007/s11704-014-3460-8
+link: https://doi.org/10.1007/s11704-014-3460-8
+toolName: Melton
+toolsMentioned:
+- melton

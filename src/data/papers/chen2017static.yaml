@@ -1,0 +1,16 @@
+id: chen2017static
+title: Static detection of asymptotic resource side-channel vulnerabilities in web applications
+authors:
+- Jia Chen
+- Oswaldo Olivo
+- Isil Dillig
+- Calvin Lin
+year: 2017
+type: method
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1109/ASE.2017.8115636
+link: https://doi.org/10.1109/ASE.2017.8115636
+toolName: Scanner
+toolsMentioned:
+- scanner

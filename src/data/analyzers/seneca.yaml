@@ -1,0 +1,36 @@
+id: seneca
+name: Seneca
+description: taint-based call-graph construction for Java deserialization gadget detection
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1145/3649851
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Seneca: Taint-Based Call Graph Construction for Java Object Deserialization'
+  authors:
+  - Joanna C. S. Santos
+  - Mehdi Mirakhorli
+  - Ali Shokri
+  year: 2024
+  type: Academic Paper
+  publication: OOPSLA
+  doi: 10.1145/3649851
+  link: https://doi.org/10.1145/3649851
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Notre Dame

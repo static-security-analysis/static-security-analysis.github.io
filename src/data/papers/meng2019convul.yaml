@@ -1,0 +1,18 @@
+id: meng2019convul
+title: 'CONVUL: An effective tool for detecting concurrency vulnerabilities'
+authors:
+- Ruijie Meng
+- Biyun Zhu
+- Hao Yun
+- Haicheng Li
+- Yan Cai
+- Zijiang Yang
+year: 2019
+type: tool
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1109/ASE.2019.00125
+link: https://doi.org/10.1109/ASE.2019.00125
+toolName: CONVUL
+toolsMentioned:
+- convul

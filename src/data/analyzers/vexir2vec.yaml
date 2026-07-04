@@ -1,0 +1,41 @@
+id: vexir2vec
+name: VexIR2Vec
+description: architecture-neutral binary embedding (VEX IR) for similarity-based vuln detection
+languages:
+- Binary
+license: Open Source
+website: https://github.com/IITH-Compilers/VexIR2Vec
+features:
+- Deep Learning (non-LLM)
+integration: []
+licenseDetail: AGPL-3.0
+github: https://github.com/IITH-Compilers/VexIR2Vec
+academicReferences:
+- title: 'VexIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity'
+  authors:
+  - S. VenkataKeerthy
+  - S. Banerjee
+  - Sayan Dey
+  - Yashas Andaluri
+  - Raghul P. S.
+  - S. Kalyanasundaram
+  - F. Q. Quintão Pereira
+  - Ramakrishna Upadrasta
+  year: 2023
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3721481
+  link: https://doi.org/10.1145/3721481
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 16
+toolType: oss
+input:
+- Binary
+- IR
+ecosystem:
+- Binary/Embedded
+institute: Indian Institute of Technology Hyderabad

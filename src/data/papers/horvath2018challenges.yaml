@@ -1,0 +1,17 @@
+id: horvath2018challenges
+title: Challenges of Implementing Cross Translation Unit Analysis in Clang Static Analyzer
+authors:
+- Gábor Horváth
+- Péter Szécsi
+- Zoltán Gera
+- Dániel Krupp
+- Norbert Pataki
+year: 2018
+type: tool
+venue: IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
+doi: 10.1109/SCAM.2018.00031
+link: https://doi.org/10.1109/SCAM.2018.00031
+presentsToolId: clang-static-analyzer
+toolName: Clang Static Analyzer
+toolsMentioned:
+- clang_static_analyzer

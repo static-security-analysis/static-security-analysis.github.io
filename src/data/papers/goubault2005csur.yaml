@@ -1,0 +1,13 @@
+id: goubault2005csur
+title: 'CSur: A Static Analyzer for Cryptographic Protocols Written in C'
+authors:
+- Jean Goubault-Larrecq
+- Fabrice Parrennes
+year: 2005
+type: method
+venue: International Symposium on Static Analysis (SAS)
+doi: 10.1007/11428107_28
+link: https://doi.org/10.1007/11428107_28
+toolName: CSur
+toolsMentioned:
+- csur

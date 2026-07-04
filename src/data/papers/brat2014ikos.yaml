@@ -1,0 +1,19 @@
+id: brat2014ikos
+title: 'IKOS: A Framework for Static Analysis based on Abstract Interpretation'
+authors:
+- Guillaume Brat
+- Jorge Navas
+- Nija Shi
+- Arnaud Venet
+year: 2014
+type: tool
+venue: International Conference on Software Engineering and Formal Methods (SEFM)
+venueAcronym: ICSE
+doi: 10.1007/978-3-319-10431-7_20
+link: https://doi.org/10.1007/978-3-319-10431-7_20
+presentsToolId: ikos
+toolName: IKOS
+toolsMentioned:
+- ikos
+mentionsToolIds:
+- ikos

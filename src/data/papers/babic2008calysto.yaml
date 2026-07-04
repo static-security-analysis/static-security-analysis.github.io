@@ -1,0 +1,14 @@
+id: babic2008calysto
+title: 'Calysto: Scalable and Precise Extended Static Checking'
+authors:
+- Domagoj Babić
+- Alan J. Hu
+year: 2008
+type: method
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1145/1368088.1368094
+link: https://doi.org/10.1145/1368088.1368094
+toolName: Calysto
+toolsMentioned:
+- calysto

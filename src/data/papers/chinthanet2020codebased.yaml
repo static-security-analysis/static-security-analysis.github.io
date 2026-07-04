@@ -1,0 +1,25 @@
+id: chinthanet2020codebased
+title: 'Code-Based Vulnerability Detection in Node.js Applications: How far are we?'
+authors:
+- Bodin Chinthanet
+- Serena Elisa Ponta
+- Henrik Plate
+- Antonino Sabetta
+- Raula Gaikovina Kula
+- Takashi Ishio
+- Kenichi Matsumoto
+year: 2020
+type: empirical
+venue: IEEE/ACM International Conference on Automated Software Engineering
+venueAcronym: ASE
+doi: 10.1145/3324884.3421838
+link: https://doi.org/10.1145/3324884.3421838
+url: https://doi.org/10.1145/3324884.3421838
+arxivId: '2008.04568'
+tldr: This work proposes and implements a viable code-based vulnerability detection tool for Node.js applications
+  and lists the challenges encountered while implementing it.
+abstract: With one of the largest available collection of reusable packages, the JavaScript runtime environment
+  Node.js is one of the most popular programming application. With recent work showing evidence that known
+  vulnerabilities are prevalent in both open source and industrial software, we propose and implement
+  a viable code-based vulnerability detection tool for Node.js applications. Our case study lists the
+  challenges encountered while implementing our Node.js vulnerable code detector.

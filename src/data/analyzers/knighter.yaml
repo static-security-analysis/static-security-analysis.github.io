@@ -1,0 +1,39 @@
+id: knighter
+name: KNighter
+description: LLM-synthesized static-analysis checkers for kernel bug detection
+languages:
+- C
+license: Open Source
+website: https://github.com/ise-uiuc/KNighter
+features:
+- LLM-based
+- Pattern Matching
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/ise-uiuc/KNighter
+academicReferences:
+- title: 'KNighter: Transforming Static Analysis with LLM-Synthesized Checkers'
+  authors:
+  - Chenyuan Yang
+  - Zijie Zhao
+  - Zichen Xie
+  - Haoyu Li
+  - Lingming Zhang
+  year: 2025
+  type: Academic Paper
+  publication: Symposium on Operating Systems Principles
+  doi: 10.1145/3731569.3764827
+  link: https://doi.org/10.1145/3731569.3764827
+techniques:
+- LLM-based
+- Pattern Matching
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 181
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- OS/Kernel
+institute: University of Illinois Urbana-Champaign

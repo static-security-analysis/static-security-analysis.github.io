@@ -1,0 +1,16 @@
+id: nielsen2019nodest
+title: 'Nodest: Feedback-driven static analysis of Node.js applications'
+authors:
+- Benjamin Barslev Nielsen
+- Behnaz Hassanshahi
+- François Gauthier
+year: 2019
+type: method
+venue: ACM Joint Meeting European Software Engineering Conference and Symposium on the Foundations of
+  Software Engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.1145/3338906.3338933
+link: https://doi.org/10.1145/3338906.3338933
+toolName: Nodest
+toolsMentioned:
+- nodest

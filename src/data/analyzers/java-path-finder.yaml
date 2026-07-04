@@ -1,0 +1,53 @@
+id: java-path-finder
+name: Java Path Finder
+description: Open-source static analysis tool using model checking for Java.
+languages:
+- Java
+license: Open Source
+website: https://github.com/javapathfinder/jpf-core
+features:
+- Model Checking
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: Model Checking Java Programs Using Structural Heuristics
+  authors:
+  - Alex Groce
+  - Willem Visser
+  year: 2002
+  type: Academic Paper
+  publication: Proceedings of the 2002 ACM SIGSOFT International Symposium on Software Testing and Analysis
+  doi: 10.1145/566172.566175
+  link: https://doi.org/10.1145/566172.566175
+- title: Combining Unit-Level Symbolic Execution and System-Level Concrete Execution for Testing Nasa
+    Software
+  authors:
+  - Corina S. Pundefinedsundefinedreanu
+  - Peter C. Mehlitz
+  - David H. Bushnell
+  - Karen Gundy-Burlet
+  - Michael Lowry
+  - Suzette Person
+  - Mark Pape
+  year: 2008
+  type: Academic Paper
+  publication: Proceedings of the 2008 International Symposium on Software Testing and Analysis
+  doi: 10.1145/1390630.1390635
+  link: https://doi.org/10.1145/1390630.1390635
+techniques:
+- Model Checking
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2005
+githubStars: 264
+toolType: oss
+input:
+- Byte Code
+ecosystem:
+- General-purpose
+institute: NASA Ames Research Center

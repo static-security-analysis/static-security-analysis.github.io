@@ -1,0 +1,16 @@
+id: calcagno2011infer
+title: 'Infer: An Automatic Program Verifier for Memory Safety of C Programs'
+authors:
+- Cristiano Calcagno
+- Dino Distefano
+year: 2011
+type: tool
+venue: NASA Formal Methods (NASA)
+doi: 10.5555/1986308.1986345
+link: https://doi.org/10.5555/1986308.1986345
+presentsToolId: infer
+toolName: Infer
+toolsMentioned:
+- infer
+mentionsToolIds:
+- infer

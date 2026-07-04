@@ -1,0 +1,29 @@
+id: akram2019vcipr
+title: 'VCIPR: Vulnerable Code is Identifiable When a Patch is Released (Hacker''s Perspective)'
+authors:
+- Junaid Akram
+- Liang Qi
+- Ping Luo
+year: 2019
+type: method
+venue: IEEE International Conference on Software Testing, Verification and Validation
+venueAcronym: ICST
+doi: 10.1109/ICST.2019.00049
+link: https://doi.org/10.1109/ICST.2019.00049
+url: https://doi.org/10.1109/ICST.2019.00049
+presentsToolId: vcipr
+toolName: VCIPR
+comparesToolIds:
+- vuddy
+abstract: Vulnerable source code fragments remain unfixed for many years and they always propagate to
+  other systems. Unfortunately, this happens often, when patch files are not propagated to all vulnerable
+  code clones. An unpatched bug is a critical security problem, which should be detected and repaired
+  as early as possible. In this paper, we present VCIPR, a scalable system for vulnerability detection
+  in unpatched source code. We present a unique way, that uses a fast, token-based approach to detect
+  vulnerabilities at function level granularity. This approach is language independent, which supports
+  multiple programming languages including Java, C/C++, JavaScript. VCIPR detects most common repair patterns
+  in patch files for the vulnerability code evaluation. We build fingerprint index of top critical CVE's
+  source code, which were retrieved from a reliable source. Then we detect unpatched (vulnerable/non-vulnerable)
+  code fragments in common open source software with high accuracy. A comparison with the state-of-the-art
+  tools proves the effectiveness, efficiency and scalability of our approach. Furthermore, this paper
+  shows that how the hackers can easily identify the vulnerable software whenever a patch file is released.

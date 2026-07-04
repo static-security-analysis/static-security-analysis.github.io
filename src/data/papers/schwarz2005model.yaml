@@ -1,0 +1,22 @@
+id: schwarz2005model
+title: Model checking an entire Linux distribution for security violations
+authors:
+- Benjamin Schwarz
+- Hao Chen
+- David Wagner
+- Geoff Morrison
+- Jacob West
+- Jeremy Lin
+- Wei Tu
+year: 2005
+type: method
+venue: Annual Computer Security Applications Conference (ACSAC)
+venueAcronym: ACSAC
+doi: 10.1109/CSAC.2005.39
+link: https://doi.org/10.1109/CSAC.2005.39
+presentsToolId: mops
+toolName: MOPS
+toolsMentioned:
+- mops
+mentionsToolIds:
+- mops

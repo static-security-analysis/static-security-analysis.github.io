@@ -1,0 +1,37 @@
+id: clnx
+name: CLNX
+description: 'FLAG: identifies vulnerability-CONTRIBUTING commits (VCC) — commit-level, borderline vs
+  ruling (a); AAAI''24 re-admit'
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/CodeLinguaNexus-CLNX/codelinguanexus-clnx.github.io
+features:
+- LLM-based
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/CodeLinguaNexus-CLNX/codelinguanexus-clnx.github.io
+academicReferences:
+- title: 'CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification'
+  authors:
+  - Z. Qin
+  - Yiwei Wu
+  - Lansheng Han
+  year: 2024
+  type: Academic Paper
+  publication: AAAI Conference on Artificial Intelligence
+  doi: 10.48550/arXiv.2409.07407
+  link: https://doi.org/10.48550/arXiv.2409.07407
+techniques:
+- LLM-based
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Huazhong University of Science and Technology

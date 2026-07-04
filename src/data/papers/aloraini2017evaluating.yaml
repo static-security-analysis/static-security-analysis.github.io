@@ -1,0 +1,12 @@
+id: aloraini2017evaluating
+title: Evaluating State-of-the-Art Free and Open Source Static Analysis Tools Against Buffer Errors in
+  Android Apps
+authors:
+- Bushra Aloraini
+- Meiyappan Nagappan
+year: 2017
+type: empirical
+venue: IEEE International Conference on Software Maintenance and Evolution (ICSME)
+venueAcronym: ICSME
+doi: 10.1109/ICSME.2017.77
+link: https://doi.org/10.1109/ICSME.2017.77

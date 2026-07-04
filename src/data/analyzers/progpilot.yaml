@@ -1,0 +1,25 @@
+id: progpilot
+name: Progpilot
+description: Open-source static analysis tool using taint analysis for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://github.com/designsecurity/progpilot
+features:
+- Taint Analysis
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+githubStars: 201
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web

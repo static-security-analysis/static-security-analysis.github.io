@@ -1,0 +1,17 @@
+id: chen2002mops
+title: 'MOPS: An infrastructure for examining security properties of software'
+authors:
+- Hao Chen
+- David Wagner
+year: 2002
+type: method
+venue: ACM Conference on Computer and Communications Security (CCS)
+venueAcronym: CCS
+doi: 10.1145/586110.586142
+link: https://doi.org/10.1145/586110.586142
+presentsToolId: mops
+toolName: MOPS
+toolsMentioned:
+- mops
+mentionsToolIds:
+- mops

@@ -1,0 +1,41 @@
+id: difuzer
+name: Difuzer
+description: static taint + anomaly detection for logic bombs (static+ML, not static+dynamic)
+languages:
+- Bytecode
+license: Open Source
+website: https://github.com/Trustworthy-Software/Difuzer
+features:
+- Taint Analysis
+- Deep Learning (non-LLM)
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/Trustworthy-Software/Difuzer
+weaknesses:
+- category: Security Features
+  examples: []
+academicReferences:
+- title: 'Difuzer: Uncovering Suspicious Hidden Sensitive Operations in Android Apps'
+  authors:
+  - Jordan Samhi
+  - Li Li
+  - Tegawendé Bissyande
+  - Jacques Klein
+  year: 2021
+  type: Academic Paper
+  publication: International Conference on Software Engineering
+  doi: 10.1145/3510003.3510135
+  link: https://doi.org/10.1145/3510003.3510135
+techniques:
+- Taint Analysis
+- Deep Learning (non-LLM)
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 6
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: University of Luxembourg

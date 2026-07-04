@@ -1,0 +1,16 @@
+id: beyer2005checking
+title: Checking memory safety with Blast
+authors:
+- Dirk Beyer
+- Thomas A. Henzinger
+- Ranjit Jhala
+- Rupak Majumdar
+year: 2005
+type: tool
+venue: Joint European Conference on Theory and Practice of Software Conference on Fundamental Approaches
+  to Software Engineering (FASE)
+doi: 10.1007/978-3-540-31984-9_2
+link: https://doi.org/10.1007/978-3-540-31984-9_2
+toolName: BLAST
+toolsMentioned:
+- blast

@@ -1,0 +1,35 @@
+id: realvul
+name: RealVul
+description: first LLM-based PHP web vuln detection (EMNLP'24)
+languages:
+- PHP
+license: Open Source
+website: https://github.com/seokjeon/RealVul
+features:
+- LLM-based
+integration: []
+licenseDetail: AGPL-3.0
+github: https://github.com/seokjeon/RealVul
+academicReferences:
+- title: 'RealVul: Can We Detect Vulnerabilities in Web Applications with LLM?'
+  authors:
+  - Di Cao
+  - Yong Liao
+  - Xiuwei Shang
+  year: 2024
+  type: Academic Paper
+  publication: Conference on Empirical Methods in Natural Language Processing
+  doi: 10.48550/arXiv.2410.07573
+  link: https://doi.org/10.48550/arXiv.2410.07573
+techniques:
+- LLM-based
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: University of Science and Technology of China

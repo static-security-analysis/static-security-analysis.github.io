@@ -1,0 +1,33 @@
+id: symqemu
+name: SymQEMU
+description: compilation-based symbolic execution for binaries
+languages:
+- Binary
+license: Open Source
+website: https://github.com/eurecom-s3/symqemu
+features:
+- Symbolic/Concolic Execution
+integration: []
+github: https://github.com/eurecom-s3/symqemu
+academicReferences:
+- title: 'SymQEMU: Compilation-based symbolic execution for binaries'
+  authors:
+  - Sebastian Poeplau
+  - Aurélien Francillon
+  year: 2021
+  type: Academic Paper
+  publication: Network and Distributed System Security Symposium
+  doi: 10.14722/NDSS.2021.24118
+  link: https://doi.org/10.14722/NDSS.2021.24118
+techniques:
+- Symbolic/Concolic Execution
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 374
+toolType: oss
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: EURECOM

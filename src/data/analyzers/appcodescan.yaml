@@ -1,0 +1,29 @@
+id: appcodescan
+name: AppCodeScan
+description: Open-source static analysis tool using pattern matching for C#, Java.
+languages:
+- C#
+- Java
+license: Open Source
+website: https://www.blueinfy.com/
+features:
+- Pattern Matching
+- Data-flow Analysis
+integration: []
+licenseDetail: CC BY-NC-SA 3.0
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+- Data-flow Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2007
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Security Database/Blueinfy

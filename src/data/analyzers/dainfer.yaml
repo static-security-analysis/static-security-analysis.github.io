@@ -1,0 +1,36 @@
+id: dainfer
+name: DAInfer
+description: 'FLAG: infers API aliasing SPECS from docs (NLP) — enabler for SA, not a detector'
+languages:
+- Java
+license: Open Source
+website: https://github.com/DAInfer/DAInfer
+features:
+- Pattern Matching
+integration: []
+github: https://github.com/DAInfer/DAInfer
+academicReferences:
+- title: 'DAInfer: Inferring API Aliasing Specifications from Library Documentation via Neurosymbolic
+    Optimization'
+  authors:
+  - Chengpeng Wang
+  - Jipeng Zhang
+  - Rongxin Wu
+  - Charles Zhang
+  year: 2024
+  type: Academic Paper
+  publication: Proc. ACM Softw. Eng.
+  doi: 10.1145/3660816
+  link: https://doi.org/10.1145/3660816
+techniques:
+- Pattern Matching
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 4
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Hong Kong University of Science and Technology

@@ -1,0 +1,17 @@
+id: hackett2014how
+title: How is Aliasing Used in Systems Software?
+authors:
+- Brain Hackett
+- Aiken Alex
+year: 2014
+type: method
+venue: ACM SIGSOFT international symposium on Foundations of software engineering (FSE)
+venueAcronym: FSE
+doi: 10.1145/1181775.1181785
+link: https://doi.org/10.1145/1181775.1181785
+presentsToolId: saturn
+toolName: Saturn
+toolsMentioned:
+- saturn
+mentionsToolIds:
+- saturn

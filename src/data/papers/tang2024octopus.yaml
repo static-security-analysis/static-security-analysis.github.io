@@ -1,0 +1,32 @@
+id: tang2024octopus
+title: 'Octopus: Scaling Value-Flow Analysis via Parallel Collection of Realizable Path Conditions'
+authors:
+- Wensheng Tang
+- Dejun Dong
+- Shijie Li
+- Chengpeng Wang
+- Peisen Yao
+- Jinguo Zhou
+- Charles Zhang
+year: 2024
+type: method
+venue: ACM Transactions on Software Engineering and Methodology
+venueAcronym: TSE
+doi: 10.1145/3632743
+link: https://doi.org/10.1145/3632743
+url: https://doi.org/10.1145/3632743
+presentsToolId: octopus
+toolName: Octopus
+abstract: Value-flow analysis is a fundamental technique in program analysis, benefiting various clients,
+  such as memory corruption detection and taint analysis. However, existing efforts suffer from the low
+  potential speedup that leads to a deficiency in scalability. In this work, we present a parallel algorithm
+  Octopus to collect path conditions for realizable paths efficiently. Octopus builds on the realizability
+  decomposition to collect the intraprocedural path conditions of different functions simultaneously on-demand
+  and obtain realizable path conditions by concatenation, which achieves a high potential speedup in parallelization.
+  We implement Octopus as a tool and evaluate it over 15 real-world programs. The experiment shows that
+  Octopus significantly outperforms the state-of-the-art algorithms. Particularly, it detects NULL-pointer-dereference
+  bugs for the project llvm with 6.3 MLoC within 6.9 minutes under the 40-thread setting. We also state
+  and prove several theorems to demonstrate the soundness, completeness, and high potential speedup of
+  Octopus. Our empirical and theoretical results demonstrate the great potential of Octopus in supporting
+  various program analysis clients. The implementation has officially deployed at Ant Group, scaling the
+  nightly code scan for massive FinTech applications.

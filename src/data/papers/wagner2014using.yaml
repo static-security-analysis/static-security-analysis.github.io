@@ -1,0 +1,10 @@
+id: wagner2014using
+title: Using the Juliet Test Suite to compare static security scanners
+authors:
+- Andreas Wagner
+- Johannes Sametinger
+year: 2014
+type: empirical
+venue: International Conference on Security and Cryptography (SECRYPT)
+doi: 10.5220/0005032902440252
+link: https://doi.org/10.5220/0005032902440252

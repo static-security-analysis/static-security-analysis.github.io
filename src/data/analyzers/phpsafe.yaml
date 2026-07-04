@@ -1,0 +1,38 @@
+id: phpsafe
+name: phpSAFE
+description: Academic static analysis tool using taint analysis for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://github.com/JoseCarlosFonseca/phpSAFE
+features:
+- Taint Analysis
+integration: []
+licenseDetail: GPLv2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'phpSAFE: A Security Analysis Tool for OOP Web Application Plugins'
+  authors:
+  - Paulo Jorge Costa Nunes
+  - Jose {Fonseca}
+  - Marco {Vieira
+  year: 2015
+  type: Academic Paper
+  publication: 2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+  doi: 10.1109/DSN.2015.16
+  link: https://doi.org/10.1109/DSN.2015.16
+techniques:
+- Taint Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2015
+githubStars: 2
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Polytechnic Institute of Guarda, University of Coimbra

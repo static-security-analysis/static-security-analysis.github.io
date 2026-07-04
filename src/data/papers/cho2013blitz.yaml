@@ -1,0 +1,15 @@
+id: cho2013blitz
+title: 'BLITZ: Compositional Bounded Model Checking for Real-world Programs'
+authors:
+- Chia Yuan Cho
+- Vijay D'Silva
+- Dawn Song
+year: 2013
+type: method
+venue: IEEE/ACM International Conference on Automated Software Engineering
+venueAcronym: ASE
+doi: 10.1109/ASE.2013.6693074
+link: https://doi.org/10.1109/ASE.2013.6693074
+toolName: BLITZ
+toolsMentioned:
+- blitz

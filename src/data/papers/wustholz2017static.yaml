@@ -1,0 +1,16 @@
+id: wustholz2017static
+title: Static detection of DOS vulnerabilities in programs that use regular expressions
+authors:
+- Valentin Wüstholz
+- Oswaldo Olivo
+- Marijn J. Heule
+- Isil Dillig
+year: 2017
+type: method
+venue: International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+venueAcronym: TACAS
+doi: 10.1007/978-3-662-54580-5_1
+link: https://doi.org/10.1007/978-3-662-54580-5_1
+toolName: Rexploiter
+toolsMentioned:
+- rexploiter

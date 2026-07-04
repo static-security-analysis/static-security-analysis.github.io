@@ -1,0 +1,35 @@
+id: hai2025ossdetector
+title: 'OSSDetector: Towards a More Accurate Approach for C/C++ Third-Party Library Detection'
+authors:
+- Xiang Hai
+- Jia Zeng
+- Zhiyuan Fu
+- Siyu Chen
+- Yansong Shi
+- Hongyu Sun
+- Jice Wang
+- Fannv He
+- Yuqing Zhang
+year: 2025
+type: tool
+venue: International Conference on Trust, Security and Privacy in Computing and Communications
+venueAcronym: S&P
+doi: 10.1109/Trustcom66490.2025.00285
+link: https://doi.org/10.1109/Trustcom66490.2025.00285
+url: https://github.com/zengjia1/OSSDetector
+presentsToolId: ossdetector
+toolName: OSSDetector
+abstract: In today’s software development environment, third-party libraries (TPLs) enhance productivity
+  but also introduce security risks. Effective Software Composition Analysis (SCA) is crucial for managing
+  these risks. Yet, existing SCA tools for C/C++ projects struggle with challenges like detecting modified
+  and nested TPLs, precise version representation, and comprehensive TPL databases. In modern software
+  development, third-party libraries (TPLs) are commonly used to boost functionality and save development
+  time. However, this convenience introduces security risks. We introduce OSSDetector, a new SCA tool
+  that addresses these issues. OSSDetector uses sliding window and fuzzy hashing techniques to generate
+  detailed signatures, improving detection of modified TPLs. It features a "Nested TPL Function Filtering"
+  algorithm to accurately identify and filter nested TPL functions, and a "TPL Recognition" algorithm
+  based on import ratios and function paths to determine the TPLs used in the software. It also addresses
+  version representation by using function weights and release times. To overcome the lack of a comprehensive
+  TPL database, we have developed a large database with 29,416 C/C++ TPLs and 767,405 versions. Experimental
+  results demonstrate that OSSDetector surpasses state-of-the-art tools, achieving better precision (85.52%),
+  recall (79.82%), and F1 score (82.57%), and higher precision (84.27%) at the library version level.

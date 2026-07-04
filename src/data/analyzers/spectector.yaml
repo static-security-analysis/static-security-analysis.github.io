@@ -1,0 +1,41 @@
+id: spectector
+name: Spectector
+description: speculative non-interference = info-flow leak -> Encapsulation; proves property -> sound_claimed
+languages:
+- Binary
+license: Open Source
+website: https://github.com/spectector/spectector
+features:
+- Symbolic/Concolic Execution
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/spectector/spectector
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'Spectector: Principled Detection of Speculative Information Flows'
+  authors:
+  - M. Guarnieri
+  - Boris Köpf
+  - J. Morales
+  - J. Reineke
+  - Andrés Sánchez
+  year: 2018
+  type: Academic Paper
+  publication: IEEE Symposium on Security and Privacy
+  doi: 10.1109/SP40000.2020.00011
+  link: https://doi.org/10.1109/SP40000.2020.00011
+techniques:
+- Symbolic/Concolic Execution
+soundness: Sound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2018
+githubStars: 77
+toolType: oss
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: IMDEA Software Institute

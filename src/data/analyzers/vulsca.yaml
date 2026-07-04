@@ -1,0 +1,39 @@
+id: vulsca
+name: VulSCA
+description: community-level C/C++ supply-chain SCA (dependency + vuln)
+languages:
+- C
+- C++
+license: Open Source
+website: https://www.ndss-symposium.org/ndss-paper/vulsca-a-community-level-sca-approach-for-accurate-c-c-supply-chain-vulnerability-analysis/
+features:
+- Software Composition Analysis
+integration: []
+github: https://github.com/techenthusiast167/VULSCANNER
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'VulSCA: A Community-Level SCA Approach for Accurate C/C++ Supply Chain Vulnerability Analysis'
+  authors:
+  - Yutao Hu
+  - Chaofan Li
+  - Yueming Wu
+  - Yifeng Cai
+  - Deqing Zou
+  year: 2026
+  type: Academic Paper
+  publication: Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/ndss-paper/vulsca-a-community-level-sca-approach-for-accurate-c-c-supply-chain-vulnerability-analysis/
+techniques:
+- Software Composition Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 45
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Huazhong University of Science and Technology

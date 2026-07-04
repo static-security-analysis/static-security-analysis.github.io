@@ -1,0 +1,38 @@
+id: vmud
+name: VMud
+description: recurring-vuln (vulnerable code clone) detection with multiple fixing signatures
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3658644.3690372
+features:
+- Graph-based (CPG/PDG)
+integration: []
+github: https://github.com/mpvmud/Vmud
+academicReferences:
+- title: 'VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions via Function Selection
+    and Semantic Equivalent Statement Matching'
+  authors:
+  - Kaifeng Huang
+  - Chenhao Lu
+  - Yiheng Cao
+  - Bihuan Chen
+  - Xin Peng
+  year: 2024
+  type: Academic Paper
+  publication: ACM SIGSAC Conference on Computer and Communications Security
+  doi: 10.1145/3658644.3690372
+  link: https://doi.org/10.1145/3658644.3690372
+techniques:
+- Graph-based (CPG/PDG)
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 3
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Fudan University

@@ -1,0 +1,33 @@
+id: cheng2018dtaint
+title: 'DTaint: Detecting the Taint-Style Vulnerability in Embedded Device Firmware'
+authors:
+- Kai Cheng
+- Qiang Li
+- Lei Wang
+- Qian Chen
+- Yaowen Zheng
+- Limin Sun
+- Zhenkai Liang
+year: 2018
+type: tool
+venue: Dependable Systems and Networks
+venueAcronym: DSN
+doi: 10.1109/DSN.2018.00052
+link: https://doi.org/10.1109/DSN.2018.00052
+url: https://github.com/tl455047/DTaint
+presentsToolId: dtaint
+toolName: DTaint
+abstract: A rising number of embedded devices are reachable in the cyberspace, such as routers, cameras,
+  printers, etc. Those devices usually run firmware whose code is proprietary with few public documents.
+  Furthermore, most of the firmware images cannot be analyzed in dynamic analysis due to various hardware-specific
+  peripherals. As a result, it hinders traditional static analysis and dynamic analysis techniques. In
+  this paper, we propose a static binary analysis approach, DTaint, to detect taint-style vulnerabilities
+  in the firmware. The taint-style vulnerability is a typical class of weakness, where the input data
+  reaches a sensitive sink through an unsafe path. Specifically, we generate data dependency in a bottom-up
+  manner through traversing callees before callers. To reduce the influence of the binary firmware, DTaint
+  identifies pointer aliasing, interprocedural data flow, and similarity of the data structure layout.
+  We have implemented a prototype of DTaint and conducted experiments to evaluate its performance. Our
+  results show that DTaint discovers more vulnerabilities in less time, compared with the existing techniques.
+  Furthermore, we illustrate the effectiveness of DTaint through applying it over six firmware images
+  from four manufacturers. We have found 21 vulnerabilities, where 13 of them are previously-unknown and
+  zero-day vulnerabilities.

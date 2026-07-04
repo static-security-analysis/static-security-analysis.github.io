@@ -1,0 +1,14 @@
+id: wang2008automated
+title: Automated detection of code vulnerabilities based on program analysis and model checking
+authors:
+- Lei Wang
+- Qiang Zhang
+- PenChao Zhao
+year: 2008
+type: method
+venue: International Working Conference on Source Code Analysis and Manipulation (SCAM)
+doi: 10.1109/SCAM.2008.24
+link: https://doi.org/10.1109/SCAM.2008.24
+toolName: CodeAuditor
+toolsMentioned:
+- codeauditor

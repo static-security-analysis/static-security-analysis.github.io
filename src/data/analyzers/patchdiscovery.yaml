@@ -1,0 +1,41 @@
+id: patchdiscovery
+name: PatchDiscovery
+description: binary patch-presence test (1-day vuln identification)
+languages:
+- Binary
+license: Open Source
+website: https://github.com/PatchDiscovery/PatchDiscovery
+features:
+- Other
+integration: []
+licenseDetail: GPL-3.0
+github: https://github.com/PatchDiscovery/PatchDiscovery
+academicReferences:
+- title: 'PatchDiscovery: Patch Presence Test for Identifying Binary Vulnerabilities Based on Key Basic
+    Blocks'
+  authors:
+  - Xi Xu
+  - Qinghua Zheng
+  - Zheng Yan
+  - Ming Fan
+  - Ang Jia
+  - Zhaohui Zhou
+  - Haijun Wang
+  - Ting Liu
+  year: 2023
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  doi: 10.1109/TSE.2023.3332732
+  link: https://doi.org/10.1109/TSE.2023.3332732
+techniques:
+- Other
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 5
+toolType: oss
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: Xi'an Jiaotong University

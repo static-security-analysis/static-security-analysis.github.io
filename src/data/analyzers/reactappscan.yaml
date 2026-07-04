@@ -1,0 +1,36 @@
+id: reactappscan
+name: ReactAppScan
+description: React/JSX data-flow vuln detection
+languages:
+- JavaScript
+license: Open Source
+website: https://doi.org/10.1145/3658644.3670331
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'ReactAppScan: Mining React Application Vulnerabilities via Component Graph'
+  authors:
+  - Zhiyong Guo
+  - Mingqing Kang
+  - V. N. Venkatakrishnan
+  - Rigel Gjomemo
+  - Yinzhi Cao
+  year: 2024
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3658644.3670331
+  link: https://doi.org/10.1145/3658644.3670331
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Johns Hopkins University

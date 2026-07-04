@@ -1,0 +1,37 @@
+id: pyt
+name: PyT
+description: Open-source static analysis tool using control-flow analysis for Python.
+languages:
+- Python
+license: Open Source
+website: https://github.com/python-security/pyt
+features:
+- Control-flow Analysis
+- Data-flow Analysis
+integration: []
+licenseDetail: GPLv2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: A static analysis tool for detecting security vulnerabilities in python web applications
+  authors:
+  - Stefan Micheelsen
+  - Bruno Thalmann
+  year: 2016
+  type: Academic Paper
+  link: https://github.com/python-security/pyt
+techniques:
+- Control-flow Analysis
+- Data-flow Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 2000
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Aalborg University

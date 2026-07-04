@@ -1,0 +1,33 @@
+id: alecci2025damflow
+title: 'DamFlow: Preventing a Flood of Irrelevant Data Flows in Android Apps'
+authors:
+- Marco Alecci
+- Jordan Samhi
+- Marc Miltenberger
+- Steven Arzt
+- Tégawendé F. Bissyandé
+- Jacques Klein
+year: 2025
+type: tool
+venue: ACM Transactions on Software Engineering and Methodology
+venueAcronym: TSE
+doi: 10.1145/3772002
+link: https://doi.org/10.1145/3772002
+url: https://github.com/Trustworthy-Software/DamFlow
+presentsToolId: damflow
+toolName: DamFlow
+comparesToolIds:
+- flowdroid
+abstract: 'State-of-the-art tools like FlowDroid have been proposed to detect data leaks in Android apps,
+  but two main challenges persist: ① false alarms and ② undetected data leaks. One contributing factor
+  to these challenges is that a tool such as FlowDroid relies on predefined lists of privacy-sensitive
+  source and sink API methods. Generating such lists is complex; incomplete or inaccurate lists result
+  in both false alarms (i.e., irrelevant data flows) and undetected data leaks. Additionally, data leaks
+  are highly context-dependent. For instance, GPS data flowing from a navigation app is expected, but
+  the same flow in a calculator app is suspicious. Even when FlowDroid identifies a source-to-sink path,
+  it may not be relevant to privacy analysis, further increasing false alarms. To tackle these issues,
+  we propose a novel approach named DamFlow, which, by combining backward taint analysis with context-aware
+  anomaly detection, prevents a “flood” of irrelevant data flows while at the same time finding data leaks
+  missed by existing approaches. Our evaluation demonstrates that DamFlow significantly reduces reported
+  leaks per app while uncovering previously undetected leaks, enhancing FlowDroid''s practicality for
+  real-world data leak detection.'

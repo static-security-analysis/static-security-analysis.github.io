@@ -1,0 +1,39 @@
+id: kint
+name: KINT
+description: Academic static analysis tool using taint analysis for C.
+languages:
+- C
+license: Open Source
+website: http://css.csail.mit.edu/kint/
+features:
+- Taint Analysis
+- Abstract Interpretation
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: Improving Integer Security for Systems with KINT
+  authors:
+  - Xi Wang
+  - Haogang Chen
+  - Zhihao Jia
+  - Nickolai Zeldovich
+  - M. Frans Kaashoek
+  year: 2012
+  type: Academic Paper
+  publication: Proceedings of the 10th USENIX Conference on Operating Systems Design and Implementation
+  link: http://css.csail.mit.edu/kint/
+techniques:
+- Taint Analysis
+- Abstract Interpretation
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: MIT; Tsinghua IIIS

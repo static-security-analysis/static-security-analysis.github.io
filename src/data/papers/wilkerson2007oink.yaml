@@ -1,0 +1,14 @@
+id: wilkerson2007oink
+title: 'Oink: A Collaboration of C++ Static Analysis Tools'
+authors:
+- Daniel Wilkerson
+- Scott McPeak
+year: 2007
+type: tool
+venue: UC Berkeley project page
+doi: unknown
+link: https://doi.org/unknown
+url: https://daniel-wilkerson.appspot.com/oink/index.html
+toolName: Oink
+toolsMentioned:
+- oink

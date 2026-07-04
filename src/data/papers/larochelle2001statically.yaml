@@ -1,0 +1,16 @@
+id: larochelle2001statically
+title: Statically detecting likely buffer overflow vulnerabilities
+authors:
+- David Larochelle
+- David Evans
+year: 2001
+type: tool
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+link: http://lclint.cs.virginia.edu/usenix01.pdf
+url: http://lclint.cs.virginia.edu/usenix01.pdf
+toolName: Splint
+toolsMentioned:
+- splint-lclint
+mentionsToolIds:
+- splint-lclint

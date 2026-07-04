@@ -1,0 +1,36 @@
+id: wanilla
+name: Wanilla
+description: SOUND noninterference (IFC) analysis for WebAssembly
+languages:
+- Bytecode
+license: Open Source
+website: https://doi.org/10.1145/3719027.3765156
+features:
+- Abstract Interpretation
+integration: []
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'Wanilla: Sound Noninterference Analysis for WebAssembly'
+  authors:
+  - Markus Scherer
+  - Jeppe Fredsgaard Blaabjerg
+  - Alexander Sjösten
+  - Matteo Maffei
+  year: 2025
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3719027.3765156
+  link: https://doi.org/10.1145/3719027.3765156
+techniques:
+- Abstract Interpretation
+soundness: Sound
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- General-purpose
+institute: TU Wien

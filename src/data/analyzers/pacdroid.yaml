@@ -1,0 +1,37 @@
+id: pacdroid
+name: PacDroid
+description: pointer-analysis-centric FRAMEWORK for Android security (see end framework category Q)
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1109/ICSE55347.2025.00208
+features:
+- Pointer / Alias Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'PacDroid: A Pointer-Analysis-Centric Framework for Security Vulnerabilities in Android Apps'
+  authors:
+  - Menglong Chen
+  - Tian Tan
+  - Minxue Pan
+  - Yue Li
+  year: 2025
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1109/ICSE55347.2025.00208
+  link: https://doi.org/10.1109/ICSE55347.2025.00208
+techniques:
+- Pointer / Alias Analysis
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: Nanjing University

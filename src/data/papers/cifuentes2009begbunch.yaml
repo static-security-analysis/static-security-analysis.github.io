@@ -1,0 +1,20 @@
+id: cifuentes2009begbunch
+title: 'BegBunch: Benchmarking for C Bug Detection Tools'
+authors:
+- Cristina Cifuentes
+- Christian Hoermann
+- Nathan Keynes
+- Lian Li
+- Simon Long
+- Erica Mealy
+- Michael Mounteney
+- Bernhard Scholz
+year: 2009
+type: empirical
+venue: 'International Workshop on Defects in Large Software Systems (DEFECTS): Held in Conjunction with
+  the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)'
+venueAcronym: ISSTA
+doi: 10.1145/1555860.1555866
+link: https://doi.org/10.1145/1555860.1555866
+toolsMentioned:
+- begbunch

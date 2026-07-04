@@ -1,0 +1,17 @@
+id: eilers2018nagini
+title: 'Nagini: A Static Verifier for Python'
+authors:
+- Marco Eilers
+- Peter Muller
+year: 2018
+type: tool
+venue: International Conference on Computer Aided Verification (CAV)
+venueAcronym: CAV
+doi: 10.1007/978-3-319-96145-3_33
+link: https://doi.org/10.1007/978-3-319-96145-3_33
+presentsToolId: nagini
+toolName: Nagini
+toolsMentioned:
+- nagini
+mentionsToolIds:
+- nagini

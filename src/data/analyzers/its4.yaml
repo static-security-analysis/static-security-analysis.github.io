@@ -1,0 +1,52 @@
+id: its4
+name: ITS4
+description: Open-source static analysis tool using pattern matching for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://www.cigital.com/its4/
+features:
+- Pattern Matching
+integration: []
+licenseDetail: Non-\faCopyright
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+academicReferences:
+- title: 'ITS4: a static vulnerability scanner for C and C++ code'
+  authors:
+  - J. {Viega}
+  - J. T. {Bloch}
+  - Y. {Kohno}
+  - G. {McGraw
+  year: 2000
+  type: Academic Paper
+  publication: Proceedings 16th Annual Computer Security Applications Conference (ACSAC'00)
+  doi: 10.1109/ACSAC.2000.898880
+  link: https://doi.org/10.1109/ACSAC.2000.898880
+- title: Token-Based Scanning of Source Code for Security Problems
+  authors:
+  - John Viega
+  - J. T. Bloch
+  - Tadayoshi Kohno
+  - Gary McGraw
+  year: 2002
+  type: Academic Paper
+  publication: ACM Trans. Inf. Syst. Secur.
+  doi: 10.1145/545186.545188
+  link: https://doi.org/10.1145/545186.545188
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2000
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: UC Davis

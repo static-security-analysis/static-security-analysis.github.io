@@ -1,0 +1,18 @@
+id: fang2019tap
+title: 'TAP: A static analysis model for PHP vulnerabilities based on token and deep learning technology'
+authors:
+- Yong Fang
+- Shengjun Han
+- Cheng Huang
+- Runpu Wu
+year: 2019
+type: method
+venue: PLoS ONE
+doi: 10.1371/journal.pone.0225196
+link: https://doi.org/10.1371/journal.pone.0225196
+presentsToolId: tap
+toolName: TAP
+toolsMentioned:
+- tap
+mentionsToolIds:
+- tap

@@ -1,0 +1,40 @@
+id: tchecker
+name: TChecker
+description: precise inter-procedural PHP taint (SQLi/XSS)
+languages:
+- PHP
+license: Open Source
+website: https://github.com/nadaaym/TChecker
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/nadaaym/TChecker
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'TChecker: Precise Static Inter-Procedural Analysis for Detecting Taint-Style Vulnerabilities
+    in PHP Applications'
+  authors:
+  - Changhua Luo
+  - Penghui Li
+  - W. Meng
+  year: 2022
+  type: Academic Paper
+  publication: Conference on Computer and Communications Security
+  doi: 10.1145/3548606.3559391
+  link: https://doi.org/10.1145/3548606.3559391
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2022
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Chinese University of Hong Kong

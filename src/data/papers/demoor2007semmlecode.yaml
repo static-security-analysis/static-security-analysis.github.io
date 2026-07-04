@@ -1,0 +1,20 @@
+id: demoor2007semmlecode
+title: 'SemmleCode: Pattern Matching for Project-Wide Code Analysis'
+authors:
+- Oege de Moor
+- Mathieu Verbaere
+- Elnar Hajiyev
+- Pavel Avgustinov
+- Torbjörn Ekman
+- Neil Ongkingco
+- Damien Sereni
+- Julian Tibble
+year: 2007
+type: tool
+venue: ESEC/FSE Tool Demo
+venueAcronym: FSE
+doi: 10.1145/1287624.1287665
+link: https://doi.org/10.1145/1287624.1287665
+toolName: SemmleCode (CodeQL)
+toolsMentioned:
+- codeql

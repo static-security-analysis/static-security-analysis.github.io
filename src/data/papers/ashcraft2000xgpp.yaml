@@ -1,0 +1,14 @@
+id: ashcraft2000xgpp
+title: 'xg++: User-Level Static Analysis to Find Buffer Overflows and Other Bugs'
+authors:
+- Ken Ashcraft
+- Dawson Engler
+year: 2000
+type: method
+venue: Stanford technical report (predecessor of metacompilation)
+doi: unknown
+link: https://doi.org/unknown
+url: https://web.stanford.edu/~engler/mc-osdi.pdf
+toolName: xg++
+toolsMentioned:
+- xg++

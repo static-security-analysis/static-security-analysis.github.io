@@ -1,0 +1,46 @@
+id: firmcross
+name: FirmCross
+description: static taint for Linux firmware web services (cross-component)
+languages:
+- Binary
+license: Open Source
+website: https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+licenseDetail: MIT
+github: https://github.com/AnonymousLucky2025/FIRMCROSS
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'FirmCross: Detecting Taint-style Vulnerabilities in Modern C-Lua Hybrid Web Services of Linux-based
+    Firmware'
+  authors:
+  - Runhao Liu
+  - Jiarun Dai
+  - Haoyu Xiao
+  - Yuan Zhang
+  - Yeqi Mou
+  - Lukai Xu
+  - Bo Yu
+  - Baosheng Wang
+  - Min Yang
+  year: 2026
+  type: Academic Paper
+  publication: Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 4
+toolType: oss
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+institute: Fudan University

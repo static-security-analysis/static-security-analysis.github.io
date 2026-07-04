@@ -1,0 +1,24 @@
+id: miltenberger2025vusc
+title: 'VUSC: An Extensible Research Platform for Java-Based Static Analysis'
+authors:
+- Marc Miltenberger
+- Steven Arzt
+year: 2025
+type: tool
+venue: IEEE/ACM International Conference on Automated Software Engineering
+venueAcronym: ASE
+doi: 10.1109/ASE63991.2025.00354
+link: https://doi.org/10.1109/ASE63991.2025.00354
+url: https://doi.org/10.1109/ASE63991.2025.00354
+presentsToolId: vusc
+toolName: VUSC
+abstract: 'Detecting security vulnerabilities in backend Web applications as well as mobile apps is extremely
+  important. Static analysis for vulnerability analysis has subsequently developed as an important field
+  of research. Researchers need extensible frameworks to avoid starting from scratch with every new research
+  project. Compared to commercially available scanners, open-source frameworks often only provide basic
+  functionality. This limits the ability of researchers to evaluate novel algorithms. Lacking access to
+  full code scanners, new building blocks are often tested in isolation. In this paper, we present VUSC,
+  a fast, precise and extensible vulnerability scanner for Android and Java bytecode. It features a plugin
+  architecture for commonly used static analyses such as call graph, taint and value analyses, allowing
+  researchers to build upon our work and using VUSC as a reference platform. We show that VUSC achieves
+  a precision of around 90% on benchmarks. Video: https://youtu.be/QpXs9hv5zGc, Dataset: https://github.com/Fraunhofer-SIT/ASE2025-StaticAnalysisInfrastructure/'

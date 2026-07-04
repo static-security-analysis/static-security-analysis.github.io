@@ -1,0 +1,17 @@
+id: wang2009intscope
+title: 'IntScope: Automatically Detecting Integer Overflow Vulnerability in X86 Binary Using Symbolic
+  Execution'
+authors:
+- Tielei Wang
+- Tao Wei
+- Zhiqiang Lin
+- Wei Zou
+year: 2009
+type: method
+venue: Network and Distributed System Security Symposium (NDSS)
+venueAcronym: NDSS
+link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.153.1801&rep=rep1&type=pdf
+url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.153.1801&rep=rep1&type=pdf
+toolName: IntScope
+toolsMentioned:
+- intscope

@@ -1,0 +1,16 @@
+id: necula2002cil
+title: 'CIL: Intermediate Language and Tools for Analysis and Transformation of C Programs'
+authors:
+- George C. Necula
+- Scott McPeak
+- Shree P. Rahul
+- Westley Weimer
+year: 2002
+type: tool
+venue: International Conference on Compiler Construction (CC)
+venueAcronym: CC
+doi: 10.1007/3-540-45937-5_16
+link: https://doi.org/10.1007/3-540-45937-5_16
+toolName: CIL
+toolsMentioned:
+- cil

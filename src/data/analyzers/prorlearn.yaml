@@ -1,0 +1,33 @@
+id: prorlearn
+name: ProRLearn
+description: prompt-tuning + RL vuln detection [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1007/s10515-024-00438-9
+features:
+- LLM-based
+integration: []
+academicReferences:
+- title: 'ProRLearn: boosting prompt tuning-based vulnerability detection by reinforcement learning'
+  authors:
+  - Zilong Ren
+  - Xiaolin Ju
+  - Xiang Chen
+  - Hao Shen
+  year: 2024
+  type: Academic Paper
+  publication: ASE
+  doi: 10.1007/s10515-024-00438-9
+  link: https://doi.org/10.1007/s10515-024-00438-9
+techniques:
+- LLM-based
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Nantong University

@@ -1,0 +1,20 @@
+id: ma2019sprinter
+title: 'SPrinter: A Static Checker for Finding Smart Pointer Errors in C++ Programs'
+authors:
+- Xutong Ma
+- Jiwei Yan
+- Yaqi Li
+- Jun Yan
+- Jian Zhang
+year: 2019
+type: method
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1109/ASE.2019.00117
+link: https://doi.org/10.1109/ASE.2019.00117
+presentsToolId: sprinter
+toolName: SPrinter
+toolsMentioned:
+- sprinter
+mentionsToolIds:
+- sprinter

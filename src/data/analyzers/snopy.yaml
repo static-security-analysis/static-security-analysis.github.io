@@ -1,0 +1,43 @@
+id: snopy
+name: Snopy
+description: DL with causal graph learning + sample denoising [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3691620.3695057
+features:
+- Deep Learning (non-LLM)
+- Graph-based (CPG/PDG)
+integration: []
+github: https://github.com/SnopyArtifact/Snopy
+academicReferences:
+- title: 'Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection'
+  authors:
+  - Sicong Cao
+  - Xiaobing Sun
+  - Xiaoxue Wu
+  - David Lo
+  - Lili Bo
+  - Bin Li
+  - Xiaolei Liu
+  - Xingwei Lin
+  - Wei Liu
+  year: 2024
+  type: Academic Paper
+  publication: IEEE/ACM International Conference on Automated Software Engineering
+  doi: 10.1145/3691620.3695057
+  link: https://doi.org/10.1145/3691620.3695057
+techniques:
+- Deep Learning (non-LLM)
+- Graph-based (CPG/PDG)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 6
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Yangzhou University

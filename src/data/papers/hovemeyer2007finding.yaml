@@ -1,0 +1,13 @@
+id: hovemeyer2007finding
+title: Finding More Null Pointer Bugs, but Not Too Many
+authors:
+- David Hovemeyer
+- William Pugh
+year: 2007
+type: tool
+venue: ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering (PASTE)
+doi: 10.1145/1251535.1251537
+link: https://doi.org/10.1145/1251535.1251537
+toolName: FindBugs
+toolsMentioned:
+- findbugs

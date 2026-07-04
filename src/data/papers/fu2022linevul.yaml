@@ -1,0 +1,35 @@
+id: fu2022linevul
+title: 'LineVul: A Transformer-based Line-Level Vulnerability Prediction'
+authors:
+- Michael Fu
+- C. Tantithamthavorn
+year: 2022
+type: tool
+venue: IEEE Working Conference on Mining Software Repositories
+venueAcronym: MSR
+doi: 10.1145/3524842.3528452
+link: https://doi.org/10.1145/3524842.3528452
+url: https://github.com/awsm-research/LineVul
+presentsToolId: linevul
+toolName: LineVul
+comparesToolIds:
+- cppcheck
+- devign
+- ivdetect
+- reveal
+- sysevr
+- vuldeepecker
+abstract: Software vulnerabilities are prevalent in software systems, causing a variety of problems including
+  deadlock, information loss, or system failures. Thus, early predictions of software vulnerabilities
+  are critically important in safety-critical software systems. Various ML/DL-based approaches have been
+  proposed to predict vulnerabilities at the file/function/method level. Recently, IVDetect (a graph-based
+  neural network) is proposed to predict vulnerabilities at the function level. Yet, the IVDetect approach
+  is still inaccurate and coarse-grained. In this paper, we propose LINEVUL, a Transformer-based line-level
+  vulnerability prediction approach in order to address several limitations of the state-of-the-art IVDetect
+  approach. Through an empirical evaluation of a large-scale real-world dataset with 188k+ C/C++ functions,
+  we show that LINEVUL achieves (1) 160%-379% higher F1-measure for function-level predictions; (2) 12%-25%
+  higher Top-10 Accuracy for line-level predictions; and (3) 29%-53% less Effort@20%Recall than the baseline
+  approaches, highlighting the significant advancement of LINEVUL towards more accurate and more cost-effective
+  line-level vulnerability predictions. Our additional analysis also shows that our LINEVUL is also very
+  accurate (75%-100%) for predicting vulnerable functions affected by the Top-25 most dangerous CWEs,
+  highlighting the potential impact of our LINEVUL in real-world usage scenarios.

@@ -1,0 +1,33 @@
+id: pauck2018do
+title: Do Android taint analysis tools keep their promises?
+authors:
+- Felix Pauck
+- Eric Bodden
+- Heike Wehrheim
+year: 2018
+type: empirical
+venue: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software
+  Engineering
+venueAcronym: FSE
+doi: 10.1145/3236024.3236029
+link: https://doi.org/10.1145/3236024.3236029
+url: https://doi.org/10.1145/3236024.3236029
+arxivId: '1804.02903'
+comparesToolIds:
+- flowdroid
+tldr: ReproDroid is presented, a framework allowing the accurate comparison of Android taint analysis
+  tools and supports researchers in inferring the ground truth for data leaks in apps, in automatically
+  applying tools to benchmarks, and in evaluating the obtained results.
+abstract: In recent years, researchers have developed a number of tools to conduct taint analysis of Android
+  applications. While all the respective papers aim at providing a thorough empirical evaluation, comparability
+  is hindered by varying or unclear evaluation targets. Sometimes, the apps used for evaluation are not
+  precisely described. In other cases, authors use an established benchmark but cover it only partially.
+  In yet other cases, the evaluations differ in terms of the data leaks searched for, or lack a ground
+  truth to compare against. All those limitations make it impossible to truly compare the tools based
+  on those published evaluations. We thus present ReproDroid, a framework allowing the accurate comparison
+  of Android taint analysis tools. ReproDroid supports researchers in inferring the ground truth for data
+  leaks in apps, in automatically applying tools to benchmarks, and in evaluating the obtained results.
+  We use ReproDroid to comparatively evaluate on equal grounds the six prominent taint analysis tools
+  Amandroid, DIALDroid, DidFail, DroidSafe, FlowDroid and IccTA. The results are largely positive although
+  four tools violate some promises concerning features and accuracy. Finally, we contribute to the area
+  of unbiased benchmarking with a new and improved version of the open test suite DroidBench.

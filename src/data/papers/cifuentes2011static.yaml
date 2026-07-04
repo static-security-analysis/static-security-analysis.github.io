@@ -1,0 +1,22 @@
+id: cifuentes2011static
+title: Static deep error checking in large system applications using parfait
+authors:
+- Cristina Cifuentes
+- Nathan Keynes
+- Lian Li
+- Nathan Hawes
+- Manuel Valdiviezo
+- Andrew Browne
+- Jacob Zimmermann
+- Andrew Craik
+- Douglas Teoh
+- Christian Hoermann
+year: 2011
+type: method
+venue: ACM SIGSOFT European conference on Foundations of software engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.1145/2025113.2025183
+link: https://doi.org/10.1145/2025113.2025183
+toolName: Parfait
+toolsMentioned:
+- parfait

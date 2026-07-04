@@ -1,0 +1,19 @@
+id: qiu2018analyzing
+title: 'Analyzing the analyzers: FlowDroid/IccTA, AmanDroid, and DroidSafe'
+authors:
+- Lina Qiu
+- Yingying Wang
+- Julia Rubin
+year: 2018
+type: empirical
+venue: ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/3213846.3213873
+link: https://doi.org/10.1145/3213846.3213873
+toolsMentioned:
+- flowdroid
+- iccta
+- amandroid
+- droidsafe
+mentionsToolIds:
+- flowdroid

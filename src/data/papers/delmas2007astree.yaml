@@ -1,0 +1,15 @@
+id: delmas2007astree
+title: 'Astrée: From Research to Industry'
+authors:
+- Delmas
+- David and Souyris
+- Jean
+year: 2007
+type: tool
+venue: Proceedings of the 14th International Conference on Static Analysis
+presentsToolId: astree
+toolName: Astree
+toolsMentioned:
+- astree
+mentionsToolIds:
+- astree

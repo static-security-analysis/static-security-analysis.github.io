@@ -1,0 +1,15 @@
+id: ayewah2008using
+title: Using Static Analysis to Find Bugs
+authors:
+- Nathaniel Ayewah
+- William Pugh
+- David Hovemeyer
+- J. David Morgenthaler
+- John Penix
+year: 2008
+type: tool
+venue: IEEE Software
+doi: 10.1109/MS.2008.130
+link: https://doi.org/10.1109/MS.2008.130
+toolsMentioned:
+- findbugs

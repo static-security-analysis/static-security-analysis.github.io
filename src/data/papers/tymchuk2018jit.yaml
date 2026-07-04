@@ -1,0 +1,12 @@
+id: tymchuk2018jit
+title: 'JIT feedback: What experienced developers like about static analysis'
+authors:
+- Yuriy Tymchuk
+- Mohammad Ghafari
+- Oscar Nierstrasz
+year: 2018
+type: empirical
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1145/3196321.3196327
+link: https://doi.org/10.1145/3196321.3196327

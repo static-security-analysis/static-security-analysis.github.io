@@ -1,0 +1,17 @@
+id: medeiros2015detecting
+title: Detecting and Removing Web Application Vulnerabilities with Static Analysis and Data Mining
+authors:
+- Iberia Medeiros
+- Nuno Neves
+- Miguel Correia
+year: 2015
+type: tool
+venue: IEEE Transactions on Reliability
+doi: 10.1109/TR.2015.2457411
+link: https://doi.org/10.1109/TR.2015.2457411
+presentsToolId: wap
+toolName: WAP
+toolsMentioned:
+- wap
+mentionsToolIds:
+- wap

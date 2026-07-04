@@ -1,0 +1,16 @@
+id: deng2015iris
+title: 'IRiS: Vetting private API abuse in iOS applications'
+authors:
+- Zhui Deng
+- Brendan Saltaformaggio
+- Xiangyu Zhang
+- Dongyan Xu
+year: 2015
+type: method
+venue: ACM Conference on Computer and Communications Security (CCS)
+venueAcronym: CCS
+doi: 10.1145/2810103.2813675
+link: https://doi.org/10.1145/2810103.2813675
+toolName: IRiS
+toolsMentioned:
+- iris

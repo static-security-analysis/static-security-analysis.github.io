@@ -1,0 +1,39 @@
+id: serialdetector
+name: SerialDetector
+description: object-injection (deserialization) gadget detection (.NET)
+languages:
+- C#
+license: Open Source
+website: https://github.com/KTH-LangSec/SerialDetector
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/KTH-LangSec/SerialDetector
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'SerialDetector: Principled and Practical Exploration of Object Injection Vulnerabilities for
+    the Web'
+  authors:
+  - Mikhail Shcherbakov
+  - Musard Balliu
+  year: 2021
+  type: Academic Paper
+  publication: Network and Distributed System Security Symposium
+  doi: 10.14722/NDSS.2021.24550
+  link: https://doi.org/10.14722/NDSS.2021.24550
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2021
+githubStars: 63
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Web
+institute: KTH Royal Institute of Technology

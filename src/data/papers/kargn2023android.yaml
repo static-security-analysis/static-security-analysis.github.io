@@ -1,0 +1,32 @@
+id: kargn2023android
+title: 'Android decompiler performance on benign and malicious apps: an empirical study'
+authors:
+- Ulf Kargén
+- Noah Mauthe
+- N. Shahmehri
+year: 2023
+type: empirical
+venue: Empirical Software Engineering
+venueAcronym: EMSE
+doi: 10.1007/s10664-022-10281-9
+link: https://doi.org/10.1007/s10664-022-10281-9
+url: https://doi.org/10.1007/s10664-022-10281-9
+tldr: This study revealed that decompilers generally have very low failure rates, and that few failures
+  on benign apps appear to be related to obfuscation, although the vast majority of malicious apps could
+  still be fully decompiled by an ensemble of decompilers.
+abstract: Decompilers are indispensable tools in Android malware analysis and app security auditing. Numerous
+  academic works also employ an Android decompiler as the first step in a program analysis pipeline. In
+  such settings, decompilation is frequently regarded as a “solved” problem, in that it is simply expected
+  that source code can be accurately recovered from an app. On the other hand, it is known that, e.g,
+  obfuscation can negatively impact a decompiler’s effectiveness. Therefore, in order to better understand
+  potential failure modes of, e.g., automated analysis pipelines involving decompilation, it is important
+  to characterize the performance of decompilers on both benign and malicious apps. To this end, we have
+  performed what is, to the best of our knowledge, the first large-scale study of Android decompilation
+  failure rates, using three sets of apps; namely, 3,018 open-source apps, 13,601 apps crawled from Google
+  Play, and an existing collection of 24,553 malware samples. In addition to the state-of-the-art Dalvik
+  bytecode decompiler Jadx, we also studied the performance of three popular Java decompilers. Furthermore,
+  this paper also presents the findings from a follow-up study on 54,945 malware apps, where we additionally
+  performed an analysis of the reasons for decompilation failures. Our study revealed that decompilers
+  generally have very low failure rates, and that few failures on benign apps appear to be related to
+  obfuscation. On malware, however, obfuscation appears to be a more prominent cause of failures, although
+  the vast majority of malicious apps could still be fully decompiled by an ensemble of decompilers.

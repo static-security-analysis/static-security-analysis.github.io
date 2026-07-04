@@ -1,0 +1,41 @@
+id: sentinel-source
+name: Sentinel Source
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Java
+- C#
+- PHP
+- JavaScript
+- Python
+license: Freemium
+website: https://www.whitehatsec.com/
+features:
+- Taint Analysis
+- Hybrid (static+dynamic)
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Encapsulation
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Taint Analysis
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2013
+toolType: commercial
+input:
+- Source Code
+- Binary Code
+ecosystem:
+- Web
+institute: WhiteHat

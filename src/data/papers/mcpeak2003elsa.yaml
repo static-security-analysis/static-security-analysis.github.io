@@ -1,0 +1,13 @@
+id: mcpeak2003elsa
+title: 'Elsa: The Elkhound-based C++ Parser and Analyzer (technical report)'
+authors:
+- Scott McPeak
+year: 2003
+type: tool
+venue: UC Berkeley Technical Report
+doi: unknown
+link: https://doi.org/unknown
+url: https://scottmcpeak.com/elkhound/sources/elsa/doc/index.html
+toolName: Elsa
+toolsMentioned:
+- elsa

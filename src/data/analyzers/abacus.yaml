@@ -1,0 +1,40 @@
+id: abacus
+name: Abacus
+description: symbolic side-channel leak quantification (bits leaked)
+languages:
+- Binary
+license: Open Source
+website: https://github.com/Raphael-Hao/Abacus
+features:
+- Symbolic/Concolic Execution
+integration: []
+github: https://github.com/Raphael-Hao/Abacus
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'Abacus: Precise Side-Channel Analysis'
+  authors:
+  - Qinkun Bao
+  - Zihao Wang
+  - Xiaoting Li
+  - J. Larus
+  - Dinghao Wu
+  year: 2021
+  type: Academic Paper
+  publication: International Conference on Software Engineering
+  doi: 10.1109/ICSE43902.2021.00078
+  link: https://doi.org/10.1109/ICSE43902.2021.00078
+techniques:
+- Symbolic/Concolic Execution
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 38
+toolType: oss
+input:
+- Binary
+ecosystem:
+- Cryptography
+- Binary/Embedded
+institute: Pennsylvania State University

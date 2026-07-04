@@ -1,0 +1,19 @@
+id: yamaguchi2014modeling
+title: Modeling and Discovering Vulnerabilities with Code Property Graphs
+authors:
+- Fabian Yamaguchi
+- Nico Golde
+- Daniel Arp
+- Konrad Rieck
+year: 2014
+type: tool
+venue: IEEE Symposium on Security and Privacy (S&P)
+venueAcronym: S&P
+doi: 10.1109/SP.2014.44
+link: https://doi.org/10.1109/SP.2014.44
+presentsToolId: shiftleft
+toolName: ShiftLeft
+toolsMentioned:
+- shiftleft
+mentionsToolIds:
+- shiftleft

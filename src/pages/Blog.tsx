@@ -1,7 +1,6 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Clock, User } from "lucide-react";
-import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -50,14 +49,14 @@ const Blog = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar onSearch={() => {}} />
+    <div className="min-h-screen flex flex-col bg-gray-50/50">
+      <Navbar />
       
       {/* Header */}
-      <div className="bg-security-800 text-white py-16 px-4">
+      <div className="bg-white border-b border-gray-200 py-16 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Security Blog</h1>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Security Blog</h1>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             The latest insights, guides, and best practices for application security 
             and static analysis tools.
           </p>
@@ -68,26 +67,26 @@ const Blog = () => {
       <div className="container mx-auto py-12 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Featured Post */}
-          <Card className="md:col-span-2 lg:col-span-3 border-security-200 shadow-md overflow-hidden">
+          <Card className="md:col-span-2 lg:col-span-3 border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden bg-white">
             <div className="grid md:grid-cols-2">
-              <div className="bg-security-50 p-6 flex items-center">
+              <div className="bg-gray-100 p-6 flex items-center">
                 <img 
                   src={`https://images.unsplash.com/${blogPosts[0].image}?auto=format&fit=crop&w=800&q=80`}
                   alt={blogPosts[0].title}
-                  className="w-full h-64 object-cover rounded-md"
+                  className="w-full h-64 object-cover rounded-md shadow-sm"
                 />
               </div>
               <div className="p-6 flex flex-col justify-center">
-                <div className="mb-2">
-                  <span className="px-3 py-1 bg-security-100 text-security-700 rounded-full text-sm font-medium">
+                <div className="mb-3">
+                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium border border-blue-100">
                     {blogPosts[0].category}
                   </span>
                 </div>
-                <CardTitle className="text-2xl mb-4">{blogPosts[0].title}</CardTitle>
-                <CardDescription className="text-base mb-6">
+                <CardTitle className="text-2xl mb-4 text-gray-900">{blogPosts[0].title}</CardTitle>
+                <CardDescription className="text-base mb-6 text-gray-600">
                   {blogPosts[0].excerpt}
                 </CardDescription>
-                <div className="flex items-center text-sm text-gray-500 mb-4">
+                <div className="flex items-center text-sm text-gray-500 mb-6">
                   <User size={16} className="mr-1" />
                   <span className="mr-4">{blogPosts[0].author}</span>
                   <Calendar size={16} className="mr-1" />
@@ -95,7 +94,7 @@ const Blog = () => {
                   <Clock size={16} className="mr-1" />
                   <span>{blogPosts[0].readTime}</span>
                 </div>
-                <Button className="bg-security-600 hover:bg-security-700 mt-2 w-fit">
+                <Button className="bg-blue-600 hover:bg-blue-700 mt-auto w-fit">
                   Read Article <ArrowRight size={16} className="ml-1" />
                 </Button>
               </div>
@@ -104,7 +103,7 @@ const Blog = () => {
           
           {/* Other Posts */}
           {blogPosts.slice(1).map((post) => (
-            <Card key={post.id} className="overflow-hidden flex flex-col h-full">
+            <Card key={post.id} className="overflow-hidden flex flex-col h-full border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300 bg-white">
               <div className="relative h-48">
                 <img 
                   src={`https://images.unsplash.com/${post.image}?auto=format&fit=crop&w=500&q=60`}
@@ -112,26 +111,24 @@ const Blog = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 bg-white/90 text-security-700 rounded-full text-sm font-medium">
+                  <span className="px-3 py-1 bg-white/95 text-blue-700 rounded-full text-xs font-bold shadow-sm">
                     {post.category}
                   </span>
                 </div>
               </div>
               <CardHeader className="pb-2">
-                <CardTitle className="text-xl">{post.title}</CardTitle>
+                <CardTitle className="text-xl text-gray-900 line-clamp-2">{post.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <div className="flex items-center text-sm text-gray-500">
-                  <User size={14} className="mr-1" />
-                  <span className="mr-4">{post.author}</span>
-                  <Clock size={14} className="mr-1" />
-                  <span>{post.readTime}</span>
+                <p className="text-gray-600 mb-4 line-clamp-3">{post.excerpt}</p>
+                <div className="flex items-center text-xs text-gray-500 gap-3">
+                  <div className="flex items-center"><User size={14} className="mr-1" />{post.author}</div>
+                  <div className="flex items-center"><Clock size={14} className="mr-1" />{post.readTime}</div>
                 </div>
               </CardContent>
-              <CardFooter className="pt-0">
-                <Button variant="outline" className="border-security-200 hover:bg-security-50 text-security-700">
-                  Read Article
+              <CardFooter className="pt-0 mt-auto">
+                <Button variant="ghost" className="text-blue-600 hover:text-blue-700 hover:bg-blue-50 px-0">
+                  Read Article <ArrowRight size={16} className="ml-1" />
                 </Button>
               </CardFooter>
             </Card>
@@ -139,18 +136,18 @@ const Blog = () => {
         </div>
         
         {/* Newsletter */}
-        <div className="mt-16 bg-gray-50 rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Stay Updated on Security Best Practices</h2>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+        <div className="mt-16 bg-white border border-gray-200 rounded-xl p-8 text-center shadow-sm max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">Stay Updated on Security Best Practices</h2>
+          <p className="text-gray-600 mb-6 max-w-xl mx-auto">
             Join our newsletter to receive the latest security insights and updates on static analysis tools.
           </p>
-          <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input 
               type="email" 
               placeholder="Your email address" 
-              className="flex-grow px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-security-500"
+              className="flex-grow px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
-            <Button className="bg-security-600 hover:bg-security-700">
+            <Button className="bg-blue-600 hover:bg-blue-700">
               Subscribe
             </Button>
           </div>

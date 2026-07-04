@@ -1,0 +1,17 @@
+id: perez2011lapse
+title: 'LAPSE+ static analysis security software: Vulnerabilities detection in Java EE Applications'
+authors:
+- Pablo Martin Perez
+- Joanna Filipiak
+- Jose Maria Sierra
+year: 2011
+type: tool
+venue: Communications in Computer and Information Science
+doi: 10.1007/978-3-642-22333-4_17
+link: https://doi.org/10.1007/978-3-642-22333-4_17
+presentsToolId: lapse
+toolName: LAPSE+
+toolsMentioned:
+- lapse
+mentionsToolIds:
+- lapse

@@ -1,0 +1,10 @@
+id: ware2008securing
+title: 'Securing java code: Heuristics and an evaluation of static analysis tools'
+authors:
+- Michael S. Ware
+- Christopher J. Fox
+year: 2008
+type: empirical
+venue: Workshop on Static Analysis Workshop (SAW)
+doi: 10.1145/1394504.1394506
+link: https://doi.org/10.1145/1394504.1394506

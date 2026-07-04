@@ -1,0 +1,37 @@
+id: codesonar
+name: CodeSonar
+description: Commercial static analysis tool using symbolic/concolic execution for C, C++, C#.
+languages:
+- C
+- C++
+- C#
+- Java
+- Binary
+license: Freemium
+website: https://www.grammatech.com/codesonar-cc
+features:
+- Symbolic/Concolic Execution
+- Taint Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Symbolic/Concolic Execution
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2005
+toolType: commercial
+input:
+- Source Code
+- Binary Code
+ecosystem:
+- General-purpose
+institute: GrammaTech Inc.

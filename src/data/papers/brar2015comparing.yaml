@@ -1,0 +1,16 @@
+id: brar2015comparing
+title: Comparing detection ratio of three static analysis tools
+authors:
+- Hanmeet Kaur Brar
+- Puneet Jai Kaur
+year: 2015
+type: empirical
+venue: International Journal of Computer Applications
+toolsMentioned:
+- rats
+- flawfinder
+- cppcheck
+mentionsToolIds:
+- rats
+- flawfinder
+- cppcheck

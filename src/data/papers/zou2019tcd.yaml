@@ -1,0 +1,16 @@
+id: zou2019tcd
+title: 'TCD: Statically Detecting Type Confusion Errors in C++ Programs'
+authors:
+- Changwei Zou
+- Yulei Sui
+- Hua Yan
+- Jingling Xue
+year: 2019
+type: method
+venue: International Symposium on Software Reliability Engineering (ISSRE)
+venueAcronym: ISSRE
+doi: 10.1109/ISSRE.2019.00037
+link: https://doi.org/10.1109/ISSRE.2019.00037
+toolName: TCD
+toolsMentioned:
+- tcd

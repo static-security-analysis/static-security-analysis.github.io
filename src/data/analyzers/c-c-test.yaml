@@ -1,0 +1,36 @@
+id: c-c-test
+name: C/C++ test
+description: Commercial static analysis tool using pattern matching for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: https://www.parasoft.com/products/parasoft-c-ctest/c-c-static-analysis/
+features:
+- Pattern Matching
+- Symbolic/Concolic Execution
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: Overcoming the Challenges of Safety and Security in the Renovo Automotive Data Platform
+  authors:
+  - Parasoft
+  year: 1996
+  type: Academic Paper
+  link: https://www.parasoft.com/products/parasoft-c-ctest/c-c-static-analysis/
+techniques:
+- Pattern Matching
+- Symbolic/Concolic Execution
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 1996
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Parasoft

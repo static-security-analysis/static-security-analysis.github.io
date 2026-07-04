@@ -1,0 +1,12 @@
+id: okun2007effect
+title: 'Effect of static analysis tools on software security: Preliminary investigation'
+authors:
+- Vadim Okun
+- William F. Guthrie
+- Romain Gaucher
+- Paul E. Black
+year: 2007
+type: empirical
+venue: ACM Workshop on Quality of Protection (QoP)
+doi: 10.1145/1314257.1314260
+link: https://doi.org/10.1145/1314257.1314260

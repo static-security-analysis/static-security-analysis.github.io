@@ -1,0 +1,46 @@
+id: zipper
+name: ZIPPER
+description: precise/efficient static taint for PHP web apps
+languages:
+- PHP
+license: Open Source
+website: https://www.usenix.org/conference/usenixsecurity25/presentation/wang-xinyi
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'ZIPPER: Static Taint Analysis for PHP Applications with Precision and Efficiency'
+  authors:
+  - Xinyi Wang
+  - Yeting Li
+  - '{CAS-KLONAT'
+  - BKLONSPT}
+  - Jie Lu
+  - SKLP
+  - Shizhe Cui
+  - Chenghang Shi
+  - Qin Mai
+  - Yunpei Zhang
+  - UESTC
+  - Yang Xiao
+  - Feng Li
+  - Wei Huo
+  year: 2025
+  type: Academic Paper
+  publication: USENIX-SEC
+  link: https://www.usenix.org/conference/usenixsecurity25/presentation/wang-xinyi
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Institute of Information Engineering

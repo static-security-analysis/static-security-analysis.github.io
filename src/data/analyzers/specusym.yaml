@@ -1,0 +1,41 @@
+id: specusym
+name: SpecuSym
+description: speculative symbolic execution for cache-timing side-channel (info leak)
+languages:
+- C
+license: Open Source
+website: https://doi.org/10.1145/3377811.3380428
+features:
+- Symbolic/Concolic Execution
+integration: []
+github: https://github.com/MelodyHuibo/SpecuSym
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'SpecuSym: speculative symbolic execution for cache timing leak detection'
+  authors:
+  - Shengjian Guo
+  - Yueqi Chen
+  - Peng Li
+  - Yueqiang Cheng
+  - Huibo Wang
+  - Meng Wu
+  - Zhiqiang Zuo
+  year: 2020
+  type: Academic Paper
+  publication: International Conference on Software Engineering
+  doi: 10.1145/3377811.3380428
+  link: https://doi.org/10.1145/3377811.3380428
+techniques:
+- Symbolic/Concolic Execution
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2020
+githubStars: 1
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Binary/Embedded
+institute: Baidu

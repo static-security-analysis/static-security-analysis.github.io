@@ -1,0 +1,40 @@
+id: zhang2025isgraphvd
+title: 'ISGraphVD: Precise Vulnerability Detection for IoT Supply Chains Based on Identifier Sensitive
+  Graph'
+authors:
+- Yingli Zhang
+- Xin Liu
+- Ziang Liu
+- Song Li
+- Nan Li
+- Weina Niu
+- Rui Zhou
+- Qingguo Zhou
+year: 2025
+type: tool
+venue: IEEE International Symposium on Software Reliability Engineering
+venueAcronym: ISSRE
+doi: 10.1109/ISSRE66568.2025.00021
+link: https://doi.org/10.1109/ISSRE66568.2025.00021
+url: https://github.com/SQJDXLL/ISGraphVD
+presentsToolId: isgraphvd
+toolName: ISGraphVD
+comparesToolIds:
+- fit
+- vulseeker
+abstract: Open-source software (OSS) is widely reused in Internet of Things (IoT) devices, leading to
+  widespread N-Day vulnerabilities when outdated components remain unpatched. Existing methods typically
+  encode features of different Common Vulnerabilities and Exposures (CVEs) within a shared representation
+  space. However, the model’s limited capacity, combined with the new vulnerability features, can disrupt
+  previously learned patterns. Minimal code modifications in tiny-patch vulnerabilities are often overshadowed
+  by variations introduced by different compilation settings, making it more difficult to distinguish
+  vulnerable functions from their patched counterparts. This paper introduces ISGraphVD, a novel graph-based
+  and function-level vulnerability detection approach that supports cross-compilation settings and enhances
+  detection accuracy. By modeling each CVE independently through a one-model-per-CVE strategy, ISGraphVD
+  reduces feature interference and improves detection accuracy across diverse CVEs. To better detect tinypatch
+  vulnerability, we propose ISGraph, a fine-grained graph representation that models variable dependencies
+  within and across basic blocks by integrating control flow analysis. Then, ISGraphVD utilizes a Graph
+  Matching Network (GMN) with a cross-graph attention mechanism to identify critical vulnerability patterns.
+  Experiments on IoT OSS projects show that ISGraphVD outperforms state-of-the-art methods, achieving
+  a 6.3 percentage-point (pp) accuracy improvement over the strongest baseline, and real-world tests further
+  validate its effectiveness in IoT supply chains.

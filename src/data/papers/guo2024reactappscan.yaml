@@ -1,0 +1,32 @@
+id: guo2024reactappscan
+title: 'ReactAppScan: Mining React Application Vulnerabilities via Component Graph'
+authors:
+- Zhiyong Guo
+- Mingqing Kang
+- V. N. Venkatakrishnan
+- Rigel Gjomemo
+- Yinzhi Cao
+year: 2024
+type: method
+venue: ACM SIGSAC Conference on Computer and Communications Security
+venueAcronym: CCS
+doi: 10.1145/3658644.3670331
+link: https://doi.org/10.1145/3658644.3670331
+url: https://doi.org/10.1145/3658644.3670331
+presentsToolId: reactappscan
+toolName: ReactAppScan
+comparesToolIds:
+- codeql-semmle
+abstract: 'React, a single-page application framework, has recently become popular among web developers
+  due to its flexible and convenient management of web application states via a syntax extension to JavaScript,
+  called JSX (JavaScript and XML). Despite its abundant functionalities, the security of React, especially
+  vulnerability detection, still lags: many existing vulnerability detection works do not support JSX
+  let alone React Data Flow introduced by React components. The only exception is CodeQL, which supports
+  JSX syntax. However, CodeQL cannot properly track React Data Flow across different components for detecting
+  vulnerabilities. In this paper, we design a novel framework, called ReactAppScan, which constructs a
+  Component Graph (CoG) for tracking React Data Flow and detecting vulnerabilities following both JavaScript
+  and React data flows. Specifically, ReactAppScan relies on abstract interpretation to build such a component
+  graph via tracking component lifecycles and then detects vulnerabilities via finding paths between sources
+  and sinks. Our evaluation shows that ReactAppScan detects 61 zero-day vulnerabilities in real-world
+  React applications. We have responsibly reported all the vulnerabilities and so far six vulnerabilities
+  have been fixed and two have been acknowledged.'

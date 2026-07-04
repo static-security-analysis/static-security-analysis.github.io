@@ -1,0 +1,29 @@
+id: karakaya2025pick
+title: 'Pick Your Call Graphs Well: On Scaling IFDS-Based Data-Flow Analyses'
+authors:
+- Kadiray Karakaya
+- Palaniappan Muthuraman
+- Eric Bodden
+year: 2025
+type: empirical
+venue: ACM SIGPLAN Conference on Programming Language Design and Implementation
+venueAcronym: PLDI
+doi: 10.1145/3735544.3735587
+link: https://doi.org/10.1145/3735544.3735587
+url: https://doi.org/10.1145/3735544.3735587
+tldr: 'An empirical evaluation of call graph precision''s impact on the precision and scalability of the
+  IFDS framework is presented and it is reported that the time invested in building precise context-sensitive
+  call graphs pays off: They significantly reduce IFDS analyses'' runtimes while also improving their
+  precision.'
+abstract: 'Recent works on scaling IFDS-based analyses propose sophisticated techniques ranging from sparsification
+  and disk-assisted computing to intelligent garbage collection. Yet, they choose a fixed call graph,
+  thereby disregarding its implications on scalability. This work presents an empirical evaluation of
+  call graph precision''s impact on the precision and scalability of the IFDS framework. To this end,
+  we build QCG, a call graph generation tool for Android that extends the Qilin pointer analysis framework,
+  and integrate it with FlowDroid, a state-of-the-art IFDS-based taint analysis solver. We assess the
+  precision of 27 call graphs built with QCG and 4 default call graphs in FlowDroid, on the TaintBench
+  benchmark of Android malware. We then evaluate how increasing the call-graph precision impacts FlowDroid''s
+  runtime performance and memory consumption on real-world apps. We report that the time invested in building
+  precise context-sensitive call graphs pays off: They significantly reduce IFDS analyses'' runtimes while
+  also improving their precision. However, there appears to be a sweet spot in the trade-off between the
+  call graph construction time and the reduction in total analysis runtime.'

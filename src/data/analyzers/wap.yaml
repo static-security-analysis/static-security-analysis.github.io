@@ -1,0 +1,69 @@
+id: wap
+name: WAP
+description: Academic static analysis tool using taint analysis for PHP.
+languages:
+- PHP
+license: Open Source
+website: http://awap.sourceforge.net/
+features:
+- Taint Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Equipping wap with weapons to detect vulnerabilities: Practical experience report'
+  authors:
+  - Ib{\'e}ria Medeiros
+  - Nuno Neves
+  - Miguel Correia
+  year: 2016
+  type: Academic Paper
+  publication: 2016 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+    (DSN)
+  link: http://awap.sourceforge.net/
+- title: Automatic detection and correction of web application vulnerabilities using data mining to predict
+    false positives
+  authors:
+  - Ib{\'e}ria Medeiros
+  - Nuno F Neves
+  - Miguel Correia
+  year: 2014
+  type: Academic Paper
+  publication: Proceedings of the 23rd international conference on World wide web
+  link: http://awap.sourceforge.net/
+- title: Detecting and Removing Web Application Vulnerabilities with Static Analysis and Data Mining
+  authors:
+  - Ib\'{e}ria Medeiros
+  - Nuno Neves
+  - Miguel Correia
+  year: 2016
+  type: Academic Paper
+  publication: IEEE Transactions on Reliability
+  doi: 10.1109/TR.2015.2457411
+  link: https://doi.org/10.1109/TR.2015.2457411
+- title: Detection of vulnerabilities and automatic protection for web applications
+  authors:
+  - Ibéria Medeiros
+  year: 2016
+  type: Academic Paper
+  link: http://awap.sourceforge.net/
+- title: Improving vulnerability detection of wap
+  authors:
+  - Miguel Amorim Falé
+  year: 2017
+  type: Academic Paper
+  link: http://awap.sourceforge.net/
+techniques:
+- Taint Analysis
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2014
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: LASIGE, PT

@@ -1,0 +1,41 @@
+id: velvet
+name: VELVET
+description: ensemble (GNN+transformer) vuln localization [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1109/SANER53432.2022.00114
+features:
+- Graph Neural Network
+- Deep Learning (non-LLM)
+integration: []
+github: https://github.com/danslo/velvet
+academicReferences:
+- title: 'VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements'
+  authors:
+  - Yangruibo Ding
+  - Sahil Suneja
+  - Yunhui Zheng
+  - Jim Laredo
+  - Alessandro Morari
+  - Gail E. Kaiser
+  - Baishakhi Ray
+  year: 2022
+  type: Academic Paper
+  publication: IEEE International Conference on Software Analysis, Evolution and Reengineering
+  doi: 10.1109/SANER53432.2022.00114
+  link: https://doi.org/10.1109/SANER53432.2022.00114
+techniques:
+- Graph Neural Network
+- Deep Learning (non-LLM)
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2022
+githubStars: 51
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Columbia University

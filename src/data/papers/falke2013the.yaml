@@ -1,0 +1,18 @@
+id: falke2013the
+title: The Bounded Model Checker LLBMC
+authors:
+- Stephan Falke
+- Florian Merz
+- Carsten Sinz
+year: 2013
+type: method
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1109/ASE.2013.6693138
+link: https://doi.org/10.1109/ASE.2013.6693138
+presentsToolId: llbmc
+toolName: LLBMC
+toolsMentioned:
+- llbmc
+mentionsToolIds:
+- llbmc

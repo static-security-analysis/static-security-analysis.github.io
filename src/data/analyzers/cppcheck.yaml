@@ -1,0 +1,28 @@
+id: cppcheck
+name: cppcheck
+description: Open-source static analysis tool using abstract interpretation for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://cppcheck.sourceforge.net/
+features:
+- Abstract Interpretation
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Abstract Interpretation
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2009
+githubStars: 3200
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose

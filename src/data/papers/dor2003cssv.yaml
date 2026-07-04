@@ -1,0 +1,14 @@
+id: dor2003cssv
+title: 'CSSV: Towards a realistic tool for statically detecting all buffer overflows in C'
+authors:
+- Nurit Dor
+- Michael Rodeh
+- Mooly Sagiv
+year: 2003
+type: method
+venue: ACM SIGPLAN Notices
+doi: 10.1145/780822.781149
+link: https://doi.org/10.1145/780822.781149
+toolName: CSSV
+toolsMentioned:
+- cssv

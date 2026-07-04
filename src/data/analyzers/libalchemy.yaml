@@ -1,0 +1,41 @@
+id: libalchemy
+name: LIBALCHEMY
+description: compositional SA with persistent summaries for TPL-function-misuse bug detection
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3597503.3639132
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: API Abuse
+  examples: []
+academicReferences:
+- title: 'LIBALCHEMY: A Two-Layer Persistent Summary Design for Taming Third-Party Libraries in Static
+    Bug-Finding Systems'
+  authors:
+  - Rongxin Wu
+  - Yuxuan He
+  - Jiafeng Huang
+  - Chengpeng Wang
+  - Wensheng Tang
+  - Qingkai Shi
+  - Xiao Xiao
+  - Charles Zhang
+  year: 2024
+  type: Academic Paper
+  publication: ICSE
+  doi: 10.1145/3597503.3639132
+  link: https://doi.org/10.1145/3597503.3639132
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Xiamen University

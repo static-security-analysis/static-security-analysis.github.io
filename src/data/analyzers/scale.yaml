@@ -1,0 +1,34 @@
+id: scale
+name: SCALE
+description: pre-trained model with comment-tree structure for vuln detection [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3650212.3652124
+features:
+- Deep Learning (non-LLM)
+integration: []
+academicReferences:
+- title: 'SCALE: Constructing Structured Natural Language Comment Trees for Software Vulnerability Detection'
+  authors:
+  - Xin-Cheng Wen
+  - Cuiyun Gao
+  - Shuzheng Gao
+  - Yang Xiao
+  - Michael R. Lyu
+  year: 2024
+  type: Academic Paper
+  publication: ISSTA
+  doi: 10.1145/3650212.3652124
+  link: https://doi.org/10.1145/3650212.3652124
+techniques:
+- Deep Learning (non-LLM)
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Harbin Institute of Technology

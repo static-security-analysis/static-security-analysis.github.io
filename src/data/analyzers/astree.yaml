@@ -1,0 +1,61 @@
+id: astree
+name: Astree
+description: Commercial static analysis tool using abstract interpretation for C, C++.
+languages:
+- C
+- C++
+license: Freemium
+website: https://www.absint.com/astree/index.htm
+features:
+- Abstract Interpretation
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: 'Varieties of Static Analyzers: A Comparison with ASTREE'
+  authors:
+  - Patrick Cousot
+  - Radhia Cousot
+  - Jerome Feret
+  - Antoine Mine
+  - Laurent Mauborgne
+  - David Monniaux
+  - Xavier Rival
+  year: 2007
+  type: Academic Paper
+  publication: First Joint IEEE/IFIP Symposium on Theoretical Aspects of Software Engineering (TASE '07)
+  link: https://www.absint.com/astree/index.htm
+- title: The ASTRE{\'E} Analyzer
+  authors:
+  - Patrick Cousot
+  - Radhia Cousot
+  - Jer{\^o}me Feret
+  - Laurent Mauborgne
+  - Min{\'e
+  year: 2005
+  type: Academic Paper
+  publication: Programming Languages and Systems
+  link: https://www.absint.com/astree/index.htm
+- title: 'Astr{\''E}e: Verification of Absence of Runtime Error'
+  authors:
+  - Laurent Mauborgne
+  year: 2004
+  type: Academic Paper
+  publication: Building the Information Society
+  link: https://www.absint.com/astree/index.htm
+techniques:
+- Abstract Interpretation
+soundness: Sound
+empiricalValidation: true
+yearIntroduced: 2004
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: cnrs, ENS and INRIA (Acquired by AbsInt)

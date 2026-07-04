@@ -1,0 +1,33 @@
+id: sparrow-sast
+name: Sparrow SAST
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Commercial
+website: https://www.sparrowfasoo.com/en
+features:
+- Unknown
+integration: []
+languagesDetail:
+- Java
+- C
+- C++
+- C#
+- Python
+- Swift
+- ASP.NET
+- ABAP
+- Objective-C
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose

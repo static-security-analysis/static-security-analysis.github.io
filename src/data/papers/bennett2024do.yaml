@@ -1,0 +1,32 @@
+id: bennett2024do
+title: Do Developers Use Static Application Security Testing (SAST) Tools Straight Out of the Box? A large-scale
+  Empirical Study
+authors:
+- Gareth Bennett
+- Tracy Hall
+- Steve Counsell
+- Emily Winter
+- Thomas Shippey
+year: 2024
+type: empirical
+venue: International Symposium on Empirical Software Engineering and Measurement
+venueAcronym: ESEM
+doi: 10.1145/3674805.3690750
+link: https://doi.org/10.1145/3674805.3690750
+url: https://doi.org/10.1145/3674805.3690750
+comparesToolIds:
+- codeql-semmle
+- semgrep
+tldr: A large-scale survey involving 1,263 developers suggested that more work is needed to help developers
+  combine and configure SAST tools, since doing so is likely to detect significantly more vulnerabilities.
+abstract: Static application Security Testing (SAST) tools are an established means of detecting vulnerabilities
+  early in development. Previous studies have reported low detection rates from SAST tools and recommend
+  either combining SAST tools or configuring rule sets to detect more vulnerabilities. However, while
+  previous work suggests that developers rarely combine or configure any of the Automatic Static Analysis
+  Tools (ASATs) they use, it is currently unclear whether SAST tools are used directly “out of the box”.
+  To understand how developers use SAST tools, we performed a large-scale survey involving 1,263 developers.
+  We pre-screened developers to establish their SAST use and found that only 20% (204/1,003) used SAST
+  tools. Of those developers who did use SAST tools, we found a large number did not use multiple tools
+  (59%), did not configure tools (54%) or did neither (40%). Our results suggest that more work is needed
+  to help developers combine and configure tools, since doing so is likely to detect significantly more
+  vulnerabilities.

@@ -1,0 +1,32 @@
+id: polyspace-for-ada
+name: Polyspace for Ada
+description: Commercial static analysis tool using abstract interpretation for Ada.
+languages:
+- Ada
+license: Freemium
+website: https://www.mathworks.com/products/polyspace-ada.html
+features:
+- Abstract Interpretation
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: Static verification of dynamic properties
+  authors:
+  - Alain Deutsch
+  year: 2003
+  type: Academic Paper
+  publication: ACM SIGAda 2003 Conference
+  link: https://www.mathworks.com/products/polyspace-ada.html
+techniques:
+- Abstract Interpretation
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 1999
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: MathWorks

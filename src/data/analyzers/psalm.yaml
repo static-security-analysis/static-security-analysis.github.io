@@ -1,0 +1,30 @@
+id: psalm
+name: Psalm
+description: Open-source static analysis tool using taint analysis for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://psalm.dev/
+features:
+- Taint Analysis
+- Type / Type-state Analysis
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Taint Analysis
+- Type / Type-state Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2016
+githubStars: 3600
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Vimeo

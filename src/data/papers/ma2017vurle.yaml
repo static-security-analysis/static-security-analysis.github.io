@@ -1,0 +1,17 @@
+id: ma2017vurle
+title: 'VuRLE: Automatic vulnerability detection and repair'
+authors:
+- Siqi Ma
+- Ferdian Thung
+- David Lo
+- Cong Sun
+- Rober H. Deng
+year: 2017
+type: method
+venue: European Symposium on Research in Computer Security (ESORICS)
+venueAcronym: ESORICS
+doi: 10.1007/978-3-319-66399-9_13
+link: https://doi.org/10.1007/978-3-319-66399-9_13
+toolName: VuRLE
+toolsMentioned:
+- vurle

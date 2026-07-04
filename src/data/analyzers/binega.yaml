@@ -1,0 +1,36 @@
+id: binega
+name: BinEGA
+description: DNN binary code similarity (vuln identification is one application)
+languages:
+- Binary
+license: Open Source
+website: https://github.com/KarabanovV99/biNegativeEncod
+features:
+- Deep Learning (non-LLM)
+integration: []
+licenseDetail: AGPL-3.0
+github: https://github.com/KarabanovV99/biNegativeEncod
+academicReferences:
+- title: 'BinEGA: Enhancing DNN-based Binary Code Similarity Detection through Efficient Graph Alignment'
+  authors:
+  - Shize Zhou
+  - Lirong Fu
+  - Peiyu Liu
+  - Wenhai Wang
+  year: 2025
+  type: Academic Paper
+  publication: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  doi: 10.1109/SANER64311.2025.00052
+  link: https://doi.org/10.1109/SANER64311.2025.00052
+techniques:
+- Deep Learning (non-LLM)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 0
+toolType: oss
+input:
+- Binary
+ecosystem:
+- Binary/Embedded
+institute: Zhejiang University

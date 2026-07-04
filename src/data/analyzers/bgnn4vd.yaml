@@ -1,0 +1,39 @@
+id: bgnn4vd
+name: BGNN4VD
+description: bidirectional GNN vuln detection; language not named [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/SicongCao/BGNN4VD
+features:
+- Graph Neural Network
+- Graph-based (CPG/PDG)
+integration: []
+github: https://github.com/SicongCao/BGNN4VD
+academicReferences:
+- title: 'BGNN4VD: Constructing Bidirectional Graph Neural-Network for Vulnerability Detection'
+  authors:
+  - Sicong Cao
+  - Xiaobing Sun
+  - Lili Bo
+  - Ying Wei
+  - Bin Li
+  year: 2021
+  type: Academic Paper
+  publication: Information and Software Technology
+  doi: 10.1016/J.INFSOF.2021.106576
+  link: https://doi.org/10.1016/J.INFSOF.2021.106576
+techniques:
+- Graph Neural Network
+- Graph-based (CPG/PDG)
+maintenance: Stale
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 10
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Yangzhou University

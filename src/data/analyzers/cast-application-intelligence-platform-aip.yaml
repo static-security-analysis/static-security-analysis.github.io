@@ -1,0 +1,55 @@
+id: cast-application-intelligence-platform-aip
+name: CAST Application Intelligence Platform (AIP)
+description: Commercial static analysis tool for ABAP, C#, ASP.NET.
+languages:
+- Multiple
+license: Freemium
+website: https://www.castsoftware.com/products/application-intelligence-platform
+features:
+- Unknown
+integration: []
+languagesDetail:
+- ABAP
+- C#
+- ASP.NET
+- C
+- C++
+- SQL
+- COBOL
+- Java
+- XML
+- JavaScript
+- HTML
+- Visual Basic
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: Cross-Technology, Cross-Layer Defect Detection in IT Systems -- Challenges and Achievements
+  authors:
+  - Piotr Gawlowicz
+  year: 2015
+  type: Academic Paper
+  publication: 2015 IEEE/ACM 1st International Workshop on Complex Faults and Failures in Large Software
+    Systems (COUFLESS)
+  doi: 10.1109/COUFLESS.2015.11
+  link: https://doi.org/10.1109/COUFLESS.2015.11
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2005
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: CAST

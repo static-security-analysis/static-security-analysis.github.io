@@ -1,0 +1,19 @@
+id: larus2004righting
+title: Righting Software (PREfix/PREfast at Microsoft)
+authors:
+- James R. Larus
+- Thomas Ball
+- Manuvir Das
+- Robert DeLine
+- Manuel Fähndrich
+- Jonathan Pincus
+- Sriram K. Rajamani
+- Ramanathan Venkatapathy
+year: 2004
+type: tool
+venue: IEEE Software
+doi: 10.1109/MS.2004.1293071
+link: https://doi.org/10.1109/MS.2004.1293071
+toolName: PREfix/PREfast
+toolsMentioned:
+- prefast

@@ -1,0 +1,37 @@
+id: cbmc
+name: CBMC
+description: Open-source static analysis tool using model checking for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://www.cprover.org/cbmc/
+features:
+- Model Checking
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: A Tool for Checking {ANSI-C} Programs
+  authors:
+  - Edmund Clarke
+  - Daniel Kroening
+  - Flavio Lerda
+  year: 2004
+  type: Academic Paper
+  publication: Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2004)
+  link: http://www.cprover.org/cbmc/
+techniques:
+- Model Checking
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2004
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: CMU

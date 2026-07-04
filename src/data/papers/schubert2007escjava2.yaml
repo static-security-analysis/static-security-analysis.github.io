@@ -1,0 +1,13 @@
+id: schubert2007escjava2
+title: ESC/Java2 as a tool to ensure security in the source code of Java applications
+authors:
+- Aleksy Schubert
+- Jacek Chrząszcz
+year: 2007
+type: tool
+venue: 'Software Engineering Techniques: Design for Quality'
+link: https://www.scopus.com/inward/record.uri?eid=2-s2.0-33846269638&doi=10.1007%2f978-0-387-39388-9_32&partnerID=40&md5=3459ee8958c714c28eb755308df02a5a
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-33846269638&doi=10.1007%2f978-0-387-39388-9_32&partnerID=40&md5=3459ee8958c714c28eb755308df02a5a
+toolName: ESC/Java2
+toolsMentioned:
+- esc-java2

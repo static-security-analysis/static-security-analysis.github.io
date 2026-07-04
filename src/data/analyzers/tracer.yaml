@@ -1,0 +1,34 @@
+id: tracer
+name: TRACER
+description: taint signature-based recurring-vuln detection
+languages:
+- C
+license: Open Source
+website: https://doi.org/10.1145/3548606.3560664
+features:
+- Taint Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'TRACER: Signature-based Static Analysis for Detecting Recurring Vulnerabilities'
+  authors:
+  - Wooseok Kang
+  - Byoungho Son
+  - K. Heo
+  year: 2022
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3548606.3560664
+  link: https://doi.org/10.1145/3548606.3560664
+techniques:
+- Taint Analysis
+empiricalValidation: true
+yearIntroduced: 2022
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: KAIST

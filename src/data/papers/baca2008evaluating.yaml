@@ -1,0 +1,11 @@
+id: baca2008evaluating
+title: Evaluating the cost reduction of static code analysis for software security
+authors:
+- Dejan Baca
+- Bengt Carlsson
+- Lars Lundberg
+year: 2008
+type: empirical
+venue: ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS)
+doi: 10.1145/1375696.1375707
+link: https://doi.org/10.1145/1375696.1375707

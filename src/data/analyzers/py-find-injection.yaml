@@ -1,0 +1,27 @@
+id: py-find-injection
+name: py-find-injection
+description: Open-source static analysis tool using pattern matching for Python.
+languages:
+- Python
+license: Open Source
+website: https://github.com/uber/py-find-injection
+features:
+- Pattern Matching
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+maintenance: Stale
+empiricalValidation: false
+yearIntroduced: 2013
+githubStars: 108
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Uber

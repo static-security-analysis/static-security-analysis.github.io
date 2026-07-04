@@ -1,0 +1,49 @@
+id: pmd
+name: PMD
+description: Open-source static analysis tool using pattern matching for Apex, Java.
+languages:
+- Apex
+- Java
+license: Open Source
+website: https://pmd.github.io/
+features:
+- Pattern Matching
+- Data-flow Analysis
+integration: []
+licenseDetail: BSD
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+academicReferences:
+- title: Efficient vulnerability detection based on an optimized rule-checking static analysis technique
+  authors:
+  - Deng Chen
+  - Yan-duo Zhang
+  - Wei Wei
+  - Shi-xun Wang
+  - Ru-bing Huang
+  - Xiao-lin Li
+  - Bin-bin Qu
+  - Sheng Jiang
+  year: 2017
+  type: Academic Paper
+  publication: Frontiers of Information Technology \& Electronic Engineering
+  doi: 10.1631/FITEE.1500379
+  link: https://doi.org/10.1631/FITEE.1500379
+techniques:
+- Pattern Matching
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2011
+githubStars: 3100
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: PMD

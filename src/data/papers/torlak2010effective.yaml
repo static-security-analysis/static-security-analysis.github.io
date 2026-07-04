@@ -1,0 +1,13 @@
+id: torlak2010effective
+title: Effective Interprocedural Resource Leak Detection
+authors:
+- Emina Torlak
+- Satish Chandra
+year: 2010
+type: method
+venue: International Conference in Software Engineering (ICSE)
+doi: 10.1145/1806799.1806876
+link: https://doi.org/10.1145/1806799.1806876
+toolName: TRACKER
+toolsMentioned:
+- tracker

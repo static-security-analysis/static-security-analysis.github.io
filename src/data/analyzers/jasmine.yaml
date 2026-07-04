@@ -1,0 +1,35 @@
+id: jasmine
+name: Jasmine
+description: scalable JS static data-flow security analysis (semantic understanding)
+languages:
+- JavaScript
+license: Open Source
+website: https://doi.org/10.1109/SP54263.2024.00183
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation'
+  authors:
+  - Feng Xiao
+  - Zhong Su
+  - Guangliang Yang
+  - Wenke Lee
+  year: 2024
+  type: Academic Paper
+  publication: S&P
+  doi: 10.1109/SP54263.2024.00183
+  link: https://doi.org/10.1109/SP54263.2024.00183
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Georgia Institute of Technology

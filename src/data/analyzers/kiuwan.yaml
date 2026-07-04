@@ -1,0 +1,44 @@
+id: kiuwan
+name: Kiuwan
+description: Commercial static analysis tool using taint analysis for Objective-C, Java, JavaScript.
+languages:
+- Multiple
+license: Freemium
+website: https://www.kiuwan.com/
+features:
+- Taint Analysis
+integration: []
+languagesDetail:
+- Objective-C
+- Java
+- JavaScript
+- PHP
+- C
+- C++
+- ABAP
+- COBOL
+- C#
+- SQL
+- Visual Basic
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2012
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Kiuwan

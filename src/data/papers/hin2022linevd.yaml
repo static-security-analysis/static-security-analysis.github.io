@@ -1,0 +1,34 @@
+id: hin2022linevd
+title: 'LineVD: Statement-level Vulnerability Detection using Graph Neural Networks'
+authors:
+- David Hin
+- Andrey Kan
+- Huaming Chen
+- M. Babar
+year: 2022
+type: tool
+venue: IEEE Working Conference on Mining Software Repositories
+venueAcronym: MSR
+doi: 10.1145/3524842.3527949
+link: https://doi.org/10.1145/3524842.3527949
+url: https://github.com/davidhin/linevd
+presentsToolId: linevd
+toolName: LineVD
+comparesToolIds:
+- ivdetect
+abstract: Current machine-learning based software vulnerability detection methods are primarily conducted
+  at the function-level. However, a key limitation of these methods is that they do not indicate the specific
+  lines of code contributing to vulnerabilities. This limits the ability of developers to efficiently
+  inspect and interpret the predictions from a learnt model, which is crucial for integrating machine-learning
+  based tools into the software development work-flow. Graph-based models have shown promising performance
+  in function-level vulnerability detection, but their capability for statement-level vulnerability detection
+  has not been extensively explored. While interpreting function-level predictions through explainable
+  AI is one promising direction, we herein consider the statement-level software vulnerability detection
+  task from a fully supervised learning perspective. We propose a novel deep learning framework, LineVD,
+  which formulates statement-level vulnerability detection as a node classification task. LineVD leverages
+  control and data dependencies between statements using graph neural networks, and a transformer-based
+  model to encode the raw source code tokens. In particular, by addressing the conflicting outputs between
+  function-level and statement-level information, LineVD significantly improve the prediction performance
+  without vulnerability status for function code. We have conducted extensive experi-ments against a large-scale
+  collection of real-world C/C++ vulnerabilities obtained from multiple real-world projects, and demonstrate
+  an increase of 105% in F1-score over the current state-of-the-art.

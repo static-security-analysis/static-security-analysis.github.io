@@ -1,0 +1,15 @@
+id: cole2006improving
+title: Improving your software using static analysis to find bugs
+authors:
+- Brian Cole
+- Daniel Hakim
+- David Hovemeyer
+- Reuven Lazarus
+- William Pugh
+- Kristin Stephens
+year: 2006
+type: motivation
+venue: ACM SIGPLAN symposium on Object-oriented programming systems, languages, and applications (OOPSLA)
+venueAcronym: OOPSLA
+doi: 10.1145/1176617.1176667
+link: https://doi.org/10.1145/1176617.1176667

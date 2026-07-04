@@ -1,0 +1,12 @@
+id: smith2020why
+title: 'Why Can''t Johnny Fix Vulnerabilities: A Usability Evaluation of Static Analysis Tools for Security'
+authors:
+- Justin Smith
+- Lafayette College
+- Lisa Nguyen Quang Do
+- Emerson Murphy-Hill, Google
+year: 2020
+type: empirical
+venue: USENIX Conference on Usable Privacy and Security (SOUPS)
+doi: 10.5555/3488905.3488918
+link: https://doi.org/10.5555/3488905.3488918

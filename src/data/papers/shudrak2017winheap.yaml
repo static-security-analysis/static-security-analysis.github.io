@@ -1,0 +1,12 @@
+id: shudrak2017winheap
+title: 'WinHeap Explorer: Efficient and Transparent Heap-Based Bug Detection in Machine Code'
+authors:
+- Maksim Shudrak
+year: 2017
+type: method
+venue: IEEE International Conference on Software Quality, Reliability and Security (QRS)
+doi: 10.1109/QRS.2017.20
+link: https://doi.org/10.1109/QRS.2017.20
+toolName: WinHeap Explorer
+toolsMentioned:
+- winheap-explorer

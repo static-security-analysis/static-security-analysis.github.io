@@ -1,0 +1,18 @@
+id: brown2020sys
+title: 'Sys: A Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code'
+authors:
+- Fraser Brown
+- Deian Stefan
+- Dawson Engler
+year: 2020
+type: tool
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+doi: 10.5555/3489212.3489224
+link: https://doi.org/10.5555/3489212.3489224
+presentsToolId: sys
+toolName: Sys
+toolsMentioned:
+- sys
+mentionsToolIds:
+- sys

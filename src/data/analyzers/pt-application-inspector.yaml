@@ -1,0 +1,33 @@
+id: pt-application-inspector
+name: PT Application Inspector
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- C#
+- Java
+- JavaScript
+- PHP
+- Objective-C
+- SQL
+license: Freemium
+website: https://www.ptsecurity.com/ww-en/products/ai
+features:
+- Pattern Matching
+- Abstract Interpretation
+- Hybrid (static+dynamic)
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Pattern Matching
+- Abstract Interpretation
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Positive Technologies

@@ -1,0 +1,45 @@
+id: conftainter
+name: ConfTainter
+description: static taint on configuration options (config-induced issues)
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1109/ASE56229.2023.00067
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/wangteng13/ConfTainter
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'ConfTainter: Static Taint Analysis For Configuration Options'
+  authors:
+  - Teng Wang
+  - Haochen He
+  - Xiaodong Liu
+  - Shanshan Li
+  - Zhouyang Jia
+  - Yu Jiang
+  - Qing Liao
+  - Wang Li
+  year: 2023
+  type: Academic Paper
+  publication: IEEE/ACM International Conference on Automated Software Engineering
+  doi: 10.1109/ASE56229.2023.00067
+  link: https://doi.org/10.1109/ASE56229.2023.00067
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 9
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: National University of Defense Technology

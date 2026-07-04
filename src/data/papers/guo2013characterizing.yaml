@@ -1,0 +1,17 @@
+id: guo2013characterizing
+title: Characterizing and detecting resource leaks in Android applications
+authors:
+- Chaorong Guo
+- Jain Zhang
+- Jun Yan
+- Zhiqiang Zhang
+- Yanli Zhang
+year: 2013
+type: method
+venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+venueAcronym: ASE
+doi: 10.1109/ASE.2013.6693097
+link: https://doi.org/10.1109/ASE.2013.6693097
+toolName: Relda
+toolsMentioned:
+- relda

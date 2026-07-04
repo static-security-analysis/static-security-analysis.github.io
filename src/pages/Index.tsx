@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -12,10 +11,14 @@ const Index = () => {
     setSearchTerm(term);
   };
 
+  const handleTagClick = (tag: string) => {
+    setSearchTerm(tag);
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar onSearch={handleSearch} />
-      <Hero />
+      <Navbar />
+      <Hero onSearch={handleSearch} onTagClick={handleTagClick} />
       <AnalyzerList searchTerm={searchTerm} />
       <Footer />
     </div>

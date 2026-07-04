@@ -1,0 +1,17 @@
+id: yan2018spatiotemporal
+title: 'Spatio-temporal Context Reduction: A Pointer-analysis-based Static Approach for Detecting Use-after-free
+  Vulnerabilities'
+authors:
+- Hua Yan
+- Yulei Sui
+- Shiping Chen
+- Jingling Xue
+year: 2018
+type: method
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1145/3180155.3180178
+link: https://doi.org/10.1145/3180155.3180178
+toolName: CRED
+toolsMentioned:
+- cred

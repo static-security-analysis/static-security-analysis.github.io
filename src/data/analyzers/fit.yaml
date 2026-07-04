@@ -1,0 +1,33 @@
+id: fit
+name: FIT
+description: NN-based cross-architecture firmware vuln similarity
+languages:
+- Binary
+license: Open Source
+website: https://doi.org/10.1016/j.cose.2020.102032
+features:
+- Deep Learning (non-LLM)
+integration: []
+academicReferences:
+- title: 'FIT: Inspect vulnerabilities in cross-architecture firmware by deep learning and bipartite matching'
+  authors:
+  - Hongliang Liang
+  - Zhuosi Xie
+  - Yixiu Chen
+  - Hua Ning
+  - Jianli Wang
+  year: 2020
+  type: Academic Paper
+  publication: COSE
+  doi: 10.1016/j.cose.2020.102032
+  link: https://doi.org/10.1016/j.cose.2020.102032
+techniques:
+- Deep Learning (non-LLM)
+empiricalValidation: true
+yearIntroduced: 2020
+toolType: academic
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+institute: Beijing University of Posts and Telecommunications

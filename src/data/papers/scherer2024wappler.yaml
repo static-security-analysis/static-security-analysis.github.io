@@ -1,0 +1,33 @@
+id: scherer2024wappler
+title: 'Wappler: Sound Reachability Analysis for WebAssembly'
+authors:
+- Markus Scherer
+- Jeppe Fredsgaard Blaabjerg
+- Alexander Sjösten
+- Magdalena Solitro
+- Matteo Maffei
+year: 2024
+type: method
+venue: IEEE Computer Security Foundations Symposium
+venueAcronym: CSF
+doi: 10.1109/CSF61375.2024.00025
+link: https://doi.org/10.1109/CSF61375.2024.00025
+url: https://doi.org/10.1109/CSF61375.2024.00025
+presentsToolId: wappler
+toolName: Wappler
+abstract: WebAssembly (Wasm) is an increasingly deployed low-level language providing near-native performance
+  to security-critical domains such as web browsers, smart contracts, and edge computing. In all of these
+  domains, establishing the absence of bugs and security vulnerabilities is of utmost importance, which
+  motivates the development of sound and automated static analysis techniques. This is, however, a challenging
+  task since the Wasm formal semantics is not directly amenable to efficient static analysis, Wasm code
+  is typically embedded in statically unknown and possibly malicious contexts, and the low-level nature
+  of the language makes it hard to precisely and yet soundly capture memory management and other core
+  features. In this work, we present Wappler, the first sound and automated static analysis technique
+  for WebAssembly. The core idea is to encode the semantics into Horn clauses so as to make it accessible
+  to automated theorem provers, such as z3. The realization of this approach, however, requires to tackle
+  several challenges. We address the fact that the Wasm semantics is not directly amenable to automation
+  of security proofs by introducing annotations that enable a precise, practical, and yet sound encoding.
+  Furthermore, we devise a formalism to specify embedder behavior and introduce a sound yet precise memory
+  abstraction. We demonstrate the expressiveness of our logical formalism by encoding several general
+  as well as Wasm-specific security properties. Finally, we implement our static analysis technique and
+  conduct an experimental evaluation over the official Wasm test suite to demonstrate its performance.

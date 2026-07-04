@@ -1,0 +1,35 @@
+id: dottest
+name: dotTest
+description: Commercial static analysis tool using pattern matching for C#.
+languages:
+- C#
+license: Freemium
+website: https://www.parasoft.com/products/parasoft-dottest/net-static-analysis/
+features:
+- Pattern Matching
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: Overcoming the Challenges of Safety and Security in the Renovo Automotive Data Platform
+  authors:
+  - Parasoft
+  year: 2003
+  type: Academic Paper
+  link: https://www.parasoft.com/products/parasoft-dottest/net-static-analysis/
+techniques:
+- Pattern Matching
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2003
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Parasoft

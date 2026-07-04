@@ -1,0 +1,39 @@
+id: phasar
+name: PhASAR
+description: general IFDS interprocedural SA FRAMEWORK (LLVM) — no specific vuln class
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/secure-software-engineering/phasar
+features:
+- Data-flow Analysis
+integration: []
+github: https://github.com/secure-software-engineering/phasar
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'PhASAR: An Inter-procedural Static Analysis Framework for C/C++'
+  authors:
+  - Philipp Dominik Schubert
+  - Ben Hermann
+  - E. Bodden
+  year: 2019
+  type: Academic Paper
+  publication: International Conference on Tools and Algorithms for Construction and Analysis of Systems
+  doi: 10.1007/978-3-030-17465-1_22
+  link: https://doi.org/10.1007/978-3-030-17465-1_22
+techniques:
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2019
+githubStars: 1047
+toolType: oss
+input:
+- Source Code
+- IR
+ecosystem:
+- General-purpose
+institute: Paderborn University

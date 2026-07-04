@@ -1,0 +1,17 @@
+id: merwe2012verifying
+title: Verifying Android Applications Using Java PathFinder
+authors:
+- Heila van der Merwe
+- Brink van der Merwe
+- Willem Visser
+year: 2012
+type: tool
+venue: SIGSOFT Software Engineering Notes
+doi: 10.1145/2382756.2382797
+link: https://doi.org/10.1145/2382756.2382797
+presentsToolId: jpf-android
+toolName: jpf-android
+toolsMentioned:
+- jpf-android
+mentionsToolIds:
+- jpf-android

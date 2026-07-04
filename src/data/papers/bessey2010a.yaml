@@ -1,0 +1,25 @@
+id: bessey2010a
+title: 'A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World'
+authors:
+- Al Bessey
+- Ken Block
+- Ben Chelf
+- Andy Chou
+- Bryan Fulton
+- Seth Hallem
+- Charles Henri-Gros
+- Asya Kamsky
+- Scott McPeak
+- Dawson Engler
+year: 2010
+type: tool
+venue: Communications of the ACM
+venueAcronym: CACM
+doi: 10.1145/1646353.1646374
+link: https://doi.org/10.1145/1646353.1646374
+presentsToolId: coverity
+toolName: Coverity
+toolsMentioned:
+- coverity
+mentionsToolIds:
+- coverity

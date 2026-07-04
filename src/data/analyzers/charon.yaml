@@ -1,0 +1,41 @@
+id: charon
+name: CHARON
+description: polyglot cross-language flow analysis (scripting + native C/C++ extensions)
+languages:
+- Python
+- JavaScript
+- C
+license: Open Source
+website: https://github.com/gamedevware/charon
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/gamedevware/charon
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'CHARON: Polyglot Code Analysis for Detecting Vulnerabilities in Scripting Languages Native Extensions'
+  authors:
+  - Raoul Scholtes
+  - Soheil Khodayari
+  - C. Staicu
+  - Giancarlo Pellegrino
+  year: 2025
+  type: Academic Paper
+  publication: European Symposium on Security and Privacy
+  doi: 10.1109/EuroSP63326.2025.00018
+  link: https://doi.org/10.1109/EuroSP63326.2025.00018
+techniques:
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 88
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Helmholtz Center for Information Security

@@ -1,0 +1,46 @@
+id: wen2023livable
+title: 'LIVABLE: Exploring Long-Tailed Classification of Software Vulnerability Types'
+authors:
+- Xinjie Wen
+- Cuiyun Gao
+- Feng Luo
+- Hao Wang
+- Ge Li
+- Qing Liao
+year: 2023
+type: tool
+venue: IEEE Transactions on Software Engineering
+venueAcronym: TSE
+doi: 10.1109/TSE.2024.3382361
+link: https://doi.org/10.1109/TSE.2024.3382361
+url: https://github.com/Xin-Cheng-Wen/LIVABLE
+presentsToolId: livable
+toolName: LIVABLE
+comparesToolIds:
+- devign
+- ivdetect
+- reveal
+- sysevr
+- vuldeepecker
+abstract: Prior studies generally focus on software vulnerability detection and have demonstrated the
+  effectiveness of Graph Neural Network (GNN)-based approaches for the task. Considering the various types
+  of software vulnerabilities and the associated different degrees of severity, it is also beneficial
+  to determine the type of each vulnerable code for developers. In this paper, we observe that the distribution
+  of vulnerability type is long-tailed in practice, where a small portion of classes have massive samples
+  (i.e., head classes) but the others contain only a few samples (i.e., tail classes). Directly adopting
+  previous vulnerability detection approaches tends to result in poor detection performance, mainly due
+  to two reasons. First, it is difficult to effectively learn the vulnerability representation due to
+  the over-smoothing issue of GNNs. Second, vulnerability types in tails are hard to be predicted due
+  to the extremely few associated samples. To alleviate these issues, we propose a Long-taIled software
+  VulnerABiLity typE classification approach, called LIVABLE. LIVABLE mainly consists of two modules,
+  including (1) vulnerability representation learning module, which improves the propagation steps in
+  GNN to distinguish node representations by a differentiated propagation method. A sequence-to-sequence
+  model is also involved to enhance the vulnerability representations. (2) adaptive re-weighting module,
+  which adjusts the learning weights for different types according to the training epochs and numbers
+  of associated samples by a novel training loss. We verify the effectiveness of LIVABLE in both type
+  classification and vulnerability detection tasks. For vulnerability type classification, the experiments
+  on the Fan et al. dataset show that LIVABLE outperforms the state-of-the-art methods by 24.18% in terms
+  of the accuracy metric, and also improves the performance in predicting tail classes by 7.7%. To evaluate
+  the efficacy of the vulnerability representation learning module in LIVABLE, we further compare it with
+  the recent vulnerability detection approaches on three benchmark datasets, which shows that the proposed
+  representation learning module improves the best baselines by 4.03% on average in terms of accuracy.

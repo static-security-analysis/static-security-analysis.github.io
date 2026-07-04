@@ -1,0 +1,26 @@
+id: terrascan
+name: terrascan
+description: Open-source static analysis tool using pattern matching for Infrastructure as Code.
+languages:
+- Infrastructure as Code
+license: Open Source
+website: https://github.com/accurics/terrascan
+features:
+- Pattern Matching
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2017
+githubStars: 742
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Accurics

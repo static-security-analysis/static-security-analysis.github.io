@@ -1,0 +1,51 @@
+id: codedx
+name: CodeDx
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Freemium
+website: https://en.wikipedia.org/wiki/Code_Dx
+features:
+- Pattern Matching
+- Data-flow Analysis
+- Abstract Interpretation
+- Hybrid (static+dynamic)
+integration: []
+languagesDetail:
+- C
+- C++
+- C#
+- Java
+- JavaScript
+- PHP
+- Python
+- Ruby
+- Scala
+- XML
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Time and State
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Pattern Matching
+- Data-flow Analysis
+- Abstract Interpretation
+- Hybrid (static+dynamic)
+soundness: Unsound
+empiricalValidation: true
+yearIntroduced: 2015
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Code Dx, Inc.

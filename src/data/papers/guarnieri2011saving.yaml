@@ -1,0 +1,18 @@
+id: guarnieri2011saving
+title: Saving the world wide web from vulnerable JavaScript
+authors:
+- Salvatore Guarnieri
+- Marco Pistoia
+- Omer Tripp
+- Julian Dolby
+- Stephen Teilhet
+- Ryan Berg
+year: 2011
+type: method
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/2001420.2001442
+link: https://doi.org/10.1145/2001420.2001442
+toolName: Actarus
+toolsMentioned:
+- actarus

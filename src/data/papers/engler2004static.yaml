@@ -1,0 +1,10 @@
+id: engler2004static
+title: Static analysis versus software model checking for bug finding
+authors:
+- Dawson Engler
+- Madanlal Musuvathi
+year: 2004
+type: motivation
+venue: Lecture Notes in Computer Science (VMCAI)
+link: https://web.stanford.edu/~engler/engler-vmcai04.pdf
+url: https://web.stanford.edu/~engler/engler-vmcai04.pdf

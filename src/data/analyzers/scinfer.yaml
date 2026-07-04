@@ -1,0 +1,36 @@
+id: scinfer
+name: SCInfer
+description: refinement-based verification of masking vs power side-channel
+languages:
+- C
+license: Open Source
+website: https://doi.org/10.1007/978-3-319-96142-2_12
+features:
+- Deductive Verification
+integration: []
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'SCInfer: Refinement-Based Verification of Software Countermeasures Against Side-Channel Attacks'
+  authors:
+  - Jun Zhang
+  - Pengfei Gao
+  - Fu Song
+  - Chao Wang
+  year: 2018
+  type: Academic Paper
+  publication: CAV
+  doi: 10.1007/978-3-319-96142-2_12
+  link: https://doi.org/10.1007/978-3-319-96142-2_12
+techniques:
+- Deductive Verification
+empiricalValidation: true
+yearIntroduced: 2018
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Cryptography
+- IoT/Firmware
+institute: ShanghaiTech University

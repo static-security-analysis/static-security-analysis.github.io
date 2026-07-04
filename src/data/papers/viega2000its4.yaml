@@ -1,0 +1,19 @@
+id: viega2000its4
+title: 'ITS4: A Static Vulnerability Scanner for C and C++ Code'
+authors:
+- John Viega
+- J.T. Bloch
+- Yoshi Kohno
+- Gary McGraw
+year: 2000
+type: method
+venue: Annual Computer Security Applications Conference (ACSAC)
+venueAcronym: ACSAC
+doi: 10.1109/ACSAC.2000.898880
+link: https://doi.org/10.1109/ACSAC.2000.898880
+presentsToolId: its4
+toolName: ITS4
+toolsMentioned:
+- its4
+mentionsToolIds:
+- its4

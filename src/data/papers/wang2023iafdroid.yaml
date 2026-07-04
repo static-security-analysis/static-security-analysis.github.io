@@ -1,0 +1,31 @@
+id: wang2023iafdroid
+title: 'IAFDroid: Demystifying Collusion Attacks in Android Ecosystem via Precise Inter-App Analysis'
+authors:
+- Bin Wang
+- Chao Yang
+- Jianfeng Ma
+year: 2023
+type: tool
+venue: IEEE Transactions on Information Forensics and Security
+venueAcronym: TIFS
+doi: 10.1109/TIFS.2023.3267666
+link: https://doi.org/10.1109/TIFS.2023.3267666
+url: https://github.com/xdsce/IAFDroid
+presentsToolId: iafdroid
+toolName: IAFDroid
+abstract: Inter-app communication mechanism allows app developers to improve Android apps’ usability and
+  provide users with rich functions via interacting with exposed components or performing data sharing.
+  However, this mechanism may be leveraged by malicious developers or unintentionally misused by inexperienced
+  developers. For end users, this type of attack may cause privacy breaches or remote controls of personal
+  phone, which have a great threat of the user’s data security. The key to analyzing whether there is
+  a collusion attack is to analyze the existence of communication channels between apps. The existing
+  static analysis tools have done some work in this area, but the comprehensiveness of the analysis is
+  insufficient, and such research lacks a unified test standard. In this paper, we present collusion attacks
+  using more concealed inter-app communication channels, which can bypass existing security detection
+  mechanisms. To defend against the new attacks, we design IAFDroid, an analysis framework that combines
+  static and taint analysis. By examining 20K real-world apps, IAFDroid found that 94.4% of the most exposed
+  components of Android may be leveraged to perform collusion attacks. Furthermore, the evaluation showed
+  that the feature set extracted by IAFDroid could be used to promote the accuracy of Android malware
+  detection. We contribute a more comprehensive benchmark for IAC analysis, IACBench, which includes the
+  new attacks we propose. To facilitate follow-up studies, we open-sourced IAFDroid and IACBench based
+  on the GPL agreement.

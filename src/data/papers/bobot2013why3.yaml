@@ -1,0 +1,17 @@
+id: bobot2013why3
+title: Why3 — Where Programs Meet Provers
+authors:
+- François Bobot
+- Jean-Christophe Filliâtre
+- Claude Marché
+- Andrei Paskevich
+year: 2013
+type: tool
+venue: European Symposium on Programming (ESOP)
+venueAcronym: ESOP
+doi: 10.1007/978-3-642-37036-6_8
+link: https://doi.org/10.1007/978-3-642-37036-6_8
+presentsToolId: spark-pro
+toolName: SPARK Pro
+toolsMentioned:
+- spark_pro

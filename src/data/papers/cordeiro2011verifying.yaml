@@ -1,0 +1,17 @@
+id: cordeiro2011verifying
+title: Verifying Multi-threaded Software Using Smt-based Context-bounded Model Checking
+authors:
+- Lucas Cordeiro
+- Bernd Fischer
+year: 2011
+type: tool
+venue: International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1145/1985793.1985839
+link: https://doi.org/10.1145/1985793.1985839
+presentsToolId: esbmc
+toolName: ESBMC
+toolsMentioned:
+- esbmc
+mentionsToolIds:
+- esbmc

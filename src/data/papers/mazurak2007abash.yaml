@@ -1,0 +1,13 @@
+id: mazurak2007abash
+title: 'ABASH: Finding Bugs in Bash Scripts'
+authors:
+- Karl Mazurak
+- Steve Zdancewic
+year: 2007
+type: method
+venue: Workshop on Programming Languages and Analysis for Security (PLAS)
+doi: 10.1145/1255329.1255347
+link: https://doi.org/10.1145/1255329.1255347
+toolName: ABASH
+toolsMentioned:
+- abash

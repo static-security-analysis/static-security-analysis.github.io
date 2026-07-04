@@ -1,0 +1,42 @@
+id: typepulse
+name: TYPEPULSE
+description: static type-confusion detection in unsafe Rust (memory corruption)
+languages:
+- Rust
+license: Open Source
+website: https://www.usenix.org/conference/usenixsecurity25/presentation/chen-hung-mao
+features:
+- Type / Type-state Analysis
+- Data-flow Analysis
+integration: []
+licenseDetail: MIT
+github: https://github.com/shinmao/TYPEPULSE
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'TYPEPULSE: Detecting Type Confusion Bugs in Rust Programs'
+  authors:
+  - Hung-Mao Chen
+  - Xu He
+  - Shu Wang
+  - Inc.
+  - Xiaokuan Zhang
+  - Kun Sun
+  year: 2025
+  type: Academic Paper
+  publication: USENIX Security Symposium
+  link: https://www.usenix.org/conference/usenixsecurity25/presentation/chen-hung-mao
+techniques:
+- Type / Type-state Analysis
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: false
+yearIntroduced: 2025
+githubStars: 2
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: George Mason University

@@ -1,0 +1,40 @@
+id: llmxcpg
+name: LLMxCPG
+description: CPG-guided LLM vuln detection; language not named [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays
+features:
+- Graph-based (CPG/PDG)
+- LLM-based
+integration: []
+licenseDetail: GPL-3.0
+github: https://github.com/qcri/llmxcpg
+academicReferences:
+- title: 'LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language
+    Models'
+  authors:
+  - Ahmed Lekssays
+  - Hamza Mouhcine
+  - Khang Tran
+  - Ting Yu
+  - Issa Khalil
+  year: 2025
+  type: Academic Paper
+  publication: USENIX Security Symposium
+  link: https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays
+techniques:
+- Graph-based (CPG/PDG)
+- LLM-based
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 154
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Qatar Computing Research Institute

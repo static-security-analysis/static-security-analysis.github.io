@@ -1,0 +1,18 @@
+id: wu2016lightweight
+title: Light-Weight, Inter-Procedural and Callback-Aware Resource Leak Detection for Android Apps
+authors:
+- Tianyong Wu
+- Jierui Liu
+- Zhenbo Xu
+- Chaorong Guo
+- Yanli Zhang
+- Jun Yan
+- Jian Zhang
+year: 2016
+type: tool
+venue: IEEE Transactions on Software Engineering
+venueAcronym: TSE
+doi: 10.1109/TSE.2016.2547385
+link: https://doi.org/10.1109/TSE.2016.2547385
+toolsMentioned:
+- relda

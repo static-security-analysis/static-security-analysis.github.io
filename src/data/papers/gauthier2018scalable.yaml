@@ -1,0 +1,16 @@
+id: gauthier2018scalable
+title: 'Scalable static analysis to detect security vulnerabilities: Challenges and solutions'
+authors:
+- François Gauthier
+- Nathan Keynes
+- Nicholas Allen
+- Diane Corney
+- Padmanabhan Krishnan
+year: 2018
+type: method
+venue: IEEE Cybersecurity Development Conference (SecDev)
+doi: 10.1109/SecDev.2018.00030
+link: https://doi.org/10.1109/SecDev.2018.00030
+toolName: Parfait
+toolsMentioned:
+- parfait

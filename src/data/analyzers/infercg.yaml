@@ -1,0 +1,36 @@
+id: infercg
+name: InferCG
+description: 'FLAG: Python call-graph CONSTRUCTION (foundational SA infrastructure) — enabler, not a detector'
+languages:
+- Python
+license: Open Source
+website: https://github.com/thusloop/InferCG
+features:
+- Data-flow Analysis
+integration: []
+github: https://github.com/thusloop/InferCG
+academicReferences:
+- title: 'InferCG: Enhancing Python Call Graph Generation via Static Analysis and Large Language Models'
+  authors:
+  - Dongming Xiang
+  - Shichao Wu
+  - Hanqian Tu
+  - Wang Lin
+  - Zuohua Ding
+  year: 2026
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3799990
+  link: https://doi.org/10.1145/3799990
+techniques:
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 1
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Zhejiang Sci-Tech University

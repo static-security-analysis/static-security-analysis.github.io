@@ -1,0 +1,13 @@
+id: cifuentes2008parfait
+title: Parfait - Designing a scalable bug checker
+authors:
+- Cristina Cifuentes
+- Bernhard Scholz
+year: 2008
+type: method
+venue: Static Analysis Workshop (SAW)
+doi: 10.1145/1394504.1394505
+link: https://doi.org/10.1145/1394504.1394505
+toolName: Parfait
+toolsMentioned:
+- parfait

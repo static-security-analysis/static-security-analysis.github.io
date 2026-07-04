@@ -1,0 +1,45 @@
+id: wang2026yasa
+title: 'YASA: Scalable Multi-Language Taint Analysis on the Unified AST at Ant Group'
+authors:
+- Yayi Wang
+- Shenao Wang
+- Jian Zhao
+- Shaosen Shi
+- Ting Li
+- Yan Cheng
+- Lizhong Bian
+- Kan Yu
+- Yanjie Zhao
+- Haoyu Wang
+year: 2026
+type: tool
+venue: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software
+  Engineering
+venueAcronym: FSE
+doi: 10.1145/3803437.3805225
+link: https://doi.org/10.1145/3803437.3805225
+url: https://github.com/antgroup/YASA-Engine
+presentsToolId: yasa
+toolName: YASA
+comparesToolIds:
+- codeql-semmle
+- doublex
+- pysa-pyre
+abstract: Modern enterprises increasingly adopt diverse technology stacks with various programming languages,
+  posing significant challenges for static application security testing (SAST). Existing taint analysis
+  tools are predominantly designed for single languages, requiring substantial engineering effort that
+  scales with language diversity. While multi-language tools like CodeQL, Joern, and WALA attempt to address
+  these challenges, they face limitations in intermediate representation design, analysis precision, and
+  extensibility, which make them difficult to scale effectively for large-scale industrial applications
+  at Ant Group. To bridge this gap, we present YASA (Yet Another Static Analyzer), a unified multi-language
+  static taint analysis framework designed for industrial-scale deployment. Specifically, YASA introduces
+  the Unified Abstract Syntax Tree (UAST) that provides a unified abstraction for compatibility across
+  diverse programming languages. Building on the UAST, YASA performs point-to analysis and taint propagation,
+  leveraging a unified semantic model to manage language-agnostic constructs, while incorporating language-specific
+  semantic models to handle other unique language features. When compared to 6 single- and 2 multi-language
+  static analyzers on an industry-standard benchmark, YASA consistently outperformed all baselines across
+  Java, JavaScript, Python, and Go. In real-world deployment within Ant Group, YASA analyzed over 100
+  million lines of code across 7.3K internal applications. It identified 314 previously unknown taint
+  paths, with 92 of them confirmed as 0-day vulnerabilities. All vulnerabilities were responsibly reported,
+  with 76 already patched by internal development teams, demonstrating YASA's practical effectiveness
+  for securing large-scale industrial software systems.

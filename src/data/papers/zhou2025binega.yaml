@@ -1,0 +1,37 @@
+id: zhou2025binega
+title: 'BinEGA: Enhancing DNN-based Binary Code Similarity Detection through Efficient Graph Alignment'
+authors:
+- Shize Zhou
+- Lirong Fu
+- Peiyu Liu
+- Wenhai Wang
+year: 2025
+type: tool
+venue: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+venueAcronym: SANER
+doi: 10.1109/SANER64311.2025.00052
+link: https://doi.org/10.1109/SANER64311.2025.00052
+url: https://github.com/KarabanovV99/biNegativeEncod
+presentsToolId: binega
+toolName: BinEGA
+comparesToolIds:
+- binaryai
+abstract: Binary Code Similarity Detection (BCSD) is essential in various binary code security applications,
+  enabling tasks such as vulnerability identification, malware analysis, and detection of code plagiarism.
+  With the growing adoption of deep neural networks (DNNs) in BCSD, there has been significant progress
+  in the identification and classification of similar code segments. However, DNN-based BCSD approaches
+  often suffer from high false positive rates, because DNNs inevitably map different binary functions
+  with complex structures and semantics to similar low-dimensional embeddings. To alleviate this issue,
+  this paper introduces BinEGA, a novel graph alignment-based approach to enhance the accuracy of DNN-based
+  BCSD approaches. The main idea of BinEGA is to employ a general and low-cost equivalence check through
+  lightweight graph alignment, allowing for the identification and elimination of semantically deviating
+  functions among the top-k candidates retrieved by DNN-based BCSD approaches. During the graph alignment
+  process, we first obtain the node embeddings according to structure and attribute feature. Then we employs
+  pairwise comparison of these node embeddings to filter the false positives because binary code compiled
+  from the same source code always shares similar basic blocks. Our experimental results demonstrate that
+  BinEGA effectively enhances the performance of various edge-cutting DNN-based BCSD approaches across
+  diverse scenarios. For instance, BinEGA significantly enhances RECALL@10 in the cross-optimization scenario
+  for state-of-the-art (SOTA) approaches, with an average improvement of 29.2% for BinaryAI and 33.5%
+  for jTrans. Moreover, BinEGA achieves 88.9 % reduction in execution time compared to other enhancement
+  techniques. In summary, this work provides a robust, generalizable, and efficient solution to improve
+  the reliability of BCSD tools in real-world applications.

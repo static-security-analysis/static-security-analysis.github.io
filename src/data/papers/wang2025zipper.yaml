@@ -1,0 +1,41 @@
+id: wang2025zipper
+title: 'ZIPPER: Static Taint Analysis for PHP Applications with Precision and Efficiency'
+authors:
+- Xinyi Wang
+- Yeting Li
+- CAS-KLONAT
+- BKLONSPT
+- Jie Lu
+- SKLP
+- Shizhe Cui
+- Chenghang Shi
+- Qin Mai
+- Yunpei Zhang
+- UESTC
+- Yang Xiao
+- Feng Li
+- Wei Huo
+year: 2025
+type: method
+venue: USENIX Security Symposium
+venueAcronym: USENIX-SEC
+link: https://www.usenix.org/conference/usenixsecurity25/presentation/wang-xinyi
+url: https://www.usenix.org/conference/usenixsecurity25/presentation/wang-xinyi
+presentsToolId: zipper
+toolName: ZIPPER
+comparesToolIds:
+- rips
+- tchecker
+abstract: 'PHP-based web applications constitute a significant portion of the Web infrastructure and are
+  frequently targeted by attackers exploiting taint-style vulnerabilities. While static analysis has emerged
+  as a preferred approach for detecting these vulnerabilities, two major challenges persist: accurately
+  inferring dynamic values from PHP''s dynamic features, and efficiently detecting taint vulnerabilities
+  in large-scale applications. This paper presents ZIPPER, a novel static analysis framework that addresses
+  these challenges through two key innovations. First, we introduce a context-sensitive, flow-sensitive
+  value-set algorithm that precisely infers dynamic values by leveraging input validation patterns and
+  framework API characteristics. Second, we implement an efficient, on-demand approach to taint analysis
+  that incorporates object-sensitive and array index-sensitive analyses while maintaining efficiency through
+  sparse data dependency graphs. Evaluation on 429 known taint-style vulnerabilities demonstrates ZIPPER''s
+  effectiveness with the highest precision of 68.34% and an impressive recall of 98.14%, outperforming
+  existing approaches. Furthermore, application of ZIPPER to 100 popular PHP applications led to the discovery
+  of 11 previously unknown vulnerabilities, resulting in 6 CVE assignments.'

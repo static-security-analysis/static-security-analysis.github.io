@@ -1,0 +1,39 @@
+id: hiddencpg
+name: HiddenCPG
+description: large-scale CPG subgraph-isomorphism vulnerable-clone detection
+languages:
+- PHP
+license: Open Source
+website: https://github.com/WSP-LAB/HiddenCPG
+features:
+- Graph-based (CPG/PDG)
+integration: []
+github: https://github.com/WSP-LAB/HiddenCPG
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'HiddenCPG: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism of Code Property
+    Graphs'
+  authors:
+  - Seongil Wi
+  - Sijae Woo
+  - Joyce Jiyoung Whang
+  - Sooel Son
+  year: 2022
+  type: Academic Paper
+  publication: The Web Conference
+  doi: 10.1145/3485447.3512235
+  link: https://doi.org/10.1145/3485447.3512235
+techniques:
+- Graph-based (CPG/PDG)
+maintenance: Dormant
+empiricalValidation: false
+yearIntroduced: 2022
+githubStars: 43
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: KAIST

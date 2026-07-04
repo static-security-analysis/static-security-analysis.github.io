@@ -1,0 +1,11 @@
+id: chess2004static
+title: Static analysis for security
+authors:
+- Brian Chess
+- Gary McGraw
+year: 2004
+type: motivation
+venue: IEEE Security & Privacy (S&P)
+venueAcronym: S&P
+doi: 10.1109/MSP.2004.111
+link: https://doi.org/10.1109/MSP.2004.111

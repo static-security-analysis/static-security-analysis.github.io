@@ -1,0 +1,22 @@
+id: chen2017efficient
+title: Efficient vulnerability detection based on an optimized rule-checking static analysis technique
+authors:
+- Deng Chen
+- Yan-duo Zhang
+- Wei Wei
+- Shi-xun Wang
+- Ru-bing Huang
+- Xiao-lin Li
+- Bin-bin Qu
+- Sheng Jiang
+year: 2017
+type: tool
+venue: Frontiers of Information Technology and Electronic Engineering
+doi: 10.1631/FITEE.1500379
+link: https://doi.org/10.1631/FITEE.1500379
+presentsToolId: pmd
+toolName: PMD
+toolsMentioned:
+- pmd
+mentionsToolIds:
+- pmd

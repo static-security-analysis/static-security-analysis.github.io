@@ -1,0 +1,38 @@
+id: jbmc
+name: JBMC
+description: Academic static analysis tool using model checking for Java.
+languages:
+- Java
+license: Open Source
+website: https://www.cprover.org/jbmc/
+features:
+- Model Checking
+integration: []
+licenseDetail: BSD
+weaknesses:
+- category: Error Handling
+  examples: []
+academicReferences:
+- title: '{JBMC}: A Bounded Model Checking Tool for Verifying {Java} Bytecode'
+  authors:
+  - Lucas Cordeiro
+  - Pascal Kesseli
+  - Daniel Kroening
+  - Peter Schrammel
+  - Marek Trtik
+  year: 2018
+  type: Academic Paper
+  publication: Computer Aided Verification (CAV)
+  link: https://www.cprover.org/jbmc/
+techniques:
+- Model Checking
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2018
+githubStars: 270
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Carnegie Mellon University

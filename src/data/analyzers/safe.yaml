@@ -1,0 +1,36 @@
+id: safe
+name: SAFE
+description: AI/DL vuln detection [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1145/3708821.3736208
+features:
+- Deep Learning (non-LLM)
+integration: []
+academicReferences:
+- title: 'SAFE: A Novel Approach For Software Vulnerability Detection from Enhancing The Capability of
+    Large Language Models'
+  authors:
+  - Van Nguyen
+  - Surya Nepal
+  - Xingliang Yuan
+  - Tingmin Wu
+  - Carsten Rudolph
+  year: 2024
+  type: Academic Paper
+  publication: CCS
+  doi: 10.1145/3708821.3736208
+  link: https://doi.org/10.1145/3708821.3736208
+techniques:
+- Deep Learning (non-LLM)
+empiricalValidation: true
+yearIntroduced: 2024
+githubStars: 110
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: CSIRO's Data61

@@ -1,0 +1,37 @@
+id: pvs-studio
+name: PVS-Studio
+description: Commercial static analysis tool using pattern matching for C, C++, C#.
+languages:
+- C
+- C++
+- C#
+- Java
+license: Freemium
+website: https://www.viva64.com/en/pvs-studio/
+features:
+- Pattern Matching
+- Type / Type-state Analysis
+- Data-flow Analysis
+- Symbolic/Concolic Execution
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+techniques:
+- Pattern Matching
+- Type / Type-state Analysis
+- Data-flow Analysis
+- Symbolic/Concolic Execution
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2006
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: PVS-Studio LLC

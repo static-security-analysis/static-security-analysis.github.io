@@ -1,0 +1,39 @@
+id: li2025pvdetector
+title: 'PVDetector: Pretrained Vulnerability Detection on Vulnerability-enriched Code Semantic Graph'
+authors:
+- Jiayuan Li
+- Lei Cui
+- Jie Zhang
+- Lun Li
+- Rongrong Xi
+- Hongsong Zhu
+year: 2025
+type: tool
+venue: ACM Transactions on Software Engineering and Methodology
+venueAcronym: TSE
+doi: 10.1145/3768582
+link: https://doi.org/10.1145/3768582
+url: https://github.com/jaylanli/PVDetector
+presentsToolId: pvdetector
+toolName: PVDetector
+comparesToolIds:
+- devign
+- ivdetect
+- linevul
+- reveal
+abstract: Automated vulnerability detection is a critical issue in software security. The advent of deep
+  learning (DL) has led to numerous studies employing DL to detect vulnerabilities in software source
+  code. However, existing approaches still perform poorly, particularly with real-world vulnerabilities,
+  due to the difficulty in accurately capturing their properties. To this end, we introduce PVDetector,
+  a DL-based approach that utilizes rich code semantics, incorporates vulnerability knowledge, and leverages
+  pretrained code representations for precise vulnerability detection. At its core, PVDetector employs
+  a new model called Vulnerability-enriched Code Semantic Graph (VCSG), which accurately characterizes
+  functions by distinguishing the semantics of identical variables and more finely capturing control dependencies,
+  data dependencies, and vulnerability relationships. Additionally, we introduce four pretraining tasks
+  specifically designed to learn the semantics of control, data, vulnerability, and variables from the
+  VCSG model. These pretraining tasks significantly enhance PVDetector's capability to detect vulnerabilities
+  in downstream tasks. Experimental results indicate that PVDetector outperforms SOTAs by 5.0%-12.5% in
+  precision, 0.2%-9.7% in recall, and 3.0%-15.1% in F1-score. Additionally, it supports six programming
+  languages and demonstrates high efficiency (e.g., 10.6 \(\times\) faster than DeepDFA). When applied
+  to seven software products, PVDetector discovered 55 vulnerabilities, including 10 silently patched
+  flaws that had not been previously reported.

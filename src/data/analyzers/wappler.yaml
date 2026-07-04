@@ -1,0 +1,37 @@
+id: wappler
+name: Wappler
+description: SOUND reachability analysis for WebAssembly (multi-domain)
+languages:
+- Bytecode
+license: Open Source
+website: https://doi.org/10.1109/CSF61375.2024.00025
+features:
+- Abstract Interpretation
+integration: []
+academicReferences:
+- title: 'Wappler: Sound Reachability Analysis for WebAssembly'
+  authors:
+  - Markus Scherer
+  - Jeppe Fredsgaard Blaabjerg
+  - Alexander Sjösten
+  - Magdalena Solitro
+  - Matteo Maffei
+  year: 2024
+  type: Academic Paper
+  publication: CSF
+  doi: 10.1109/CSF61375.2024.00025
+  link: https://doi.org/10.1109/CSF61375.2024.00025
+techniques:
+- Abstract Interpretation
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2024
+githubStars: 0
+toolType: academic
+input:
+- Bytecode
+ecosystem:
+- Web
+- Smart Contract
+- Cloud/Container
+institute: TU Wien

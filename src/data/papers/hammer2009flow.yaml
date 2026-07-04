@@ -1,0 +1,17 @@
+id: hammer2009flow
+title: Flow-sensitive, context-sensitive, and object-sensitive information flow control based on program
+  dependence graphs (Joana / JOANA)
+authors:
+- Christian Hammer
+- Gregor Snelting
+year: 2009
+type: tool
+venue: International Journal of Information Security
+doi: 10.1007/s10207-009-0086-1
+link: https://doi.org/10.1007/s10207-009-0086-1
+presentsToolId: xanitizer
+toolName: Xanitizer
+toolsMentioned:
+- xanitizer
+mentionsToolIds:
+- xanitizer

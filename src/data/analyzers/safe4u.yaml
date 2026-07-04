@@ -1,0 +1,40 @@
+id: safe4u
+name: Safe4U
+description: detects unsound safe-encapsulations of unsafe Rust calls (memory safety)
+languages:
+- Rust
+license: Open Source
+website: https://github.com/huanli-00/Safe4U-replication
+features:
+- Data-flow Analysis
+- Type / Type-state Analysis
+integration: []
+github: https://github.com/huanli-00/Safe4U-replication
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'Safe4U: Identifying Unsound Safe Encapsulations of Unsafe Calls in Rust using LLMs'
+  authors:
+  - Huang Li
+  - Bei Wang
+  - Xing Hu
+  - Xin Xia
+  year: 2025
+  type: Academic Paper
+  publication: Proc. ACM Softw. Eng.
+  doi: 10.1145/3728890
+  link: https://doi.org/10.1145/3728890
+techniques:
+- Data-flow Analysis
+- Type / Type-state Analysis
+maintenance: Active
+empiricalValidation: false
+yearIntroduced: 2025
+githubStars: 7
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Zhejiang University

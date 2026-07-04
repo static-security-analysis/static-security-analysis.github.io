@@ -1,0 +1,15 @@
+id: tripp2014hybrid
+title: Hybrid security analysis of web Javascript code via dynamic partial evaluation
+authors:
+- Omer Tripp
+- Pietro Ferrara
+- Marco Pistoia
+year: 2014
+type: tool
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/2610384.2610385
+link: https://doi.org/10.1145/2610384.2610385
+toolName: IBM Security AppScan (JSA)
+toolsMentioned:
+- jsa-ibm-securiity-appscan

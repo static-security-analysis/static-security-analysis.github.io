@@ -1,0 +1,14 @@
+id: zhao2012trustdroid
+title: 'TrustDroid: Preventing the use of SmartPhones for information leaking in corporate networks through
+  the used of static analysis taint tracking'
+authors:
+- Zhibo Zhao
+- Fernando C. Colon Osono
+year: 2012
+type: method
+venue: International Conference on Malicious and Unwanted Software (Malware)
+doi: 10.1109/MALWARE.2012.6461017
+link: https://doi.org/10.1109/MALWARE.2012.6461017
+toolName: TrustDroid
+toolsMentioned:
+- trustdroid

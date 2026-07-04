@@ -1,0 +1,54 @@
+id: veracode-sast
+name: Veracode SAST
+description: Marked hybrid (H) in legacy dataset.
+languages:
+- Multiple
+license: Freemium
+website: https://www.veracode.com/products/binary-static-analysis-sast
+features:
+- Unknown
+integration: []
+languagesDetail:
+- Java
+- C#
+- JavaScript
+- Scala
+- Python
+- Ruby
+- Swift
+- Objective-C
+- C
+- C++
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Time and State
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Encapsulation
+  examples: []
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'Veracode Static Analysis: The right scan, at the right time, in the right place'
+  authors:
+  - Veracode
+  year: 2015
+  type: Academic Paper
+  link: https://www.veracode.com/products/binary-static-analysis-sast
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2015
+toolType: commercial
+input:
+- Binary Code
+ecosystem:
+- Web
+institute: Veracode

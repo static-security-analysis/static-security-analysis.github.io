@@ -1,0 +1,18 @@
+id: medeiros2016equipping
+title: 'Equipping WAP with WEAPONS to Detect Vulnerabilities: Practical Experience Report'
+authors:
+- Ibéria Medeiros
+- Nuno Neves
+- Miguel Correia
+year: 2016
+type: tool
+venue: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+venueAcronym: DSN
+doi: 10.1109/DSN.2016.63
+link: https://doi.org/10.1109/DSN.2016.63
+presentsToolId: wap
+toolName: WAP
+toolsMentioned:
+- wap
+mentionsToolIds:
+- wap

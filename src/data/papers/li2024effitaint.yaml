@@ -1,0 +1,32 @@
+id: li2024effitaint
+title: 'EffiTaint: Boosting Sensitive Data Tracking with Accurate Taint Behavior Modeling and Efficient
+  Access Path Optimization'
+authors:
+- Haochen Li
+- Haipeng Qu
+- Gaozhou Wang
+- Xiangjian Ge
+year: 2024
+type: tool
+venue: International Conference on Trust, Security and Privacy in Computing and Communications
+venueAcronym: S&P
+doi: 10.1109/TrustCom63139.2024.00194
+link: https://doi.org/10.1109/TrustCom63139.2024.00194
+url: https://github.com/tehdlee/Effitaint
+presentsToolId: effitaint
+toolName: EffiTaint
+comparesToolIds:
+- flowdroid
+abstract: The increasing costs of data breaches have made enhancing security and privacy measures more
+  critical than ever. Static taint analysis has become a key technique for tracking sensitive data propagation.
+  However, existing tools such as FlowDroid and Tai-e face significant challenges related to performance,
+  precision, and the handling of complex taint propagation behaviors, such as those involving arrays and
+  taint elimination. In response, we present EffiTaint, a novel static taint analysis tool. EffiTaint
+  constructs the Pointer Flow Graph (PFG) on demand and employs a taint-driven selective analysis strategy,
+  avoiding the overhead of constructing a complete call graph. EffiTaint enhances the modeling of taint
+  propagation within arrays and taint elimination in program control flows, thereby effectively reducing
+  the generation of erroneous sensitive data flows. Finally, EffiTaint optimizes the source and sink matching
+  strategy using a method extension algorithm, significantly improving the ability to detect taint flows.
+  Benchmarking results demonstrate that EffiTaint achieves high precision (97.5%), high recall (96.7%),
+  and low overhead (average runtime of 26.93 seconds, memory usage of 0.67 GB), making it an effective
+  solution for enhancing privacy and security in Java programs.

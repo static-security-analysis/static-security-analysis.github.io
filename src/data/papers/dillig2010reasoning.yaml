@@ -1,0 +1,12 @@
+id: dillig2010reasoning
+title: Reasoning About the Unknown in Static Analysis
+authors:
+- Isil Dillig
+- Thomas Dillig
+- Alex Aiken
+year: 2010
+type: motivation
+venue: Communications of the ACM
+venueAcronym: CACM
+doi: 10.1145/1787234.1787259
+link: https://doi.org/10.1145/1787234.1787259

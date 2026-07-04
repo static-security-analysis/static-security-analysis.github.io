@@ -1,0 +1,35 @@
+id: klocwork
+name: Klocwork
+description: Commercial static analysis tool for C, C++, C#.
+languages:
+- C
+- C++
+- C#
+- Java
+license: Freemium
+website: https://www.perforce.com/products/klocwork
+features:
+- Unknown
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Error Handling
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2001
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Perforce Software, Inc.

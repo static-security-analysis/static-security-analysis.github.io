@@ -1,0 +1,45 @@
+id: liva
+name: LIVA
+description: multi-agent LLM + taint for IoT vuln detection
+languages:
+- Binary
+license: Open Source
+website: https://github.com/LuciAkirami/liva
+features:
+- LLM-based
+- Taint Analysis
+integration: []
+licenseDetail: MIT
+github: https://github.com/LuciAkirami/liva
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'LIVA: A Multi-Agent LLM-Assisted System for IoT Vulnerability Analysis'
+  authors:
+  - Zhe Yang
+  - Hao Peng
+  - Yanling Jiang
+  - Jianwei Liu
+  - Hongbin Luo
+  - Mingsheng Tang
+  - Jiahe Li
+  - Kun Zhang
+  year: 2026
+  type: Academic Paper
+  publication: IEEE Transactions on Dependable and Secure Computing
+  doi: 10.1109/TDSC.2026.3665343
+  link: https://doi.org/10.1109/TDSC.2026.3665343
+techniques:
+- LLM-based
+- Taint Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2026
+githubStars: 61
+toolType: oss
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+institute: Beihang University

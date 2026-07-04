@@ -1,0 +1,25 @@
+id: graudit
+name: graudit
+description: Open-source static analysis tool using taint analysis for PHP.
+languages:
+- PHP
+license: Open Source
+website: https://github.com/wireghoul/graudit/
+features:
+- Taint Analysis
+integration: []
+licenseDetail: GPLv3
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2018
+githubStars: 706
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web

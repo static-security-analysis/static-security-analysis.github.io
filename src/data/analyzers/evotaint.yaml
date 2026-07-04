@@ -1,0 +1,38 @@
+id: evotaint
+name: EvoTaint
+description: incremental static taint for evolving Android apps
+languages:
+- Java
+license: Open Source
+website: https://github.com/baltsers/EvoTaint
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/baltsers/EvoTaint
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'EvoTaint: Incremental Static Taint Analysis of Evolving Android Apps'
+  authors:
+  - Jiawei Guo
+  - Haipeng Cai
+  year: 2025
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3743132
+  link: https://doi.org/10.1145/3743132
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 1
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: University at Buffalo

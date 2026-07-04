@@ -1,0 +1,39 @@
+id: juliasoft
+name: JuliaSoft
+description: Commercial static analysis tool using abstract interpretation for Java.
+languages:
+- Java
+license: Freemium
+website: https://www.capterra.com/p/185583/juliasoft-dashboard/
+features:
+- Abstract Interpretation
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: Static Identification of Injection Attacks in Java
+  authors:
+  - Fausto Spoto
+  - Elisa Burato
+  - Michael D. Ernst
+  - Pietro Ferrara
+  - Alberto Lovato
+  - Damiano Macedonio
+  - Ciprian Spiridon
+  year: 2019
+  type: Academic Paper
+  publication: ACM Trans. Program. Lang. Syst.
+  doi: 10.1145/3332371
+  link: https://doi.org/10.1145/3332371
+techniques:
+- Abstract Interpretation
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2019
+toolType: commercial
+input:
+- Bytecode
+ecosystem:
+- General-purpose
+institute: Capterra Inc. (acquired by GrammaTech)

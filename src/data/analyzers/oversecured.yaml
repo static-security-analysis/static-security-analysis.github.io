@@ -1,0 +1,28 @@
+id: oversecured
+name: Oversecured
+description: Commercial static analysis tool for Java, Kotlin.
+languages:
+- Java
+- Kotlin
+license: Freemium
+website: https://oversecured.com/
+features:
+- Unknown
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2020
+toolType: commercial
+input:
+- Source Code
+ecosystem:
+- General-purpose

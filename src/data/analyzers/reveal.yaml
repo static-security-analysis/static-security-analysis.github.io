@@ -1,0 +1,39 @@
+id: reveal
+name: ReVeal
+description: 'Added in cross-link phase: influential baseline missing from catalog'
+languages:
+- C
+- C++
+license: Open Source
+website: https://doi.org/10.1109/TSE.2021.3087402
+features:
+- Graph Neural Network
+- Deep Learning (non-LLM)
+integration: []
+licenseDetail: MIT
+github: https://github.com/VulDetProject/ReVeal
+academicReferences:
+- title: 'Deep Learning based Vulnerability Detection: Are We There Yet?'
+  authors:
+  - Saikat Chakraborty
+  - Rahul Krishna
+  - Yangruibo Ding
+  - Baishakhi Ray
+  year: 2021
+  type: Academic Paper
+  publication: IEEE Transactions on Software Engineering
+  doi: 10.1109/TSE.2021.3087402
+  link: https://doi.org/10.1109/TSE.2021.3087402
+techniques:
+- Graph Neural Network
+- Deep Learning (non-LLM)
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2021
+githubStars: 229
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Columbia University

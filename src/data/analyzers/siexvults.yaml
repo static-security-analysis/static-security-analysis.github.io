@@ -1,0 +1,37 @@
+id: siexvults
+name: SIExVulTS
+description: sensitive-information-exposure (CWE-200) detection via code-level data flows
+languages:
+- Java
+license: Open Source
+website: https://doi.org/10.1109/ESEM64174.2025.00012
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'SIExVulTS: Sensitive Information Exposure Vulnerability Detection System Using Transformer Models
+    and Static Analysis'
+  authors:
+  - Kyler Katz
+  - Sara Moshtari
+  - Ibrahim Mujhid
+  - M. Mirakhorli
+  - Derek Garcia
+  year: 2025
+  type: Academic Paper
+  publication: ESEM
+  doi: 10.1109/ESEM64174.2025.00012
+  link: https://doi.org/10.1109/ESEM64174.2025.00012
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2025
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Hawaii

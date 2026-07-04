@@ -1,0 +1,40 @@
+id: glasswing
+name: GlassWing
+description: tailored static analysis for Flutter (Dart) apps
+languages:
+- Dart
+license: Open Source
+website: https://doi.org/10.1109/ASE63991.2025.00050
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/glasswing-ase25/GlassWing
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'GlassWing: A Tailored Static Analysis Approach for Flutter Android Apps'
+  authors:
+  - Xiangyu Zhang
+  - Yucheng Su
+  - Lingling Fan 0003
+  - Miaoying Cai
+  - Sen Chen 0001
+  year: 2025
+  type: Academic Paper
+  publication: IEEE/ACM International Conference on Automated Software Engineering
+  doi: 10.1109/ASE63991.2025.00050
+  link: https://doi.org/10.1109/ASE63991.2025.00050
+techniques:
+- Data-flow Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 3
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Nankai University

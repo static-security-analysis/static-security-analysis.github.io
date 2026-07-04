@@ -1,0 +1,15 @@
+id: tetali2013mrcrypt
+title: 'MrCrypt: Static Analysis for Secure Cloud Computations'
+authors:
+- Sai Deep Tetali
+- Mohsen Lesani
+- Rupak Majumdar
+- Todd Millstein
+year: 2013
+type: method
+venue: ACM SIGPLAN International Conference on Object Oriented Programming Systems Languages and Applications
+doi: 10.1145/2544173.2509554
+link: https://doi.org/10.1145/2544173.2509554
+toolName: MrCrypt
+toolsMentioned:
+- mrcrypt

@@ -1,0 +1,15 @@
+id: holzmann2002uno
+title: 'UNO: Static Source Code Checking for UserDefined Properties'
+authors:
+- Gerard J. Holzmann
+year: 2002
+type: tool
+venue: Integrated Design and Process Technology (IDPT)
+link: https://spinroot.com/uno/uno_long.pdf
+url: https://spinroot.com/uno/uno_long.pdf
+presentsToolId: uno
+toolName: UNO
+toolsMentioned:
+- uno
+mentionsToolIds:
+- uno

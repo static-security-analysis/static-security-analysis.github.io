@@ -1,0 +1,39 @@
+id: natidroid
+name: NatiDroid
+description: cross-language permission-API mapping extraction
+languages:
+- Java
+- C++
+license: Open Source
+website: ''
+features:
+- Data-flow Analysis
+integration: []
+weaknesses:
+- category: Security Features
+  examples: []
+academicReferences:
+- title: 'NatiDroid: Cross-Language Android Permission Specification'
+  authors:
+  - Chaoran Li
+  - Xiao Chen
+  - Ruoxi Sun
+  - J. Xue
+  - Sheng Wen
+  - Muhammad Ejaz Ahmed
+  - Seyit Ahmet Camtepe
+  - Yang Xiang
+  year: 2021
+  type: Academic Paper
+  publication: FSE
+  link: ''
+techniques:
+- Data-flow Analysis
+empiricalValidation: true
+yearIntroduced: 2021
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Mobile/Android
+institute: Swinburne University of Technology

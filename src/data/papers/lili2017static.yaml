@@ -1,0 +1,17 @@
+id: lili2017static
+title: 'Static analysis of android apps: A systematic literature review'
+authors:
+- LiLi
+- Tegawendé F. Bissyandé
+- Mike Papadakis
+- Siegfried Rasthofer
+- Alexandre Bartel
+- Damien Octeau
+- Jacques Klein
+- Le Traon
+year: 2017
+type: survey
+venue: Information and Software Technology
+venueAcronym: IST
+doi: 10.1016/j.infsof.2017.04.001
+link: https://doi.org/10.1016/j.infsof.2017.04.001

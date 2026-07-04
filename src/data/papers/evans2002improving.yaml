@@ -1,0 +1,13 @@
+id: evans2002improving
+title: Improving Security Using Extensible Lightweight Static Analysis
+authors:
+- David Evans
+- David Larochelle
+year: 2002
+type: tool
+venue: IEEE Software
+doi: 10.1109/52.976940
+link: https://doi.org/10.1109/52.976940
+toolName: Splint
+toolsMentioned:
+- splint

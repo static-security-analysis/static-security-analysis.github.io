@@ -1,0 +1,15 @@
+id: rahman2019the
+title: 'The Seven Sins: Security Smells in Infrastructure as Code Scripts'
+authors:
+- Akond Rahman
+- Chris Parnin
+- Laurie Williams
+year: 2019
+type: tool
+venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+venueAcronym: ICSE
+doi: 10.1109/ICSE.2019.00033
+link: https://doi.org/10.1109/ICSE.2019.00033
+toolName: SLIC
+toolsMentioned:
+- slic

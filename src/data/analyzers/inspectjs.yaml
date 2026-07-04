@@ -1,0 +1,40 @@
+id: inspectjs
+name: InspectJS
+description: taint + code similarity + user feedback
+languages:
+- JavaScript
+license: Open Source
+website: https://github.com/achenial-saturejahortensis693/InspectJS
+features:
+- Taint Analysis
+integration: []
+github: https://github.com/achenial-saturejahortensis693/InspectJS
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+academicReferences:
+- title: 'InspectJS: Leveraging Code Similarity and User-Feedback for Effective Taint Specification Inference
+    for JavaScript'
+  authors:
+  - Saikat Dutta
+  - D. Garbervetsky
+  - Shuvendu K. Lahiri
+  - Max Schäfer
+  year: 2021
+  type: Academic Paper
+  publication: '2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering
+    in Practice (ICSE-SEIP)'
+  doi: 10.1145/3510457.3513048
+  link: https://doi.org/10.1145/3510457.3513048
+techniques:
+- Taint Analysis
+maintenance: Active
+empiricalValidation: false
+yearIntroduced: 2021
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: GitHub

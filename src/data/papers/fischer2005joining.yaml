@@ -1,0 +1,16 @@
+id: fischer2005joining
+title: Joining Dataflow with Predicates
+authors:
+- Jeffrey Fischer
+- Ranjit Jhala
+- Rupak Majumdar
+year: 2005
+type: tool
+venue: European Software Engineering Conference Held Jointly with ACM SIGSOFT International Symposium
+  on Foundations of Software Engineering (ESEC/FSE)
+venueAcronym: FSE
+doi: 10.1145/1095430.1081742
+link: https://doi.org/10.1145/1095430.1081742
+toolName: BLAST
+toolsMentioned:
+- blast

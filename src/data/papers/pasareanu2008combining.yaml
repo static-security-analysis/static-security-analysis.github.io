@@ -1,0 +1,19 @@
+id: pasareanu2008combining
+title: Combining unit-level symbolic execution and system-level concrete execution for testing NASA software
+authors:
+- Corina S. Pasareanu
+- Peter C. Mehlitz
+- David H. Bushnell
+- Karen Gundy-Burlet
+- Michael Lowry
+- Suzette Person
+- Mark Pape
+year: 2008
+type: tool
+venue: International Symposium on Software Testing and Analysis (ISSTA)
+venueAcronym: ISSTA
+doi: 10.1145/1390630.1390635
+link: https://doi.org/10.1145/1390630.1390635
+toolName: Java PathFinder
+toolsMentioned:
+- java-pathfinder

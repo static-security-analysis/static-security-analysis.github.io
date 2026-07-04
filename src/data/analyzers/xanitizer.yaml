@@ -1,0 +1,44 @@
+id: xanitizer
+name: Xanitizer
+description: Commercial static analysis tool using taint analysis for Java, Scala, JavaScript.
+languages:
+- Java
+- Scala
+- JavaScript
+- TypeScript
+license: Freemium
+website: https://www.xanitizer.com/xanitizer/
+features:
+- Taint Analysis
+integration: []
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Code Quality
+  examples: []
+- category: Environment
+  examples: []
+academicReferences:
+- title: Analyzing the OWASP Benchmark Project
+  authors:
+  - Heinrich Rust
+  - Norman Wenzel
+  year: 2020
+  type: Academic Paper
+  link: https://www.xanitizer.com/xanitizer/
+techniques:
+- Taint Analysis
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2013
+toolType: commercial
+input:
+- Source Code
+- Manifest file
+ecosystem:
+- Web
+institute: RIGS IT GmbH

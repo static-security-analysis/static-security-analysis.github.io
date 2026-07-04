@@ -1,0 +1,30 @@
+id: brakeman-railroader
+name: Brakeman/Railroader
+description: Open-source static analysis tool using data-flow analysis for Ruby.
+languages:
+- Ruby
+license: Open Source
+website: https://railroader.org/
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Data-flow Analysis
+soundness: Unsound
+empiricalValidation: true
+yearIntroduced: 2010
+githubStars: 40
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Railroader

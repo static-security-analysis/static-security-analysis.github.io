@@ -1,0 +1,36 @@
+id: wang2024nesa
+title: 'NESA: Relational Neuro-Symbolic Static Program Analysis'
+authors:
+- Chengpeng Wang
+- Yifei Gao
+- Wuqi Zhang
+- Xuwei Liu
+- Jinyao Guo
+- Mingwei Zheng
+- Qingkai Shi
+- Xiangyu Zhang
+year: 2024
+type: tool
+venue: Proc. ACM Program. Lang.
+venueAcronym: PACMPL
+doi: 10.1145/3808161
+link: https://doi.org/10.1145/3808161
+url: https://github.com/aksamlan/Nesa
+presentsToolId: nesa
+toolName: NESA
+abstract: Static program analysis plays an essential role in program optimization, bug detection, and
+  debugging. However, reliance on compilation and limited customization hinder its adoption in the real
+  world. This paper presents a compositional neuro-symbolic approach named NESA that facilitates compilation-free
+  and customizable static program analysis using large language models (LLMs) with mitigated hallucinations.
+  Specifically, we propose an analysis policy language, a restricted form of Datalog, to support users
+  decomposing a static program analysis problem into several sub-problems that target simpler syntactic
+  or semantic properties upon smaller code snippets. The problem decomposition enables the LLMs to target
+  more manageable semantic-related sub-problems with reduced hallucinations, while the syntactic ones
+  are resolved by parsing-based analysis without hallucinations. An analysis policy then is evaluated
+  with lazy and incremental prompting, which significantly mitigates the hallucinations and improves the
+  performance. We evaluate NESA for program slicing and bug detection upon benchmark and real-world programs.
+  Evaluation results show that while NESA supports compilation-free and customizable analysis, it can
+  still achieve comparable and even better performance than existing techniques. In a customized taint
+  vulnerability detection upon TaintBench, for example, NESA achieves a precision of 66.27%, a recall
+  of 78.57%, and an F1 score of 0.72, surpassing an industrial approach by 0.20 in F1 score. NESA also
+  detects 13 real-world memory leak bugs, which have been fixed by developers.

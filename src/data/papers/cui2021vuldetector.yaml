@@ -1,0 +1,32 @@
+id: cui2021vuldetector
+title: 'VulDetector: Detecting Vulnerabilities Using Weighted Feature Graph Comparison'
+authors:
+- Lei Cui
+- Zhiyu Hao
+- Yang Jiao
+- Haiqiang Fei
+- Xiao-chun Yun
+year: 2021
+type: tool
+venue: IEEE Transactions on Information Forensics and Security
+venueAcronym: TIFS
+doi: 10.1109/TIFS.2020.3047756
+link: https://doi.org/10.1109/TIFS.2020.3047756
+url: https://github.com/leontsui1987/VulDetector
+presentsToolId: vuldetector
+toolName: VulDetector
+comparesToolIds:
+- vuddy
+abstract: Code similarity is one promising approach to detect vulnerabilities hidden in software programs.
+  However, due to the complexity and diversity of source code, current methods suffer low accuracy, high
+  false negative and poor performance, especially in analyzing a large program. In this paper, we propose
+  to tackle these problems by presenting VulDetector, a static-analysis tool to detect C/C++ vulnerabilities
+  based on graph comparison at the granularity of function. At the key of VulDetector is a weighted feature
+  graph (WFG) model which characterizes function with a small yet semantically rich graph. It first pinpoints
+  vulnerability-sensitive keywords to slice the control flow graph of a function, thereby reducing the
+  graph size without compromising security-related semantics. Then, each sliced subgraph is characterized
+  using WFG, which provides both syntactic and semantic features in varying degrees of security. As for
+  graph comparison, we take full usage of vulnerability graph and patch graph to improve accuracy. In
+  addition, we propose two optimization methods based on analysis of vulnerabilities. We have implemented
+  VulDetector to automatically detect vulnerabilities in software programs with known vulnerabilities.
+  The experimental results prove the effectiveness and efficiency of VulDetector.

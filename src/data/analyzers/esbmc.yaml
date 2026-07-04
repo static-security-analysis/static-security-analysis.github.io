@@ -1,0 +1,54 @@
+id: esbmc
+name: ESBMC
+description: Academic static analysis tool using model checking for C, C++.
+languages:
+- C
+- C++
+license: Open Source
+website: http://esbmc.org/
+features:
+- Model Checking
+- Deductive Verification
+integration: []
+licenseDetail: Apachev2
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: Time and State
+  examples: []
+- category: Code Quality
+  examples: []
+academicReferences:
+- title: SMT-Based Bounded Model Checking for Embedded ANSI-C Software
+  authors:
+  - Lucas Cordeiro
+  - Bernd Fischer
+  - Joao Marques-Silva
+  year: 2009
+  type: Academic Paper
+  publication: 2009 IEEE/ACM International Conference on Automated Software Engineering
+  doi: 10.1109/ASE.2009.63
+  link: https://doi.org/10.1109/ASE.2009.63
+- title: Verifying multi-threaded software using smt-based context-bounded model checking
+  authors:
+  - Lucas Cordeiro
+  - Bernd Fischer
+  year: 2011
+  type: Academic Paper
+  publication: 2011 33rd International Conference on Software Engineering (ICSE)
+  doi: 10.1145/1985793.1985839
+  link: https://doi.org/10.1145/1985793.1985839
+techniques:
+- Model Checking
+- Deductive Verification
+soundness: Sound
+empiricalValidation: false
+yearIntroduced: 2009
+githubStars: 78
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Federal University of Amazonas, University of Bristol, University of Manchester, University
+  of Stellenbosch, and University of Southampton

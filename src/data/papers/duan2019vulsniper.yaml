@@ -1,0 +1,18 @@
+id: duan2019vulsniper
+title: 'Vulsniper: Focus your attention to shoot fine-grained vulnerabilities'
+authors:
+- Xu Duan
+- Jingzheng Wu
+- Shouling Ji
+- Zhiqing Rui
+- Tianyue Luo
+- Mutian Yang
+- Yanjun Wu
+year: 2019
+type: method
+venue: International Joint Conference on Artificial Intelligence (IJCAI)
+doi: 10.24963/ijcai.2019/648
+link: https://doi.org/10.24963/ijcai.2019/648
+toolName: Vulsniper
+toolsMentioned:
+- vulsniper

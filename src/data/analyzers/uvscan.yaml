@@ -1,0 +1,43 @@
+id: uvscan
+name: UVSCAN
+description: third-party component usage-violation (API misuse) detection in IoT firmware
+languages:
+- Binary
+license: Open Source
+website: https://github.com/adobe/UVSCAN
+features:
+- Data-flow Analysis
+integration: []
+licenseDetail: Apache-2.0
+github: https://github.com/adobe/UVSCAN
+weaknesses:
+- category: API Abuse
+  examples: []
+academicReferences:
+- title: 'UVSCAN: Detecting Third-Party Component Usage Violations in IoT Firmware'
+  authors:
+  - Binbin Zhao
+  - S. Ji
+  - Xuhong Zhang
+  - Yuan Tian
+  - Qinying Wang
+  - Yuwen Pu
+  - Chenyang Lyu
+  - R. Beyah
+  year: 2023
+  type: Academic Paper
+  publication: USENIX Security Symposium
+  doi: 10.48550/arXiv.2306.11206
+  link: https://doi.org/10.48550/arXiv.2306.11206
+techniques:
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2023
+githubStars: 2
+toolType: oss
+input:
+- Binary
+ecosystem:
+- IoT/Firmware
+institute: Georgia Institute of Technology / Zhejiang University

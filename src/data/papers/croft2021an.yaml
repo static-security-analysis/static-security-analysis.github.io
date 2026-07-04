@@ -1,0 +1,36 @@
+id: croft2021an
+title: An Empirical Study of Rule-Based and Learning-Based Approaches for Static Application Security
+  Testing
+authors:
+- Roland Croft
+- Dominic Newlands
+- Ziyu Chen
+- M. A. Babar
+year: 2021
+type: empirical
+venue: International Symposium on Empirical Software Engineering and Measurement
+venueAcronym: ESEM
+doi: 10.1145/3475716.3475781
+link: https://doi.org/10.1145/3475716.3475781
+url: https://doi.org/10.1145/3475716.3475781
+arxivId: '2107.01921'
+comparesToolIds:
+- cppcheck
+- flawfinder
+- rats
+tldr: This study provides an empirical analysis of SAST tools and SVP models, to identify their relative
+  capabilities for source code security analysis and provides insights into the capabilities and synergy
+  of these two approaches.
+abstract: 'Background: Static Application Security Testing (SAST) tools purport to assist developers in
+  detecting security issues in source code. These tools typically use rule-based approaches to scan source
+  code for security vulnerabilities. However, due to the significant shortcomings of these tools (i.e.,
+  high false positive rates), learning-based approaches for Software Vulnerability Prediction (SVP) are
+  becoming a popular approach. Aims: Despite the similar objectives of these two approaches, their comparative
+  value is unexplored. We provide an empirical analysis of SAST tools and SVP models, to identify their
+  relative capabilities for source code security analysis. Method: We evaluate the detection and assessment
+  performance of several common SAST tools and SVP models on a variety of vulnerability datasets. We further
+  assess the viability and potential benefits of combining the two approaches. Results: SAST tools and
+  SVP models provide similar detection capabilities, but SVP models exhibit better overall performance
+  for both detection and assessment. Unification of the two approaches is difficult due to lacking synergies.
+  Conclusions: Our study generates 12 main findings which provide insights into the capabilities and synergy
+  of these two approaches. Through these observations we provide recommendations for use and improvement.'

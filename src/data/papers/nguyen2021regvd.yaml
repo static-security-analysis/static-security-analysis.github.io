@@ -1,0 +1,32 @@
+id: nguyen2021regvd
+title: 'ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection'
+authors:
+- Van-Anh Nguyen
+- D. Q. Nguyen
+- Van Nguyen
+- Trung Le
+- Quan Hung Tran
+- Dinh Q. Phung
+year: 2021
+type: tool
+venue: '2022 IEEE/ACM 44th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)'
+venueAcronym: ICSE
+doi: 10.1145/3510454.3516865
+link: https://doi.org/10.1145/3510454.3516865
+url: https://doi.org/10.1145/3510454.3516865
+presentsToolId: regvd
+toolName: ReGVD
+comparesToolIds:
+- devign
+abstract: 'Identifying vulnerabilities in the source code is essential to protect the software systems
+  from cyber security attacks. It, however, is also a challenging step that requires specialized expertise
+  in security and code representation. To this end, we aim to develop a general, practical, and programming
+  language-independent model capable of running on various source codes and libraries without difficulty.
+  Therefore, we consider vulnerability detection as an inductive text classification problem and propose
+  ReGVD, a simple yet effective graph neural network-based model for the problem. In particular, ReGVD
+  views each raw source code as a flat sequence of tokens to build a graph, wherein node features are
+  initialized by only the token embedding layer of a pre-trained programming language (PL) model. ReGVD
+  then leverages residual connection among GNN layers and examines a mixture of graph-level sum and max
+  poolings to return a graph embedding for the source code. ReGVD outperforms the existing state-of-the-art
+  models and obtains the highest accuracy on the real-world benchmark dataset from CodeXGLUE for vulnerability
+  detection. Our code is available at: https://github.com/daiquocnguyen/GNN-ReGVD.'

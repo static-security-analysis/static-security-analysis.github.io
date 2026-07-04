@@ -1,0 +1,42 @@
+id: damflow
+name: DamFlow
+description: improves FlowDroid source/sink lists for Android data-leak detection
+languages:
+- Java
+license: Open Source
+website: https://github.com/Trustworthy-Software/DamFlow
+features:
+- Taint Analysis
+- Data-flow Analysis
+integration: []
+github: https://github.com/Trustworthy-Software/DamFlow
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'DamFlow: Preventing a Flood of Irrelevant Data Flows in Android Apps'
+  authors:
+  - Marco Alecci
+  - Jordan Samhi
+  - Marc Miltenberger
+  - Steven Arzt
+  - Tégawendé F. Bissyandé
+  - Jacques Klein
+  year: 2025
+  type: Academic Paper
+  publication: ACM Transactions on Software Engineering and Methodology
+  doi: 10.1145/3772002
+  link: https://doi.org/10.1145/3772002
+techniques:
+- Taint Analysis
+- Data-flow Analysis
+maintenance: Dormant
+empiricalValidation: false
+yearIntroduced: 2025
+githubStars: 0
+toolType: oss
+input:
+- Bytecode
+ecosystem:
+- Mobile/Android
+institute: University of Luxembourg

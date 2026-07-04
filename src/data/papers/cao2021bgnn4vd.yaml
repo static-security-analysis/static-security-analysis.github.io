@@ -1,0 +1,41 @@
+id: cao2021bgnn4vd
+title: 'BGNN4VD: Constructing Bidirectional Graph Neural-Network for Vulnerability Detection'
+authors:
+- Sicong Cao
+- Xiaobing Sun
+- Lili Bo
+- Ying Wei
+- Bin Li
+year: 2021
+type: tool
+venue: Information and Software Technology
+venueAcronym: IST
+doi: 10.1016/J.INFSOF.2021.106576
+link: https://doi.org/10.1016/J.INFSOF.2021.106576
+url: https://github.com/SicongCao/BGNN4VD
+presentsToolId: bgnn4vd
+toolName: BGNN4VD
+comparesToolIds:
+- flawfinder
+- rats
+- sysevr
+- vuddy
+abstract: 'Abstract Context: Previous studies have shown that existing deep learning-based approaches
+  can significantly improve the performance of vulnerability detection. They represent code in various
+  forms and mine vulnerability features with deep learning models. However, the differences of code representation
+  forms and deep learning models make various approaches still have some limitations. In practice, their
+  false-positive rate (FPR) and false-negative rate (FNR) are still high. Objective: To address the limitations
+  of existing vulnerability detection approaches, we propose BGNN4VD (Bidirectional Graph Neural Network
+  for Vulnerability Detection), a vulnerability detection approach by constructing a Bidirectional Graph
+  Neural-Network (BGNN). Method: In Phase 1, we extract the syntax and semantic information of source
+  code through abstract syntax tree (AST), control flow graph (CFG), and data flow graph (DFG). Then in
+  Phase 2, we use vectorized source code as input to Bidirectional Graph Neural-Network (BGNN). In Phase
+  3, we learn the different features between vulnerable code and non-vulnerable code by introducing backward
+  edges on the basis of traditional Graph Neural-Network (GNN). Finally in Phase 4, a Convolutional Neural-Network
+  (CNN) is used to further extract features and detect vulnerabilities through a classifier. Results:
+  We evaluate BGNN4VD on 4 popular C/C++ projects from NVD and GitHub, and compare it with four state-of-the-art
+  (Flawfinder, RATS, SySeVR, and VUDDY). Experiment results show that, when compared these these baselines,
+  BGNN4VD achieves 4.9%, 11.0%, and 8.4% improvement in F1-measure, accuracy and precision, respectively.
+  Conclusion: The proposed BGNN4VD achieves a higher precision and accuracy than the state-of-the-art
+  methods. In addition, when applied on the latest vulnerabilities reported by CVE, BGNN4VD can still
+  achieve a precision at 45.1%, which demonstrates the feasibility of BGNN4VD in practical application.'

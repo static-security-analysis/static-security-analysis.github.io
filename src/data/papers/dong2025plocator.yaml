@@ -1,0 +1,34 @@
+id: dong2025plocator
+title: 'PLocator: Fine-Grained Patch Presence Test in Binaries via Patch Code Localization'
+authors:
+- Chaopeng Dong
+- Jingdong Guo
+- Shouguo Yang
+- Yang Xiao
+- Yi Li
+- Hong Li
+- Zhi Li
+- Limin Sun
+year: 2025
+type: method
+venue: ACM Transactions on Software Engineering and Methodology
+venueAcronym: TSE
+doi: 10.1145/3770079
+link: https://doi.org/10.1145/3770079
+url: https://doi.org/10.1145/3770079
+presentsToolId: plocator
+toolName: PLocator
+abstract: 1-day vulnerabilities in binaries have become a major threat to software security. Patch presence
+  test is one of the effective ways to detect the vulnerability. However, existing patch presence test
+  works do not perform well in practical scenarios due to the interference from the various compilers
+  and optimizations, patch-similar code blocks, and irrelevant functions in stripped binaries. In this
+  paper, we propose a novel approach named PLocator, which leverages constants from both the patch code
+  and its context, extracted from the control flow graph, to form the anchors and accurately locate the
+  real patch code in the target function, offering a practical solution for real-world vulnerability detection
+  scenarios. To evaluate the effectiveness of PLocator, we collected 73 CVEs and constructed two datasets
+  with and without the irrelevant functions, comprising 1,090 and 27,250 functions, respectively. Moreover,
+  we set three different experiments, i.e., Same, XO (cross-optimizations), and XC (cross-compilers),
+  to evaluate the performance of existing patch presence test approaches and PLocator. The results demonstrate
+  that PLocator outperforms the second state-of-the-art approach on accuracy by 44.3% (without irrelevant
+  functions) and 74.9% (with irrelevant functions), indicating that PLocator is more practical for the
+  patch presence task.

@@ -1,0 +1,13 @@
+id: rtlcheck2006thesis
+title: 'RTL-Check: A Practical Static Analysis Framework to Verify Memory Safety and More (Master''s thesis)'
+authors:
+- Sébastien Le Digabel (supervised) — Université Laval
+year: 2006
+type: method
+venue: Université Laval (master's thesis)
+doi: unknown
+link: https://doi.org/unknown
+url: https://corpus.ulaval.ca/jspui/handle/20.500.11794/18793
+toolName: RTL-Check
+toolsMentioned:
+- rtl_check

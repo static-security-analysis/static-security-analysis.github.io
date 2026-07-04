@@ -1,0 +1,27 @@
+id: kishimoto2024osmy
+title: 'Osmy: A Tool for Periodic Software Vulnerability Assessment and File Integrity Verification using
+  SPDX Documents'
+authors:
+- Rio Kishimoto
+- Tetsuya Kanda
+- Yuki Manabe
+- Katsuro Inoue
+- Yoshiki Higo
+year: 2024
+type: tool
+venue: IEEE International Conference on Software Analysis, Evolution and Reengineering
+venueAcronym: SANER
+doi: 10.1109/SANER60148.2024.00052
+link: https://doi.org/10.1109/SANER60148.2024.00052
+url: https://doi.org/10.1109/SANER60148.2024.00052
+presentsToolId: osmy
+toolName: Osmy
+abstract: Libraries have become integral to modern software development, yet their management often falls
+  short, resulting in issues such as delayed responses to vulnerabilities. To address these issues, the
+  use of a Software Bill of Materials (SBOM) is recommended. Despite the recommendation, there is a lack
+  of tools supporting software management using SBOM. In this paper, we present “Osmy”, a tool designed
+  to facilitate effective software management using SBOM in the SPDX format-one of the major SBOM formats.
+  Osmy is designed to simplify and streamline SBOM-based software management for end users. It automates
+  vulnerability assessment and file integrity verification, operating periodically to ensure continuous
+  protection. Users receive timely notification of any identified issues, ensuring a proactive approach
+  to software security. Osmy is available at https://github.com/higolab/Osmy.

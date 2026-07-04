@@ -1,0 +1,38 @@
+id: codex
+name: CodeX
+description: contextual flow tracking (sensitive source->network sink) browser extensions
+languages:
+- JavaScript
+license: Open Source
+website: https://doi.org/10.1145/3714393.3726495
+features:
+- Data-flow Analysis
+- Taint Analysis
+integration: []
+weaknesses:
+- category: Encapsulation
+  examples: []
+academicReferences:
+- title: 'CodeX: Contextual Flow Tracking for Browser Extensions'
+  authors:
+  - Mohammad M. Ahmadpanah
+  - Matías F. Gobbi
+  - Daniel Hedin
+  - Johannes Kinder
+  - A. Sabelfeld
+  year: 2024
+  type: Academic Paper
+  publication: S&P
+  doi: 10.1145/3714393.3726495
+  link: https://doi.org/10.1145/3714393.3726495
+techniques:
+- Data-flow Analysis
+- Taint Analysis
+empiricalValidation: false
+yearIntroduced: 2024
+toolType: academic
+input:
+- Source Code
+ecosystem:
+- Web
+institute: Chalmers University of Technology

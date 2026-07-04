@@ -1,0 +1,36 @@
+id: insidersec
+name: InsiderSec
+description: Open-source static analysis tool for Java, Kotlin, Swift.
+languages:
+- Java
+- Kotlin
+- Swift
+- C#
+- JavaScript
+license: Open Source
+website: https://github.com/insidersec/insider
+features:
+- Unknown
+integration: []
+licenseDetail: MIT
+weaknesses:
+- category: Input Validation and Representation
+  examples: []
+- category: API Abuse
+  examples: []
+- category: Security Features
+  examples: []
+- category: Environment
+  examples: []
+techniques:
+- Unknown
+soundness: Unsound
+empiricalValidation: false
+yearIntroduced: 2019
+githubStars: 145
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- Web
+institute: InsiderSec

@@ -1,0 +1,39 @@
+id: tiver
+name: Tiver
+description: identifies reused TPL versions IN target (SCA detection, multi-version); distinct from version-RANGE
+  curation
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/tiverygooodw/tiver
+features:
+- Software Composition Analysis
+integration: []
+github: https://github.com/tiverygooodw/tiver
+weaknesses:
+- category: Environment
+  examples: []
+academicReferences:
+- title: 'Tiver: Identifying Adaptive Versions of C/C++ Third-Party Open-Source Components Using a Code
+    Clustering Technique'
+  authors:
+  - Youngjae Choi
+  - Seunghoon Woo
+  year: 2025
+  type: Academic Paper
+  publication: International Conference on Software Engineering
+  doi: 10.1109/ICSE55347.2025.00188
+  link: https://doi.org/10.1109/ICSE55347.2025.00188
+techniques:
+- Software Composition Analysis
+maintenance: Active
+empiricalValidation: true
+yearIntroduced: 2025
+githubStars: 0
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: Korea University

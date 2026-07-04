@@ -1,0 +1,37 @@
+id: linevd
+name: LineVD
+description: GNN statement-level vuln detection [class-agnostic ML detector]
+languages:
+- C
+- C++
+license: Open Source
+website: https://github.com/davidhin/linevd
+features:
+- Graph Neural Network
+integration: []
+licenseDetail: MIT
+github: https://github.com/davidhin/linevd
+academicReferences:
+- title: 'LineVD: Statement-level Vulnerability Detection using Graph Neural Networks'
+  authors:
+  - David Hin
+  - Andrey Kan
+  - Huaming Chen
+  - M. Babar
+  year: 2022
+  type: Academic Paper
+  publication: IEEE Working Conference on Mining Software Repositories
+  doi: 10.1145/3524842.3527949
+  link: https://doi.org/10.1145/3524842.3527949
+techniques:
+- Graph Neural Network
+maintenance: Dormant
+empiricalValidation: true
+yearIntroduced: 2022
+githubStars: 78
+toolType: oss
+input:
+- Source Code
+ecosystem:
+- General-purpose
+institute: University of Adelaide

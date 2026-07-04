@@ -1,0 +1,30 @@
+id: paulsen2019debreach
+title: 'Debreach: Mitigating Compression Side Channels via Static Analysis and Transformation'
+authors:
+- Brandon Paulsen
+- Chungha Sung
+- Peter A. H. Peterson
+- Chao Wang
+year: 2019
+type: tool
+venue: International Conference on Automated Software Engineering
+venueAcronym: ASE
+doi: 10.1109/ASE.2019.00088
+link: https://doi.org/10.1109/ASE.2019.00088
+url: https://github.com/pauls658/debreach
+presentsToolId: debreach
+toolName: Debreach
+abstract: Compression is an emerging source of exploitable side-channel leakage that threatens data security,
+  particularly in web applications where compression is indispensable for performance reasons. Current
+  approaches to mitigating compression side channels have drawbacks in that they either degrade compression
+  ratio drastically or require too much effort from developers to be widely adopted. To bridge the gap,
+  we develop Debreach, a static analysis and program transformation based approach to mitigating compression
+  side channels. Debreach consists of two steps. First, it uses taint analysis to soundly identify flows
+  of sensitive data in the program and uses code instrumentation to annotate data before feeding them
+  to the compressor. Second, it enhances the compressor to exploit the freedom to not compress of standard
+  compression protocols, thus removing the dependency between sensitive data and the size of the compressor's
+  output. Since Debreach automatically instruments applications and does not change the compression protocols,
+  it has the advantage of being non-disruptive and compatible with existing systems. We have evaluated
+  Debreach on a set of web server applications written in PHP. Our experiments show that, while ensuring
+  leakage-freedom, Debreach can achieve significantly higher compression performance than state-of-the-art
+  approaches.

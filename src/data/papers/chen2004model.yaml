@@ -1,0 +1,18 @@
+id: chen2004model
+title: Model Checking One Million Lines of C Code
+authors:
+- Hao Chen
+- Drew Dean
+- David Wagner
+year: 2004
+type: method
+venue: Network and Distributed System Security Symposium (NDSS)
+venueAcronym: NDSS
+link: https://www.ndss-symposium.org/wp-content/uploads/2017/09/Chen.pdf
+url: https://www.ndss-symposium.org/wp-content/uploads/2017/09/Chen.pdf
+presentsToolId: mops
+toolName: MOPS
+toolsMentioned:
+- mops
+mentionsToolIds:
+- mops
