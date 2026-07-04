@@ -42,3 +42,7 @@ jobs:
             from the GitHub API (`scripts/refresh_github_stats.py`).
 
             Only `src/data/github_stats.json` changes; the tool YAMLs are untouched.
+
+            **After merging**, run `npm run deploy` to publish the refreshed stats
+            to the live site. (Review a few of these, then we can automate the
+            deploy step too.)
