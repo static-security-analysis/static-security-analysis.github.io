@@ -1,6 +1,6 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect } from "react";
-import { staticAnalyzers, similarTools } from "@/lib/analyzers-loader";
+import { staticAnalyzers, similarTools, githubStatsDate } from "@/lib/analyzers-loader";
 import { papersForTool, papersEvaluatingTool, baselineCount } from "@/lib/papers-loader";
 import { paperTypeLabel } from "@/lib/constants";
 import Navbar from "@/components/Navbar";
@@ -339,6 +339,11 @@ const ToolDetail = () => {
                     </div>
                   )}
                 </dl>
+                {typeof tool.githubStars === "number" && githubStatsDate && (
+                  <p className="text-[11px] text-gray-400 mt-2" title="Stars and maintenance status are refreshed monthly from the GitHub API.">
+                    GitHub stats as of {githubStatsDate}
+                  </p>
+                )}
                 {tool.ecosystem && tool.ecosystem.length > 0 && (
                   <div className="mt-3 pt-3 border-t border-gray-100">
                     <p className="text-xs text-gray-500 mb-2">Ecosystems</p>

@@ -1,6 +1,7 @@
 import type { StaticAnalyzer, Language, License } from "./constants";
 export type { StaticAnalyzer, Language, License } from "./constants";
 export { languages, licenses } from "./constants";
+import githubStats from "../data/github_stats.json";
 
 // Eagerly import all analyzer YAML files at build time.
 // The Vite YAML plugin turns each file into a plain object.
@@ -16,6 +17,26 @@ const analyzerFiles = import.meta.glob<StaticAnalyzer>(
 export const staticAnalyzers: StaticAnalyzer[] = Object.values(
   analyzerFiles,
 );
+
+// Overlay live GitHub stats (stars + maintenance) from src/data/github_stats.json,
+// refreshed by scripts/refresh_github_stats.py. Kept decoupled from the tool YAMLs
+// so it survives re-migration from the survey.
+type GithubStat = { stars?: number; maintenance?: string | null; checkedAt?: string };
+const _stats = githubStats as Record<string, GithubStat>;
+for (const tool of staticAnalyzers) {
+  const s = _stats[tool.id];
+  if (!s) continue;
+  if (typeof s.stars === "number") tool.githubStars = s.stars;
+  if (s.maintenance) tool.maintenance = s.maintenance as StaticAnalyzer["maintenance"];
+}
+
+/** Date the GitHub stats overlay was last refreshed (YYYY-MM-DD), or null. */
+export const githubStatsDate: string | null =
+  Object.values(_stats)
+    .map((s) => s.checkedAt)
+    .filter(Boolean)
+    .sort()
+    .pop() ?? null;
 
 /**
  * Rank other tools by similarity to `tool`: shared techniques and weakness
