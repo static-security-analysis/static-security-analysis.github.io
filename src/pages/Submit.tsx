@@ -34,7 +34,7 @@ const Submit = () => (
       <h1 className="text-3xl font-bold text-gray-900">Contribute a tool</h1>
       <p className="text-gray-600 mt-3 leading-relaxed">
         AppSecHub is a community-maintained, open catalogue of static security
-        analysis tools and papers. Adding a tool takes one YAML file — no code
+        analysis tools and papers. Adding a tool takes one YAML file, with no code
         changes needed; the app loads every file in{" "}
         <code className="text-sm bg-gray-100 px-1.5 py-0.5 rounded">src/data/analyzers/</code>{" "}
         automatically.
