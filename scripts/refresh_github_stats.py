@@ -3,7 +3,7 @@
 
 Reads `src/data/analyzers/*.yaml`, and for every tool with a GitHub repo queries
 the GitHub API for stars, last push, and archived status, deriving a maintenance
-status. Writes `src/data/github_stats.json` — kept SEPARATE from the tool YAMLs so
+status. Writes `src/data/github_stats.json`, kept SEPARATE from the tool YAMLs so
 it survives re-migration from the survey and produces a one-file diff.
 
 Auth: uses `GITHUB_TOKEN` / `GH_TOKEN` env (as in GitHub Actions), else falls back

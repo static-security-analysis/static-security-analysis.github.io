@@ -61,7 +61,7 @@ export function toolsByYearParadigm(): ToolYearRow[] {
   return [...byYear.values()].sort((a, b) => a.year - b.year);
 }
 
-/** Latest year present in the data (partial — current year). */
+/** Latest year present in the data (partial, current year). */
 export function latestYear(): number {
   return Math.max(...papers.map((p) => (typeof p.year === "number" ? p.year : 0)));
 }

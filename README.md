@@ -4,7 +4,7 @@
 
 🔗 **Live:** https://static-security-analysis.github.io/
 
-AppSecHub is the public companion to the *Static Security Analysis* survey — a
+AppSecHub is the public companion to the *Static Security Analysis* survey: a
 browsable, filterable collection of **254 static-analysis security tools** and
 **385 research papers**, cross-linked and explorable through interactive graphs.
 It is designed to stay alive: anyone can contribute a tool with a single YAML
@@ -12,20 +12,20 @@ file, and tool metadata (stars, maintenance) is refreshed from GitHub monthly.
 
 ## Features
 
-- **Tool catalogue** — 254 tools with languages, licenses, techniques, soundness,
+- **Tool catalogue**: 254 tools with languages, licenses, techniques, soundness,
   maintenance status, weakness coverage (Seven Pernicious Kingdoms), and academic
   references. Filter by language, license, weakness, integration, provenance
   (OSS / academic / commercial), technique, soundness, maintenance, and ecosystem.
-- **Papers** (`/papers`) — 385 papers (tool, method, empirical, survey,
+- **Papers** (`/papers`): 385 papers (tool, method, empirical, survey,
   motivation), linked to the tools they present, compare, or mention.
-- **Graph explorer** (`/graph`) — one force-directed view with **7 modes**:
+- **Graph explorer** (`/graph`): one force-directed view with **7 modes**:
   tool ↔ paper, baselines, co-authorship, technique co-occurrence, weakness
   coverage, citation network, and ecosystem.
-- **Trends** (`/trends`) — papers per year by type, and tools per year split
+- **Trends** (`/trends`): papers per year by type, and tools per year split
   classic vs learning-based.
-- **Research metrics** — “cited by / seminal” on papers, “baseline in N studies”
+- **Research metrics**: “cited by / seminal” on papers, “baseline in N studies”
   on tools, surfaced from an OpenAlex-derived citation network.
-- **Compare** (`/compare`) — side-by-side comparison of up to three tools.
+- **Compare** (`/compare`): side-by-side comparison of up to three tools.
 
 ## Repository layout
 
@@ -45,8 +45,8 @@ scripts/
   refresh-github-stats.yml # monthly refresh → opens a PR
 ```
 
-Data is loaded at build time via Vite's YAML plugin — **no code changes are
-needed to add a tool or paper**, just a YAML file.
+Data is loaded at build time via Vite's YAML plugin, so **no code changes are
+needed to add a tool or paper**; just add a YAML file.
 
 ## Local development
 
@@ -125,8 +125,8 @@ react-force-graph.
 
 This project is dual-licensed:
 
-- **Code** — [MIT](./LICENSE).
-- **Catalogue data** (`src/data/` — tools, papers, citation edges) — [Creative Commons Attribution 4.0 International (CC BY 4.0)](./src/data/LICENSE). Reuse is welcome with attribution to the AppSecHub / Static Security Analysis living collection.
+- **Code**: [MIT](./LICENSE).
+- **Catalogue data** (`src/data/`, i.e. tools, papers, and citation edges): [Creative Commons Attribution 4.0 International (CC BY 4.0)](./src/data/LICENSE). Reuse is welcome with attribution to the AppSecHub / Static Security Analysis living collection.
 
 Citation edges are derived from [OpenAlex](https://openalex.org) (CC0). Paper
 abstracts remain the copyright of their original authors and publishers and are
