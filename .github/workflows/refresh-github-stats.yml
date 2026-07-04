@@ -1,0 +1,44 @@
+name: Refresh GitHub stats
+
+# Keeps the "living collection" fresh: monthly, re-fetch stars, last-push, and
+# maintenance status for every catalogue tool with a GitHub repo, then open a PR
+# with the updated src/data/github_stats.json. Also runnable on demand.
+on:
+  schedule:
+    - cron: "0 4 1 * *" # 04:00 UTC on the 1st of each month
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Refresh GitHub stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/refresh_github_stats.py
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: src/data/github_stats.json
+          branch: refresh-github-stats
+          delete-branch: true
+          commit-message: "chore: refresh GitHub stats"
+          title: "chore: refresh GitHub stats"
+          body: |
+            Automated monthly refresh of tool **stars** and **maintenance** status
+            from the GitHub API (`scripts/refresh_github_stats.py`).
+
+            Only `src/data/github_stats.json` changes; the tool YAMLs are untouched.

@@ -1,0 +1,930 @@
+{
+ "abacus": {
+  "repo": "Raphael-Hao/Abacus",
+  "stars": 38,
+  "pushedAt": "2025-06-27T03:59:00Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "achyb": {
+  "repo": "githubhuyang/achyb",
+  "stars": 8,
+  "pushedAt": "2021-08-23T19:12:06Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "application-inspector": {
+  "repo": "microsoft/ApplicationInspector",
+  "stars": 4391,
+  "pushedAt": "2026-06-24T23:18:09Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "asteria_pro": {
+  "repo": "Asteria-BCSD/Asteria-Pro",
+  "stars": 31,
+  "pushedAt": "2023-07-22T02:02:31Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "bgnn4vd": {
+  "repo": "SicongCao/BGNN4VD",
+  "stars": 10,
+  "pushedAt": "2020-10-02T00:52:37Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "binega": {
+  "repo": "KarabanovV99/biNegativeEncod",
+  "stars": 0,
+  "pushedAt": "2024-02-13T21:43:44Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "cargo-audit": {
+  "repo": "RustSec/cargo-audit",
+  "stars": 1915,
+  "pushedAt": "2026-07-03T07:56:55Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "cgp_tuning": {
+  "repo": "ruijunfeng/CGP-tuning",
+  "stars": 5,
+  "pushedAt": "2026-06-16T13:43:38Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "charon": {
+  "repo": "gamedevware/charon",
+  "stars": 88,
+  "pushedAt": "2026-07-04T08:24:30Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "clnx": {
+  "repo": "CodeLinguaNexus-CLNX/codelinguanexus-clnx.github.io",
+  "stars": 0,
+  "pushedAt": "2023-12-19T16:30:39Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "conftainter": {
+  "repo": "wangteng13/ConfTainter",
+  "stars": 9,
+  "pushedAt": "2023-12-10T01:09:12Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "dainfer": {
+  "repo": "DAInfer/DAInfer",
+  "stars": 4,
+  "pushedAt": "2024-04-28T03:47:01Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "damflow": {
+  "repo": "Trustworthy-Software/DamFlow",
+  "stars": 0,
+  "pushedAt": "2024-10-31T10:32:37Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "dawnscanner": {
+  "repo": "thesp0nge/dawnscanner",
+  "stars": 749,
+  "pushedAt": "2024-03-02T19:07:31Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "debreach": {
+  "repo": "pauls658/debreach",
+  "stars": 0,
+  "pushedAt": "2019-01-21T22:26:27Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "devign": {
+  "repo": "epicosy/devign",
+  "stars": 264,
+  "pushedAt": "2024-01-19T02:13:35Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "devskim": {
+  "repo": "microsoft/DevSkim",
+  "stars": 997,
+  "pushedAt": "2026-06-19T07:34:15Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "difuzer": {
+  "repo": "Trustworthy-Software/Difuzer",
+  "stars": 6,
+  "pushedAt": "2021-12-06T09:56:21Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "dingo-hunter": {
+  "repo": "nickng/dingo-hunter",
+  "stars": 321,
+  "pushedAt": "2023-10-11T23:24:50Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "dlint": {
+  "repo": "duo-labs/dlint",
+  "stars": 328,
+  "pushedAt": "2020-02-19T17:17:35Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "doublex": {
+  "repo": "Aurore54F/DoubleX",
+  "stars": 83,
+  "pushedAt": "2021-11-23T04:23:59Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "dstream": {
+  "repo": "tongSurachai/dstream",
+  "stars": 0,
+  "pushedAt": "2025-08-18T07:25:06Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "dtaint": {
+  "repo": "tl455047/DTaint",
+  "stars": 28,
+  "pushedAt": "2021-12-28T07:29:49Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "effitaint": {
+  "repo": "tehdlee/Effitaint",
+  "stars": 1,
+  "pushedAt": "2024-08-28T13:29:03Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "evotaint": {
+  "repo": "baltsers/EvoTaint",
+  "stars": 1,
+  "pushedAt": "2026-05-14T19:43:33Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "firmcross": {
+  "repo": "AnonymousLucky2025/FIRMCROSS",
+  "stars": 4,
+  "pushedAt": "2025-08-24T17:57:04Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "gitleaks": {
+  "repo": "zricethezav/gitleaks",
+  "stars": 27987,
+  "pushedAt": "2026-07-01T23:33:05Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "glasswing": {
+  "repo": "glasswing-ase25/GlassWing",
+  "stars": 3,
+  "pushedAt": "2025-10-25T13:41:11Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "gosec": {
+  "repo": "securego/gosec",
+  "stars": 8876,
+  "pushedAt": "2026-06-29T08:12:00Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "graudit": {
+  "repo": "wireghoul/graudit",
+  "stars": 1682,
+  "pushedAt": "2025-12-19T02:24:05Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "hapflow": {
+  "repo": "KamikazEr101/hapflow",
+  "stars": 0,
+  "pushedAt": "2026-06-28T08:09:57Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "hiddencpg": {
+  "repo": "WSP-LAB/HiddenCPG",
+  "stars": 43,
+  "pushedAt": "2022-10-18T06:36:36Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "iafdroid": {
+  "repo": "xdsce/IAFDroid",
+  "stars": 0,
+  "pushedAt": "2022-10-10T02:22:54Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "iifa": {
+  "repo": "szabta89/IIFA",
+  "stars": 1,
+  "pushedAt": "2020-09-24T13:07:49Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "ikos": {
+  "repo": "nasa-sw-vnv/ikos",
+  "stars": 3158,
+  "pushedAt": "2026-05-31T18:45:21Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "infercg": {
+  "repo": "thusloop/InferCG",
+  "stars": 1,
+  "pushedAt": "2026-04-16T12:21:40Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "insidersec": {
+  "repo": "insidersec/insider",
+  "stars": 552,
+  "pushedAt": "2022-04-10T21:40:27Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "inspectjs": {
+  "repo": "achenial-saturejahortensis693/InspectJS",
+  "stars": 0,
+  "pushedAt": "2025-12-02T01:54:55Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "isgraphvd": {
+  "repo": "SQJDXLL/ISGraphVD",
+  "stars": 0,
+  "pushedAt": "2025-09-02T07:41:47Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "ivdetect": {
+  "repo": "vulnerabilitydetection/VulnerabilityDetectionResearch",
+  "stars": 97,
+  "pushedAt": "2022-03-22T17:40:59Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "java-path-finder": {
+  "repo": "javapathfinder/jpf-core",
+  "stars": 613,
+  "pushedAt": "2026-06-30T11:26:44Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "jsprime": {
+  "repo": "dpnishant/jsprime",
+  "stars": 593,
+  "pushedAt": "2015-05-05T15:50:58Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "karonte": {
+  "repo": "ucsb-seclab/karonte",
+  "stars": 428,
+  "pushedAt": "2021-09-18T17:15:47Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "knighter": {
+  "repo": "ise-uiuc/KNighter",
+  "stars": 180,
+  "pushedAt": "2025-10-26T14:38:31Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "libid": {
+  "repo": "ucam-cl-dtg/LibID",
+  "stars": 29,
+  "pushedAt": "2023-07-06T21:17:20Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "linevd": {
+  "repo": "davidhin/linevd",
+  "stars": 78,
+  "pushedAt": "2022-06-24T15:40:47Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "linevul": {
+  "repo": "awsm-research/LineVul",
+  "stars": 173,
+  "pushedAt": "2024-08-05T22:43:09Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "liva": {
+  "repo": "LuciAkirami/liva",
+  "stars": 61,
+  "pushedAt": "2024-08-28T16:38:18Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "livable": {
+  "repo": "Xin-Cheng-Wen/LIVABLE",
+  "stars": 13,
+  "pushedAt": "2024-02-29T07:00:17Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "llmxcpg": {
+  "repo": "qcri/llmxcpg",
+  "stars": 154,
+  "pushedAt": "2026-03-26T12:29:04Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "lweb": {
+  "repo": "falanadamian/lweb",
+  "stars": 0,
+  "pushedAt": "2019-12-18T00:00:30Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "m2cvd": {
+  "repo": "HotFrom/M2CVD",
+  "stars": 3,
+  "pushedAt": "2024-12-22T06:44:02Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "malivd": {
+  "repo": "ws0407/MaliVD",
+  "stars": 0,
+  "pushedAt": "2025-04-03T06:34:06Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "mvd": {
+  "repo": "MVDetection/MVD",
+  "stars": 22,
+  "pushedAt": "2021-11-17T14:49:02Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "nagini": {
+  "repo": "marcoeilers/nagini",
+  "stars": 286,
+  "pushedAt": "2026-06-29T19:26:22Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "nesa": {
+  "repo": "aksamlan/Nesa",
+  "stars": 22,
+  "pushedAt": "2024-08-30T11:14:17Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "nodejsscan": {
+  "repo": "semgrep/rules-nodejsscan",
+  "stars": 6,
+  "pushedAt": "2020-09-27T02:22:26Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "nullaway": {
+  "repo": "uber/NullAway",
+  "stars": 4073,
+  "pushedAt": "2026-07-04T01:27:37Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "ossdetector": {
+  "repo": "zengjia1/OSSDetector",
+  "stars": 1,
+  "pushedAt": "2024-02-16T03:11:35Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "parse": {
+  "repo": "psecio/parse",
+  "stars": 382,
+  "pushedAt": "2018-08-07T08:33:28Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "patchdiscovery": {
+  "repo": "PatchDiscovery/PatchDiscovery",
+  "stars": 5,
+  "pushedAt": "2023-01-30T08:23:19Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "pest": {
+  "repo": "okeuday/pest",
+  "stars": 103,
+  "pushedAt": "2023-12-15T01:44:13Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "phasar": {
+  "repo": "secure-software-engineering/phasar",
+  "stars": 1049,
+  "pushedAt": "2026-06-16T16:42:37Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "phpcs-security-audit": {
+  "repo": "FloeDesignTechnologies/phpcs-security-audit",
+  "stars": 728,
+  "pushedAt": "2023-01-05T14:30:01Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "phpsafe": {
+  "repo": "JoseCarlosFonseca/phpSAFE",
+  "stars": 5,
+  "pushedAt": "2018-06-09T10:30:33Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "pixy": {
+  "repo": "oliverklee/pixy",
+  "stars": 141,
+  "pushedAt": "2024-01-05T17:41:25Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "progpilot": {
+  "repo": "designsecurity/progpilot",
+  "stars": 366,
+  "pushedAt": "2025-08-17T18:31:51Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "pvdetector": {
+  "repo": "jaylanli/PVDetector",
+  "stars": 8,
+  "pushedAt": "2025-10-05T02:19:55Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "py-find-injection": {
+  "repo": "uber/py-find-injection",
+  "stars": 126,
+  "pushedAt": "2019-03-05T09:16:41Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "pysa-pyre": {
+  "repo": "facebook/pyre-check",
+  "stars": 7174,
+  "pushedAt": "2026-06-26T16:04:19Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "pyt": {
+  "repo": "python-security/pyt",
+  "stars": 2203,
+  "pushedAt": "2020-12-25T03:47:37Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "realvul": {
+  "repo": "seokjeon/RealVul",
+  "stars": 0,
+  "pushedAt": "2026-04-12T07:33:05Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "reveal": {
+  "repo": "VulDetProject/ReVeal",
+  "stars": 229,
+  "pushedAt": "2024-07-25T10:59:28Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "rips": {
+  "repo": "robocoder/rips-scanner",
+  "stars": 322,
+  "pushedAt": "2022-01-03T18:44:38Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "rubocop": {
+  "repo": "rubocop-hq/rubocop",
+  "stars": 12881,
+  "pushedAt": "2026-07-03T19:44:41Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "safe4u": {
+  "repo": "huanli-00/Safe4U-replication",
+  "stars": 7,
+  "pushedAt": "2026-05-24T06:08:46Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "safesql": {
+  "repo": "stripe/safesql",
+  "stars": 559,
+  "pushedAt": "2021-09-20T21:02:47Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "safety": {
+  "repo": "pyupio/safety",
+  "stars": 1985,
+  "pushedAt": "2026-06-30T16:41:24Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "sausage": {
+  "repo": "rudychung/SauSaGe",
+  "stars": 0,
+  "pushedAt": "2022-11-26T05:03:04Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "semgrep": {
+  "repo": "returntocorp/semgrep",
+  "stars": 15756,
+  "pushedAt": "2026-07-03T00:24:56Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "serialdetector": {
+  "repo": "KTH-LangSec/SerialDetector",
+  "stars": 63,
+  "pushedAt": "2021-01-29T08:23:48Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "slic-acid": {
+  "repo": "akondrahman/IacSec",
+  "stars": 17,
+  "pushedAt": "2020-04-25T05:38:45Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "snopy": {
+  "repo": "SnopyArtifact/Snopy",
+  "stars": 6,
+  "pushedAt": "2024-06-12T07:42:40Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "sobelow": {
+  "repo": "nccgroup/sobelow",
+  "stars": 1788,
+  "pushedAt": "2024-08-20T20:05:42Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "spark-pro": {
+  "repo": "AdaCore/spark2014",
+  "stars": 316,
+  "pushedAt": "2026-07-03T12:35:58Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "spectector": {
+  "repo": "spectector/spectector",
+  "stars": 77,
+  "pushedAt": "2021-07-14T17:17:57Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "specusym": {
+  "repo": "MelodyHuibo/SpecuSym",
+  "stars": 1,
+  "pushedAt": "2020-08-07T00:38:50Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "sprinter": {
+  "repo": "Snape3058/SPrinter",
+  "stars": 0,
+  "pushedAt": "2026-01-27T15:04:27Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "stase": {
+  "repo": "shafiuzzaman-md/stase",
+  "stars": 3,
+  "pushedAt": "2024-07-28T16:00:04Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "symqemu": {
+  "repo": "eurecom-s3/symqemu",
+  "stars": 374,
+  "pushedAt": "2025-05-05T11:51:15Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "sys": {
+  "repo": "PLSysSec/sys",
+  "stars": 237,
+  "pushedAt": "2022-03-14T21:03:21Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "sysevr": {
+  "repo": "zhaoxuanChen/Sysevr",
+  "stars": 2,
+  "pushedAt": "2019-08-12T10:53:59Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "taintmini": {
+  "repo": "OSUSecLab/TaintMini",
+  "stars": 81,
+  "pushedAt": "2024-03-19T15:36:57Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "tap": {
+  "repo": "das-lab/TAP",
+  "stars": 14,
+  "pushedAt": "2020-02-19T16:02:51Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "tchecker": {
+  "repo": "nadaaym/TChecker",
+  "stars": 0,
+  "pushedAt": "2023-11-14T11:07:00Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "terrascan": {
+  "repo": "accurics/terrascan",
+  "stars": 5207,
+  "pushedAt": "2025-11-20T19:37:10Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "tiver": {
+  "repo": "tiverygooodw/tiver",
+  "stars": 0,
+  "pushedAt": "2025-08-02T15:29:28Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "tscancode": {
+  "repo": "Tencent/TscanCode",
+  "stars": 2117,
+  "pushedAt": "2023-12-25T08:33:11Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "tslint-microsoft-contrib": {
+  "repo": "microsoft/tslint-microsoft-contrib",
+  "stars": 699,
+  "pushedAt": "2020-12-10T08:13:40Z",
+  "archived": true,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "typepulse": {
+  "repo": "shinmao/TYPEPULSE",
+  "stars": 2,
+  "pushedAt": "2025-12-13T21:51:36Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "uvscan": {
+  "repo": "adobe/UVSCAN",
+  "stars": 2,
+  "pushedAt": "2024-06-02T20:32:36Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "velvet": {
+  "repo": "danslo/velvet",
+  "stars": 51,
+  "pushedAt": "2021-12-28T14:10:22Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "vexir2vec": {
+  "repo": "IITH-Compilers/VexIR2Vec",
+  "stars": 16,
+  "pushedAt": "2026-05-07T14:24:57Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "visualcodegrepper-vcg": {
+  "repo": "nccgroup/VCG",
+  "stars": 549,
+  "pushedAt": "2023-07-06T08:11:25Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "vmud": {
+  "repo": "mpvmud/Vmud",
+  "stars": 3,
+  "pushedAt": "2026-06-01T22:02:17Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "vuddy": {
+  "repo": "iotcube/hmark",
+  "stars": 22,
+  "pushedAt": "2023-04-28T06:15:29Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "vul_rag": {
+  "repo": "IamRouth/vul-rag",
+  "stars": 0,
+  "pushedAt": "2025-11-08T18:14:13Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "vuldeelocator": {
+  "repo": "zhaoxuanChen/vuldeelocator",
+  "stars": 1,
+  "pushedAt": "2019-08-12T10:58:50Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "vuldeepecker": {
+  "repo": "SySeVR/SySeVR",
+  "stars": 357,
+  "pushedAt": "2024-10-24T20:07:28Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "vuldetector": {
+  "repo": "leontsui1987/VulDetector",
+  "stars": 30,
+  "pushedAt": "2021-02-26T05:20:54Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "vuleval": {
+  "repo": "Xin-Cheng-Wen/VulEval",
+  "stars": 7,
+  "pushedAt": "2025-12-12T08:13:50Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "vulexplainer": {
+  "repo": "awsm-research/VulExplainer",
+  "stars": 19,
+  "pushedAt": "2023-11-24T07:55:33Z",
+  "archived": false,
+  "maintenance": "Stale",
+  "checkedAt": "2026-07-04"
+ },
+ "vulpatrol": {
+  "repo": "OCyberLab/VulPatrol",
+  "stars": 1,
+  "pushedAt": "2025-09-09T00:26:24Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "vulsca": {
+  "repo": "techenthusiast167/VULSCANNER",
+  "stars": 45,
+  "pushedAt": "2025-07-29T01:05:10Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ },
+ "wasmati": {
+  "repo": "darkmacheken/wasmati",
+  "stars": 31,
+  "pushedAt": "2024-08-16T19:39:32Z",
+  "archived": false,
+  "maintenance": "Dormant",
+  "checkedAt": "2026-07-04"
+ },
+ "yasa": {
+  "repo": "antgroup/YASA-Engine",
+  "stars": 293,
+  "pushedAt": "2026-05-07T03:23:28Z",
+  "archived": false,
+  "maintenance": "Active",
+  "checkedAt": "2026-07-04"
+ }
+}
